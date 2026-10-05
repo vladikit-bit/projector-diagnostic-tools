@@ -1,0 +1,2 @@
+﻿root            432      1   16264   2840 0                   0 S installd
+system         1637    229 1145304  35124 0                   0 S com.bkdisplay.systemui:ota

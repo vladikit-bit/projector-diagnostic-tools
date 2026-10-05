@@ -1,0 +1,16 @@
+### property strings in HAL
+  0x0001baf3: persist.vendor.audio.service.hwbinder.size_kbyte
+  0x000159e8: SetHdmiTxOutputMode
+  0x00015ec2: SetSpdifOutputType
+  0x00016f06: SetHdmiTxOutputMode
+  0x000185ac: SetHdmiTxOutputMode
+  0x00018a44: SetSpdifOutputType
+  0x000194d0: digital setting
+  0x000199c3: SetHdmiTxOutputMode
+  0x0001a9a0: digital setting
+  0x0001bc67: SetSpdifOutputType
+  0x0001dfaf: digital setting
+
+### relevant HAL symbols
+
+### defs found: {}

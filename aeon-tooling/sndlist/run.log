@@ -1,0 +1,15 @@
+INFO  Using log config file: jar:file:/C:/ghidra_12.1.2_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: C:\Users\k0994\AppData\Roaming\ghidra\ghidra_12.1.2_PUBLIC\application.log (LoggingInitialization)  
+INFO  Loading user preferences: C:\Users\k0994\AppData\Roaming\ghidra\ghidra_12.1.2_PUBLIC\preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (1314 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: SHA1PRNG (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+Exception in thread "main" ghidra.util.exception.InvalidInputException: C:\firmware_temp\-processorPath is not a valid directory or file.
+	at ghidra.app.util.headless.AnalyzeHeadless.parseOptions(AnalyzeHeadless.java:322)
+	at ghidra.app.util.headless.AnalyzeHeadless.launch(AnalyzeHeadless.java:187)
+	at ghidra.GhidraLauncher.launch(GhidraLauncher.java:81)
+	at ghidra.Ghidra.main(Ghidra.java:54)
+Для продолжения нажмите любую клавишу . . . 

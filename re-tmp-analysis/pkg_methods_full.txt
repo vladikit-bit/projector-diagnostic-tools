@@ -1,0 +1,2653 @@
+DexParser loaded successfully.
+================================================================================
+SEARCHING IN: NtechSystemUI
+================================================================================
+
+[METHOD] Landroidx/loader/b/a;->a(Ljava/lang/String;, Ljava/io/FileDescriptor;, Ljava/io/PrintWriter;, [Ljava/lang/String;)V:
+  0x0026: "mStarted="
+  --- Full disassembly ---
+    0000: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    0003: const-string v2, "mId="
+    0005: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    0008: instance-field-op Landroidx/loader/b/a;->a:I
+    000a: invoke-virtual Ljava/io/PrintWriter;->print(I)V
+    000d: const-string v2, " mListener="
+    000f: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    0012: instance-field-op Landroidx/loader/b/a;->b:Landroidx/loader/b/a$a;
+    0014: invoke-virtual Ljava/io/PrintWriter;->println(Ljava/lang/Object;)V
+    0017: instance-field-op Landroidx/loader/b/a;->c:Z
+    001b: instance-field-op Landroidx/loader/b/a;->f:Z
+    001f: instance-field-op Landroidx/loader/b/a;->g:Z
+    0023: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    0026: const-string v2, "mStarted="
+    0028: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    002b: instance-field-op Landroidx/loader/b/a;->c:Z
+    002d: invoke-virtual Ljava/io/PrintWriter;->print(Z)V
+    0030: const-string v2, " mContentChanged="
+    0032: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    0035: instance-field-op Landroidx/loader/b/a;->f:Z
+    0037: invoke-virtual Ljava/io/PrintWriter;->print(Z)V
+    003a: const-string v2, " mProcessingChange="
+    003c: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    003f: instance-field-op Landroidx/loader/b/a;->g:Z
+    0041: invoke-virtual Ljava/io/PrintWriter;->println(Z)V
+    0044: instance-field-op Landroidx/loader/b/a;->d:Z
+    0048: instance-field-op Landroidx/loader/b/a;->e:Z
+    004c: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    004f: const-string v1, "mAbandoned="
+    0051: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    0054: instance-field-op Landroidx/loader/b/a;->d:Z
+    0056: invoke-virtual Ljava/io/PrintWriter;->print(Z)V
+    0059: const-string v1, " mReset="
+    005b: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    005e: instance-field-op Landroidx/loader/b/a;->e:Z
+    0060: invoke-virtual Ljava/io/PrintWriter;->println(Z)V
+
+[METHOD] Landroidx/recyclerview/widget/f;->toString()Ljava/lang/String;:
+  0x0035: ", mStartLine="
+  --- Full disassembly ---
+    0000: new-instance Ljava/lang/StringBuilder;
+    0002: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    0005: const-string v1, "LayoutState{mAvailable="
+    0007: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    000b: instance-field-op Landroidx/recyclerview/widget/f;->b:I
+    000d: invoke-virtual Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    0011: const-string v1, ", mCurrentPosition="
+    0013: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0017: instance-field-op Landroidx/recyclerview/widget/f;->c:I
+    0019: invoke-virtual Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    001d: const-string v1, ", mItemDirection="
+    001f: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0023: instance-field-op Landroidx/recyclerview/widget/f;->d:I
+    0025: invoke-virtual Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    0029: const-string v1, ", mLayoutDirection="
+    002b: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    002f: instance-field-op Landroidx/recyclerview/widget/f;->e:I
+    0031: invoke-virtual Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    0035: const-string v1, ", mStartLine="
+    0037: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    003b: instance-field-op Landroidx/recyclerview/widget/f;->f:I
+    003d: invoke-virtual Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    0041: const-string v1, ", mEndLine="
+    0043: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0047: instance-field-op Landroidx/recyclerview/widget/f;->g:I
+    0049: invoke-virtual Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    004f: invoke-virtual Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    0053: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+[METHOD] Lcom/baidu/otasdk/a/c;->a(Landroid/content/Context;, Lcom/baidu/commonlib/interfaces/IServiceCallback;)V:
+  0x0002: "com.baidu.stakelib.ota.OtaSdkFactory"
+  --- Full disassembly ---
+    0002: const-string v2, "com.baidu.stakelib.ota.OtaSdkFactory"
+    0004: invoke-static Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
+    0008: const-string v3, "init"
+    000c: check-cast Landroidx/core/widget/ContentLoadingProgressBar$2;
+    001a: invoke-virtual Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;, [Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    001f: new-instance Landroidx/appcompat/app/AppCompatDelegateImpl$e$1;
+    0025: const-string v8, "3.2.8.108"
+    002b: invoke-virtual Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;, [Ljava/lang/Object;)Ljava/lang/Object;
+    0030: invoke-virtual Ljava/lang/Exception;->printStackTrace()V
+    0035: invoke-virtual Ljava/lang/Exception;->toString()Ljava/lang/String;
+    003b: const-string v8, "inst fail:%s"
+    003d: invoke-static Lcom/baidu/loglib/LogUtils;->e(Ljava/lang/String;, [Ljava/lang/Object;)V
+
+[METHOD] Lcom/baidu/otasdk/a/d;->c()Ljava/lang/String;:
+  0x0000: "com.baidu.stakelib.ota.OtaSdkFactory"
+  --- Full disassembly ---
+    0000: const-string v0, "com.baidu.stakelib.ota.OtaSdkFactory"
+
+[METHOD] Lcom/baidu/otasdk/a/e;->b()V:
+  0x0001: "com.baidu.stakelib.ota.OtaSdkFactory"
+  --- Full disassembly ---
+    0001: const-string v1, "com.baidu.stakelib.ota.OtaSdkFactory"
+    0003: invoke-static Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
+    0007: const-string v2, "unInit"
+    000a: check-cast 
+    0010: const-string/jumbo v0, ""
+    0014: invoke-virtual Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;, [Ljava/lang/Object;)Ljava/lang/Object;
+    0019: invoke-virtual Ljava/lang/Exception;->printStackTrace()V
+    001f: invoke-virtual Ljava/lang/Exception;->toString()Ljava/lang/String;
+    0025: const-string v0, "unInst fail:%s"
+    0027: invoke-static Lcom/baidu/loglib/LogUtils;->e(Ljava/lang/String;, [Ljava/lang/Object;)V
+
+[METHOD] Lcom/baidu/otasdk/a/h;->receiveInstallingEvent(Lcom/baidu/eventbus/lib/IBean;)V:
+  0x0058: "installpackage"
+  --- Full disassembly ---
+    0000: invoke-interface Lcom/baidu/eventbus/lib/IBean;->getData()Landroid/os/Bundle;
+    0004: const-string v0, "package"
+    0006: invoke-virtual Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+    000b: invoke-virtual/range Lcom/baidu/eventbus/b$a;-><init>()V
+    000e: invoke-virtual Ljava/lang/String;->compareTo(Ljava/lang/String;)I
+    0015: instance-field-op Lcom/baidu/otasdk/a/h;->a:Lcom/baidu/commonlib/interfaces/IUpgradeListener;
+    0019: const-string v7, "listener is null"
+    001b: invoke-static Lcom/baidu/loglib/LogUtils;->e(Ljava/lang/String;)V
+    001f: const-string v1, "type"
+    0022: invoke-virtual Landroid/os/Bundle;->getInt(Ljava/lang/String;, I)I
+    002e: const-string v7, "error branch"
+    0030: invoke-static Lcom/baidu/loglib/LogUtils;->e(Ljava/lang/String;)V
+    0034: const-string v1, "reason"
+    0036: invoke-virtual Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+    0040: const-string v2, "[%s] install error:%s"
+    0042: invoke-static Lcom/baidu/loglib/LogUtils;->w(Ljava/lang/String;, [Ljava/lang/Object;)V
+    0045: instance-field-op Lcom/baidu/otasdk/a/h;->a:Lcom/baidu/commonlib/interfaces/IUpgradeListener;
+    0048: const-string v0, "UNSAFE"
+    004c: invoke-direct Lcom/baidu/otasdk/a/h;->a()V
+    0050: const-string v1, "progress"
+    0052: invoke-virtual Landroid/os/Bundle;->getInt(Ljava/lang/String;, I)I
+    0056: instance-field-op Lcom/baidu/otasdk/a/h;->a:Lcom/baidu/commonlib/interfaces/IUpgradeListener;
+    0058: const-string v5, "installpackage"
+    005a: invoke-interface Lcom/baidu/commonlib/interfaces/IUpgradeListener;->onProgress(Ljava/lang/String;, Ljava/lang/String;, I)V
+    0061: invoke-static Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    0067: const-string v7, "[%s] install progress [%d]"
+    0069: invoke-static Lcom/baidu/loglib/LogUtils;->i(Ljava/lang/String;, [Ljava/lang/Object;)V
+    006d: instance-field-op Lcom/baidu/otasdk/a/h;->a:Lcom/baidu/commonlib/interfaces/IUpgradeListener;
+    006f: invoke-interface Lcom/baidu/commonlib/interfaces/IUpgradeListener;->onSuccess(Ljava/lang/String;)V
+    0076: const-string v0, "[%s] install success"
+    0078: invoke-static Lcom/baidu/loglib/LogUtils;->i(Ljava/lang/String;, [Ljava/lang/Object;)V
+    007b: invoke-direct Lcom/baidu/otasdk/a/h;->a()V
+
+[METHOD] Lcom/bkdisplay/a/b$1;->run()V:
+  0x0067: "/cache/recovery/last_eshare_setting.xml"
+  0x006e: "/cache/recovery/last_xindawn.jpg"
+  0x0075: "/cache/recovery/last_xindawn3.jpg"
+  0x007a: "/data/data/com.konka.kkmultiscreen/files/mixcast_auth.bin"
+  0x007c: "/cache/recovery/last_mixcast_auth.bin"
+  0x00bc: "/cache/recovery/last_titan_"
+  --- Full disassembly ---
+    0000: instance-field-op Lcom/bkdisplay/a/b$1;->a:Lcom/bkdisplay/a/b;
+    0002: invoke-virtual Lcom/bkdisplay/a/b;->ad()V
+    0005: const-string v0, "focus_reset_direction"
+    0007: invoke-static Lcom/bkdisplay/api/util/b;->a(Ljava/lang/String;)Ljava/lang/String;
+    000b: invoke-static Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    000f: const-string v2, "0"
+    0014: instance-field-op Landroid/os/Build;->CPU_ABI:Ljava/lang/String;
+    0017: invoke-direct Ljava/util/concurrent/atomic/AtomicBoolean;-><init>(Z)V
+    001a: new-instance Landroid/os/Handler;
+    001c: invoke-static Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+    0020: invoke-direct Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+    0023: new-instance Lcom/bkdisplay/a/-$$Lambda$b$1$HzymIBCy69QZCcs_X-N7mx4b0tM;
+    0025: invoke-direct Lcom/bkdisplay/a/-$$Lambda$b$1$HzymIBCy69QZCcs_X-N7mx4b0tM;-><init>(Ljava/util/concurrent/atomic/AtomicBoolean;)V
+    0028: const-string v7, "focus_reset_time_out"
+    002c: invoke-static Lcom/bkdisplay/api/util/b;->a(Ljava/lang/String;, I)I
+    0034: invoke-virtual Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;, J)Z
+    0037: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    0040: invoke-virtual Ljava/util/concurrent/atomic/AtomicBoolean;->get()Z
+    0046: invoke-static Lcom/ntech/system/NtechClient;->setMotor(I)I
+    004b: const-string/jumbo v0, ""
+    004e: new-instance Ljava/lang/StringBuilder;
+    0050: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    0053: const-string v8, "run: "
+    0055: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0059: invoke-virtual Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    005d: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    0061: invoke-static Landroid/util/Log;->d(Ljava/lang/String;, Ljava/lang/String;)I
+    0065: const-string v0, "/data/data/com.ecloud.eshare.server/shared_prefs/setting.xml"
+    0067: const-string v1, "/cache/recovery/last_eshare_setting.xml"
+    0069: invoke-static Lcom/bkdisplay/api/util/a;->a(Ljava/lang/String;, Ljava/lang/String;, Z)V
+    006c: const-string v0, "/data/xindawn.jpg"
+    006e: const-string v1, "/cache/recovery/last_xindawn.jpg"
+    0070: invoke-static Lcom/bkdisplay/api/util/a;->a(Ljava/lang/String;, Ljava/lang/String;, Z)V
+    0073: const-string v0, "/data/xindawn3.jpg"
+    0075: const-string v1, "/cache/recovery/last_xindawn3.jpg"
+    0077: invoke-static Lcom/bkdisplay/api/util/a;->a(Ljava/lang/String;, Ljava/lang/String;, Z)V
+    007a: const-string v0, "/data/data/com.konka.kkmultiscreen/files/mixcast_auth.bin"
+    007c: const-string v1, "/cache/recovery/last_mixcast_auth.bin"
+    007e: invoke-static Lcom/bkdisplay/api/util/a;->a(Ljava/lang/String;, Ljava/lang/String;, Z)V
+    0081: new-instance Ljava/io/File;
+    0083: const-string v1, "/sdcard/.com.youku.taitan.tv"
+    0085: invoke-direct Ljava/io/File;-><init>(Ljava/lang/String;)V
+    0088: invoke-virtual Ljava/io/File;->exists()Z
+    008e: invoke-virtual Ljava/io/File;->isDirectory()Z
+    0094: invoke-virtual Ljava/io/File;->list()[Ljava/lang/String;
+    009a: invoke-virtual Ljava/io/File;->list()[Ljava/lang/String;
+    00a4: new-instance Ljava/lang/StringBuilder;
+    00a6: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    00a9: const-string v8, "/sdcard/.com.youku.taitan.tv/"
+    00ab: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    00af: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    00b3: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    00b7: new-instance Ljava/lang/StringBuilder;
+    00b9: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    00bc: const-string v9, "/cache/recovery/last_titan_"
+    00be: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    00c2: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    00c6: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    00ca: invoke-static Lcom/bkdisplay/api/util/a;->a(Ljava/lang/String;, Ljava/lang/String;, Z)V
+    00d0: instance-field-op Lcom/bkdisplay/a/b$1;->a:Lcom/bkdisplay/a/b;
+    00d2: invoke-static Lcom/bkdisplay/a/b;->a(Lcom/bkdisplay/a/b;)Landroid/content/Context;
+    00d6: invoke-virtual Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+    00da: const-string v1, "ft_activated_data"
+    00dc: invoke-static Landroid/provider/Settings$Global;->getString(Landroid/content/ContentResolver;, Ljava/lang/String;)Ljava/lang/String;
+    00e0: invoke-static Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    00e6: instance-field-op Lcom/bkdisplay/a/b$1;->a:Lcom/bkdisplay/a/b;
+    00e8: const-string v5, "last_ft_activated_data"
+    00ea: invoke-virtual Lcom/bkdisplay/a/b;->c(Ljava/lang/String;, Ljava/lang/String;)V
+    00ed: invoke-static Lcom/bkdisplay/a/a;->g()V
+    00f0: const-string v0, "default_projector_mode"
+    00f2: invoke-static Lcom/bkdisplay/api/util/b;->a(Ljava/lang/String;)Ljava/lang/String;
+    00f6: instance-field-op Lcom/bkdisplay/a/b$1;->a:Lcom/bkdisplay/a/b;
+    00f8: invoke-static Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    0100: invoke-static Ljava/lang/Integer;->valueOf(Ljava/lang/String;)Ljava/lang/Integer;
+    0104: invoke-virtual Ljava/lang/Integer;->intValue()I
+    0108: invoke-virtual Lcom/bkdisplay/a/b;->d(I)Z
+    010b: const-string v0, "boot_mode_disable"
+    010d: invoke-static Lcom/bkdisplay/api/util/b;->c(Ljava/lang/String;)Z
+    0113: instance-field-op Lcom/bkdisplay/a/b$1;->a:Lcom/bkdisplay/a/b;
+    0115: const-string v1, "boot_mode_default"
+    0117: invoke-static Lcom/bkdisplay/api/util/b;->a(Ljava/lang/String;, I)I
+    011b: invoke-virtual Lcom/bkdisplay/a/b;->p(I)Z
+    011e: invoke-static Lcom/ntech/system/NtechClient;->factoryClearData()V
+    0121: const-string v0, "factory_test_result_factory_reset"
+    0123: invoke-static Lcom/bkdisplay/api/util/b;->c(Ljava/lang/String;)Z
+    0128: const-string/jumbo v0, ""
+    012b: invoke-static Lcom/bkdisplay/a/a;->a(Ljava/lang/String;)Ljava/lang/String;
+    0131: const-string v1, ";"
+    0133: invoke-virtual Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
+    013c: invoke-static Lcom/bkdisplay/a/a;->a(Ljava/lang/String;, Ljava/lang/String;)V
+    0142: instance-field-op Lcom/bkdisplay/a/b$1;->a:Lcom/bkdisplay/a/b;
+    0144: invoke-virtual Lcom/bkdisplay/a/b;->X(I)V
+    0147: instance-field-op Lcom/bkdisplay/a/b$1;->a:Lcom/bkdisplay/a/b;
+    014b: invoke-static Lcom/bkdisplay/a/b;->a(Lcom/bkdisplay/a/b;, J)V
+    014e: instance-field-op Lcom/bkdisplay/a/b$1;->a:Lcom/bkdisplay/a/b;
+    0150: invoke-static Lcom/bkdisplay/a/b;->b(Lcom/bkdisplay/a/b;)Landroid/content/Context;
+    0154: invoke-static Landroid/os/RecoverySystem;->rebootWipeUserData(Landroid/content/Context;)V
+    0159: invoke-virtual Ljava/lang/Exception;->printStackTrace()V
+
+[METHOD] Lcom/bkdisplay/system/ota/a;->a()Ljava/lang/String;:
+  0x000e: "ro.vendor.ota.id"
+  --- Full disassembly ---
+    0000: const-string v0, "ntech_ota_id"
+    0002: const-string v1, ""
+    0004: invoke-static Lcom/bkdisplay/api/util/b;->a(Ljava/lang/String;, Ljava/lang/String;)Ljava/lang/String;
+    0008: invoke-static Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    000e: const-string v0, "ro.vendor.ota.id"
+    0010: invoke-static Landroid/os/SystemProperties;->get(Ljava/lang/String;, Ljava/lang/String;)Ljava/lang/String;
+
+[METHOD] Lcom/bkdisplay/system/ota/a;->b()Ljava/lang/String;:
+  0x000e: "ro.vendor.ota.key"
+  --- Full disassembly ---
+    0000: const-string v0, "ntech_ota_key"
+    0002: const-string v1, ""
+    0004: invoke-static Lcom/bkdisplay/api/util/b;->a(Ljava/lang/String;, Ljava/lang/String;)Ljava/lang/String;
+    0008: invoke-static Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    000e: const-string v0, "ro.vendor.ota.key"
+    0010: invoke-static Landroid/os/SystemProperties;->get(Ljava/lang/String;, Ljava/lang/String;)Ljava/lang/String;
+
+[METHOD] Lcom/bkdisplay/system/receiver/UsbReceiver$1;->onClick(Landroid/content/DialogInterface;, I)V:
+  0x0005: "com.mstar.android.intent.action.START_MEDIA_BROWSER"
+  --- Full disassembly ---
+    0002: new-instance Landroidx/appcompat/widget/m;
+    0005: const-string v0, "com.mstar.android.intent.action.START_MEDIA_BROWSER"
+    0007: invoke-direct Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+    000c: invoke-virtual Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
+    000f: instance-field-op Lcom/bkdisplay/system/receiver/UsbReceiver$1;->a:Landroid/content/Context;
+    0011: invoke-virtual Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
+    0014: instance-field-op Lcom/bkdisplay/system/receiver/UsbReceiver$1;->a:Landroid/content/Context;
+    0016: new-instance Landroid/content/Intent;
+    0018: const-string v1, "com.ntech.intent.action.NTECH_HOME_KEY"
+    001a: invoke-direct Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+    001d: invoke-virtual Landroid/content/Context;->sendBroadcast(Landroid/content/Intent;)V
+    0020: invoke-interface Landroid/content/DialogInterface;->dismiss()V
+
+[METHOD] Lcom/bkdisplay/system/receiver/UsbReceiver;->a()V:
+  0x0002: "/cache/recovery"
+  0x0032: "/cache/recovery/"
+  --- Full disassembly ---
+    0000: new-instance Ljava/io/File;
+    0002: const-string v1, "/cache/recovery"
+    0004: invoke-direct Ljava/io/File;-><init>(Ljava/lang/String;)V
+    0007: invoke-virtual Ljava/io/File;->exists()Z
+    000c: instance-field-op Landroidx/constraintlayout/a/a/a/n;->b:Landroidx/constraintlayout/a/a/a/g;
+    0013: invoke-virtual Ljava/io/File;->list()[Ljava/lang/String;
+    0019: invoke-virtual Ljava/io/File;->list()[Ljava/lang/String;
+    0025: const-string v4, "last_titan_"
+    0027: invoke-virtual Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+    002d: new-instance Ljava/lang/StringBuilder;
+    002f: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    0032: const-string v5, "/cache/recovery/"
+    0034: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0038: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    003c: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    0040: new-instance Ljava/lang/StringBuilder;
+    0042: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    0045: const-string v6, "/sdcard/.com.youku.taitan.tv/"
+    0047: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    004d: invoke-virtual Ljava/lang/String;->substring(I)Ljava/lang/String;
+    0051: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0055: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    005a: invoke-static Lcom/bkdisplay/api/util/a;->a(Ljava/lang/String;, Ljava/lang/String;, Z)V
+
+[METHOD] Lcom/bkdisplay/systemui/GlobalKeyReceiver;->onReceive(Landroid/content/Context;, Landroid/content/Intent;)V:
+  0x0113: "com.mediatek.wwtv.tvcenter"
+  --- Full disassembly ---
+    0000: invoke-virtual Landroid/content/Intent;->getAction()Ljava/lang/String;
+    0004: new-instance Ljava/lang/StringBuilder;
+    0006: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    0009: const-string v2, "action:"
+    000b: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    000f: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0013: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    0017: const-string v3, "GlobalKeyReceiver"
+    0019: invoke-static Landroid/util/Log;->d(Ljava/lang/String;, Ljava/lang/String;)I
+    001c: field-op Lcom/bkdisplay/api/util/GeneralValue$MENU_SETTING_TYPE;->wan_bo:Lcom/bkdisplay/api/util/GeneralValue$MENU_SETTING_TYPE;
+    001e: invoke-virtual Lcom/bkdisplay/api/util/GeneralValue$MENU_SETTING_TYPE;->isValue()Z
+    0024: new-instance Landroid/content/Intent;
+    0026: const-string v4, "com.bkdisplay.dialog_focus_wb_dismiss"
+    0028: invoke-direct Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+    002b: invoke-virtual Landroid/content/Context;->sendBroadcast(Landroid/content/Intent;)V
+    002e: const-string v1, "com.ntech.intent.action.CANCEL_POWER_DOWN"
+    0030: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    0036: invoke-static Lcom/bkdisplay/systemui/other/PowerDownDialog;->j()V
+    003a: const-string v1, "android.intent.action.GLOBAL_BUTTON"
+    003c: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    0048: const-string v0, "android.intent.extra.KEY_EVENT"
+    004a: invoke-virtual Landroid/content/Intent;->getParcelableExtra(Ljava/lang/String;)Landroid/os/Parcelable;
+    004e: check-cast Landroid/view/KeyEvent;
+    0050: invoke-virtual Landroid/view/KeyEvent;->getAction()I
+    0056: invoke-virtual Lcom/bkdisplay/systemui/GlobalKeyReceiver;->a(Landroid/view/KeyEvent;)Z
+    005b: const-string v0, "
+		"
+    005d: instance-field-op Landroidx/constraintlayout/a/a/a/n;->e:Landroidx/constraintlayout/a/a/a/m;
+    005f: invoke-interface La/a/a$a;-><init>(La/a/a;)V
+    0062: invoke-static Landroid/service/dreams/IDreamManager$Stub;->asInterface(Landroid/os/IBinder;)Landroid/service/dreams/IDreamManager;
+    0066: invoke-interface Landroid/service/dreams/IDreamManager;->isDreaming()Z
+    006c: invoke-interface Landroid/service/dreams/IDreamManager;->awaken()V
+    0071: invoke-virtual Landroid/os/RemoteException;->printStackTrace()V
+    0074: invoke-virtual Landroid/view/KeyEvent;->getKeyCode()I
+    0078: new-instance Ljava/lang/StringBuilder;
+    007a: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    007d: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0081: invoke-virtual Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    0085: const-string v2, " "
+    0087: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    008b: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    008f: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    0093: invoke-static Landroid/util/Log;->d(Ljava/lang/String;, Ljava/lang/String;)I
+    0096: field-op Lcom/bkdisplay/systemui/GlobalKeyReceiver;->g:J
+    0098: field-op Lcom/bkdisplay/systemui/GlobalKeyReceiver;->i:I
+    009b: invoke-virtual Landroid/view/KeyEvent;->getAction()I
+    009f: field-op Lcom/bkdisplay/systemui/GlobalKeyReceiver;->i:I
+    00a1: const-string v3, "vendor.ntech.factory_key_test"
+    00a3: invoke-static Landroid/os/SystemProperties;->getBoolean(Ljava/lang/String;, Z)Z
+    00a9: new-instance Landroid/content/Intent;
+    00ab: const-string v1, "com.ntech.factory_key"
+    00ad: invoke-direct Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+    00b0: const-string v1, "keycode"
+    00b2: invoke-virtual Landroid/content/Intent;->putExtra(Ljava/lang/String;, I)Landroid/content/Intent;
+    00b5: invoke-virtual Landroid/content/Context;->sendBroadcast(Landroid/content/Intent;)V
+    00b9: invoke-static Lcom/bkdisplay/systemui/c/b;->c(Landroid/content/Context;, Landroid/view/KeyEvent;)Z
+    00c4: invoke-direct Lcom/bkdisplay/systemui/GlobalKeyReceiver;->c(Landroid/content/Context;, Landroid/view/KeyEvent;)V
+    00cd: invoke-direct Lcom/bkdisplay/systemui/GlobalKeyReceiver;->b(Landroid/content/Context;, Landroid/view/KeyEvent;)V
+    00d2: invoke-virtual Landroid/view/KeyEvent;->getAction()I
+    00d8: invoke-virtual Landroid/view/KeyEvent;->getEventTime()J
+    00dc: field-op Lcom/bkdisplay/systemui/GlobalKeyReceiver;->g:J
+    00e2: invoke-virtual Lcom/bkdisplay/systemui/GlobalKeyReceiver;->a(Landroid/view/KeyEvent;)Z
+    00e8: invoke-direct Lcom/bkdisplay/systemui/GlobalKeyReceiver;->a(Landroid/content/Context;, Landroid/view/KeyEvent;)Z
+    00ef: invoke-static Lcom/bkdisplay/systemui/c/b;->d(Landroid/content/Context;, Landroid/view/KeyEvent;)Z
+    00fa: invoke-static Lcom/bkdisplay/framework/f/a;->a(Landroid/content/Context;)Landroid/content/ComponentName;
+    00fe: invoke-virtual Landroid/content/ComponentName;->getPackageName()Ljava/lang/String;
+    0102: const-string v0, "com.bk.guide"
+    0104: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    010b: const-string v0, "tv_input_only_on_tv"
+    010d: invoke-static Lcom/bkdisplay/api/util/b;->c(Ljava/lang/String;)Z
+    0113: const-string v0, "com.mediatek.wwtv.tvcenter"
+    0115: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    011c: field-op Lcom/bkdisplay/api/util/GeneralValue$MENU_SETTING_TYPE;->wan_bo:Lcom/bkdisplay/api/util/GeneralValue$MENU_SETTING_TYPE;
+    011e: invoke-virtual Lcom/bkdisplay/api/util/GeneralValue$MENU_SETTING_TYPE;->isValue()Z
+    0124: invoke-direct Lcom/bkdisplay/systemui/GlobalKeyReceiver;->h(Landroid/content/Context;)V
+    0128: invoke-direct Lcom/bkdisplay/systemui/GlobalKeyReceiver;->a(Landroid/content/Context;, Z)V
+    012e: instance-field-op Landroidx/constraintlayout/a/a/a/f$a;->BASELINE:Landroidx/constraintlayout/a/a/a/f$a;
+    0131: invoke-direct Lcom/bkdisplay/systemui/GlobalKeyReceiver;->b(Landroid/content/Context;, Z)V
+    0137: const-string v0, "CustomMapDeserializer"
+    013a: const-string v0, "vendor.ntech.factory_ageing"
+    013c: invoke-static Landroid/os/SystemProperties;->getBoolean(Ljava/lang/String;, Z)Z
+    0142: const-string v15, "请先退出老化模式"
+    0144: invoke-static Lcom/bkdisplay/systemui/common/e;->b(Landroid/content/Context;, Ljava/lang/String;)V
+    0148: const-string v0, "com.maiji.itvbox"
+    014a: invoke-static Lcom/bkdisplay/framework/f/a;->a(Landroid/content/Context;, Ljava/lang/String;)Z
+    0150: new-instance Landroid/content/Intent;
+    0152: invoke-direct Landroid/content/Intent;-><init>()V
+    0155: new-instance Landroid/content/ComponentName;
+    0157: const-string v2, "com.maiji.itvbox.service.ShutDownService"
+    0159: invoke-direct Landroid/content/ComponentName;-><init>(Ljava/lang/String;, Ljava/lang/String;)V
+    015c: invoke-virtual Landroid/content/Intent;->setComponent(Landroid/content/ComponentName;)Landroid/content/Intent;
+    0160: invoke-virtual Landroid/content/Context;->startService(Landroid/content/Intent;)Landroid/content/ComponentName;
+    0165: invoke-static Lcom/bkdisplay/systemui/other/PowerDownDialog;->a(Landroid/content/Context;, Landroid/view/KeyEvent;)V
+    016d: new-instance La/a/b;
+    0174: invoke-direct Lcom/bkdisplay/systemui/GlobalKeyReceiver;->g(Landroid/content/Context;)V
+    0177: invoke-static Lcom/bkdisplay/systemui/other/g;->b()V
+    017a: field-op Lcom/bkdisplay/api/util/c;->C:Ljava/lang/String;
+    017c: invoke-static Lcom/bkdisplay/api/util/b;->c(Ljava/lang/String;)Z
+    0182: new-instance Landroid/content/Intent;
+    0184: const-string v0, "com.ntech.intent.action.MEDIA_ROUND"
+    0186: invoke-direct Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+    0189: invoke-virtual Landroid/content/Context;->sendBroadcast(Landroid/content/Intent;)V
+    0192: const-string v15, "com.bkdisplay.intent.action.TRAPE_PAGE"
+    0194: invoke-static Lcom/bkdisplay/framework/f/a;->b(Landroid/content/Context;, Ljava/lang/String;)V
+    0197: const-string v14, "projection_settings"
+    0199: const-string v15, "set_location"
+    019b: const-string v0, "systemui"
+    019d: invoke-static Lcom/bkdisplay/framework/d/a;->a(Ljava/lang/String;, Ljava/lang/String;, Ljava/lang/String;)Lcom/bkdisplay/framework/d/a$b;
+    01a1: const-string v15, "item_change"
+    01a3: const-string v0, "四点校正"
+    01a5: invoke-virtual Lcom/bkdisplay/framework/d/a$b;->a(Ljava/lang/String;, Ljava/lang/String;)Lcom/bkdisplay/framework/d/a$b;
+    01a9: invoke-virtual Lcom/bkdisplay/framework/d/a$b;->a()Lcom/bkdisplay/framework/d/a$b;
+    01ad: instance-field-op Landroid/net/wifi/ScanResult;->SSID:Ljava/lang/String;
+    01b2: invoke-direct Lcom/bkdisplay/systemui/GlobalKeyReceiver;->f(Landroid/content/Context;)V
+    01b5: invoke-static Lcom/bkdisplay/systemui/other/g;->b()V
+    01be: invoke-direct Lcom/bkdisplay/systemui/GlobalKeyReceiver;->e(Landroid/content/Context;)V
+    01c1: invoke-static Lcom/bkdisplay/systemui/other/g;->b()V
+    01c8: const-string v2, "android_domestic"
+    01ca: const-string v3, "ro.build.sys.config"
+    01d0: const-string v15, "key_to_keystone_enable"
+    01d2: invoke-static Lcom/bkdisplay/api/util/b;->c(Ljava/lang/String;)Z
+    01d8: new-instance Landroid/content/Intent;
+    01da: const-string v0, "android.settings.SETTINGS_CAST"
+    01dc: invoke-direct Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+    01df: invoke-virtual Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
+    01e2: const-string v0, "b_keystone_focus"
+    01e4: invoke-virtual Landroid/content/Intent;->putExtra(Ljava/lang/String;, Z)Landroid/content/Intent;
+    01e7: invoke-virtual Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
+    01eb: check-cast Lcom/bkdisplay/systemui/other/camera/-$$Lambda$CameraPictureDialog$fT3VUuk6SV3Wyztp4S69SCk2d74;
+    01f0: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    01f4: const-string v0, "com.netflix.ninja"
+    01f8: const-string v0, "hdpfans.com"
+    01fb: invoke-static Lcom/bkdisplay/framework/f/a;->a(Landroid/content/Context;, Ljava/lang/String;)Z
+    0202: const-string v0, "com.netflix.mediaclient"
+    0204: invoke-static Lcom/bkdisplay/framework/f/a;->e(Landroid/content/Context;, Ljava/lang/String;)V
+    020d: invoke-static Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
+    0211: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    0217: const-string v15, "com.ktcp.video"
+    021a: const-string v15, "com.google.android.youtube.tv"
+    021c: invoke-static Lcom/bkdisplay/framework/f/a;->e(Landroid/content/Context;, Ljava/lang/String;)V
+    0225: invoke-direct Lcom/bkdisplay/systemui/GlobalKeyReceiver;->c(Landroid/content/Context;, Z)V
+    0228: invoke-static Lcom/bkdisplay/systemui/other/g;->b()V
+    0231: invoke-direct Lcom/bkdisplay/systemui/GlobalKeyReceiver;->c(Landroid/content/Context;, Z)V
+    0234: invoke-static Lcom/bkdisplay/systemui/other/g;->b()V
+    023d: const-string v15, "com.peasun.mybluetooth"
+    023f: const-string v0, "com.peasun.mybluetooth.MainActivity"
+    0241: invoke-static Lcom/bkdisplay/framework/f/a;->b(Landroid/content/Context;, Ljava/lang/String;, Ljava/lang/String;)V
+    024a: invoke-static Lcom/bkdisplay/systemui/menu/ui/b;->g()Z
+    0250: invoke-static Lcom/bkdisplay/systemui/menu/ui/b;->f()V
+    0253: const-string v14, "setting_broadcast_third_enable"
+    0255: invoke-static Lcom/bkdisplay/api/util/b;->a(Ljava/lang/String;)Ljava/lang/String;
+    0259: invoke-static Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    025f: invoke-static Lcom/bkdisplay/api/util/b;->a(Ljava/lang/String;)Ljava/lang/String;
+    0263: const-string v15, "-"
+    0265: invoke-virtual Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
+    0269: new-instance Landroid/content/Intent;
+    026b: invoke-direct Landroid/content/Intent;-><init>()V
+    0272: invoke-virtual Landroid/content/Intent;->setClassName(Ljava/lang/String;, Ljava/lang/String;)Landroid/content/Intent;
+    0275: invoke-virtual Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
+    0278: invoke-static Lcom/bkdisplay/systemui/SystemUIApplication;->a()Landroid/app/Application;
+    027c: invoke-virtual Landroid/app/Application;->startActivity(Landroid/content/Intent;)V
+    0280: invoke-static Lcom/bkdisplay/framework/f/g;->a()Lcom/bkdisplay/api/b;
+    0284: invoke-virtual Lcom/bkdisplay/api/b;->e()V
+    028b: invoke-static Lcom/bkdisplay/systemui/other/b;->a()Z
+    0291: invoke-static Lcom/bkdisplay/systemui/other/d;->b(Landroid/content/Context;, I)V
+    0295: invoke-super/range La/a/x;->size()I
+    029a: const-string v15, "com.bkdisplay.sound_bar"
+    029c: invoke-static Lcom/bkdisplay/framework/f/a;->b(Landroid/content/Context;, Ljava/lang/String;)V
+    02a0: field-op Landroid/net/wifi/ScanResult;->SSID:Ljava/lang/String;
+    02a4: field-op La/c;->a:Ljava/lang/Object;
+    02a7: invoke-static Lcom/bkdisplay/api/util/b;->a(Ljava/lang/String;, I)I
+    02af: invoke-static Lcom/bkdisplay/system/c;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    02b3: check-cast Lcom/bkdisplay/system/receiver/a;
+    02b5: invoke-virtual Lcom/bkdisplay/system/receiver/a;->a(Landroid/view/KeyEvent;)V
+    02b9: const-string v15, "bt_broadcast_enable"
+    02bb: invoke-static Lcom/bkdisplay/api/util/b;->c(Ljava/lang/String;)Z
+    02c1: const-string v14, "TestBt"
+    02c3: const-string v15, "send broadcast : tv.ovomedia.remote.controller.voice"
+    02c5: invoke-static Landroid/util/Log;->d(Ljava/lang/String;, Ljava/lang/String;)I
+    02c8: new-instance Landroid/content/Intent;
+    02ca: invoke-direct Landroid/content/Intent;-><init>()V
+    02cd: const-string v15, "tv.ovomedia.app.settings"
+    02cf: const-string v0, "tv.ovomedia.app.settings.RemoteControllerActivity"
+    02d1: invoke-virtual Landroid/content/Intent;->setClassName(Ljava/lang/String;, Ljava/lang/String;)Landroid/content/Intent;
+    02d4: invoke-virtual Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
+    02d7: invoke-static Lcom/bkdisplay/systemui/SystemUIApplication;->a()Landroid/app/Application;
+    02db: invoke-virtual Landroid/app/Application;->startActivity(Landroid/content/Intent;)V
+    02df: const-string v15, "persist.vendor.setup_wizard"
+    02e1: const-string v0, "0"
+    02e3: invoke-static Landroid/os/SystemProperties;->get(Ljava/lang/String;, Ljava/lang/String;)Ljava/lang/String;
+    02e7: const-string v0, "guide_steps"
+    02e9: invoke-static Lcom/bkdisplay/api/util/b;->a(Ljava/lang/String;)Ljava/lang/String;
+    02ed: invoke-static Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    02f4: const-string v1, "controller"
+    02f6: invoke-virtual Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+    02fa: const-string v0, "1"
+    02fc: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    0305: invoke-virtual Lcom/bkdisplay/systemui/GlobalKeyReceiver;->b(Landroid/content/Context;)V
+    030e: const-string v15, "com.dianshijia.newlive"
+    0310: invoke-static Lcom/bkdisplay/framework/f/a;->e(Landroid/content/Context;, Ljava/lang/String;)V
+    0317: const-string v1, "/"
+    031b: const-string v15, "video_keyEvent_destination"
+    031d: invoke-static Lcom/bkdisplay/api/util/b;->a(Ljava/lang/String;)Ljava/lang/String;
+    0321: invoke-static Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    0327: field-op Lcom/bkdisplay/api/util/c;->r:Ljava/lang/String;
+    0329: invoke-static Lcom/bkdisplay/api/util/b;->a(Ljava/lang/String;)Ljava/lang/String;
+    032e: invoke-static Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    0334: invoke-virtual Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+    033a: invoke-virtual Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
+    0346: const-string v15, "com.qiyivideo.sibichi"
+    0348: invoke-static Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    034e: invoke-static Lcom/bkdisplay/framework/f/a;->e(Landroid/content/Context;, Ljava/lang/String;)V
+    0353: invoke-static Lcom/bkdisplay/framework/f/a;->b(Landroid/content/Context;, Ljava/lang/String;, Ljava/lang/String;)V
+    035c: invoke-static Lcom/bkdisplay/framework/f/g;->a()Lcom/bkdisplay/api/b;
+    0360: invoke-virtual Lcom/bkdisplay/api/b;->b()Ljava/util/List;
+    0365: invoke-interface Ljava/util/List;->size()I
+    036b: invoke-interface Ljava/util/List;->get(I)Ljava/lang/Object;
+    036f: check-cast Lcom/bkdisplay/api/a/a;
+    0371: instance-field-op Lcom/bkdisplay/api/a/a;->a:I
+    0377: invoke-static Lcom/bkdisplay/framework/f/g;->a(Landroid/content/Context;, Z)Lcom/bkdisplay/api/b;
+    037b: invoke-virtual Lcom/bkdisplay/api/b;->a(Lcom/bkdisplay/api/a/a;)Z
+    0384: instance-field-op Landroidx/appcompat/R$attr;->drawerArrowStyle:I
+    0389: invoke-static Lcom/bkdisplay/api/util/b;->c(Ljava/lang/String;)Z
+    0391: invoke-static Lcom/bkdisplay/framework/f/g;->a()Lcom/bkdisplay/api/b;
+    0395: invoke-virtual Lcom/bkdisplay/api/b;->c()Lcom/bkdisplay/api/a/a;
+    0399: instance-field-op Lcom/bkdisplay/api/a/a;->a:I
+    039d: invoke-direct Lcom/bkdisplay/systemui/GlobalKeyReceiver;->a(I)V
+    03a1: field-op Landroidx/appcompat/widget/SwitchCompat;->C:I
+    03a4: invoke-direct Lcom/bkdisplay/api/a/a;-><init>()V
+    03a7: instance-field-op Lcom/bkdisplay/api/a/a;->a:I
+    03a9: invoke-static Lcom/bkdisplay/framework/f/g;->a()Lcom/bkdisplay/api/b;
+    03ad: invoke-virtual Lcom/bkdisplay/api/b;->a(Lcom/bkdisplay/api/a/a;)Z
+    03b1: instance-field-op Landroidx/appcompat/widget/m;->g:Landroidx/appcompat/widget/ac;
+    03b6: invoke-static Lcom/bkdisplay/api/util/b;->c(Ljava/lang/String;)Z
+    03bc: invoke-static Lcom/bkdisplay/framework/f/g;->a()Lcom/bkdisplay/api/b;
+    03c0: invoke-virtual Lcom/bkdisplay/api/b;->c()Lcom/bkdisplay/api/a/a;
+    03c4: instance-field-op Lcom/bkdisplay/api/a/a;->a:I
+    03c8: invoke-direct Lcom/bkdisplay/systemui/GlobalKeyReceiver;->a(I)V
+    03cc: new-instance Lcom/bkdisplay/api/a/a;
+    03ce: invoke-direct Lcom/bkdisplay/api/a/a;-><init>()V
+    03d1: instance-field-op Lcom/bkdisplay/api/a/a;->a:I
+    03d3: invoke-static Lcom/bkdisplay/framework/f/g;->a()Lcom/bkdisplay/api/b;
+    03d7: invoke-virtual Lcom/bkdisplay/api/b;->a(Lcom/bkdisplay/api/a/a;)Z
+    03da: field-op Lcom/bkdisplay/api/util/GeneralValue$MENU_SETTING_TYPE;->wan_bo:Lcom/bkdisplay/api/util/GeneralValue$MENU_SETTING_TYPE;
+    03dc: invoke-virtual Lcom/bkdisplay/api/util/GeneralValue$MENU_SETTING_TYPE;->isValue()Z
+    03e2: field-op Lcom/bkdisplay/api/util/GeneralValue$MENU_SETTING_TYPE;->rong_ying:Lcom/bkdisplay/api/util/GeneralValue$MENU_SETTING_TYPE;
+    03e4: invoke-virtual Lcom/bkdisplay/api/util/GeneralValue$MENU_SETTING_TYPE;->isValue()Z
+    03ea: new-instance Landroid/content/Intent;
+    03ec: const-string v0, "com.ntech.intent.action.DISMISS_OTHER_DIALOG"
+    03ee: invoke-direct Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+    03f1: invoke-virtual Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    03f5: invoke-virtual Ljava/lang/Class;->getName()Ljava/lang/String;
+    03f9: const-string v1, "sendor"
+    03fb: invoke-virtual Landroid/content/Intent;->putExtra(Ljava/lang/String;, Ljava/lang/String;)Landroid/content/Intent;
+    03ff: invoke-virtual Landroid/content/Context;->sendBroadcast(Landroid/content/Intent;)V
+    0408: new-instance Lcom/bkdisplay/api/a/a;
+    040a: invoke-direct Lcom/bkdisplay/api/a/a;-><init>()V
+    040d: instance-field-op Lcom/bkdisplay/api/a/a;->a:I
+    040f: invoke-static Lcom/bkdisplay/framework/f/g;->a(Landroid/content/Context;, Z)Lcom/bkdisplay/api/b;
+    0413: invoke-virtual Lcom/bkdisplay/api/b;->a(Lcom/bkdisplay/api/a/a;)Z
+    041b: new-instance Lcom/bkdisplay/systemui/d/c$1;
+    041e: invoke-static Lcom/bkdisplay/api/util/b;->a(Ljava/lang/String;)Ljava/lang/String;
+    0422: invoke-static Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    0428: invoke-virtual Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
+    0430: invoke-static Lcom/bkdisplay/framework/f/a;->b(Landroid/content/Context;, Ljava/lang/String;, Ljava/lang/String;)V
+    0435: const-string v15, "bk.intent.action.MIRRO_IOS_WIFI"
+    0437: invoke-static Lcom/bkdisplay/framework/f/a;->b(Landroid/content/Context;, Ljava/lang/String;)V
+    0440: const-string v15, "bk.intent.action.MIRACAST"
+    0442: invoke-static Lcom/bkdisplay/framework/f/a;->b(Landroid/content/Context;, Ljava/lang/String;)V
+    044b: invoke-static Lcom/bkdisplay/systemui/other/a;->b(Landroid/content/Context;)V
+    0454: field-op Lcom/bkdisplay/api/util/GeneralValue$MENU_SETTING_TYPE;->wan_bo:Lcom/bkdisplay/api/util/GeneralValue$MENU_SETTING_TYPE;
+    0456: invoke-virtual Lcom/bkdisplay/api/util/GeneralValue$MENU_SETTING_TYPE;->isValue()Z
+    045a: const-string v0, "com.ntech.factory.video"
+    045e: invoke-static Lcom/bkdisplay/system/a/c;->a()Lcom/bkdisplay/system/a/c;
+    0464: invoke-virtual Lcom/bkdisplay/system/a/c;->c(I)Z
+    0469: invoke-static Lcom/bkdisplay/system/b;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    046d: check-cast Lcom/bkdisplay/systemui/ageing/AgeingDialog;
+    0471: invoke-virtual Lcom/bkdisplay/systemui/ageing/AgeingDialog;->isShowing()Z
+    0477: new-instance Lcom/bkdisplay/systemui/ageing/AgeingDialog;
+    0479: invoke-direct Lcom/bkdisplay/systemui/ageing/AgeingDialog;-><init>(Landroid/content/Context;)V
+    047c: invoke-static Lcom/bkdisplay/system/b;->a(Ljava/lang/Object;)V
+    047f: new-instance Landroid/content/Intent;
+    0481: invoke-direct Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+    0484: invoke-virtual Lcom/bkdisplay/systemui/ageing/AgeingDialog;->a(Landroid/content/Intent;)V
+    0487: invoke-virtual Lcom/bkdisplay/systemui/ageing/AgeingDialog;->isShowing()Z
+    048d: invoke-virtual Lcom/bkdisplay/systemui/ageing/AgeingDialog;->show()V
+    0492: invoke-static Lcom/bkdisplay/framework/f/a;->b(Landroid/content/Context;, Ljava/lang/String;)V
+    0496: invoke-virtual/range Landroid/widget/PopupWindow;->setAnimationStyle(I)V
+    049b: const-string v15, "com.bk.picture"
+    049d: invoke-static Lcom/bkdisplay/framework/f/a;->b(Landroid/content/Context;, Ljava/lang/String;)V
+    04a1: field-op Landroidx/appcompat/widget/m;->g:Landroidx/appcompat/widget/ac;
+    04a6: invoke-static Lcom/ntech/platform/b;->a(Landroid/content/Context;)Lcom/ntech/platform/api/PlatformApi;
+    04aa: invoke-virtual Lcom/ntech/platform/api/PlatformApi;->getZoomMode()I
+    04ae: invoke-static Lcom/ntech/platform/b;->a(Landroid/content/Context;)Lcom/ntech/platform/api/PlatformApi;
+    04b5: invoke-virtual Lcom/ntech/platform/api/PlatformApi;->setZoomMode(I)Z
+    04b8: new-instance Landroid/content/Intent;
+    04ba: const-string v0, "com.ntech.displaymode"
+    04bc: invoke-direct Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+    04bf: const-string v0, "com.ntech.localmedia"
+    04c1: invoke-virtual Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
+    04c5: invoke-virtual Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
+    04c9: invoke-virtual Landroid/content/Context;->sendBroadcast(Landroid/content/Intent;)V
+    04d2: invoke-direct Lcom/bkdisplay/systemui/GlobalKeyReceiver;->b(Landroid/content/Context;, Z)V
+    04dc: invoke-static Lcom/bkdisplay/framework/f/g;->a()Lcom/bkdisplay/api/b;
+    04e0: invoke-virtual Lcom/bkdisplay/api/b;->Z()I
+    04e9: invoke-static Lcom/bkdisplay/framework/f/g;->a()Lcom/bkdisplay/api/b;
+    04ed: invoke-virtual Lcom/bkdisplay/api/b;->w(I)Z
+    04f6: invoke-direct Lcom/bkdisplay/systemui/GlobalKeyReceiver;->a()V
+    0505: invoke-static Lcom/bkdisplay/framework/f/g;->a()Lcom/bkdisplay/api/b;
+    0509: invoke-virtual Lcom/bkdisplay/api/b;->a(I)Z
+    0512: const-string v15, "com.amazon.amazonvideo.livingroom"
+    0514: invoke-static Lcom/bkdisplay/framework/f/a;->a(Landroid/content/Context;, Ljava/lang/String;)Z
+    051a: const-string v15, "com.amazon.amazonvideo.livingroom"
+    051d: const-string v15, "com.amazon.avod.thirdpartyclient"
+    051f: invoke-static Lcom/bkdisplay/framework/f/a;->e(Landroid/content/Context;, Ljava/lang/String;)V
+    0528: invoke-static Lcom/bkdisplay/framework/f/g;->a()Lcom/bkdisplay/api/b;
+    052c: invoke-virtual Lcom/bkdisplay/api/b;->K(I)V
+    0533: const-string v3, "com.bk.factory"
+    0537: new-instance Landroid/content/Intent;
+    0539: const-string v0, "com.ntech.factory.clean"
+    053b: invoke-direct Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+    053e: invoke-virtual Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
+    0542: invoke-virtual Landroid/content/Context;->sendBroadcast(Landroid/content/Intent;)V
+    054b: const-string v15, "com.ntech.factory.Compensation"
+    054d: invoke-static Lcom/bkdisplay/framework/f/a;->b(Landroid/content/Context;, Ljava/lang/String;)V
+    0556: invoke-static Lcom/bkdisplay/system/a/c;->a()Lcom/bkdisplay/system/a/c;
+    055a: invoke-virtual Lcom/bkdisplay/system/a/c;->k()Z
+    0561: const-string v4, "factory_xml"
+    0563: const-string v5, "com.ntech.factory.FACTORY_TAB"
+    0567: new-instance Landroid/content/Intent;
+    0569: invoke-direct Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+    056c: invoke-virtual Landroid/content/Intent;->putExtra(Ljava/lang/String;, I)Landroid/content/Intent;
+    0570: invoke-virtual Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
+    0574: invoke-virtual Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
+    057d: new-instance Landroid/content/Intent;
+    057f: invoke-direct Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+    0583: invoke-virtual Landroid/content/Intent;->putExtra(Ljava/lang/String;, I)Landroid/content/Intent;
+    0587: invoke-virtual Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
+    058b: invoke-virtual Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
+    0594: new-instance Landroid/content/Intent;
+    0596: invoke-direct Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+    0599: invoke-virtual Landroid/content/Intent;->putExtra(Ljava/lang/String;, I)Landroid/content/Intent;
+    059d: invoke-virtual Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
+    05a1: invoke-virtual Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
+    05a5: field-op Landroidx/appcompat/widget/m;->g:Landroidx/appcompat/widget/ac;
+    05aa: new-instance Landroid/content/Intent;
+    05ac: invoke-direct Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+    05b0: invoke-virtual Landroid/content/Intent;->putExtra(Ljava/lang/String;, I)Landroid/content/Intent;
+    05b4: invoke-virtual Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
+    05b8: invoke-virtual Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
+    05c1: invoke-static Lcom/bkdisplay/framework/f/g;->a()Lcom/bkdisplay/api/b;
+    05c5: invoke-virtual Lcom/bkdisplay/api/b;->I()Z
+    05ce: field-op Lcom/bkdisplay/api/util/c;->s:Ljava/lang/String;
+    05d0: invoke-static Lcom/bkdisplay/api/util/b;->a(Ljava/lang/String;)Ljava/lang/String;
+    05d4: invoke-static Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    05db: invoke-virtual Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+    05e1: invoke-virtual Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
+    05e9: invoke-static Lcom/bkdisplay/framework/f/a;->b(Landroid/content/Context;, Ljava/lang/String;, Ljava/lang/String;)V
+    05ee: invoke-static Lcom/bkdisplay/framework/f/a;->e(Landroid/content/Context;, Ljava/lang/String;)V
+    05f7: invoke-static Lcom/bkdisplay/systemui/other/a;->d(Landroid/content/Context;)V
+    0600: const-string v15, "com.linkin.tv"
+    0602: invoke-static Lcom/bkdisplay/framework/f/a;->e(Landroid/content/Context;, Ljava/lang/String;)V
+    060b: new-instance Landroid/content/Intent;
+    060d: const-string v0, "com.ntech.settings.KEYSTONE_DIRECTION"
+    060f: invoke-direct Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+    0612: new-instance Landroid/content/ComponentName;
+    0614: const-string v1, "com.bkdisplay.settings"
+    0616: const-string v2, "com.bkdisplay.settings.MenuReceiver"
+    0618: invoke-direct Landroid/content/ComponentName;-><init>(Ljava/lang/String;, Ljava/lang/String;)V
+    061b: invoke-virtual Landroid/content/Intent;->setComponent(Landroid/content/ComponentName;)Landroid/content/Intent;
+    061e: invoke-virtual Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
+    0621: invoke-virtual Landroid/content/Context;->sendBroadcast(Landroid/content/Intent;)V
+    0627: instance-field-op ->:
+    062a: invoke-direct Lcom/bkdisplay/systemui/GlobalKeyReceiver;->i(Landroid/content/Context;)V
+    0630: instance-field-op ->:
+    0633: invoke-static Lcom/bkdisplay/framework/f/a;->b(Landroid/content/Context;, Ljava/lang/String;)V
+    0639: instance-field-op ->:
+    063c: const-string v15, "com.bkdisplay.screensaver"
+    063e: invoke-static Lcom/bkdisplay/framework/f/a;->d(Landroid/content/Context;, Ljava/lang/String;)Z
+    0644: new-instance Landroid/content/Intent;
+    0646: const-string v0, "com.ntech.intent.action.NTECH_YTSPACE_SWITCH"
+    0648: invoke-direct Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+    064b: invoke-virtual Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
+    064e: const-string v0, "PAGE_SWITCH"
+    0650: invoke-virtual Landroid/content/Intent;->putExtra(Ljava/lang/String;, I)Landroid/content/Intent;
+    0653: invoke-virtual Landroid/content/Context;->sendBroadcast(Landroid/content/Intent;)V
+    0657: const-string v15, "com.bkdisplay.space_page"
+    0659: const-string v0, "TYPE_PAGE"
+    065b: invoke-static Lcom/bkdisplay/framework/f/a;->a(Landroid/content/Context;, Ljava/lang/String;, Ljava/lang/String;, I)V
+    065e: new-instance Landroid/content/Intent;
+    0660: const-string v0, "com.ntech.intent.action.NTECH_HOME_KEY"
+    0662: invoke-direct Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+    0665: invoke-virtual Landroid/content/Context;->sendBroadcast(Landroid/content/Intent;)V
+    066b: instance-field-op ->:
+    066e: const-string v15, "com.bkdisplay.intent.action.BLUETOOTH_PAGE"
+    0670: invoke-static Lcom/bkdisplay/framework/f/a;->b(Landroid/content/Context;, Ljava/lang/String;)V
+    0676: instance-field-op ->:
+    0679: const-string v15, "android.settings.WIFI_SETTINGS"
+    067b: invoke-static Lcom/bkdisplay/framework/f/a;->b(Landroid/content/Context;, Ljava/lang/String;)V
+    0681: instance-field-op ->:
+    0684: invoke-static Lcom/bkdisplay/system/a/c;->a()Lcom/bkdisplay/system/a/c;
+    0688: invoke-virtual Lcom/bkdisplay/system/a/c;->p()Z
+    068e: instance-field-op ->:
+    0691: invoke-static Lcom/bkdisplay/framework/f/g;->a()Lcom/bkdisplay/api/b;
+    0695: invoke-virtual Lcom/bkdisplay/api/b;->ax()I
+    0699: invoke-static Lcom/bkdisplay/framework/f/g;->a()Lcom/bkdisplay/api/b;
+    069e: invoke-virtual Lcom/bkdisplay/api/b;->M(I)V
+    06a2: field-op Landroidx/appcompat/widget/m;->g:Landroidx/appcompat/widget/ac;
+    06a4: instance-field-op ->:
+    06a7: invoke-static Lcom/bkdisplay/framework/f/g;->a()Lcom/bkdisplay/api/b;
+    06ab: invoke-virtual Lcom/bkdisplay/api/b;->ax()I
+    06af: invoke-static Lcom/bkdisplay/framework/f/g;->a()Lcom/bkdisplay/api/b;
+    06b5: invoke-virtual Lcom/bkdisplay/api/b;->M(I)V
+    06bb: invoke-interface/range ->
+    06be: invoke-virtual Lcom/bkdisplay/systemui/GlobalKeyReceiver;->a(Landroid/content/Context;)V
+    06c4: instance-field-op ->:
+    06c7: const-string v15, "com.bk.color"
+    06c9: invoke-static Lcom/bkdisplay/framework/f/a;->b(Landroid/content/Context;, Ljava/lang/String;)V
+    06cf: instance-field-op ->:
+    06d2: new-instance Landroid/content/Intent;
+    06d4: const-string v0, "com.ntech.factory.qcode"
+    06d6: invoke-direct Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+    06d9: invoke-virtual Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
+    06dd: invoke-virtual Landroid/content/Context;->sendBroadcast(Landroid/content/Intent;)V
+    06e2: const-string v1, "com.bkdisplay.intent.action.MENU"
+    06e4: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    06ea: invoke-direct Lcom/bkdisplay/systemui/GlobalKeyReceiver;->b(Landroid/content/Context;, Z)V
+    06ef: const-string v1, "com.bkdisplay.intent.action.INPUT"
+    06f1: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    06f7: invoke-static Lcom/bkdisplay/systemui/c/b;->b(Landroid/content/Context;, Landroid/content/Intent;)Z
+    06fe: invoke-static Lcom/bkdisplay/framework/f/g;->a()Lcom/bkdisplay/api/b;
+    0702: invoke-virtual Lcom/bkdisplay/api/b;->ba()Z
+    0708: invoke-direct Lcom/bkdisplay/systemui/GlobalKeyReceiver;->a(Landroid/content/Context;, Z)V
+    070d: const-string v1, "com.bkdisplay.intent.action.INPUT_HDMI"
+    070f: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    0715: invoke-static Lcom/bkdisplay/framework/f/g;->a(Landroid/content/Context;, Z)Lcom/bkdisplay/api/b;
+    0719: new-instance Lcom/bkdisplay/api/a/a;
+    071b: invoke-direct Lcom/bkdisplay/api/a/a;-><init>()V
+    071e: instance-field-op Lcom/bkdisplay/api/a/a;->a:I
+    0720: invoke-virtual Lcom/bkdisplay/api/b;->a(Lcom/bkdisplay/api/a/a;)Z
+    0725: const-string v1, "com.ntech.intent.action.SHELL_FINISHED"
+    0727: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    072d: const-string v0, "type"
+    072f: invoke-virtual Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
+    0733: const-string v1, "info"
+    0735: invoke-virtual Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
+    0739: const-string v1, "toast"
+    073b: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    0741: invoke-static Landroid/widget/Toast;->makeText(Landroid/content/Context;, Ljava/lang/CharSequence;, I)Landroid/widget/Toast;
+    0745: invoke-virtual Landroid/widget/Toast;->show()V
+    074a: new-instance Lcom/bkdisplay/systemui/e/a;
+    074c: invoke-direct Lcom/bkdisplay/systemui/e/a;-><init>(Landroid/content/Context;, Ljava/lang/String;)V
+    074f: invoke-virtual Lcom/bkdisplay/systemui/e/a;->show()V
+    0754: const-string v15, "com.ntech.intent.action.PATCH_WEBVIEW"
+    0756: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    075c: const-string v15, "boot_count"
+    075e: invoke-static Lcom/bkdisplay/api/util/a;->b(Landroid/content/Context;, Ljava/lang/String;, I)I
+    0762: const-string v1, "vendor.bk.cus_ver"
+    0764: const-string v2, "bk_os"
+    0766: invoke-static Landroid/os/SystemProperties;->get(Ljava/lang/String;, Ljava/lang/String;)Ljava/lang/String;
+    076a: const-string v2, "device_erro"
+    076c: const-string v3, "business_name"
+    076e: invoke-static Lcom/bkdisplay/framework/d/a;->a(Ljava/lang/String;, Ljava/lang/String;, Ljava/lang/String;)Lcom/bkdisplay/framework/d/a$b;
+    0772: invoke-static Lcom/bkdisplay/framework/f/g;->a(Landroid/content/Context;, Z)Lcom/bkdisplay/api/b;
+    0776: invoke-virtual Lcom/bkdisplay/api/b;->P()Ljava/lang/String;
+    077a: const-string v3, "version"
+    077c: invoke-virtual Lcom/bkdisplay/framework/d/a$b;->a(Ljava/lang/String;, Ljava/lang/String;)Lcom/bkdisplay/framework/d/a$b;
+    0780: invoke-static Lcom/bkdisplay/framework/f/g;->a(Landroid/content/Context;, Z)Lcom/bkdisplay/api/b;
+    0784: invoke-virtual Lcom/bkdisplay/api/b;->Q()Ljava/lang/String;
+    0788: const-string v2, "device_id"
+    078a: invoke-virtual Lcom/bkdisplay/framework/d/a$b;->a(Ljava/lang/String;, Ljava/lang/String;)Lcom/bkdisplay/framework/d/a$b;
+    078e: new-instance Ljava/lang/StringBuilder;
+    0790: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    0793: invoke-virtual Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    0797: const-string v1, ""
+    0799: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    079d: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    07a1: invoke-virtual Lcom/bkdisplay/framework/d/a$b;->a(Ljava/lang/String;, Ljava/lang/String;)Lcom/bkdisplay/framework/d/a$b;
+    07a5: invoke-virtual Lcom/bkdisplay/framework/d/a$b;->a()Lcom/bkdisplay/framework/d/a$b;
+    07a9: const-string v15, "com.ntech.intent.action.BURN_MAC"
+    07ab: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    07b1: const-string v15, "vendor.ntech.factory_burn_input"
+    07b3: invoke-static Landroid/os/SystemProperties;->getBoolean(Ljava/lang/String;, Z)Z
+    07ba: field-op Lcom/bkdisplay/systemui/GlobalKeyReceiver;->e:Lcom/bkdisplay/systemui/a/a;
+    07be: new-instance Lcom/bkdisplay/systemui/a/a;
+    07c0: invoke-direct Lcom/bkdisplay/systemui/a/a;-><init>(Landroid/content/Context;)V
+    07c3: field-op Lcom/bkdisplay/systemui/GlobalKeyReceiver;->e:Lcom/bkdisplay/systemui/a/a;
+    07c5: field-op Lcom/bkdisplay/systemui/GlobalKeyReceiver;->e:Lcom/bkdisplay/systemui/a/a;
+    07c7: invoke-virtual Lcom/bkdisplay/systemui/a/a;->show()V
+    07cb: const-string v15, "com.ntech.intent.action.MANUAL_FOCUS"
+    07cd: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    07d3: invoke-static Lcom/bkdisplay/systemui/other/d;->b(Landroid/content/Context;, I)V
+    07d7: const-string v15, "com.ntech.intent.action.FAKE_SHOW"
+    07d9: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    07df: field-op Lcom/bkdisplay/systemui/GlobalKeyReceiver;->f:Lcom/bkdisplay/systemui/other/c;
+    07e3: new-instance Lcom/bkdisplay/systemui/other/c;
+    07e5: invoke-direct Lcom/bkdisplay/systemui/other/c;-><init>(Landroid/content/Context;)V
+    07e8: field-op Lcom/bkdisplay/systemui/GlobalKeyReceiver;->f:Lcom/bkdisplay/systemui/other/c;
+    07ea: field-op Lcom/bkdisplay/systemui/GlobalKeyReceiver;->f:Lcom/bkdisplay/systemui/other/c;
+    07ee: invoke-virtual Lcom/bkdisplay/systemui/other/c;->show()V
+    07f2: const-string v14, "com.ntech.intent.action.FAKE_HIDE"
+    07f4: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    07fa: field-op Lcom/bkdisplay/systemui/GlobalKeyReceiver;->f:Lcom/bkdisplay/systemui/other/c;
+    07fe: invoke-virtual Lcom/bkdisplay/systemui/other/c;->isShowing()Z
+    0804: field-op Lcom/bkdisplay/systemui/GlobalKeyReceiver;->f:Lcom/bkdisplay/systemui/other/c;
+    0806: invoke-virtual Lcom/bkdisplay/systemui/other/c;->dismiss()V
+
+[METHOD] Lcom/bkdisplay/systemui/SystemUIApplication;->a(Ljava/lang/String;)Ljava/lang/String;:
+  0x0007: "/cache/recovery/"
+  --- Full disassembly ---
+    0000: new-instance Ljava/io/File;
+    0002: new-instance Ljava/lang/StringBuilder;
+    0004: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    0007: const-string v2, "/cache/recovery/"
+    0009: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    000d: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0011: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    0015: invoke-direct Ljava/io/File;-><init>(Ljava/lang/String;)V
+    0019: new-instance Ljava/io/BufferedReader;
+    001b: new-instance Ljava/io/FileReader;
+    001d: invoke-direct Ljava/io/FileReader;-><init>(Ljava/io/File;)V
+    0020: invoke-direct Ljava/io/BufferedReader;-><init>(Ljava/io/Reader;)V
+    0023: invoke-virtual Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
+    0027: invoke-virtual Ljava/io/BufferedReader;->close()V
+    0032: invoke-virtual Ljava/io/BufferedReader;->close()V
+    0039: invoke-virtual Ljava/io/BufferedReader;->close()V
+
+[METHOD] Lcom/bkdisplay/systemui/SystemUIApplication;->attachBaseContext(Landroid/content/Context;)V:
+  0x0026: "/cache/recovery/last_eshare_setting.xml"
+  0x002d: "/cache/recovery/last_xindawn.jpg"
+  0x0035: "/cache/recovery/last_xindawn3.jpg"
+  0x003c: "/cache/recovery/last_mixcast_auth.bin"
+  0x003e: "/data/data/com.konka.kkmultiscreen/files/mixcast_auth.bin"
+  --- Full disassembly ---
+    0000: invoke-super Landroid/app/Application;->attachBaseContext(Landroid/content/Context;)V
+    0003: field-op Lcom/bkdisplay/system/ota/a;->a:Ljava/lang/String;
+    0005: invoke-static Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    000b: invoke-static Lcom/bkdisplay/system/ota/BaiduOtaManager;->a()Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    000f: invoke-static Lcom/baidu/otasdk/ota/b;->a(Landroid/content/Context;, Lcom/baidu/otasdk/ota/b$a;)V
+    0014: invoke-virtual Ljava/lang/Exception;->printStackTrace()V
+    0018: invoke-static Lcom/bumptech/glide/e;->b(I)V
+    001b: invoke-static Lcom/bkdisplay/framework/f/m;->a(Landroid/content/Context;)V
+    001e: const-string v1, "systemui"
+    0020: invoke-static Lcom/bkdisplay/framework/f/i;->a(Landroid/content/Context;, Ljava/lang/String;)V
+    0023: invoke-static Lcom/bkdisplay/api/util/a;->a(Landroid/content/Context;)V
+    0026: const-string v3, "/cache/recovery/last_eshare_setting.xml"
+    0028: const-string v1, "/data/data/com.ecloud.eshare.server/shared_prefs/setting.xml"
+    002a: invoke-static Lcom/bkdisplay/api/util/a;->a(Ljava/lang/String;, Ljava/lang/String;, Z)V
+    002d: const-string v3, "/cache/recovery/last_xindawn.jpg"
+    002f: const-string v0, "/data/xindawn.jpg"
+    0032: invoke-static Lcom/bkdisplay/api/util/a;->a(Ljava/lang/String;, Ljava/lang/String;, Z)V
+    0035: const-string v3, "/cache/recovery/last_xindawn3.jpg"
+    0037: const-string v0, "/data/xindawn3.jpg"
+    0039: invoke-static Lcom/bkdisplay/api/util/a;->a(Ljava/lang/String;, Ljava/lang/String;, Z)V
+    003c: const-string v3, "/cache/recovery/last_mixcast_auth.bin"
+    003e: const-string v0, "/data/data/com.konka.kkmultiscreen/files/mixcast_auth.bin"
+    0040: invoke-static Lcom/bkdisplay/api/util/a;->a(Ljava/lang/String;, Ljava/lang/String;, Z)V
+    0043: const-string v3, "last_ft_activated_data"
+    0045: invoke-virtual Lcom/bkdisplay/systemui/SystemUIApplication;->a(Ljava/lang/String;)Ljava/lang/String;
+    0049: invoke-static Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    004f: invoke-virtual Lcom/bkdisplay/systemui/SystemUIApplication;->getContentResolver()Landroid/content/ContentResolver;
+    0053: const-string v1, "ft_activated_data"
+    0055: invoke-static Landroid/provider/Settings$Global;->putString(Landroid/content/ContentResolver;, Ljava/lang/String;, Ljava/lang/String;)Z
+
+[METHOD] Lcom/bkdisplay/systemui/SystemUIService;->d()I:
+  0x0004: "com.mediatek.wwtv.tvcenter"
+  --- Full disassembly ---
+    0000: invoke-static Lcom/bkdisplay/framework/f/e;->a(Landroid/content/Context;)Ljava/lang/String;
+    0004: const-string v1, "com.mediatek.wwtv.tvcenter"
+    0006: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    000f: invoke-static Lcom/bkdisplay/framework/f/g;->a()Lcom/bkdisplay/api/b;
+    0013: invoke-virtual Lcom/bkdisplay/api/b;->c()Lcom/bkdisplay/api/a/a;
+    0017: instance-field-op Lcom/bkdisplay/api/a/a;->a:I
+
+[METHOD] Lcom/efs/sdk/base/core/util/PackageUtil;->getAppVersionCode(Landroid/content/Context;)Ljava/lang/String;:
+  0x0016: "efs.util.pkg"
+  --- Full disassembly ---
+    0000: invoke-virtual Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+    0004: invoke-virtual Landroid/content/Context;->getPackageName()Ljava/lang/String;
+    000a: invoke-virtual Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String;, I)Landroid/content/pm/PackageInfo;
+    000e: instance-field-op Landroid/content/pm/PackageInfo;->versionCode:I
+    0010: invoke-static Ljava/lang/String;->valueOf(I)Ljava/lang/String;
+    0016: const-string v0, "efs.util.pkg"
+    0018: const-string v1, "get version name error"
+    001a: invoke-static Lcom/efs/sdk/base/core/util/Log;->w(Ljava/lang/String;, Ljava/lang/String;, Ljava/lang/Throwable;)V
+    001d: const-string v2, "unknown"
+
+[METHOD] Lcom/efs/sdk/base/core/util/PackageUtil;->getAppVersionName(Landroid/content/Context;)Ljava/lang/String;:
+  0x0012: "efs.util.pkg"
+  --- Full disassembly ---
+    0000: invoke-virtual Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+    0004: invoke-virtual Landroid/content/Context;->getPackageName()Ljava/lang/String;
+    000a: invoke-virtual Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String;, I)Landroid/content/pm/PackageInfo;
+    000e: instance-field-op Landroid/content/pm/PackageInfo;->versionName:Ljava/lang/String;
+    0012: const-string v0, "efs.util.pkg"
+    0014: const-string v1, "get version name error"
+    0016: invoke-static Lcom/efs/sdk/base/core/util/Log;->w(Ljava/lang/String;, Ljava/lang/String;, Ljava/lang/Throwable;)V
+    0019: const-string v2, "unknown"
+
+[METHOD] Lcom/baidu/otasdk/a/a;->c()Ljava/lang/String;:
+  0x0000: "com.baidu.installerplugin.services.PkgManagerService"
+  --- Full disassembly ---
+    0000: const-string v0, "com.baidu.installerplugin.services.PkgManagerService"
+
+[METHOD] Lcom/bkdisplay/a/b;->a(I)Z:
+  0x0002: "com.mstar.android.intent.action.START_MEDIA_BROWSER"
+  --- Full disassembly ---
+    0000: new-instance Landroid/content/Intent;
+    0002: const-string v0, "com.mstar.android.intent.action.START_MEDIA_BROWSER"
+    0004: invoke-direct Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+    0009: invoke-virtual Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
+    000c: instance-field-op Lcom/bkdisplay/a/b;->a:Landroid/content/Context;
+    000e: invoke-virtual Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
+
+[METHOD] Lcom/bkdisplay/a/b;->b(Ljava/lang/String;)Z:
+  0x004f: "/cache/recovery/last_eshare_setting.xml"
+  0x0054: "/cache/recovery/last_xindawn.jpg"
+  0x0059: "/cache/recovery/last_xindawn3.jpg"
+  --- Full disassembly ---
+    0000: instance-field-op Lcom/bkdisplay/a/b;->a:Landroid/content/Context;
+    0002: invoke-static Lcom/ntech/platform/b;->a(Landroid/content/Context;)Lcom/ntech/platform/api/PlatformApi;
+    0006: invoke-virtual Lcom/ntech/platform/api/PlatformApi;->burnMac(Ljava/lang/String;)Z
+    0009: new-instance Ljava/lang/StringBuilder;
+    000b: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    000e: const-string v1, "ifconfig  eth0 hw ether "
+    0010: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0014: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0018: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    001c: invoke-static Lcom/ntech/system/NtechClient;->execCmd(Ljava/lang/String;)I
+    001f: new-instance Ljava/io/File;
+    0021: const-string v0, "/data/xindawn.jpg"
+    0023: invoke-direct Ljava/io/File;-><init>(Ljava/lang/String;)V
+    0026: new-instance Ljava/io/File;
+    0028: const-string v1, "/data/data/com.ecloud.eshare.server/shared_prefs/setting.xml"
+    002a: invoke-direct Ljava/io/File;-><init>(Ljava/lang/String;)V
+    002d: invoke-virtual Ljava/io/File;->exists()Z
+    0033: invoke-virtual Ljava/io/File;->delete()Z
+    0036: invoke-virtual Ljava/io/File;->exists()Z
+    003c: invoke-virtual Ljava/io/File;->delete()Z
+    003f: new-instance Ljava/io/File;
+    0041: const-string v0, "/data/xindawn3.jpg"
+    0043: invoke-direct Ljava/io/File;-><init>(Ljava/lang/String;)V
+    0046: invoke-virtual Ljava/io/File;->exists()Z
+    004c: invoke-virtual Ljava/io/File;->delete()Z
+    004f: const-string v3, "/cache/recovery/last_eshare_setting.xml"
+    0051: invoke-direct Lcom/bkdisplay/a/b;->i(Ljava/lang/String;)V
+    0054: const-string v3, "/cache/recovery/last_xindawn.jpg"
+    0056: invoke-direct Lcom/bkdisplay/a/b;->i(Ljava/lang/String;)V
+    0059: const-string v3, "/cache/recovery/last_xindawn3.jpg"
+    005b: invoke-direct Lcom/bkdisplay/a/b;->i(Ljava/lang/String;)V
+    005e: const-string v3, "sync"
+    0060: invoke-static Lcom/ntech/system/NtechClient;->execCmd(Ljava/lang/String;)I
+
+[METHOD] Lcom/bkdisplay/a/b;->c()Lcom/bkdisplay/api/a/a;:
+  0x0044: "com.mediatek.wwtv.tvcenter"
+  --- Full disassembly ---
+    0000: invoke-virtual Lcom/bkdisplay/a/b;->d()Ljava/lang/String;
+    0004: invoke-static Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    000c: new-instance Lcom/bkdisplay/api/a/a;
+    000e: invoke-direct Lcom/bkdisplay/api/a/a;-><init>()V
+    0011: instance-field-op Lcom/bkdisplay/a/b;->a:Landroid/content/Context;
+    0013: const-string v3, "activity"
+    0015: invoke-virtual Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    0019: check-cast Landroid/app/ActivityManager;
+    001c: invoke-virtual Landroid/app/ActivityManager;->getRunningTasks(I)Ljava/util/List;
+    0020: invoke-interface Ljava/util/List;->size()I
+    0027: invoke-interface Ljava/util/List;->get(I)Ljava/lang/Object;
+    002b: check-cast Landroid/app/ActivityManager$RunningTaskInfo;
+    002d: instance-field-op Landroid/app/ActivityManager$RunningTaskInfo;->topActivity:Landroid/content/ComponentName;
+    002f: invoke-virtual Landroid/content/ComponentName;->getPackageName()Ljava/lang/String;
+    0034: const-string v2, ""
+    0036: const-string v3, "com.hpplay.happyplay.aw"
+    0038: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    0040: instance-field-op Lcom/bkdisplay/api/a/a;->a:I
+    0044: const-string v3, "com.mediatek.wwtv.tvcenter"
+    0046: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    004e: const-string v2, "vendor.ntech.tv_active"
+    0050: invoke-static Landroid/os/SystemProperties;->getBoolean(Ljava/lang/String;, Z)Z
+    0056: const-string v0, "input_home_enable"
+    0058: invoke-static Lcom/bkdisplay/api/util/b;->c(Ljava/lang/String;)Z
+    0060: instance-field-op Lcom/bkdisplay/api/a/a;->a:I
+    0064: instance-field-op Lcom/bkdisplay/api/a/a;->a:I
+    0068: const-string v2, "HDMI 1"
+    006a: invoke-virtual Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+    006e: const-string v5, "persist.bk.hdmi2vga"
+    0072: const-string v7, "ro.build.sys.hdmi_swap"
+    0078: const-string v10, "1"
+    007c: const-string v0, "hdmi2_enable"
+    007e: invoke-static Lcom/bkdisplay/api/util/b;->a(Ljava/lang/String;)Ljava/lang/String;
+    0082: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    008b: invoke-static Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
+    008f: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    0096: invoke-static Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
+    009a: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    00a3: instance-field-op Lcom/bkdisplay/api/a/a;->a:I
+    00a6: const-string v2, "HDMI 2"
+    00a8: invoke-virtual Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+    00ad: check-cast Lcom/bkdisplay/systemui/other/camera/-$$Lambda$CameraPictureDialog$fT3VUuk6SV3Wyztp4S69SCk2d74;
+    00b2: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    00b9: invoke-static Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
+    00bd: const-string v2, "2"
+    00bf: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    00c8: instance-field-op Lcom/bkdisplay/api/a/a;->a:I
+    00cb: const-string v2, "VGA"
+    00cd: invoke-virtual Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+    00d3: instance-field-op Lcom/bkdisplay/api/a/a;->a:I
+    00d6: const-string v2, "Composite 1"
+    00d8: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    00de: const-string v2, "Composite"
+    00e0: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    00e7: instance-field-op Lcom/bkdisplay/api/a/a;->a:I
+    00ea: instance-field-op Lcom/bkdisplay/api/a/a;->a:I
+
+[METHOD] Lcom/bkdisplay/a/b;->c(Ljava/lang/String;, Ljava/lang/String;)V:
+  0x0007: "/cache/recovery/"
+  --- Full disassembly ---
+    0000: new-instance Ljava/io/File;
+    0002: new-instance Ljava/lang/StringBuilder;
+    0004: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    0007: const-string v2, "/cache/recovery/"
+    0009: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    000d: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0011: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    0015: invoke-direct Ljava/io/File;-><init>(Ljava/lang/String;)V
+    0019: new-instance Ljava/io/BufferedWriter;
+    001b: new-instance Ljava/io/FileWriter;
+    001d: invoke-direct Ljava/io/FileWriter;-><init>(Ljava/io/File;)V
+    0020: invoke-direct Ljava/io/BufferedWriter;-><init>(Ljava/io/Writer;)V
+    0023: invoke-virtual Ljava/io/BufferedWriter;->write(Ljava/lang/String;)V
+    0026: invoke-virtual Ljava/io/BufferedWriter;->flush()V
+    0029: invoke-virtual Ljava/io/BufferedWriter;->close()V
+    002c: invoke-virtual Ljava/io/BufferedWriter;->close()V
+    0039: invoke-virtual Ljava/io/BufferedWriter;->close()V
+    003f: invoke-virtual Ljava/io/BufferedWriter;->close()V
+
+[METHOD] Lcom/bkdisplay/system/ota/BaiduOtaManager;->a(Landroid/content/Context;)V:
+  0x005a: "_com.android.system.ota"
+  --- Full disassembly ---
+    0000: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->o:Landroid/content/Context;
+    0002: new-instance Landroid/content/IntentFilter;
+    0004: invoke-direct Landroid/content/IntentFilter;-><init>()V
+    0007: const-string v1, "android.net.wifi.STATE_CHANGE"
+    0009: invoke-virtual Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
+    000c: const-string v1, "android.net.conn.CONNECTIVITY_CHANGE"
+    000e: invoke-virtual Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
+    0011: new-instance Lcom/bkdisplay/system/ota/BaiduOtaManager$NetReceiver;
+    0013: invoke-direct Lcom/bkdisplay/system/ota/BaiduOtaManager$NetReceiver;-><init>(Lcom/bkdisplay/system/ota/BaiduOtaManager;)V
+    0016: invoke-virtual Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;, Landroid/content/IntentFilter;)Landroid/content/Intent;
+    0019: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->o:Landroid/content/Context;
+    001b: const-string v0, "version"
+    001d: const-string v1, ""
+    001f: invoke-static Lcom/bkdisplay/api/util/a;->b(Landroid/content/Context;, Ljava/lang/String;, Ljava/lang/String;)Ljava/lang/String;
+    0023: const-string v2, "ro.build.date.utc"
+    0025: invoke-static Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
+    0029: invoke-static Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    002f: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->o:Landroid/content/Context;
+    0031: invoke-static Lcom/bkdisplay/api/util/a;->a(Landroid/content/Context;, Ljava/lang/String;, Ljava/lang/String;)V
+    0035: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    0039: const-string v3, "silence_download"
+    003e: invoke-static Lcom/bkdisplay/systemui/SystemUIApplication;->a()Landroid/app/Application;
+    0042: const-string v5, "ota_progress"
+    0044: invoke-static Lcom/bkdisplay/api/util/a;->a(Landroid/content/Context;, Ljava/lang/String;, I)V
+    0047: new-instance Ljava/io/File;
+    0049: new-instance Ljava/lang/StringBuilder;
+    004b: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    004e: field-op Lcom/bkdisplay/system/ota/a;->c:Ljava/lang/String;
+    0050: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0054: field-op Lcom/bkdisplay/system/ota/a;->a:Ljava/lang/String;
+    0056: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    005a: const-string v6, "_com.android.system.ota"
+    005c: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0060: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    0064: invoke-direct Ljava/io/File;-><init>(Ljava/lang/String;)V
+    0067: invoke-virtual Ljava/io/File;->exists()Z
+    006d: invoke-virtual Ljava/io/File;->delete()Z
+    0070: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->o:Landroid/content/Context;
+    0072: invoke-static Lcom/bkdisplay/api/util/a;->a(Landroid/content/Context;, Ljava/lang/String;, Ljava/lang/String;)V
+    0075: invoke-static Lcom/bkdisplay/api/util/e;->a(Ljava/lang/String;, I)V
+    0078: field-op Lcom/bkdisplay/system/ota/a;->d:Ljava/lang/String;
+    007a: invoke-static Lcom/bkdisplay/api/util/e;->b(Ljava/lang/String;, Ljava/lang/String;)Ljava/lang/String;
+    007e: field-op Lcom/bkdisplay/system/ota/a;->f:Ljava/lang/String;
+    0080: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    0086: invoke-virtual Lcom/bkdisplay/system/ota/BaiduOtaManager;->b()V
+    0089: invoke-static Lcom/bkdisplay/api/util/e;->b(Ljava/lang/String;, I)I
+    0090: field-op Lcom/bkdisplay/system/ota/a;->e:Ljava/lang/String;
+    0092: invoke-virtual Lcom/bkdisplay/system/ota/BaiduOtaManager;->b(Ljava/lang/String;)V
+
+[METHOD] Lcom/bkdisplay/system/ota/BaiduOtaManager;->b(Ljava/lang/String;)V:
+  0x0043: ".ota"
+  --- Full disassembly ---
+    0001: invoke-virtual Lcom/bkdisplay/system/ota/BaiduOtaManager;->a(I)V
+    0004: new-instance Ljava/lang/StringBuilder;
+    0006: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    0009: const-string v2, "upgradeSystem: "
+    000b: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    000f: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0013: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    0017: const-string v2, "BaiduOtaManager"
+    0019: invoke-static Landroid/util/Log;->d(Ljava/lang/String;, Ljava/lang/String;)I
+    001c: field-op Lcom/bkdisplay/system/ota/a;->e:Ljava/lang/String;
+    001e: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    0022: const-string v1, "com.android.system"
+    0025: invoke-virtual Landroid/os/Parcel;->createBooleanArray()[Z
+    0028: new-instance Ljava/lang/StringBuilder;
+    002a: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    002d: field-op Lcom/bkdisplay/system/ota/a;->c:Ljava/lang/String;
+    002f: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0033: field-op Lcom/bkdisplay/system/ota/a;->a:Ljava/lang/String;
+    0035: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0039: const-string v3, "_"
+    003b: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    003f: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0043: const-string v3, ".ota"
+    0045: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0049: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    004d: invoke-direct Ljava/io/File;-><init>(Ljava/lang/String;)V
+    0051: invoke-virtual Ljava/io/File;->exists()Z
+    0055: const-string v4, "silence_download"
+    0059: new-instance Lcom/bkdisplay/system/ota/SilenceUpdateDialog;
+    005b: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->o:Landroid/content/Context;
+    005d: invoke-direct Lcom/bkdisplay/system/ota/SilenceUpdateDialog;-><init>(Landroid/content/Context;)V
+    0060: invoke-virtual Lcom/bkdisplay/system/ota/SilenceUpdateDialog;->show()V
+    0063: invoke-static Lcom/bkdisplay/api/util/e;->a(Ljava/lang/String;, I)V
+    0066: new-instance Ljava/io/File;
+    0068: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->o:Landroid/content/Context;
+    006a: invoke-virtual Landroid/content/Context;->getFilesDir()Ljava/io/File;
+    006e: const-string v6, "com.bkdisplay.systemui:ota.sessions.map"
+    0070: invoke-direct Ljava/io/File;-><init>(Ljava/io/File;, Ljava/lang/String;)V
+    0073: invoke-virtual Ljava/io/File;->exists()Z
+    0079: invoke-virtual Ljava/io/File;->delete()Z
+    007c: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->o:Landroid/content/Context;
+    007e: invoke-static Landroid/os/RecoverySystem;->installPackage(Landroid/content/Context;, Ljava/io/File;)V
+    0086: invoke-virtual Ljava/lang/Exception;->printStackTrace()V
+    008b: invoke-virtual Lcom/bkdisplay/system/ota/SilenceUpdateDialog;->dismiss()V
+    008e: invoke-static Lcom/bkdisplay/api/util/e;->a(Ljava/lang/String;, I)V
+    0092: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->o:Landroid/content/Context;
+    0097: invoke-static Lcom/bkdisplay/framework/f/i;->b(I)Ljava/lang/String;
+    009b: invoke-static Lcom/bkdisplay/systemui/common/e;->a(Landroid/content/Context;, Ljava/lang/String;)V
+    009e: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->l:Lcom/baidu/commonlib/interfaces/IOtaAgent;
+    00a0: new-instance Lcom/bkdisplay/system/ota/BaiduOtaManager$6;
+    00a2: invoke-direct Lcom/bkdisplay/system/ota/BaiduOtaManager$6;-><init>(Lcom/bkdisplay/system/ota/BaiduOtaManager;)V
+    00a5: invoke-interface Lcom/baidu/commonlib/interfaces/IOtaAgent;->upgrade(Ljava/lang/String;, Lcom/baidu/commonlib/interfaces/IUpgradeListener;)V
+
+[METHOD] Lcom/bkdisplay/system/receiver/a;->a(Ljava/lang/String;, I)V:
+  0x0000: "com.mediatek.tvinput/.hdmi.HDMIInputService/HW5"
+  0x000b: "com.mediatek.tvinput/.hdmi.HDMIInputService/HW6"
+  0x0016: "com.mediatek.tvinput/.composite.CompositeInputService/HW2"
+  0x0020: "com.mediatek.tvinput/.vga.VGAInputService/HW4"
+  --- Full disassembly ---
+    0000: const-string v0, "com.mediatek.tvinput/.hdmi.HDMIInputService/HW5"
+    0002: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    000b: const-string v0, "com.mediatek.tvinput/.hdmi.HDMIInputService/HW6"
+    000d: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    0016: const-string v0, "com.mediatek.tvinput/.composite.CompositeInputService/HW2"
+    0018: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    0020: const-string v0, "com.mediatek.tvinput/.vga.VGAInputService/HW4"
+    0022: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    002f: invoke-virtual Lcom/bkdisplay/system/receiver/a;->a()Landroid/content/Context;
+    0033: new-instance Landroid/content/Intent;
+    0035: const-string v2, "com.ntech.tvinput.STATE_CHANGE"
+    0037: invoke-direct Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+    003a: const-string v2, "id"
+    003c: invoke-virtual Landroid/content/Intent;->putExtra(Ljava/lang/String;, I)Landroid/content/Intent;
+    0040: const-string v1, "state"
+    0042: invoke-virtual Landroid/content/Intent;->putExtra(Ljava/lang/String;, I)Landroid/content/Intent;
+    0048: invoke-virtual Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
+    004c: invoke-virtual Landroid/content/Context;->sendBroadcast(Landroid/content/Intent;)V
+
+[METHOD] Lcom/bkdisplay/system/receiver/a;->a(Ljava/lang/String;)V:
+  0x0041: "com.mediatek.tvinput/.hdmi.HDMIInputService/HW6"
+  0x0077: "com.mediatek.tvinput/.composite.CompositeInputService/HW2"
+  0x0080: "com.mediatek.tvinput/.vga.VGAInputService/HW4"
+  --- Full disassembly ---
+    0000: const-string v0, "source_input_alert_disable"
+    0002: invoke-static Lcom/bkdisplay/api/util/b;->b(Ljava/lang/String;)Z
+    0008: invoke-static Lcom/bkdisplay/framework/f/g;->a()Lcom/bkdisplay/api/b;
+    000c: invoke-virtual Lcom/bkdisplay/api/b;->c()Lcom/bkdisplay/api/a/a;
+    0010: instance-field-op Lcom/bkdisplay/api/a/a;->a:I
+    0012: invoke-static Lcom/bkdisplay/api/util/b;->d(Ljava/lang/String;)I
+    0019: const-string v0, "wall_picture"
+    001b: invoke-static Lcom/bkdisplay/api/util/b;->c(Ljava/lang/String;)Z
+    0021: const-string v0, "hdmi_insert_alert"
+    0023: invoke-static Lcom/bkdisplay/api/util/b;->c(Ljava/lang/String;)Z
+    0028: instance-field-op La/c;->a:Ljava/lang/Object;
+    002b: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    0031: new-instance Lcom/bkdisplay/systemui/input/b;
+    0033: instance-field-op Lcom/bkdisplay/system/receiver/a;->g:Landroid/content/Context;
+    0035: invoke-direct Lcom/bkdisplay/systemui/input/b;-><init>(Landroid/content/Context;)V
+    003a: invoke-virtual Lcom/bkdisplay/systemui/input/b;->a(I)V
+    003d: invoke-virtual Lcom/bkdisplay/systemui/input/b;->show()V
+    0041: const-string v0, "com.mediatek.tvinput/.hdmi.HDMIInputService/HW6"
+    0043: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    0049: const-string v3, "source_alert_disable"
+    004b: invoke-static Lcom/bkdisplay/api/util/b;->a(Ljava/lang/String;)Ljava/lang/String;
+    004f: const-string v0, "hdmi2"
+    0051: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    0058: const-string v3, "business_str"
+    005a: invoke-static Lcom/bkdisplay/api/util/b;->a(Ljava/lang/String;)Ljava/lang/String;
+    005e: const-string v0, "yt_F1A"
+    0060: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    0067: new-instance Lcom/bkdisplay/systemui/input/b;
+    0069: instance-field-op Lcom/bkdisplay/system/receiver/a;->g:Landroid/content/Context;
+    006b: invoke-direct Lcom/bkdisplay/systemui/input/b;-><init>(Landroid/content/Context;)V
+    0070: invoke-virtual Lcom/bkdisplay/systemui/input/b;->a(I)V
+    0073: invoke-virtual Lcom/bkdisplay/systemui/input/b;->show()V
+    0077: const-string v0, "com.mediatek.tvinput/.composite.CompositeInputService/HW2"
+    0079: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    0080: const-string v0, "com.mediatek.tvinput/.vga.VGAInputService/HW4"
+    0082: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+
+[METHOD] Lcom/bkdisplay/system/receiver/a;->onInputStateChanged(Ljava/lang/String;, I)V:
+  0x0066: "com.mediatek.tvinput/.hdmi.HDMIInputService/HW5"
+  0x0090: "com.mediatek.tvinput/.hdmi.HDMIInputService/HW6"
+  0x00b3: "com.mediatek.tvinput/.composite.CompositeInputService/HW2"
+  0x00cc: "com.mediatek.tvinput/.vga.VGAInputService/HW4"
+  --- Full disassembly ---
+    0000: new-instance Ljava/lang/StringBuilder;
+    0002: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    0005: const-string v1, "onInputStateChanged: "
+    0007: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    000b: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    000f: const-string v1, " state "
+    0011: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0015: invoke-virtual Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    0019: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    001d: const-string v1, "TvInputReceiver"
+    001f: invoke-static Landroid/util/Log;->d(Ljava/lang/String;, Ljava/lang/String;)I
+    0022: invoke-direct Lcom/bkdisplay/system/receiver/a;->a(Ljava/lang/String;, I)V
+    0028: instance-field-op Lcom/bkdisplay/system/receiver/a;->i:I
+    002e: const-string v9, "persist.vendor.ntech.hdmi_tv"
+    0030: invoke-static Landroid/os/SystemProperties;->getInt(Ljava/lang/String;, I)I
+    0034: instance-field-op Lcom/bkdisplay/system/receiver/a;->i:I
+    0036: invoke-virtual Lcom/bkdisplay/system/receiver/a;->f()Z
+    003d: const-string v9, "tv_input_insert_play"
+    003f: invoke-static Lcom/bkdisplay/api/util/b;->c(Ljava/lang/String;)Z
+    0045: invoke-static Lcom/bkdisplay/framework/f/g;->a()Lcom/bkdisplay/api/b;
+    0049: invoke-virtual Lcom/bkdisplay/api/b;->aQ()Z
+    004f: invoke-virtual Lcom/bkdisplay/system/receiver/a;->a(Ljava/lang/String;)V
+    0053: const-string v9, "persist.ntech.tvcommand.id"
+    0055: invoke-static Landroid/os/SystemProperties;->getInt(Ljava/lang/String;, I)I
+    005a: const-string v1, "ro.build.sys.hdmi_swap"
+    005c: invoke-static Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
+    0060: const-string v2, "1"
+    0062: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    0066: const-string v2, "com.mediatek.tvinput/.hdmi.HDMIInputService/HW5"
+    0068: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    007a: instance-field-op Lcom/bkdisplay/system/receiver/a;->i:I
+    007f: instance-field-op Lcom/bkdisplay/system/receiver/a;->i:I
+    0084: new-instance Lcom/bkdisplay/api/a/a;
+    0086: invoke-direct Lcom/bkdisplay/api/a/a;-><init>()V
+    008d: instance-field-op Lcom/bkdisplay/api/a/a;->a:I
+    0090: const-string v2, "com.mediatek.tvinput/.hdmi.HDMIInputService/HW6"
+    0092: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    009e: instance-field-op Lcom/bkdisplay/system/receiver/a;->i:I
+    00a3: instance-field-op Lcom/bkdisplay/system/receiver/a;->i:I
+    00a8: new-instance Lcom/bkdisplay/api/a/a;
+    00aa: invoke-direct Lcom/bkdisplay/api/a/a;-><init>()V
+    00b0: instance-field-op Lcom/bkdisplay/api/a/a;->a:I
+    00b3: const-string v9, "com.mediatek.tvinput/.composite.CompositeInputService/HW2"
+    00b5: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    00b9: const-string v1, "tv_input_insert_play_only_hdmi"
+    00bd: invoke-static Lcom/bkdisplay/api/util/b;->c(Ljava/lang/String;)Z
+    00c2: new-instance La/a/n;
+    00c5: invoke-direct Lcom/bkdisplay/api/a/a;-><init>()V
+    00c9: instance-field-op Lcom/bkdisplay/api/a/a;->a:I
+    00cc: const-string v9, "com.mediatek.tvinput/.vga.VGAInputService/HW4"
+    00ce: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    00d4: invoke-static Lcom/bkdisplay/api/util/b;->c(Ljava/lang/String;)Z
+    00da: new-instance Lcom/bkdisplay/api/a/a;
+    00dc: invoke-direct Lcom/bkdisplay/api/a/a;-><init>()V
+    00e1: instance-field-op Lcom/bkdisplay/api/a/a;->a:I
+    00e3: invoke-static Lcom/bkdisplay/framework/f/g;->a()Lcom/bkdisplay/api/b;
+    00e7: invoke-virtual Lcom/bkdisplay/api/b;->a(Lcom/bkdisplay/api/a/a;)Z
+    00eb: invoke-virtual Lcom/bkdisplay/system/receiver/a;->a(Ljava/lang/String;)V
+
+[METHOD] Lcom/bkdisplay/systemui/d/l;->b()V:
+  0x005e: "com.mediatek.wwtv.tvcenter.nav.TurnkeyUiMainActivity"
+  --- Full disassembly ---
+    0000: const-string v0, "vendor.bk.screen_status"
+    0003: invoke-static Landroid/os/SystemProperties;->getInt(Ljava/lang/String;, I)I
+    000b: instance-field-op Lcom/bkdisplay/systemui/d/l;->h:Z
+    000f: instance-field-op Lcom/bkdisplay/systemui/d/l;->h:Z
+    0011: new-instance Ljava/io/File;
+    0013: const-string v3, "/vendor/etc/pcfg/resources/vedio_light.config"
+    0015: invoke-direct Ljava/io/File;-><init>(Ljava/lang/String;)V
+    0018: invoke-virtual Ljava/io/File;->exists()Z
+    001e: new-instance Ljava/io/BufferedReader;
+    0020: new-instance Ljava/io/FileReader;
+    0022: invoke-direct Ljava/io/FileReader;-><init>(Ljava/io/File;)V
+    0025: invoke-direct Ljava/io/BufferedReader;-><init>(Ljava/io/Reader;)V
+    0028: invoke-virtual Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
+    002e: const-string v4, ":"
+    0030: invoke-virtual Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
+    0034: new-instance Lcom/bkdisplay/systemui/d/l$a;
+    0036: invoke-direct Lcom/bkdisplay/systemui/d/l$a;-><init>(Lcom/bkdisplay/systemui/d/l;)V
+    003b: invoke-static Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+    003f: instance-field-op Lcom/bkdisplay/systemui/d/l$a;->a:I
+    0043: invoke-static Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+    0047: instance-field-op Lcom/bkdisplay/systemui/d/l$a;->b:I
+    0049: instance-field-op Lcom/bkdisplay/systemui/d/l;->e:Lcom/bkdisplay/systemui/d/l$a;
+    004d: instance-field-op Lcom/bkdisplay/systemui/d/l;->e:Lcom/bkdisplay/systemui/d/l$a;
+    0050: instance-field-op Lcom/bkdisplay/systemui/d/l$a;->c:Lcom/bkdisplay/systemui/d/l$a;
+    0054: instance-field-op Lcom/bkdisplay/systemui/d/l$a;->c:Lcom/bkdisplay/systemui/d/l$a;
+    0057: instance-field-op Lcom/bkdisplay/systemui/d/l$a;->c:Lcom/bkdisplay/systemui/d/l$a;
+    005a: instance-field-op Lcom/bkdisplay/systemui/d/l;->e:Lcom/bkdisplay/systemui/d/l$a;
+    005c: const-string v3, "videoLuma: no video"
+    005e: const-string v4, "com.mediatek.wwtv.tvcenter.nav.TurnkeyUiMainActivity"
+    0060: const-string v5, "com.ntech.media.player.Player"
+    0062: const-string v6, "com.ntech.media.player.pictureplayer.Player"
+    0064: const-string v7, "VideoLightMonitor"
+    0067: instance-field-op Lcom/google/android/material/appbar/c;->b:I
+    006a: invoke-static Lcom/bkdisplay/framework/f/a;->a(Landroid/content/Context;)Landroid/content/ComponentName;
+    0071: invoke-virtual Landroid/content/ComponentName;->getClassName()Ljava/lang/String;
+    0075: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    007a: const-string/jumbo v0, ""
+    0081: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    0087: invoke-static Landroid/util/Log;->d(Ljava/lang/String;, Ljava/lang/String;)I
+    008a: instance-field-op Lcom/bkdisplay/systemui/d/l;->b:I
+    008c: instance-field-op Lcom/bkdisplay/systemui/d/l;->c:I
+    0090: invoke-virtual Lcom/bkdisplay/systemui/d/l;->a(I)V
+    0094: invoke-static Lcom/ntech/platform/b;->a()Lcom/ntech/platform/api/PlatformApi;
+    0098: invoke-virtual Lcom/ntech/platform/api/PlatformApi;->getVideoLuma()I
+    009c: instance-field-op Lcom/bkdisplay/systemui/d/l;->e:Lcom/bkdisplay/systemui/d/l$a;
+    00a0: instance-field-op Lcom/bkdisplay/systemui/d/l$a;->a:I
+    00a3: const-string v0, "
+		"
+    00a5: instance-field-op Landroidx/coordinatorlayout/widget/CoordinatorLayout;->o:Z
+    00ae: instance-field-op Lcom/bkdisplay/systemui/d/l$a;->b:I
+    00b3: instance-field-op Lcom/bkdisplay/systemui/d/l$a;->b:I
+    00b6: instance-field-op Lcom/bkdisplay/systemui/d/l$a;->b:I
+    00b8: invoke-virtual Lcom/bkdisplay/systemui/d/l;->a(I)V
+    00bc: instance-field-op Lcom/bkdisplay/systemui/d/l$a;->c:Lcom/bkdisplay/systemui/d/l$a;
+    00c0: invoke-static Lcom/ntech/platform/b;->a()Lcom/ntech/platform/api/PlatformApi;
+    00c4: invoke-virtual Lcom/ntech/platform/api/PlatformApi;->getVideoLuma()I
+    00c8: instance-field-op Lcom/bkdisplay/systemui/d/l;->a:Landroid/content/Context;
+    00ca: invoke-static Lcom/bkdisplay/framework/f/a;->a(Landroid/content/Context;)Landroid/content/ComponentName;
+    00ce: invoke-virtual Landroid/content/ComponentName;->getClassName()Ljava/lang/String;
+    00d2: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    00d8: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    00de: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    00e4: invoke-static Landroid/util/Log;->d(Ljava/lang/String;, Ljava/lang/String;)I
+    00ee: instance-field-op Lcom/bkdisplay/systemui/d/l;->d:I
+    00f1: instance-field-op Lcom/bkdisplay/systemui/d/l;->d:I
+    00f4: instance-field-op Lcom/bkdisplay/systemui/d/l;->d:I
+    00f6: new-instance Ljava/lang/StringBuilder;
+    00f8: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    00fb: const-string v2, "videoLuma: "
+    00fd: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0101: invoke-virtual Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    0105: const-string v3, " "
+    0107: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    010b: instance-field-op Lcom/bkdisplay/systemui/d/l;->d:I
+    010d: invoke-virtual Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    0111: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0115: instance-field-op Lcom/bkdisplay/systemui/d/l;->b:I
+    0117: invoke-virtual Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    011b: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    011f: instance-field-op Lcom/bkdisplay/systemui/d/l;->c:I
+    0121: invoke-virtual Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    0125: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    0129: invoke-static Landroid/util/Log;->d(Ljava/lang/String;, Ljava/lang/String;)I
+    012c: instance-field-op Lcom/bkdisplay/systemui/d/l;->d:I
+    0130: instance-field-op Lcom/bkdisplay/systemui/d/l;->b:I
+    0132: instance-field-op Lcom/bkdisplay/systemui/d/l;->c:I
+    0136: invoke-virtual Lcom/bkdisplay/systemui/d/l;->a(I)V
+    013d: instance-field-op Lcom/bkdisplay/systemui/d/l;->b:I
+    0143: instance-field-op Lcom/bkdisplay/systemui/d/l;->c:I
+    0147: invoke-virtual Lcom/bkdisplay/systemui/d/l;->a(I)V
+    014a: new-instance Ljava/lang/StringBuilder;
+    014c: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    014f: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0153: invoke-virtual Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    0157: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    015b: instance-field-op Lcom/bkdisplay/systemui/d/l;->d:I
+    015d: invoke-virtual Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    0161: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0165: instance-field-op Lcom/bkdisplay/systemui/d/l;->b:I
+    0167: invoke-virtual Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    016b: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    016f: instance-field-op Lcom/bkdisplay/systemui/d/l;->c:I
+    0171: invoke-virtual Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    0175: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    0179: invoke-static Landroid/util/Log;->d(Ljava/lang/String;, Ljava/lang/String;)I
+
+[METHOD] Lcom/bkdisplay/systemui/f/d;->a()V:
+  0x0114: "com.mstar.android.intent.action.START_MEDIA_BROWSER"
+  --- Full disassembly ---
+    0000: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    0002: new-instance Lcom/bkdisplay/systemui/f/b;
+    0004: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    0006: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    0009: const-string v2, "android.intent.action.ALL_APPS"
+    000b: invoke-virtual Lcom/bkdisplay/systemui/f/b;->a(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    000f: const-string v3, "my_application"
+    0011: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    0014: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    0016: new-instance Lcom/bkdisplay/systemui/f/b;
+    0018: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    001a: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    001d: const-string v3, "android.settings.SETTINGS"
+    001f: invoke-virtual Lcom/bkdisplay/systemui/f/b;->a(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    0023: const-string v3, "system_settings"
+    0025: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    0028: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    002a: new-instance Lcom/bkdisplay/systemui/f/b;
+    002c: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    002e: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    0031: const-string v3, "com.bkdisplay.intent.action.DIGITAL_ZOOM"
+    0033: invoke-virtual Lcom/bkdisplay/systemui/f/b;->a(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    0037: const-string v3, "zoom_settings"
+    0039: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    003c: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    003e: new-instance Lcom/bkdisplay/systemui/f/b;
+    0040: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    0042: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    0045: const-string v3, "android.settings.SETTINGS_CAST"
+    0047: invoke-virtual Lcom/bkdisplay/systemui/f/b;->a(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    004b: const-string v3, "projection_settings"
+    004d: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    0050: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    0052: new-instance Lcom/bkdisplay/systemui/f/b;
+    0054: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    0056: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    0059: const-string v3, "com.bkdisplay.intent.action.TRAPE_PAGE"
+    005b: invoke-virtual Lcom/bkdisplay/systemui/f/b;->a(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    005f: const-string v3, "four-point_correction"
+    0061: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    0064: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    0066: new-instance Lcom/bkdisplay/systemui/f/b;
+    0068: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    006a: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    006d: const-string v3, "com.bkdisplay.intent.action.VH_KEYSTONE"
+    006f: invoke-virtual Lcom/bkdisplay/systemui/f/b;->a(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    0073: const-string v3, "four-sided_correction"
+    0075: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    0078: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    007a: new-instance Lcom/bkdisplay/systemui/f/b;
+    007c: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    007e: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    0081: const-string v3, "jy_wifi_page_enable"
+    0083: invoke-static Lcom/bkdisplay/api/util/b;->c(Ljava/lang/String;)Z
+    0089: const-string v3, "com.bkdisplay.intent.action.JY_WIFI_PAGE"
+    008c: const-string v3, "com.bkdisplay.intent.action.WIFI_PAGE"
+    008e: invoke-virtual Lcom/bkdisplay/systemui/f/b;->a(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    0092: const-string v3, "network_settings"
+    0094: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    0097: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    0099: new-instance Lcom/bkdisplay/systemui/f/b;
+    009b: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    009d: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    00a0: const-string v3, "com.bkdisplay.intent.action.BLUETOOTH_PAGE"
+    00a2: invoke-virtual Lcom/bkdisplay/systemui/f/b;->a(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    00a6: const-string v3, "bluetooth_settings"
+    00a8: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    00ab: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    00ad: new-instance Lcom/bkdisplay/systemui/f/b;
+    00af: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    00b1: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    00b4: const-string v3, "com.bkdisplay.settings"
+    00b6: invoke-virtual Lcom/bkdisplay/systemui/f/b;->b(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    00ba: const-string v3, "com.bkdisplay.settings.ui.view.upgrade.UpgradeActivity"
+    00bc: invoke-virtual Lcom/bkdisplay/systemui/f/b;->c(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    00c0: const-string v3, "system_update"
+    00c2: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    00c5: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    00c7: new-instance Lcom/bkdisplay/systemui/f/b;
+    00c9: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    00cb: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    00ce: const-string v3, "android.settings.SETTINGS_ABOUT"
+    00d0: invoke-virtual Lcom/bkdisplay/systemui/f/b;->a(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    00d4: const-string v3, "system_about"
+    00d6: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    00d9: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    00db: new-instance Lcom/bkdisplay/systemui/f/b;
+    00dd: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    00df: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    00e3: invoke-virtual Lcom/bkdisplay/systemui/f/b;->b(I)Lcom/bkdisplay/systemui/f/b;
+    00e8: invoke-virtual Lcom/bkdisplay/systemui/f/b;->a(I)Lcom/bkdisplay/systemui/f/b;
+    00ec: const-string v4, "cancel_shutdown"
+    00ee: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    00f1: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    00f3: new-instance Lcom/bkdisplay/systemui/f/b;
+    00f5: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    00f7: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    00fa: const-string v4, "com.ntech.localmedia"
+    00fc: invoke-virtual Lcom/bkdisplay/systemui/f/b;->b(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    0100: const-string v4, "com.ntech.localmedia.MainActivity"
+    0102: invoke-virtual Lcom/bkdisplay/systemui/f/b;->c(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    0106: const-string v4, "multimedia"
+    0108: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    010b: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    010d: new-instance Lcom/bkdisplay/systemui/f/b;
+    010f: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    0111: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    0114: const-string v4, "com.mstar.android.intent.action.START_MEDIA_BROWSER"
+    0116: invoke-virtual Lcom/bkdisplay/systemui/f/b;->a(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    011a: const-string v4, "filemanager"
+    011c: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    011f: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    0121: new-instance Lcom/bkdisplay/systemui/f/b;
+    0123: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    0125: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    0128: const-string v4, "bk.intent.action.MIRACAST"
+    012a: invoke-virtual Lcom/bkdisplay/systemui/f/b;->a(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    012e: const-string v4, "same_screen"
+    0130: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    0133: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    0135: new-instance Lcom/bkdisplay/systemui/f/b;
+    0137: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    0139: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    013c: const-string v4, "android.intent.action.MANAGE_PACKAGE_STORAGE"
+    013e: invoke-virtual Lcom/bkdisplay/systemui/f/b;->a(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    0142: const-string v4, "app_manager"
+    0144: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    0147: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    0149: invoke-static Lcom/bkdisplay/framework/f/a;->c(Landroid/content/Context;)Ljava/lang/String;
+    014d: const-string v1, "com.dangbei.mimir.lightos.launcher"
+    014f: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    0153: const-string v4, "com.lerad.launcher.home.ui.myapp.MyAppActivity"
+    0155: const-string v5, "my_apps"
+    0159: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    015b: new-instance Lcom/bkdisplay/systemui/f/b;
+    015d: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    015f: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    0162: invoke-virtual Lcom/bkdisplay/systemui/f/b;->b(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    0166: invoke-virtual Lcom/bkdisplay/systemui/f/b;->c(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    016a: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    016e: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    0170: invoke-static Lcom/bkdisplay/framework/f/a;->c(Landroid/content/Context;)Ljava/lang/String;
+    0174: const-string v6, "com.bk.home"
+    0176: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    017c: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    017e: new-instance Lcom/bkdisplay/systemui/f/b;
+    0180: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    0182: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    0185: invoke-virtual Lcom/bkdisplay/systemui/f/b;->a(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    0189: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    018d: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    018f: new-instance Lcom/bkdisplay/systemui/f/b;
+    0191: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    0193: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    0196: invoke-virtual Lcom/bkdisplay/systemui/f/b;->b(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    019a: invoke-virtual Lcom/bkdisplay/systemui/f/b;->c(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    019e: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    01a1: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    01a3: new-instance Lcom/bkdisplay/systemui/f/b;
+    01a5: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    01a7: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    01aa: const-string v2, "com.cibn.tv"
+    01ac: invoke-virtual Lcom/bkdisplay/systemui/f/b;->b(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    01b0: const-string v2, "play_cibn"
+    01b2: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    01b5: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    01b7: new-instance Lcom/bkdisplay/systemui/f/b;
+    01b9: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    01bb: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    01be: const-string v2, "com.qiyivideo.sibichi"
+    01c0: invoke-virtual Lcom/bkdisplay/systemui/f/b;->b(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    01c4: const-string v2, "play_qiyivideo"
+    01c6: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    01c9: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    01cb: new-instance Lcom/bkdisplay/systemui/f/b;
+    01cd: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    01cf: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    01d2: const-string v2, "com.ktcp.tvvideo"
+    01d4: invoke-virtual Lcom/bkdisplay/systemui/f/b;->b(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    01d8: const-string v2, "play_ktcp"
+    01da: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    01dd: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    01df: new-instance Lcom/bkdisplay/systemui/f/b;
+    01e1: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    01e3: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    01e6: const-string v2, "ntech.intent.action.CAST_ALL"
+    01e8: invoke-virtual Lcom/bkdisplay/systemui/f/b;->a(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    01ec: const-string v2, "open_mira_cast"
+    01ee: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    01f1: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    01f3: new-instance Lcom/bkdisplay/systemui/f/b;
+    01f5: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    01f7: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    01fa: const-string v2, "back_home"
+    01fc: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    01ff: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    0201: new-instance Lcom/bkdisplay/systemui/f/b;
+    0203: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    0205: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    0208: const-string v2, "com.dianshijia.newlive"
+    020a: invoke-virtual Lcom/bkdisplay/systemui/f/b;->b(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    020e: const-string v4, "open_dina_shi_jia"
+    0210: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    0213: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    0215: new-instance Lcom/bkdisplay/systemui/f/b;
+    0217: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    0219: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    021c: invoke-virtual Lcom/bkdisplay/systemui/f/b;->b(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    0220: const-string v4, "play_channel_id"
+    0222: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    0225: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    0227: new-instance Lcom/bkdisplay/systemui/f/b;
+    0229: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    022b: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    022e: invoke-virtual Lcom/bkdisplay/systemui/f/b;->b(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    0232: const-string v4, "com.dianshijia.newlive.player.ChangeChannel"
+    0234: invoke-virtual Lcom/bkdisplay/systemui/f/b;->a(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    0238: const-string v4, "switch_channel_num"
+    023a: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    023d: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    023f: new-instance Lcom/bkdisplay/systemui/f/b;
+    0241: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    0243: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    0246: invoke-virtual Lcom/bkdisplay/systemui/f/b;->b(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    024a: const-string v4, "watch_tv"
+    024c: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    024f: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    0251: new-instance Lcom/bkdisplay/systemui/f/b;
+    0253: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    0255: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    0258: invoke-virtual Lcom/bkdisplay/systemui/f/b;->b(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    025c: const-string v4, "com.dianshijia.newlive.player.PreChannel"
+    025e: invoke-virtual Lcom/bkdisplay/systemui/f/b;->a(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    0262: const-string v4, "play_prev_channel"
+    0264: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    0267: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    0269: new-instance Lcom/bkdisplay/systemui/f/b;
+    026b: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    026d: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    0270: invoke-virtual Lcom/bkdisplay/systemui/f/b;->b(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    0274: const-string v2, "com.dianshijia.newlive.player.NextChannel"
+    0276: invoke-virtual Lcom/bkdisplay/systemui/f/b;->a(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    027a: const-string v2, "play_next_channel"
+    027c: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    027f: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    0281: new-instance Lcom/bkdisplay/systemui/f/b;
+    0283: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    0285: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    0289: const-string v0, "Landroidx/transition/h;"
+    028e: invoke-virtual Lcom/bkdisplay/systemui/f/b;->a(I)Lcom/bkdisplay/systemui/f/b;
+    0292: const-string v2, "shutdown"
+    0294: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    0297: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    0299: new-instance Lcom/bkdisplay/systemui/f/b;
+    029b: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    029d: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    02a2: invoke-virtual Lcom/bkdisplay/systemui/f/b;->b(I)Lcom/bkdisplay/systemui/f/b;
+    02a6: invoke-virtual Lcom/bkdisplay/systemui/f/b;->a(I)Lcom/bkdisplay/systemui/f/b;
+    02aa: const-string v2, "signal_source"
+    02ac: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+
+[METHOD] Lcom/bkdisplay/systemui/menu/a/a/a$41;->a()Ljava/util/Map;:
+  0x0000: "vendor.mstar.trapezoid.mipi.enable"
+  --- Full disassembly ---
+    0000: const-string v0, "vendor.mstar.trapezoid.mipi.enable"
+    0002: invoke-static Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
+    0006: const-string v1, "1"
+    0008: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    000e: instance-field-op Lcom/bkdisplay/systemui/menu/a/a/a$41;->b:Lcom/bkdisplay/systemui/menu/a/a/a;
+    0010: invoke-static Lcom/bkdisplay/systemui/menu/a/a/a;->b(Lcom/bkdisplay/systemui/menu/a/a/a;)Lcom/bkdisplay/api/b;
+    0014: invoke-virtual Lcom/bkdisplay/api/b;->c()Lcom/bkdisplay/api/a/a;
+    0018: instance-field-op Lcom/bkdisplay/api/a/a;->a:I
+    001e: instance-field-op Lcom/bkdisplay/api/a/a;->a:I
+    0025: instance-field-op Lcom/bkdisplay/api/a/a;->a:I
+    002b: const-string v0, "hdmi2"
+    002e: instance-field-op Lcom/bkdisplay/api/a/a;->a:I
+    0032: const-string v0, "av"
+    0035: const-string v0, ""
+    0038: const-string v0, "hdmi1"
+    003a: invoke-static Lcom/bkdisplay/system/a/c;->a()Lcom/bkdisplay/system/a/c;
+    003e: invoke-virtual Lcom/bkdisplay/system/a/c;->d(Ljava/lang/String;)I
+    0043: instance-field-op Lcom/bkdisplay/systemui/menu/a/a/a$41;->b:Lcom/bkdisplay/systemui/menu/a/a/a;
+    0045: invoke-static Lcom/bkdisplay/systemui/menu/a/a/a;->b(Lcom/bkdisplay/systemui/menu/a/a/a;)Lcom/bkdisplay/api/b;
+    0049: invoke-virtual Lcom/bkdisplay/api/b;->an()I
+    004d: new-instance Ljava/util/HashMap;
+    0050: invoke-direct Ljava/util/HashMap;-><init>(I)V
+    0053: invoke-static Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    0057: const-string v2, "index"
+    0059: invoke-interface Ljava/util/Map;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+
+[METHOD] Lcom/bkdisplay/systemui/menu/a/a/a$41;->a(Ljava/util/Map;)Z:
+  0x0010: "vendor.mstar.trapezoid.mipi.enable"
+  --- Full disassembly ---
+    0004: const-string v0, "index"
+    0006: invoke-interface Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    000a: check-cast Ljava/lang/Integer;
+    000c: invoke-virtual Ljava/lang/Integer;->intValue()I
+    0010: const-string v0, "vendor.mstar.trapezoid.mipi.enable"
+    0012: invoke-static Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
+    0016: const-string v1, "1"
+    0018: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    001e: instance-field-op Lcom/bkdisplay/systemui/menu/a/a/a$41;->b:Lcom/bkdisplay/systemui/menu/a/a/a;
+    0020: invoke-static Lcom/bkdisplay/systemui/menu/a/a/a;->b(Lcom/bkdisplay/systemui/menu/a/a/a;)Lcom/bkdisplay/api/b;
+    0024: invoke-virtual Lcom/bkdisplay/api/b;->c()Lcom/bkdisplay/api/a/a;
+    0028: instance-field-op Lcom/bkdisplay/api/a/a;->a:I
+    002e: instance-field-op Lcom/bkdisplay/api/a/a;->a:I
+    0035: instance-field-op Lcom/bkdisplay/api/a/a;->a:I
+    003b: const-string v0, "hdmi2"
+    003e: instance-field-op Lcom/bkdisplay/api/a/a;->a:I
+    0042: const-string v0, "av"
+    0045: const-string v0, ""
+    0048: const-string v0, "hdmi1"
+    004a: invoke-static Lcom/bkdisplay/system/a/c;->a()Lcom/bkdisplay/system/a/c;
+    004e: invoke-virtual Lcom/bkdisplay/system/a/c;->c(Ljava/lang/String;, I)Z
+    0053: instance-field-op Lcom/bkdisplay/systemui/menu/a/a/a$41;->b:Lcom/bkdisplay/systemui/menu/a/a/a;
+    0055: invoke-static Lcom/bkdisplay/systemui/menu/a/a/a;->b(Lcom/bkdisplay/systemui/menu/a/a/a;)Lcom/bkdisplay/api/b;
+    0059: invoke-virtual Lcom/bkdisplay/api/b;->I(I)Z
+
+[METHOD] Lcom/bkdisplay/systemui/menu/a/a/a$41;->b()I:
+  0x0014: "com.mediatek.wwtv.tvcenter"
+  --- Full disassembly ---
+    0000: instance-field-op Lcom/bkdisplay/systemui/menu/a/a/a$41;->b:Lcom/bkdisplay/systemui/menu/a/a/a;
+    0002: invoke-static Lcom/bkdisplay/systemui/menu/a/a/a;->z(Lcom/bkdisplay/systemui/menu/a/a/a;)Landroid/content/Context;
+    0006: invoke-static Lcom/bkdisplay/framework/f/e;->a(Landroid/content/Context;)Ljava/lang/String;
+    000a: instance-field-op Lcom/bkdisplay/systemui/menu/a/a/a$41;->b:Lcom/bkdisplay/systemui/menu/a/a/a;
+    000c: invoke-static Lcom/bkdisplay/systemui/menu/a/a/a;->b(Lcom/bkdisplay/systemui/menu/a/a/a;)Lcom/bkdisplay/api/b;
+    0010: invoke-virtual Lcom/bkdisplay/api/b;->d()Ljava/lang/String;
+    0014: const-string v2, "com.mediatek.wwtv.tvcenter"
+    0016: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    001c: const-string v2, "VGA"
+    001e: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    0024: const-string v1, "com.hisilicon.tvui"
+    0026: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+
+[METHOD] Lcom/bkdisplay/systemui/other/b/c;->getSignalSourceList()Ljava/util/List;:
+  0x005d: "com.mediatek.tvinput/.composite.CompositeInputService/HW2"
+  0x0064: "com.mediatek.tvinput/.hdmi.HDMIInputService/HW6"
+  0x0066: "com.mediatek.tvinput/.hdmi.HDMIInputService/HW5"
+  --- Full disassembly ---
+    0000: const-string v0, "SignalImpl"
+    0002: const-string v1, "getSignalSourceList"
+    0004: invoke-static Landroid/util/Log;->d(Ljava/lang/String;, Ljava/lang/String;)I
+    0007: new-instance Ljava/util/ArrayList;
+    0009: invoke-direct Ljava/util/ArrayList;-><init>()V
+    000c: invoke-static Lcom/bkdisplay/framework/f/g;->a()Lcom/bkdisplay/api/b;
+    0010: invoke-virtual Lcom/bkdisplay/api/b;->b()Ljava/util/List;
+    0014: invoke-interface Ljava/util/List;->iterator()Ljava/util/Iterator;
+    0018: invoke-interface Ljava/util/Iterator;->hasNext()Z
+    001e: invoke-interface Ljava/util/Iterator;->next()Ljava/lang/Object;
+    0022: check-cast Lcom/bkdisplay/api/a/a;
+    0024: new-instance Ljava/lang/StringBuilder;
+    0026: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    0029: const-string v5, "source : id = "
+    002b: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    002f: instance-field-op Lcom/bkdisplay/api/a/a;->a:I
+    0031: invoke-virtual Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    0035: const-string v5, " name = "
+    0037: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    003b: instance-field-op Lcom/bkdisplay/api/a/a;->b:Ljava/lang/String;
+    003d: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0041: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    0045: invoke-static Landroid/util/Log;->d(Ljava/lang/String;, Ljava/lang/String;)I
+    0048: new-instance Lcom/ktcp/launcher/open/entry/SignalSource;
+    004a: invoke-direct Lcom/ktcp/launcher/open/entry/SignalSource;-><init>()V
+    004d: instance-field-op Lcom/bkdisplay/api/a/a;->a:I
+    0055: invoke-virtual Lcom/ktcp/launcher/open/entry/SignalSource;->setType(I)V
+    0058: const-string v5, "AV"
+    005a: invoke-virtual Lcom/ktcp/launcher/open/entry/SignalSource;->setName(Ljava/lang/String;)V
+    005d: const-string v5, "com.mediatek.tvinput/.composite.CompositeInputService/HW2"
+    0060: instance-field-op Lcom/bkdisplay/api/a/a;->a:I
+    0064: const-string v9, "com.mediatek.tvinput/.hdmi.HDMIInputService/HW6"
+    0066: const-string v10, "com.mediatek.tvinput/.hdmi.HDMIInputService/HW5"
+    0068: const-string v11, "ro.build.sys.hdmi_swap"
+    006c: instance-field-op Lcom/bkdisplay/api/a/a;->a:I
+    0073: instance-field-op Lcom/bkdisplay/api/a/a;->a:I
+    0079: invoke-static Landroid/os/SystemProperties;->getInt(Ljava/lang/String;, I)I
+    0082: invoke-virtual Lcom/ktcp/launcher/open/entry/SignalSource;->setType(I)V
+    0085: const-string v8, "HDMI2"
+    0087: invoke-virtual Lcom/ktcp/launcher/open/entry/SignalSource;->setName(Ljava/lang/String;)V
+    008b: invoke-static Landroid/os/SystemProperties;->getInt(Ljava/lang/String;, I)I
+    0094: invoke-virtual Lcom/ktcp/launcher/open/entry/SignalSource;->setType(I)V
+    0097: const-string v8, "HDMI1"
+    0099: invoke-virtual Lcom/ktcp/launcher/open/entry/SignalSource;->setName(Ljava/lang/String;)V
+    009c: instance-field-op Lcom/bkdisplay/api/a/a;->a:I
+    009e: invoke-virtual Lcom/ktcp/launcher/open/entry/SignalSource;->setId(I)V
+    00a2: invoke-virtual Lcom/ktcp/launcher/open/entry/SignalSource;->setInputId(Ljava/lang/String;)V
+    00a5: invoke-virtual Lcom/ktcp/launcher/open/entry/SignalSource;->setUri(Landroid/net/Uri;)V
+    00a8: instance-field-op Lcom/bkdisplay/systemui/other/b/c;->b:Landroid/media/tv/TvInputManager;
+    00aa: invoke-virtual Landroid/media/tv/TvInputManager;->getInputState(Ljava/lang/String;)I
+    00b1: invoke-virtual Lcom/ktcp/launcher/open/entry/SignalSource;->setLinked(Z)V
+    00b4: invoke-virtual Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    00b8: field-op Landroid/net/StaticIpConfiguration;->ipAddress:Landroid/net/LinkAddress;
+
+[METHOD] Landroidx/loader/a/b$a;->a(Ljava/lang/String;, Ljava/io/FileDescriptor;, Ljava/io/PrintWriter;, [Ljava/lang/String;)V:
+  0x007d: "mStarted="
+  --- Full disassembly ---
+    0000: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    0003: const-string v0, "mId="
+    0005: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    0008: instance-field-op Landroidx/loader/a/b$a;->e:I
+    000a: invoke-virtual Ljava/io/PrintWriter;->print(I)V
+    000d: const-string v0, " mArgs="
+    000f: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    0012: instance-field-op Landroidx/loader/a/b$a;->f:Landroid/os/Bundle;
+    0014: invoke-virtual Ljava/io/PrintWriter;->println(Ljava/lang/Object;)V
+    0017: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    001a: const-string v0, "mLoader="
+    001c: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    001f: instance-field-op Landroidx/loader/a/b$a;->g:Landroidx/loader/b/a;
+    0021: invoke-virtual Ljava/io/PrintWriter;->println(Ljava/lang/Object;)V
+    0024: instance-field-op Landroidx/loader/a/b$a;->g:Landroidx/loader/b/a;
+    0026: new-instance Ljava/lang/StringBuilder;
+    0028: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    002b: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    002f: const-string v2, "  "
+    0031: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0035: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    0039: invoke-virtual Landroidx/loader/b/a;->a(Ljava/lang/String;, Ljava/io/FileDescriptor;, Ljava/io/PrintWriter;, [Ljava/lang/String;)V
+    003c: instance-field-op Landroidx/loader/a/b$a;->i:Landroidx/loader/a/b$b;
+    0040: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    0043: const-string v5, "mCallbacks="
+    0045: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    0048: instance-field-op Landroidx/loader/a/b$a;->i:Landroidx/loader/a/b$b;
+    004a: invoke-virtual Ljava/io/PrintWriter;->println(Ljava/lang/Object;)V
+    004d: instance-field-op Landroidx/loader/a/b$a;->i:Landroidx/loader/a/b$b;
+    004f: new-instance Ljava/lang/StringBuilder;
+    0051: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    0054: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0058: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    005c: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    0060: invoke-virtual Landroidx/loader/a/b$b;->a(Ljava/lang/String;, Ljava/io/PrintWriter;)V
+    0063: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    0066: const-string v5, "mData="
+    0068: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    006b: invoke-virtual Landroidx/loader/a/b$a;->e()Landroidx/loader/b/a;
+    006f: invoke-virtual Landroidx/loader/a/b$a;->a()Ljava/lang/Object;
+    0073: invoke-virtual Landroidx/loader/b/a;->a(Ljava/lang/Object;)Ljava/lang/String;
+    0077: invoke-virtual Ljava/io/PrintWriter;->println(Ljava/lang/String;)V
+    007a: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    007d: const-string v4, "mStarted="
+    007f: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    0082: invoke-virtual Landroidx/loader/a/b$a;->d()Z
+    0086: invoke-virtual Ljava/io/PrintWriter;->println(Z)V
+
+[METHOD] Lcom/bkdisplay/systemui/other/InputWanboDialog;->a(Ljava/lang/String;)V:
+  0x004c: "com.mstar.android.intent.action.START_MEDIA_BROWSER"
+  --- Full disassembly ---
+    0000: new-instance Lcom/bkdisplay/api/a/a;
+    0002: invoke-direct Lcom/bkdisplay/api/a/a;-><init>()V
+    0005: invoke-virtual Ljava/lang/String;->hashCode()I
+    0008: invoke-virtual Ljava/lang/String;->hashCode()I
+    000e: instance-field-op La/a/a$a;->a:La/a/a;
+    0011: const-string v1, "HDMI"
+    0013: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    001c: const-string v1, "USB"
+    001e: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    0027: const-string v1, "ATV"
+    0029: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    0032: const-string v1, "SETTINGS"
+    0034: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    0042: instance-field-op Lcom/bkdisplay/api/a/a;->a:I
+    0044: instance-field-op Lcom/bkdisplay/systemui/other/InputWanboDialog;->l:Lcom/bkdisplay/api/b;
+    0046: invoke-virtual Lcom/bkdisplay/api/b;->a(Lcom/bkdisplay/api/a/a;)Z
+    004a: instance-field-op Lcom/bkdisplay/systemui/other/InputWanboDialog;->j:Landroid/content/Context;
+    004c: const-string v0, "com.mstar.android.intent.action.START_MEDIA_BROWSER"
+    004e: invoke-static Lcom/bkdisplay/framework/f/a;->b(Landroid/content/Context;, Ljava/lang/String;)V
+    0054: instance-field-op Lcom/bkdisplay/api/a/a;->a:I
+    0056: instance-field-op Lcom/bkdisplay/systemui/other/InputWanboDialog;->l:Lcom/bkdisplay/api/b;
+    0058: invoke-virtual Lcom/bkdisplay/api/b;->a(Lcom/bkdisplay/api/a/a;)Z
+    005c: invoke-static Lcom/bkdisplay/framework/f/g;->a()Lcom/bkdisplay/api/b;
+    0060: invoke-virtual Lcom/bkdisplay/api/b;->e()V
+    0063: invoke-virtual Lcom/bkdisplay/systemui/other/InputWanboDialog;->dismiss()V
+    006e: field-op La/a/b$b;->a:La/a/b;
+    0074: const-string v0, ""
+================================================================================
+SEARCHING IN: NtechLocalMedia
+================================================================================
+
+[METHOD] Landroid/support/v4/app/NotificationCompatSideChannelService;->onBind(Landroid/content/Intent;)Landroid/os/IBinder;:
+  0x0004: "android.support.BIND_NOTIFICATION_SIDE_CHANNEL"
+  --- Full disassembly ---
+    0000: invoke-virtual Landroid/content/Intent;->getAction()Ljava/lang/String;
+    0004: const-string v0, "android.support.BIND_NOTIFICATION_SIDE_CHANNEL"
+    0006: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    000d: field-op Landroid/os/Build$VERSION;->SDK_INT:I
+    0014: new-instance Landroid/support/v4/app/NotificationCompatSideChannelService$NotificationSideChannelStub;
+    0016: invoke-direct Landroid/support/v4/app/NotificationCompatSideChannelService$NotificationSideChannelStub;-><init>(Landroid/support/v4/app/NotificationCompatSideChannelService;, Landroid/support/v4/app/NotificationCompatSideChannelService$1;)V
+
+[METHOD] Landroid/support/v4/app/NotificationManagerCompat$SideChannelManager;->ensureServiceBound(Landroid/support/v4/app/NotificationManagerCompat$SideChannelManager$ListenerRecord;)Z:
+  0x0008: "android.support.BIND_NOTIFICATION_SIDE_CHANNEL"
+  --- Full disassembly ---
+    0000: instance-field-op Landroid/support/v4/app/NotificationManagerCompat$SideChannelManager$ListenerRecord;->bound:Z
+    0006: new-instance Landroid/content/Intent;
+    0008: const-string v1, "android.support.BIND_NOTIFICATION_SIDE_CHANNEL"
+    000a: invoke-direct Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+    000d: instance-field-op Landroid/support/v4/app/NotificationManagerCompat$SideChannelManager$ListenerRecord;->componentName:Landroid/content/ComponentName;
+    000f: invoke-virtual Landroid/content/Intent;->setComponent(Landroid/content/ComponentName;)Landroid/content/Intent;
+    0013: instance-field-op Landroid/support/v4/app/NotificationManagerCompat$SideChannelManager;->mContext:Landroid/content/Context;
+    0015: invoke-static Landroid/support/v4/app/NotificationManagerCompat;->access$000()I
+    0019: invoke-virtual Landroid/content/Context;->bindService(Landroid/content/Intent;, Landroid/content/ServiceConnection;, I)Z
+    001d: instance-field-op Landroid/support/v4/app/NotificationManagerCompat$SideChannelManager$ListenerRecord;->bound:Z
+    001f: instance-field-op Landroid/support/v4/app/NotificationManagerCompat$SideChannelManager$ListenerRecord;->bound:Z
+    0024: instance-field-op Landroid/support/v4/app/NotificationManagerCompat$SideChannelManager$ListenerRecord;->retryCount:I
+    0027: new-instance Ljava/lang/StringBuilder;
+    0029: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    002c: const-string v1, "Unable to bind to listener "
+    002e: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0032: instance-field-op Landroid/support/v4/app/NotificationManagerCompat$SideChannelManager$ListenerRecord;->componentName:Landroid/content/ComponentName;
+    0034: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    0038: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    003c: const-string v1, "NotifManCompat"
+    003e: invoke-static Landroid/util/Log;->w(Ljava/lang/String;, Ljava/lang/String;)I
+    0041: instance-field-op Landroid/support/v4/app/NotificationManagerCompat$SideChannelManager;->mContext:Landroid/content/Context;
+    0043: invoke-virtual Landroid/content/Context;->unbindService(Landroid/content/ServiceConnection;)V
+    0046: instance-field-op Landroid/support/v4/app/NotificationManagerCompat$SideChannelManager$ListenerRecord;->bound:Z
+
+[METHOD] Landroid/support/v4/app/NotificationManagerCompat$SideChannelManager;->updateListenerMap()V:
+  0x001c: "android.support.BIND_NOTIFICATION_SIDE_CHANNEL"
+  --- Full disassembly ---
+    0000: instance-field-op Landroid/support/v4/app/NotificationManagerCompat$SideChannelManager;->mContext:Landroid/content/Context;
+    0002: invoke-static Landroid/support/v4/app/NotificationManagerCompat;->getEnabledListenerPackages(Landroid/content/Context;)Ljava/util/Set;
+    0006: instance-field-op Landroid/support/v4/app/NotificationManagerCompat$SideChannelManager;->mCachedEnabledPackages:Ljava/util/Set;
+    0008: invoke-interface Ljava/util/Set;->equals(Ljava/lang/Object;)Z
+    000f: instance-field-op Landroid/support/v4/app/NotificationManagerCompat$SideChannelManager;->mCachedEnabledPackages:Ljava/util/Set;
+    0011: instance-field-op Landroid/support/v4/app/NotificationManagerCompat$SideChannelManager;->mContext:Landroid/content/Context;
+    0013: invoke-virtual Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+    0017: new-instance Landroid/content/Intent;
+    0019: invoke-direct Landroid/content/Intent;-><init>()V
+    001c: const-string v3, "android.support.BIND_NOTIFICATION_SIDE_CHANNEL"
+    001e: invoke-virtual Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
+    0023: invoke-virtual Landroid/content/pm/PackageManager;->queryIntentServices(Landroid/content/Intent;, I)Ljava/util/List;
+    0027: new-instance Ljava/util/HashSet;
+    0029: invoke-direct Ljava/util/HashSet;-><init>()V
+    002c: invoke-interface Ljava/util/List;->iterator()Ljava/util/Iterator;
+    0030: invoke-interface Ljava/util/Iterator;->hasNext()Z
+    0034: const-string v4, "NotifManCompat"
+    0038: invoke-interface Ljava/util/Iterator;->next()Ljava/lang/Object;
+    003c: check-cast Landroid/content/pm/ResolveInfo;
+    003e: instance-field-op Landroid/content/pm/ResolveInfo;->serviceInfo:Landroid/content/pm/ServiceInfo;
+    0040: instance-field-op Landroid/content/pm/ServiceInfo;->packageName:Ljava/lang/String;
+    0042: invoke-interface Ljava/util/Set;->contains(Ljava/lang/Object;)Z
+    0049: new-instance Landroid/content/ComponentName;
+    004b: instance-field-op Landroid/content/pm/ResolveInfo;->serviceInfo:Landroid/content/pm/ServiceInfo;
+    004d: instance-field-op Landroid/content/pm/ServiceInfo;->packageName:Ljava/lang/String;
+    004f: instance-field-op Landroid/content/pm/ResolveInfo;->serviceInfo:Landroid/content/pm/ServiceInfo;
+    0051: instance-field-op Landroid/content/pm/ServiceInfo;->name:Ljava/lang/String;
+    0053: invoke-direct Landroid/content/ComponentName;-><init>(Ljava/lang/String;, Ljava/lang/String;)V
+    0056: instance-field-op Landroid/content/pm/ResolveInfo;->serviceInfo:Landroid/content/pm/ServiceInfo;
+    0058: instance-field-op Landroid/content/pm/ServiceInfo;->permission:Ljava/lang/String;
+    005b: check-cast Landroid/support/v4/media/RatingCompatApi21;
+    005e: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    0061: const-string v6, "Permission present on component "
+    0063: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0067: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    006b: const-string v5, ", not adding listener record."
+    006d: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0071: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    0075: invoke-static Landroid/util/Log;->w(Ljava/lang/String;, Ljava/lang/String;)I
+    0079: invoke-interface Ljava/util/Set;->add(Ljava/lang/Object;)Z
+    007d: invoke-interface Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    0081: invoke-interface Ljava/util/Iterator;->hasNext()Z
+    0088: invoke-interface Ljava/util/Iterator;->next()Ljava/lang/Object;
+    008c: check-cast Landroid/content/ComponentName;
+    008e: instance-field-op Landroid/support/v4/app/NotificationManagerCompat$SideChannelManager;->mRecordMap:Ljava/util/Map;
+    0090: invoke-interface Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
+    0096: invoke-static Landroid/util/Log;->isLoggable(Ljava/lang/String;, I)Z
+    009c: new-instance Ljava/lang/StringBuilder;
+    009e: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    00a1: const-string v5, "Adding listener record for "
+    00a3: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    00a7: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    00ab: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    00af: invoke-static Landroid/util/Log;->d(Ljava/lang/String;, Ljava/lang/String;)I
+    00b2: instance-field-op Landroid/support/v4/app/NotificationManagerCompat$SideChannelManager;->mRecordMap:Ljava/util/Map;
+    00b4: new-instance Landroid/support/v4/app/NotificationManagerCompat$SideChannelManager$ListenerRecord;
+    00b6: invoke-direct Landroid/support/v4/app/NotificationManagerCompat$SideChannelManager$ListenerRecord;-><init>(Landroid/content/ComponentName;)V
+    00b9: invoke-interface Ljava/util/Map;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    00bd: instance-field-op Landroid/support/v4/app/NotificationManagerCompat$SideChannelManager;->mRecordMap:Ljava/util/Map;
+    00bf: invoke-interface Ljava/util/Map;->entrySet()Ljava/util/Set;
+    00c3: invoke-interface Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    00c7: invoke-interface Ljava/util/Iterator;->hasNext()Z
+    00cd: invoke-interface Ljava/util/Iterator;->next()Ljava/lang/Object;
+    00d1: check-cast Ljava/util/Map$Entry;
+    00d3: invoke-interface Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+    00d7: invoke-interface Ljava/util/Set;->contains(Ljava/lang/Object;)Z
+    00dd: invoke-static Landroid/util/Log;->isLoggable(Ljava/lang/String;, I)Z
+    00e3: new-instance Ljava/lang/StringBuilder;
+    00e5: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    00e8: const-string v6, "Removing listener record for "
+    00ea: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    00ee: invoke-interface Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+    00f2: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    00f6: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    00fa: invoke-static Landroid/util/Log;->d(Ljava/lang/String;, Ljava/lang/String;)I
+    00fd: invoke-interface Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+    0101: check-cast Landroid/support/v4/app/NotificationManagerCompat$SideChannelManager$ListenerRecord;
+    0103: invoke-direct Landroid/support/v4/app/NotificationManagerCompat$SideChannelManager;->ensureServiceUnbound(Landroid/support/v4/app/NotificationManagerCompat$SideChannelManager$ListenerRecord;)V
+    0106: invoke-interface Ljava/util/Iterator;->remove()V
+
+[METHOD] Landroid/support/v4/content/Loader;->dump(Ljava/lang/String;, Ljava/io/FileDescriptor;, Ljava/io/PrintWriter;, [Ljava/lang/String;)V:
+  0x0026: "mStarted="
+  --- Full disassembly ---
+    0000: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    0003: const-string v2, "mId="
+    0005: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    0008: instance-field-op Landroid/support/v4/content/Loader;->mId:I
+    000a: invoke-virtual Ljava/io/PrintWriter;->print(I)V
+    000d: const-string v2, " mListener="
+    000f: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    0012: instance-field-op Landroid/support/v4/content/Loader;->mListener:Landroid/support/v4/content/Loader$OnLoadCompleteListener;
+    0014: invoke-virtual Ljava/io/PrintWriter;->println(Ljava/lang/Object;)V
+    0017: instance-field-op Landroid/support/v4/content/Loader;->mStarted:Z
+    001b: instance-field-op Landroid/support/v4/content/Loader;->mContentChanged:Z
+    001f: instance-field-op Landroid/support/v4/content/Loader;->mProcessingChange:Z
+    0023: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    0026: const-string v2, "mStarted="
+    0028: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    002b: instance-field-op Landroid/support/v4/content/Loader;->mStarted:Z
+    002d: invoke-virtual Ljava/io/PrintWriter;->print(Z)V
+    0030: const-string v2, " mContentChanged="
+    0032: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    0035: instance-field-op Landroid/support/v4/content/Loader;->mContentChanged:Z
+    0037: invoke-virtual Ljava/io/PrintWriter;->print(Z)V
+    003a: const-string v2, " mProcessingChange="
+    003c: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    003f: instance-field-op Landroid/support/v4/content/Loader;->mProcessingChange:Z
+    0041: invoke-virtual Ljava/io/PrintWriter;->println(Z)V
+    0044: instance-field-op Landroid/support/v4/content/Loader;->mAbandoned:Z
+    0048: instance-field-op Landroid/support/v4/content/Loader;->mReset:Z
+    004c: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    004f: const-string v1, "mAbandoned="
+    0051: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    0054: instance-field-op Landroid/support/v4/content/Loader;->mAbandoned:Z
+    0056: invoke-virtual Ljava/io/PrintWriter;->print(Z)V
+    0059: const-string v1, " mReset="
+    005b: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    005e: instance-field-op Landroid/support/v4/content/Loader;->mReset:Z
+    0060: invoke-virtual Ljava/io/PrintWriter;->println(Z)V
+
+[METHOD] Landroid/support/v7/widget/LayoutState;->toString()Ljava/lang/String;:
+  0x0035: ", mStartLine="
+  --- Full disassembly ---
+    0000: new-instance Ljava/lang/StringBuilder;
+    0002: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    0005: const-string v1, "LayoutState{mAvailable="
+    0007: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    000b: instance-field-op Landroid/support/v7/widget/LayoutState;->mAvailable:I
+    000d: invoke-virtual Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    0011: const-string v1, ", mCurrentPosition="
+    0013: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0017: instance-field-op Landroid/support/v7/widget/LayoutState;->mCurrentPosition:I
+    0019: invoke-virtual Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    001d: const-string v1, ", mItemDirection="
+    001f: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0023: instance-field-op Landroid/support/v7/widget/LayoutState;->mItemDirection:I
+    0025: invoke-virtual Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    0029: const-string v1, ", mLayoutDirection="
+    002b: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    002f: instance-field-op Landroid/support/v7/widget/LayoutState;->mLayoutDirection:I
+    0031: invoke-virtual Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    0035: const-string v1, ", mStartLine="
+    0037: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    003b: instance-field-op Landroid/support/v7/widget/LayoutState;->mStartLine:I
+    003d: invoke-virtual Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    0041: const-string v1, ", mEndLine="
+    0043: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0047: instance-field-op Landroid/support/v7/widget/LayoutState;->mEndLine:I
+    0049: invoke-virtual Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    004f: invoke-virtual Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    0053: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+[METHOD] Lcom/ntech/localmedia/RecoveryStartReceiver;->onReceive(Landroid/content/Context;, Landroid/content/Intent;)V:
+  0x0004: "com.skyworth.broadcast.recovery.start"
+  0x0017: "recovery from:"
+  --- Full disassembly ---
+    0000: invoke-virtual Landroid/content/Intent;->getAction()Ljava/lang/String;
+    0004: const-string v1, "com.skyworth.broadcast.recovery.start"
+    0006: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    000b: instance-field-op La/a/a/a$i;->k:La/a/a/a$d;
+    000e: invoke-virtual Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
+    0012: new-instance Ljava/lang/StringBuilder;
+    0014: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    0017: const-string v1, "recovery from:"
+    0019: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    001d: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0021: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    0025: const-string v1, "Media"
+    0027: invoke-static Lcom/ntech/framework/app/skysdk/c/b;->d(Ljava/lang/String;, Ljava/lang/String;)V
+    002a: const-string v0, "Factory"
+    002c: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    0032: const-string v0, "FactoryKey"
+    0034: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    003a: invoke-static Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;
+    003e: const-string v0, "rm -fr /data/data/com.tianci.localmedia"
+    0040: invoke-virtual Ljava/lang/Runtime;->exec(Ljava/lang/String;)Ljava/lang/Process;
+    0044: new-instance Lcom/ntech/framework/app/skysdk/e/m;
+    0046: invoke-direct Lcom/ntech/framework/app/skysdk/e/m;-><init>(Ljava/lang/Process;)V
+    004a: invoke-virtual Lcom/ntech/framework/app/skysdk/e/m;->a(I)V
+    004d: invoke-virtual Lcom/ntech/framework/app/skysdk/e/m;->a()I
+    0052: invoke-virtual Ljava/lang/Exception;->printStackTrace()V
+    0055: invoke-static Lcom/g/a/c;->c(Landroid/content/Context;)V
+    0058: invoke-static Landroid/os/Process;->myPid()I
+    005c: invoke-static Landroid/os/Process;->killProcess(I)V
+    0060: invoke-static Ljava/lang/System;->exit(I)V
+
+[METHOD] Lcom/ntech/media/d/b/g;-><init>(Lcom/ntech/media/d/b/g$a;, Z)V:
+  0x0009: "$recycle.bin"
+  --- Full disassembly ---
+    0002: invoke-direct/range Ljava/lang/Object;-><init>()V
+    0005: const-string v1, "lost.dir"
+    0007: const-string v2, "system volume information"
+    0009: const-string v3, "$recycle.bin"
+    000b: const-string v4, "recycle"
+    000d: const-string v5, "recycler"
+    0013: instance-field-op Lcom/ntech/media/d/b/g;->e:[Ljava/lang/String;
+    0015: const-string v1, "jpg"
+    0017: const-string v2, "jpeg"
+    0019: const-string v3, "png"
+    001b: const-string v4, "bmp"
+    001d: const-string v5, "gif"
+    0023: instance-field-op Lcom/ntech/media/d/b/g;->f:[Ljava/lang/String;
+    0025: const-string v2, "avi"
+    0027: const-string v3, "dat"
+    0029: const-string v4, "mpeg"
+    002b: const-string v5, "mpe"
+    002d: const-string v6, "mpg"
+    002f: const-string v7, "vob"
+    0031: const-string v8, "mp4"
+    0033: const-string v9, "mov"
+    0035: const-string v10, "mkv"
+    0037: const-string v11, "ts"
+    0039: const-string v12, "tp"
+    003b: const-string v13, "m2ts"
+    003d: const-string v14, "mts"
+    003f: const-string v15, "m4v"
+    0041: const-string v16, "f4v"
+    0043: const-string v17, "flv"
+    0045: const-string v18, "wmv"
+    0047: const-string v19, "wm"
+    0049: const-string v20, "rmvb"
+    004b: const-string v21, "rm"
+    004d: const-string v22, "asf"
+    004f: const-string v23, "3gp"
+    0051: const-string v24, "webm"
+    0057: instance-field-op Lcom/ntech/media/d/b/g;->g:[Ljava/lang/String;
+    0059: const-string v2, "mp3"
+    005b: const-string v3, "wav"
+    005d: const-string v4, "ogg"
+    005f: const-string v5, "midi"
+    0061: const-string v6, "aac"
+    0063: const-string v7, "m4a"
+    0065: const-string v8, "wma"
+    0067: const-string v9, "fla"
+    006d: instance-field-op Lcom/ntech/media/d/b/g;->h:[Ljava/lang/String;
+    006f: const-string v1, "zip"
+    0071: const-string v2, "apk"
+    0077: instance-field-op Lcom/ntech/media/d/b/g;->i:[Ljava/lang/String;
+    007a: const-string v0, " nesting="
+    007e: const-string/jumbo v0, ""
+    0081: field-op Lcom/ntech/framework/app/skysdk/d/a$a;->PICTURE_SUFFIX:Lcom/ntech/framework/app/skysdk/d/a$a;
+    0083: invoke-static Lcom/ntech/framework/app/skysdk/d/a;->a(Lcom/ntech/framework/app/skysdk/d/a$a;)Ljava/lang/String;
+    0087: field-op Lcom/ntech/framework/app/skysdk/d/a$a;->VIDEO_SUFFIX:Lcom/ntech/framework/app/skysdk/d/a$a;
+    0089: invoke-static Lcom/ntech/framework/app/skysdk/d/a;->a(Lcom/ntech/framework/app/skysdk/d/a$a;)Ljava/lang/String;
+    008d: field-op Lcom/ntech/framework/app/skysdk/d/a$a;->AUDIO_SUFFIX:Lcom/ntech/framework/app/skysdk/d/a$a;
+    008f: invoke-static Lcom/ntech/framework/app/skysdk/d/a;->a(Lcom/ntech/framework/app/skysdk/d/a$a;)Ljava/lang/String;
+    0093: field-op Lcom/ntech/framework/app/skysdk/d/a$a;->OTHER_SUFFIX:Lcom/ntech/framework/app/skysdk/d/a$a;
+    0095: invoke-static Lcom/ntech/framework/app/skysdk/d/a;->a(Lcom/ntech/framework/app/skysdk/d/a$a;)Ljava/lang/String;
+    009b: instance-field-op Lcom/ntech/media/d/b/g;->f:[Ljava/lang/String;
+    009e: invoke-direct Lcom/ntech/media/d/b/g;->a(Ljava/lang/String;)[Ljava/lang/String;
+    00a2: instance-field-op Lcom/ntech/media/d/b/g;->f:[Ljava/lang/String;
+    00a6: instance-field-op Lcom/ntech/media/d/b/g;->g:[Ljava/lang/String;
+    00a9: invoke-direct Lcom/ntech/media/d/b/g;->a(Ljava/lang/String;)[Ljava/lang/String;
+    00ad: instance-field-op Lcom/ntech/media/d/b/g;->g:[Ljava/lang/String;
+    00b1: instance-field-op Lcom/ntech/media/d/b/g;->h:[Ljava/lang/String;
+    00b4: invoke-direct Lcom/ntech/media/d/b/g;->a(Ljava/lang/String;)[Ljava/lang/String;
+    00b8: instance-field-op Lcom/ntech/media/d/b/g;->h:[Ljava/lang/String;
+    00bc: instance-field-op Lcom/ntech/media/d/b/g;->i:[Ljava/lang/String;
+    00bf: invoke-direct Lcom/ntech/media/d/b/g;->a(Ljava/lang/String;)[Ljava/lang/String;
+    00c3: instance-field-op Lcom/ntech/media/d/b/g;->i:[Ljava/lang/String;
+    00c5: const-string v1, "persist.sys.allowed_install"
+    00c7: const-string v3, ""
+    00c9: invoke-static Landroid/os/SystemProperties;->get(Ljava/lang/String;, Ljava/lang/String;)Ljava/lang/String;
+    00cd: invoke-static Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    00d3: const-string v3, "true"
+    00d5: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    00d9: invoke-direct/range Lcom/ntech/media/d/b/g;->a()Z
+    00e1: new-instance Ljava/util/ArrayList;
+    00e3: invoke-direct Ljava/util/ArrayList;-><init>()V
+    00e6: instance-field-op Lcom/ntech/media/d/b/g;->i:[Ljava/lang/String;
+    00e8: invoke-static Ljava/util/Arrays;->stream([Ljava/lang/Object;)Ljava/util/stream/Stream;
+    00ec: field-op Lcom/ntech/media/d/b/-$$Lambda$g$Vs3P2mV6I7_bphlCe-3Yt3EuKao;->INSTANCE:Lcom/ntech/media/d/b/-$$Lambda$g$Vs3P2mV6I7_bphlCe-3Yt3EuKao;
+    00ee: invoke-interface Ljava/util/stream/Stream;->filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;
+    00f2: new-instance Lcom/ntech/media/d/b/-$$Lambda$g$D6XamdPbe4VFz8p2zEGp1W_cRwE;
+    00f4: invoke-direct Lcom/ntech/media/d/b/-$$Lambda$g$D6XamdPbe4VFz8p2zEGp1W_cRwE;-><init>(Ljava/util/ArrayList;)V
+    00f7: invoke-interface Ljava/util/stream/Stream;->forEach(Ljava/util/function/Consumer;)V
+    00fa: invoke-virtual Ljava/util/ArrayList;->size()I
+    0100: invoke-virtual Ljava/util/ArrayList;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
+    0104: check-cast [Ljava/lang/String;
+    0106: instance-field-op Lcom/ntech/media/d/b/g;->i:[Ljava/lang/String;
+    010b: instance-field-op Lcom/ntech/media/d/b/g;->i:[Ljava/lang/String;
+    0114: invoke-static Ljava/lang/System;->arraycopy(Ljava/lang/Object;, I, Ljava/lang/Object;, I, I)V
+    011b: instance-field-op Lcom/ntech/media/d/b/g;->i:[Ljava/lang/String;
+    011d: const-string v1, "ro.build.skymodel"
+    011f: invoke-static Lcom/ntech/framework/app/skysdk/d/b;->a(Ljava/lang/String;)Ljava/lang/String;
+    0123: instance-field-op Lcom/ntech/media/d/b/g;->c:Ljava/lang/String;
+    0125: const-string v1, "ro.build.skytype"
+    0127: invoke-static Lcom/ntech/framework/app/skysdk/d/b;->a(Ljava/lang/String;)Ljava/lang/String;
+    012b: instance-field-op Lcom/ntech/media/d/b/g;->d:Ljava/lang/String;
+
+[METHOD] Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->dump(Ljava/lang/String;, Ljava/io/FileDescriptor;, Ljava/io/PrintWriter;, [Ljava/lang/String;)V:
+  0x007a: "mStarted="
+  --- Full disassembly ---
+    0000: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    0003: const-string v0, "mId="
+    0005: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    0008: instance-field-op Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mId:I
+    000a: invoke-virtual Ljava/io/PrintWriter;->print(I)V
+    000d: const-string v0, " mArgs="
+    000f: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    0012: instance-field-op Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mArgs:Landroid/os/Bundle;
+    0014: invoke-virtual Ljava/io/PrintWriter;->println(Ljava/lang/Object;)V
+    0017: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    001a: const-string v0, "mCallbacks="
+    001c: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    001f: instance-field-op Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mCallbacks:Landroid/support/v4/app/LoaderManager$LoaderCallbacks;
+    0021: invoke-virtual Ljava/io/PrintWriter;->println(Ljava/lang/Object;)V
+    0024: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    0027: const-string v0, "mLoader="
+    0029: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    002c: instance-field-op Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mLoader:Landroid/support/v4/content/Loader;
+    002e: invoke-virtual Ljava/io/PrintWriter;->println(Ljava/lang/Object;)V
+    0031: instance-field-op Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mLoader:Landroid/support/v4/content/Loader;
+    0033: const-string v1, "  "
+    0037: new-instance Ljava/lang/StringBuilder;
+    0039: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    003c: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0040: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0044: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    0048: invoke-virtual Landroid/support/v4/content/Loader;->dump(Ljava/lang/String;, Ljava/io/FileDescriptor;, Ljava/io/PrintWriter;, [Ljava/lang/String;)V
+    004b: instance-field-op Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mHaveData:Z
+    004f: instance-field-op Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mDeliveredData:Z
+    0053: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    0056: const-string v0, "mHaveData="
+    0058: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    005b: instance-field-op Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mHaveData:Z
+    005d: invoke-virtual Ljava/io/PrintWriter;->print(Z)V
+    0060: const-string v0, "  mDeliveredData="
+    0062: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    0065: instance-field-op Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mDeliveredData:Z
+    0067: invoke-virtual Ljava/io/PrintWriter;->println(Z)V
+    006a: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    006d: const-string v0, "mData="
+    006f: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    0072: instance-field-op Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mData:Ljava/lang/Object;
+    0074: invoke-virtual Ljava/io/PrintWriter;->println(Ljava/lang/Object;)V
+    0077: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    007a: const-string v0, "mStarted="
+    007c: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    007f: instance-field-op Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mStarted:Z
+    0081: invoke-virtual Ljava/io/PrintWriter;->print(Z)V
+    0084: const-string v0, " mReportNextStart="
+    0086: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    0089: instance-field-op Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mReportNextStart:Z
+    008b: invoke-virtual Ljava/io/PrintWriter;->print(Z)V
+    008e: const-string v0, " mDestroyed="
+    0090: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    0093: instance-field-op Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mDestroyed:Z
+    0095: invoke-virtual Ljava/io/PrintWriter;->println(Z)V
+    0098: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    009b: const-string v0, "mRetaining="
+    009d: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    00a0: instance-field-op Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mRetaining:Z
+    00a2: invoke-virtual Ljava/io/PrintWriter;->print(Z)V
+    00a5: const-string v0, " mRetainingStarted="
+    00a7: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    00aa: instance-field-op Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mRetainingStarted:Z
+    00ac: invoke-virtual Ljava/io/PrintWriter;->print(Z)V
+    00af: const-string v0, " mListenerRegistered="
+    00b1: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    00b4: instance-field-op Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mListenerRegistered:Z
+    00b6: invoke-virtual Ljava/io/PrintWriter;->println(Z)V
+    00b9: instance-field-op Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mPendingLoader:Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;
+    00bd: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
+    00c0: const-string v0, "Pending Loader "
+    00c2: invoke-virtual Ljava/io/PrintWriter;->println(Ljava/lang/String;)V
+    00c5: instance-field-op Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mPendingLoader:Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;
+    00c7: invoke-virtual Ljava/io/PrintWriter;->print(Ljava/lang/Object;)V
+    00ca: const-string v0, ":"
+    00cc: invoke-virtual Ljava/io/PrintWriter;->println(Ljava/lang/String;)V
+    00cf: instance-field-op Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->mPendingLoader:Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;
+    00d1: new-instance Ljava/lang/StringBuilder;
+    00d3: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    00d6: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    00da: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    00de: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    00e2: invoke-virtual Landroid/support/v4/app/LoaderManagerImpl$LoaderInfo;->dump(Ljava/lang/String;, Ljava/io/FileDescriptor;, Ljava/io/PrintWriter;, [Ljava/lang/String;)V
+
+[METHOD] Lcom/d/a/a/a/a/a$a;-><init>()V:
+  0x0003: "com.mediatek.wwtv.mediaplayer.setting.util.IMediaAidlInterface"
+  --- Full disassembly ---
+    0000: invoke-direct Landroid/os/Binder;-><init>()V
+    0003: const-string v0, "com.mediatek.wwtv.mediaplayer.setting.util.IMediaAidlInterface"
+    0005: invoke-virtual Lcom/d/a/a/a/a/a$a;->attachInterface(Landroid/os/IInterface;, Ljava/lang/String;)V
+
+[METHOD] Lcom/d/a/a/a/a/a$a;->onTransact(I, Landroid/os/Parcel;, Landroid/os/Parcel;, I)Z:
+  0x0004: "com.mediatek.wwtv.mediaplayer.setting.util.IMediaAidlInterface"
+  --- Full disassembly ---
+    0004: const-string v2, "com.mediatek.wwtv.mediaplayer.setting.util.IMediaAidlInterface"
+    000b: invoke-super Landroid/os/Binder;->onTransact(I, Landroid/os/Parcel;, Landroid/os/Parcel;, I)Z
+    0010: invoke-virtual Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+    0013: invoke-virtual Lcom/d/a/a/a/a/a$a;->j()Ljava/lang/String;
+    0017: invoke-virtual Landroid/os/Parcel;->writeNoException()V
+    001a: invoke-virtual Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
+    001e: invoke-virtual Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+    0021: invoke-virtual Lcom/d/a/a/a/a/a$a;->i()V
+    0024: invoke-virtual Landroid/os/Parcel;->writeNoException()V
+    0028: invoke-virtual Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+    002b: invoke-virtual Lcom/d/a/a/a/a/a$a;->h()V
+    002e: invoke-virtual Landroid/os/Parcel;->writeNoException()V
+    0032: invoke-virtual Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+    0035: invoke-virtual Lcom/d/a/a/a/a/a$a;->g()V
+    0038: invoke-virtual Landroid/os/Parcel;->writeNoException()V
+    003c: invoke-virtual Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+    003f: invoke-virtual Lcom/d/a/a/a/a/a$a;->f()V
+    0042: invoke-virtual Landroid/os/Parcel;->writeNoException()V
+    0046: invoke-virtual Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+    0049: invoke-virtual Lcom/d/a/a/a/a/a$a;->e()V
+    004c: invoke-virtual Landroid/os/Parcel;->writeNoException()V
+    0050: invoke-virtual Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+    0053: invoke-virtual Lcom/d/a/a/a/a/a$a;->d()V
+    0056: invoke-virtual Landroid/os/Parcel;->writeNoException()V
+    005a: invoke-virtual Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+    005d: invoke-virtual Lcom/d/a/a/a/a/a$a;->c()V
+    0060: invoke-virtual Landroid/os/Parcel;->writeNoException()V
+    0064: invoke-virtual Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+    0067: invoke-virtual Lcom/d/a/a/a/a/a$a;->b()V
+    006a: invoke-virtual Landroid/os/Parcel;->writeNoException()V
+    006e: invoke-virtual Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+    0071: invoke-virtual Lcom/d/a/a/a/a/a$a;->a()V
+    0074: invoke-virtual Landroid/os/Parcel;->writeNoException()V
+    0078: invoke-virtual Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+    007b: invoke-virtual Landroid/os/Parcel;->readInt()I
+    007f: invoke-virtual Landroid/os/Parcel;->readLong()J
+    0083: invoke-virtual Landroid/os/Parcel;->readInt()I
+    008d: invoke-virtual Landroid/os/Parcel;->readFloat()F
+    0091: invoke-virtual Landroid/os/Parcel;->readDouble()D
+    0095: invoke-virtual Landroid/os/Parcel;->readString()Ljava/lang/String;
+    009a: invoke-virtual/range Lcom/d/a/a/a/a/a$a;->a(I, J, Z, F, D, Ljava/lang/String;)V
+    009d: invoke-virtual Landroid/os/Parcel;->writeNoException()V
+    00a1: invoke-virtual Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
+    00aa: invoke-direct La/a/a/a$a;->a()V
+    00ae: instance-field-op La/a/a/a$b;->a:La/a/a/a;
+    00b0: instance-field-op La/a/a/a$b;->a:La/a/a/a;
+================================================================================
+SEARCHING IN: otaplugin
+================================================================================
+
+[METHOD] La/a/c/b/a$c;->c(Ljava/lang/String;)V:
+  0x002d: "begin upload last recovery logs=%s"
+  --- Full disassembly ---
+    0001: invoke-static La/a/c/c/a;->b(Ljava/lang/String;)Ljava/lang/String;
+    0005: invoke-static La/a/c/c/a;->c(Ljava/lang/String;)Ljava/lang/String;
+    0009: invoke-static Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    0011: new-instance Ljava/io/File;
+    0013: invoke-direct Ljava/io/File;-><init>(Ljava/lang/String;)V
+    0016: invoke-virtual Ljava/io/File;->exists()Z
+    001e: const-string v7, "log is not exist=%s"
+    0022: invoke-virtual Ljava/io/File;->getName()Ljava/lang/String;
+    0028: invoke-static Lcom/baidu/loglib/LogUtils;->i(Ljava/lang/String;, [Ljava/lang/Object;)V
+    002d: const-string v0, "begin upload last recovery logs=%s"
+    0031: invoke-virtual Ljava/io/File;->getName()Ljava/lang/String;
+    0037: invoke-static Lcom/baidu/loglib/LogUtils;->w(Ljava/lang/String;, [Ljava/lang/Object;)V
+    003a: invoke-static La/a/c/a/h;->b(Ljava/lang/String;, Ljava/lang/String;)La/a/c/a/h;
+    003e: invoke-virtual La/a/c/a/h;->h(Ljava/io/File;)V
+
+[METHOD] La/a/c/b/a$c;->e(Ljava/lang/String;)La/a/c/b/a$c;:
+  0x0004: "/cache/recovery"
+  --- Full disassembly ---
+    0000: invoke-static Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    0004: const-string v1, "/cache/recovery"
+    0008: new-instance Ljava/io/File;
+    000a: const-string v0, "last_log"
+    000c: invoke-direct Ljava/io/File;-><init>(Ljava/lang/String;, Ljava/lang/String;)V
+    000f: invoke-direct La/a/c/b/a$c;->a(Ljava/io/File;)V
+    0012: new-instance Ljava/io/File;
+    0014: const-string v0, "last_kmsg"
+    0016: invoke-direct Ljava/io/File;-><init>(Ljava/lang/String;, Ljava/lang/String;)V
+    0019: invoke-direct La/a/c/b/a$c;->a(Ljava/io/File;)V
+    001d: const-string v0, ","
+    001f: invoke-virtual Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
+    0029: invoke-virtual Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+    0030: new-instance Ljava/io/File;
+    0032: invoke-direct Ljava/io/File;-><init>(Ljava/lang/String;)V
+    0035: invoke-direct La/a/c/b/a$c;->a(Ljava/io/File;)V
+    003b: invoke-virtual La/a/c/b/a$c;->d()La/a/c/b/a$c;
+
+[METHOD] Lcom/baidu/otaplugin/d/e;->a(Ljava/lang/Throwable;)V:
+  0x0032: "com.baidu.otaplugin"
+  --- Full disassembly ---
+    0003: new-instance Landroid/os/Bundle;
+    0005: invoke-direct Landroid/os/Bundle;-><init>()V
+    000c: const-string v5, "TimeoutException"
+    000e: invoke-static Lcom/baidu/loglib/LogUtils;->w(Ljava/lang/String;)V
+    0012: new-instance Lorg/json/JSONObject;
+    0014: invoke-direct Lorg/json/JSONObject;-><init>()V
+    0017: const-string v2, "3.2.8.108"
+    0019: invoke-static Landroid/util/Log;->getStackTraceString(Ljava/lang/Throwable;)Ljava/lang/String;
+    001d: const-string v3, "trace"
+    001f: invoke-virtual Lorg/json/JSONObject;->put(Ljava/lang/String;, Ljava/lang/Object;)Lorg/json/JSONObject;
+    0022: const-string v5, "version"
+    0024: invoke-virtual Lorg/json/JSONObject;->put(Ljava/lang/String;, Ljava/lang/Object;)Lorg/json/JSONObject;
+    0027: const-string v5, "time"
+    0029: invoke-static Ljava/lang/System;->currentTimeMillis()J
+    002d: invoke-virtual Lorg/json/JSONObject;->put(Ljava/lang/String;, J)Lorg/json/JSONObject;
+    0030: const-string v5, "package"
+    0032: const-string v2, "com.baidu.otaplugin"
+    0034: invoke-virtual Lorg/json/JSONObject;->put(Ljava/lang/String;, Ljava/lang/Object;)Lorg/json/JSONObject;
+    0039: invoke-static Lcom/baidu/loglib/LogUtils;->e(Ljava/lang/Exception;)V
+    003c: invoke-virtual Lorg/json/JSONObject;->toString()Ljava/lang/String;
+    0046: const-string v2, "plugin crashed:%s"
+    0048: invoke-static Lcom/baidu/loglib/LogUtils;->e(Ljava/lang/String;, [Ljava/lang/Object;)V
+    004b: const-string v1, "value"
+    004d: invoke-virtual Landroid/os/Bundle;->putString(Ljava/lang/String;, Ljava/lang/String;)V
+    0050: invoke-static Lcom/baidu/eventbus/lib/EventBus;->getDefault()Lcom/baidu/eventbus/lib/EventBus;
+    0056: invoke-static Lcom/baidu/eventbus/lib/EventBus;->obtain(I, Landroid/os/Bundle;)Lcom/baidu/eventbus/lib/IBean;
+    005a: invoke-virtual Lcom/baidu/eventbus/lib/EventBus;->post(Lcom/baidu/eventbus/lib/IBean;)V
+
+[METHOD] Lcom/baidu/otaplugin/d/f;->e(Ljava/io/File;, Z)Ljava/lang/String;:
+  0x0011: "installPackage fail:"
+  --- Full disassembly ---
+    0000: instance-field-op Lcom/baidu/otaplugin/d/f;->a:Landroid/content/Context;
+    0002: invoke-static Landroid/os/RecoverySystem;->installPackage(Landroid/content/Context;, Ljava/io/File;)V
+    0005: const-string v2, ""
+    0009: invoke-static Lcom/baidu/loglib/LogUtils;->e(Ljava/lang/Exception;)V
+    000c: new-instance Ljava/lang/StringBuilder;
+    000e: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    0011: const-string v0, "installPackage fail:"
+    0013: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0016: invoke-virtual Ljava/io/IOException;->toString()Ljava/lang/String;
+    001a: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    001d: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+[METHOD] Lcom/baidu/otaplugin/d/f;->installPackageByType(Ljava/lang/String;, Ljava/lang/String;, I, Z)Ljava/lang/String;:
+  0x0014: "installPackageByType:%s-%d-%b"
+  --- Full disassembly ---
+    0006: invoke-static Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    000d: invoke-static Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    0014: const-string v2, "installPackageByType:%s-%d-%b"
+    0016: invoke-static Lcom/baidu/loglib/LogUtils;->d(Ljava/lang/String;, [Ljava/lang/Object;)V
+    0019: new-instance Ljava/io/File;
+    001b: invoke-direct Ljava/io/File;-><init>(Ljava/lang/String;)V
+    001e: invoke-virtual Ljava/io/File;->exists()Z
+    0024: new-instance Ljava/lang/StringBuilder;
+    0026: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    0029: const-string v8, "package file is not exist:"
+    002b: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    002e: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0031: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    0036: invoke-direct Lcom/baidu/otaplugin/d/f;->b(Ljava/lang/String;, Ljava/io/File;, I, Z)Ljava/lang/String;
+    003a: invoke-static Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    0040: const-string v6, ""
+    0043: invoke-static Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    0049: const-string v7, "upgrade_pending"
+    004b: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    0051: invoke-static Lcom/baidu/otaplugin/f/e;->a(Ljava/io/File;)Z
+    0059: invoke-static Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    005f: const-string v7, "installSystem fail:%s,del:%b"
+    0061: invoke-static Lcom/baidu/loglib/LogUtils;->e(Ljava/lang/String;, [Ljava/lang/Object;)V
+    0066: invoke-static Lcom/baidu/loglib/LogUtils;->e(Ljava/lang/Exception;)V
+    0069: const-string v6, "install error"
+
+[METHOD] Lcom/baidu/otaplugin/d/f;->unInstallPackageByType(Ljava/lang/String;, I, Z)Ljava/lang/String;:
+  0x0014: "unInstallPackageByType:%s-%d-%b"
+  --- Full disassembly ---
+    0006: invoke-static Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    000d: invoke-static Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    0014: const-string v1, "unInstallPackageByType:%s-%d-%b"
+    0016: invoke-static Lcom/baidu/loglib/LogUtils;->d(Ljava/lang/String;, [Ljava/lang/Object;)V
+    001b: invoke-virtual Lcom/baidu/otaplugin/d/f;->a(Ljava/lang/String;, Z)Ljava/lang/String;
+    0022: invoke-virtual Lcom/baidu/otaplugin/d/f;->f(Ljava/lang/String;, Z)Ljava/lang/String;
+    0029: const-string v5, "must implementation on subclass"
+    002c: new-instance Ljava/lang/StringBuilder;
+    002e: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    0031: const-string v7, "unsupported uninstall_file_type:"
+    0033: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0036: invoke-virtual Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    0039: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+[METHOD] Lcom/baidu/otaplugin/d/l;->c(Landroid/content/Context;, Ljava/lang/String;, Lcom/baidu/commonlib/interfaces/IServiceCallback;)V:
+  0x0008: "com.baidu.otaplugin.ota.service"
+  --- Full disassembly ---
+    0000: field-op Lcom/baidu/otaplugin/d/l;->a:Landroid/content/Context;
+    0002: field-op Lcom/baidu/otaplugin/d/l;->c:Lcom/baidu/commonlib/interfaces/IServiceCallback;
+    0004: field-op Lcom/baidu/otaplugin/d/l;->b:Ljava/lang/String;
+    0006: new-instance Landroid/content/Intent;
+    0008: const-string v0, "com.baidu.otaplugin.ota.service"
+    000a: invoke-direct Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+    000d: field-op Lcom/baidu/otaplugin/d/l;->a:Landroid/content/Context;
+    000f: invoke-virtual Landroid/content/Context;->getPackageName()Ljava/lang/String;
+    0013: invoke-virtual Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
+    0016: const-string v0, ""
+    001a: field-op Lcom/baidu/otaplugin/d/l;->a:Landroid/content/Context;
+    001c: invoke-virtual Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+    0020: invoke-virtual Landroid/content/Context;->getPackageName()Ljava/lang/String;
+    0026: invoke-virtual Landroid/content/pm/PackageManager;->getApplicationInfo(Ljava/lang/String;, I)Landroid/content/pm/ApplicationInfo;
+    002a: instance-field-op Landroid/content/pm/ApplicationInfo;->metaData:Landroid/os/Bundle;
+    002e: const-string v3, "OPEN_OTA_HTTP_DNS"
+    0030: invoke-virtual Landroid/os/Bundle;->getBoolean(Ljava/lang/String;, Z)Z
+    0034: const-string v4, "DEBUG_MODE"
+    0036: invoke-virtual Landroid/os/Bundle;->getBoolean(Ljava/lang/String;, Z)Z
+    003a: const-string v5, "TEST_MODE"
+    003c: invoke-virtual Landroid/os/Bundle;->getBoolean(Ljava/lang/String;, Z)Z
+    0040: const-string v6, "SDK_UPDATE_OFF"
+    0042: invoke-virtual Landroid/os/Bundle;->getBoolean(Ljava/lang/String;, Z)Z
+    0046: const-string v6, "DOMAIN_NAME"
+    0048: const-string v7, "aHR0cHM6Ly9vdGEuYmFpZHUuY29t"
+    004a: invoke-virtual Landroid/os/Bundle;->getString(Ljava/lang/String;, Ljava/lang/String;)Ljava/lang/String;
+    006d: invoke-virtual Ljava/lang/Exception;->printStackTrace()V
+    0070: invoke-virtual Ljava/lang/Exception;->toString()Ljava/lang/String;
+    0074: invoke-static Lcom/baidu/loglib/LogUtils;->e(Ljava/lang/String;)V
+    0079: const-string v4, "domain_name"
+    007b: invoke-virtual Landroid/content/Intent;->putExtra(Ljava/lang/String;, Ljava/lang/String;)Landroid/content/Intent;
+    007e: const-string v0, "sdk_version"
+    0080: invoke-virtual Landroid/content/Intent;->putExtra(Ljava/lang/String;, Ljava/lang/String;)Landroid/content/Intent;
+    0083: const-string v10, "http_dns"
+    0085: invoke-virtual Landroid/content/Intent;->putExtra(Ljava/lang/String;, Z)Landroid/content/Intent;
+    0088: const-string v10, "debug_mode"
+    008a: invoke-virtual Landroid/content/Intent;->putExtra(Ljava/lang/String;, Z)Landroid/content/Intent;
+    008d: const-string v10, "test_mode"
+    008f: invoke-virtual Landroid/content/Intent;->putExtra(Ljava/lang/String;, Z)Landroid/content/Intent;
+    0092: const-string v10, "sdk_update_off"
+    0094: invoke-virtual Landroid/content/Intent;->putExtra(Ljava/lang/String;, Z)Landroid/content/Intent;
+    0097: const-string v9, "begin bindService"
+    0099: invoke-static Lcom/baidu/loglib/LogUtils;->d(Ljava/lang/String;)V
+    009c: new-instance Lcom/baidu/otaplugin/d/l$c;
+    009f: invoke-direct Lcom/baidu/otaplugin/d/l$c;-><init>(Lcom/baidu/otaplugin/d/l$a;)V
+    00a2: field-op Lcom/baidu/otaplugin/d/l;->d:Landroid/content/ServiceConnection;
+    00a4: field-op Lcom/baidu/otaplugin/d/l;->a:Landroid/content/Context;
+    00a6: invoke-virtual Landroid/content/Context;->bindService(Landroid/content/Intent;, Landroid/content/ServiceConnection;, I)Z
+
+[METHOD] Lcom/baidu/otaplugin/f/e;->f(Ljava/lang/String;, Ljava/lang/String;)Ljava/lang/String;:
+  0x0022: ".ota"
+  --- Full disassembly ---
+    0000: const-string v0, "com.android.system"
+    0002: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    0006: const-string v1, "_"
+    000a: new-instance Ljava/lang/StringBuilder;
+    000c: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    000f: field-op Lcom/baidu/otaplugin/f/e;->b:Ljava/lang/String;
+    0011: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0014: field-op Ljava/io/File;->separator:Ljava/lang/String;
+    0016: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0019: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    001c: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    001f: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0022: const-string v3, ".ota"
+    0024: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0027: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    002c: new-instance Ljava/lang/StringBuilder;
+    002e: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    0031: field-op Lcom/baidu/otaplugin/f/e;->a:Ljava/lang/String;
+    0033: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0036: field-op Ljava/io/File;->separator:Ljava/lang/String;
+    0038: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    003b: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    003e: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0041: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0044: const-string v3, ".apk"
+    0046: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0049: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+[METHOD] Lokhttp3/l;->d(J, Lokhttp3/HttpUrl;, Ljava/lang/String;)Lokhttp3/l;:
+  0x0001: "/cache/recovery"
+  --- Full disassembly ---
+    0001: const-string v0, "/cache/recovery"
+    0004: const-string v0, ", align1="
+    0009: invoke-static Lokhttp3/b0/c;->m(Ljava/lang/String;, I, I, C)I
+    000f: invoke-static Lokhttp3/b0/c;->m(Ljava/lang/String;, I, I, C)I
+    0017: invoke-static Lokhttp3/b0/c;->E(Ljava/lang/String;, I, I)Ljava/lang/String;
+    001b: invoke-virtual Ljava/lang/String;->isEmpty()Z
+    0021: invoke-static Lokhttp3/b0/c;->v(Ljava/lang/String;)I
+    002c: invoke-static Lokhttp3/b0/c;->E(Ljava/lang/String;, I, I)Ljava/lang/String;
+    0030: invoke-static Lokhttp3/b0/c;->v(Ljava/lang/String;)I
+    003c: check-cast 
+    004d: invoke-virtual ->
+    0052: invoke-static Lokhttp3/b0/c;->m(Ljava/lang/String;, I, I, C)I
+    0056: invoke-static Lokhttp3/b0/c;->E(Ljava/lang/String;, I, I)Ljava/lang/String;
+    005e: invoke-static Lokhttp3/b0/c;->E(Ljava/lang/String;, I, I)Ljava/lang/String;
+    0063: const-string v3, ""
+    0065: const-string v5, "expires"
+    0067: invoke-virtual Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
+    006d: invoke-virtual Ljava/lang/String;->length()I
+    0071: invoke-static Lokhttp3/l;->h(Ljava/lang/String;, I, I)J
+    0076: const-string v5, "max-age"
+    0078: invoke-virtual Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
+    007e: invoke-static Lokhttp3/l;->i(Ljava/lang/String;)J
+    0085: const-string v5, "domain"
+    0087: invoke-virtual Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
+    008d: invoke-static Lokhttp3/l;->g(Ljava/lang/String;)Ljava/lang/String;
+    0094: const-string v5, "path"
+    0096: invoke-virtual Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
+    009e: const-string v3, "secure"
+    00a0: invoke-virtual Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
+    00a8: const-string v3, "httponly"
+    00aa: invoke-virtual Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
+    00e7: invoke-virtual/range Lokhttp3/HttpUrl;->k()Ljava/lang/String;
+    00f0: invoke-static Lokhttp3/l;->b(Ljava/lang/String;, Ljava/lang/String;)Z
+    00fa: invoke-virtual Ljava/lang/String;->length()I
+    00fe: invoke-virtual Ljava/lang/String;->length()I
+    0104: invoke-static Lokhttp3/b0/i/a;->c()Lokhttp3/b0/i/a;
+    0108: invoke-virtual Lokhttp3/b0/i/a;->d(Ljava/lang/String;)Ljava/lang/String;
+    010f: const-string v0, "/"
+    0113: invoke-virtual Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+    011c: invoke-virtual/range Lokhttp3/HttpUrl;->g()Ljava/lang/String;
+    0122: invoke-virtual Ljava/lang/String;->lastIndexOf(I)I
+    0128: invoke-virtual Ljava/lang/String;->substring(I, I)Ljava/lang/String;
+    012d: new-instance Lokhttp3/l;
+    0131: invoke-direct/range Lokhttp3/l;-><init>(Ljava/lang/String;, Ljava/lang/String;, J, Ljava/lang/String;, Ljava/lang/String;, Z, Z, Z, Z)V
+
+[METHOD] Lcom/baidu/otaplugin/commands/p;->B(Ljava/io/File;, I, Lcom/baidu/otaplugin/infos/b$a;, Z)V:
+  0x0008: "call installPackage:pid=%s"
+  --- Full disassembly ---
+    0003: instance-field-op Lcom/baidu/otaplugin/commands/OtaCommand;->e:Ljava/lang/String;
+    0008: const-string v2, "call installPackage:pid=%s"
+    000a: invoke-static Lcom/baidu/loglib/LogUtils;->i(Ljava/lang/String;, [Ljava/lang/Object;)V
+    000d: instance-field-op Lcom/baidu/otaplugin/commands/OtaCommand;->a:Lcom/baidu/otaplugin/infos/OtaInfo;
+    000f: instance-field-op Lcom/baidu/otaplugin/commands/OtaCommand;->f:Ljava/lang/String;
+    0011: invoke-virtual Lcom/baidu/otaplugin/infos/OtaInfo;->H(Ljava/lang/String;)Z
+    0017: instance-field-op Lcom/baidu/otaplugin/infos/b$a;->b:Ljava/lang/String;
+    0019: invoke-static Lcom/baidu/otaplugin/infos/OtaInfo;->J(Ljava/lang/String;)Z
+    0021: instance-field-op Lcom/baidu/otaplugin/infos/b$a;->b:Ljava/lang/String;
+    0025: const-string v2, "uninstall local pkg=%s"
+    0027: invoke-static Lcom/baidu/loglib/LogUtils;->i(Ljava/lang/String;, [Ljava/lang/Object;)V
+    002a: instance-field-op Lcom/baidu/otaplugin/commands/p;->r:Lcom/baidu/commonlib/interfaces/IUpgradeInterface;
+    002c: new-instance Lcom/baidu/otaplugin/commands/p$d;
+    002e: new-instance Lcom/baidu/otaplugin/commands/f;
+    0036: invoke-direct/range Lcom/baidu/otaplugin/commands/f;-><init>(Lcom/baidu/otaplugin/commands/p;, Ljava/io/File;, I, Lcom/baidu/otaplugin/infos/b$a;, Z)V
+    0039: invoke-direct Lcom/baidu/otaplugin/commands/p$d;-><init>(Lcom/baidu/otaplugin/commands/p$b;)V
+    003c: invoke-interface Lcom/baidu/commonlib/interfaces/IUpgradeInterface;->setListener(Lcom/baidu/commonlib/interfaces/IUpgradeListener;)V
+    003f: invoke-virtual Lcom/baidu/otaplugin/commands/p;->w(Lcom/baidu/otaplugin/infos/b$a;)I
+    0043: instance-field-op Lcom/baidu/otaplugin/commands/p;->r:Lcom/baidu/commonlib/interfaces/IUpgradeInterface;
+    0045: instance-field-op Lcom/baidu/otaplugin/infos/b$a;->b:Ljava/lang/String;
+    0047: invoke-interface Lcom/baidu/commonlib/interfaces/IUpgradeInterface;->unInstallPackageByType(Ljava/lang/String;, I, Z)Ljava/lang/String;
+    004b: invoke-direct Lcom/baidu/otaplugin/commands/p;->y(Ljava/io/File;, I, Lcom/baidu/otaplugin/infos/b$a;, Z)V

@@ -1,0 +1,105 @@
+INFO  Using log config file: jar:file:/C:/ghidra_12.1.2_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: C:\Users\k0994\AppData\Roaming\ghidra\ghidra_12.1.2_PUBLIC\application.log (LoggingInitialization)  
+INFO  Loading user preferences: C:\Users\k0994\AppData\Roaming\ghidra\ghidra_12.1.2_PUBLIC\preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (1225 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: SHA1PRNG (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (7751 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 210 extension points (114 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Processors\DATA\ghidra_scripts
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Features\Decompiler\ghidra_scripts
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Features\PDB\ghidra_scripts
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Features\BytePatterns\ghidra_scripts
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Features\Base\ghidra_scripts
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Features\WildcardAssembler\ghidra_scripts
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Features\GnuDemangler\ghidra_scripts
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Processors\PIC\ghidra_scripts
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Processors\8051\ghidra_scripts
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Features\SystemEmulation\ghidra_scripts
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Processors\Atmel\ghidra_scripts
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Processors\JVM\ghidra_scripts
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Features\FileFormats\ghidra_scripts
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Features\FunctionID\ghidra_scripts
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    C:\tmp\mboot_java
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Features\PyGhidra\ghidra_scripts
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Features\SwiftDemangler\ghidra_scripts
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Features\VersionTracking\ghidra_scripts
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Features\BSim\ghidra_scripts
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Debug\Debugger\ghidra_scripts
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Features\DecompilerDependent\ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Creating project: C:\tmp\ghidra_project\MBOOT_v2 (HeadlessAnalyzer)  
+INFO  Creating project: C:\tmp\ghidra_project\MBOOT_v2 (DefaultProject)  
+INFO  REPORT: Processing input files:  (HeadlessAnalyzer)  
+INFO       project: C:\tmp\ghidra_project\MBOOT_v2 (HeadlessAnalyzer)  
+INFO  IMPORTING: file:///C:/tmp/mboot_full.img (HeadlessAnalyzer)  
+INFO  Using Loader: Raw Binary (ProgramLoader)  
+INFO  Using Language/Compiler: ARM:LE:32:v8:default (ProgramLoader)  
+INFO  Using Library Search Path: [., C:\WINDOWS\SysWOW64, C:\Users\k0994\AppData\Local\Programs\Eclipse Adoptium\jdk-21.0.12.8-hotspot\bin, C:\WINDOWS\Sun\Java\bin, C:\WINDOWS\system32, C:\WINDOWS, C:\Users\k0994\bin, C:\Program Files\Git\mingw64\bin, C:\Program Files\Git\usr\local\bin, C:\Program Files\Git\usr\bin, C:\WINDOWS\System32\Wbem, C:\WINDOWS\System32\WindowsPowerShell\v1.0, C:\WINDOWS\System32\OpenSSH, C:\Program Files\Docker\Docker\resources\bin, C:\Program Files\Git\cmd, C:\Program Files\Go\bin, C:\Users\k0994\.cargo\bin, C:\Users\k0994\AppData\Local\Microsoft\WindowsApps, C:\Users\k0994\AppData\Local\Python\bin, C:\Users\k0994\AppData\Local\Programs\Ollama, C:\Users\k0994\go\bin, C:\Users\k0994\AppData\Local\Microsoft\WinGet\Packages\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\mingw64\bin, C:\Users\k0994\AppData\Local\Programs\ZCode\resources\tools\ripgrep, C:\Users\k0994\AppData\Local\Programs\ZCode\resources\tools\ugrep, C:\Program Files\Git\usr\bin\vendor_perl, C:\Program Files\Git\usr\bin\core_perl] (ProgramLoader)  
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)  
+INFO  ANALYZING all memory and code: file:///C:/tmp/mboot_full.img (HeadlessAnalyzer)  
+WARN  Decompiling 00001ac6, pcode error at 006970a6: Could not follow disassembly flow into non-existing memory at 006970a6 (DecompileCallback)  
+INFO  Packed database cache: C:\Users\k0994\AppData\Local\ghidra\packed-db-cache (PackedDatabaseCache)  
+INFO  Applied data type archive: generic_clib (ApplyDataArchiveAnalyzer)  
+INFO  -----------------------------------------------------
+    ARM Constant Reference Analyzer           31.357 secs
+    ARM Symbol                                 0.000 secs
+    ASCII Strings                              1.096 secs
+    Apply Data Archives                        0.708 secs
+    Call-Fixup Installer                       0.061 secs
+    Create Address Tables                      0.589 secs
+    Create Address Tables - One Time           1.573 secs
+    Create Function                            2.219 secs
+    Data Reference                             0.473 secs
+    Decompiler Switch Analysis                44.778 secs
+    Demangler GNU                              0.067 secs
+    Disassemble                               15.937 secs
+    Disassemble Entry Points                   0.110 secs
+    Embedded Media                             0.044 secs
+    External Entry References                  0.008 secs
+    Function ID                                0.233 secs
+    Function Start Pre Search                  0.168 secs
+    Function Start Search                      0.651 secs
+    Function Start Search After Code           0.727 secs
+    Function Start Search After Data           0.040 secs
+    Function Start Search delayed - One Time   0.138 secs
+    Non-Returning Functions - Discovered       1.549 secs
+    Reference                                 12.346 secs
+    Shared Return Calls                        0.502 secs
+    Stack                                     16.907 secs
+    Subroutine References                      1.444 secs
+    Subroutine References - One Time           0.002 secs
+-----------------------------------------------------
+     Total Time   133 secs
+-----------------------------------------------------
+ (AutoAnalysisManager)  
+INFO  REPORT: Analysis succeeded for file: file:///C:/tmp/mboot_full.img (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: MbootAnalysis.java  (HeadlessAnalyzer)  
+ERROR REPORT SCRIPT ERROR: MbootAnalysis.java : The class could not be found. It must be the public class of the .java file: Failed to get OSGi bundle containing script: C:\tmp\mboot_java\MbootAnalysis.java (HeadlessAnalyzer) ghidra.app.script.GhidraScriptLoadException: The class could not be found. It must be the public class of the .java file: Failed to get OSGi bundle containing script: C:\tmp\mboot_java\MbootAnalysis.java
+	at ghidra.app.script.JavaScriptProvider.getScriptInstance(JavaScriptProvider.java:114)
+	at ghidra.app.util.headless.HeadlessAnalyzer.runScriptsList(HeadlessAnalyzer.java:927)
+	at ghidra.app.util.headless.HeadlessAnalyzer.analyzeProgram(HeadlessAnalyzer.java:1097)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processFileWithImport(HeadlessAnalyzer.java:1595)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processWithLoader(HeadlessAnalyzer.java:1755)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processWithImport(HeadlessAnalyzer.java:1696)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processWithImport(HeadlessAnalyzer.java:1780)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processLocal(HeadlessAnalyzer.java:464)
+	at ghidra.app.util.headless.AnalyzeHeadless.launch(AnalyzeHeadless.java:199)
+	at ghidra.GhidraLauncher.launch(GhidraLauncher.java:81)
+	at ghidra.Ghidra.main(Ghidra.java:54)
+Caused by: java.lang.ClassNotFoundException: Failed to get OSGi bundle containing script: C:\tmp\mboot_java\MbootAnalysis.java
+	at ghidra.app.script.JavaScriptProvider.loadClass(JavaScriptProvider.java:163)
+	at ghidra.app.script.JavaScriptProvider.getScriptInstance(JavaScriptProvider.java:97)
+	... 10 more
+ 
+INFO  ANALYZING changes made by post scripts: file:///C:/tmp/mboot_full.img (HeadlessAnalyzer)  
+INFO  REPORT: Post-analysis succeeded for file: file:///C:/tmp/mboot_full.img (HeadlessAnalyzer)  
+INFO  /mboot_full.img: file created (k0994) (LocalFileSystem)  
+INFO  REPORT: Save succeeded for: /mboot_full.img (MBOOT_v2:/mboot_full.img) (HeadlessAnalyzer)  
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)  

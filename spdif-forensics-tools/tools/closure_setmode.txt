@@ -1,0 +1,11 @@
+=== SetHdmiAutoMode tail (state store + SetMode call) ===
+0x00098a38: tst r0, #0x800
+0x00098a44: tst r0, #0x80
+0x00098af8: str r1, [r0]
+0x00098c24: str r1, [r0]
+0x00098d3c: str r1, [r0]
+0x00098d80: str r1, [r0]
+0x00098de8: str r6, [r0, #0x7c]
+0x00098dec: str r5, [r0, #0x80]
+0x00098df0: str r6, [r0, #0x6c]
+0x00098df4: str r5, [r0, #0x70]

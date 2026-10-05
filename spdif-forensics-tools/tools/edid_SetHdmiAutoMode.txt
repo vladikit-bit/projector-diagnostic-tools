@@ -1,0 +1,5 @@
+=== _MI_AOUT_SetHdmiAutoMode @0x989cc (disasm to 0x989de)
+0x000989cc: push      {r4, r5, r6, r7, fp, lr}
+0x000989d0: sub       sp, sp, #8
+0x000989d4: sub       r1, r1, #4
+0x000989d8: cmp       r1, #0x13

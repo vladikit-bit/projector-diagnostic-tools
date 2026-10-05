@@ -1,0 +1,9 @@
+=== MDrv_AUDIO_OpenDecodeSystem @0x405cc8 size 0x1c
+
+0x00405cc8: movw      r1, #0
+0x00405ccc: movt      r1, #0
+0x00405cd0: ldr       r1, [r1]
+0x00405cd4: cmp       r1, #0
+0x00405cd8: mvneq     r0, #0
+0x00405cdc: bxeq      lr
+0x00405ce0: bx        r1

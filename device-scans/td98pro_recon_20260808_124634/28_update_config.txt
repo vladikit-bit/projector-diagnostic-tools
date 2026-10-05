@@ -1,0 +1,12 @@
+﻿/system/etc/init/recovery-persist.rc
+/system/etc/init/bootanim.rc
+/system/etc/init/bootstat.rc
+/system/etc/init/bootstat-debug.rc
+/system/etc/permissions/android.software.verified_boot.xml
+/vendor/cusdata/bsp/common/misc/boot.ini
+/vendor/cusdata/apollo/common/misc/sa/boot_cfg.ini
+/vendor/cusdata/apollo/common/misc/boot_cfg.ini
+/vendor/etc/boot.conf
+/vendor/etc/init/bootvideo.rc
+/vendor/etc/init/hw/init.boottime_trace.rc
+/vendor/etc/init/vendor_flash_recovery.rc

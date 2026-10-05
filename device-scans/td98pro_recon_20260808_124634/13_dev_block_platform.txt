@@ -1,0 +1,4 @@
+﻿total 0
+drwxr-xr-x 3 root root   60 2026-08-08 05:35 .
+drwxr-xr-x 6 root root 1740 2026-08-08 05:35 ..
+drwxr-xr-x 3 root root  640 2026-08-08 05:35 mstar_mci.0

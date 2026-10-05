@@ -1,0 +1,30 @@
+﻿aic_btusb 57344 0 - Live 0x00000000
+aic8800_fdrv 503808 0 - Live 0x00000000
+aic_load_fw 73728 1 aic8800_fdrv, Live 0x00000000
+rtk_btusb 61440 0 - Live 0x00000000
+8821cu 2752512 0 - Live 0x00000000 (O)
+cfg80211 524288 2 aic8800_fdrv,8821cu, Live 0x00000000
+firmware_class 20480 3 aic8800_fdrv,rtk_btusb,cfg80211, Live 0x00000000
+devnode 16384 0 - Live 0x00000000
+dtv_driver 4362240 1 [permanent], Live 0x00000000 (O)
+mstar_fbdev_mi 53248 3 - Live 0x00000000 (O)
+mali_kbase 397312 33 - Live 0x00000000 (O)
+mdrv_ldm 720896 0 - Live 0x00000000 (PO)
+kdrv_ldm_sys 32768 1 mdrv_ldm, Live 0x00000000 (O)
+mik 6565888 901 dtv_driver,mstar_fbdev_mi, Live 0x00000000 (O)
+misck 610304 1 mik, Live 0x00000000 (PO)
+mwgifker 122880 1 mik, Live 0x00000000 (PO)
+xcker 491520 1 mik, Live 0x00000000 (PO)
+hdcp2x 258048 1 xcker, Live 0x00000000 (O)
+hdcp1x 77824 1 xcker, Live 0x00000000 (O)
+iniparser 32768 3 dtv_driver,mik,misck, Live 0x00000000 (O)
+utpa2k 23715840 6 mik,misck,mwgifker,xcker,hdcp2x,hdcp1x, Live 0x00000000 (O)
+libdmdbraslia 110592 0 - Live 0x00000000 (O)
+kdrv_dolby_vision 835584 0 - Live 0x00000000 (O)
+kdrv_alg 2928640 0 - Live 0x00000000 (PO)
+kdrv_xc 1236992 4 mdrv_ldm,utpa2k,kdrv_dolby_vision,kdrv_alg, Live 0x00000000 (O)
+kdrv_platform 24576 1 kdrv_alg, Live 0x00000000 (O)
+kheaders 3194880 0 - Live 0x00000000
+phy_ms_usb 24576 0 - Live 0x00000000
+udc_msb250x 32768 0 - Live 0x00000000
+ehci_hcd 77824 1 phy_ms_usb, Live 0x00000000

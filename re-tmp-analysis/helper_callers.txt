@@ -1,0 +1,2192 @@
+DexParser loaded successfully.
+=== SEARCHING FOR CALLS TO AIDLOtaSdkHelper IN NtechSystemUI ===
+
+================================================================================
+CLASS: Lcom/alibaba/fastjson2/util/DateUtils;
+METHOD: parseZonedDateTime([B, I, I, Ljava/time/ZoneId;)Ljava/time/ZonedDateTime;
+================================================================================
+    0013: invoke-static Lcom/alibaba/fastjson2/util/DateUtils;->parseZonedDateTime16([B, I, Ljava/time/ZoneId;)Ljava/time/ZonedDateTime;
+    00ec: check-cast 
+    00f2: new-instance 
+    0141: check-cast 
+    0147: new-instance 
+    0187: const-string v0, "Landroid/widget/RelativeLayout$LayoutParams;"
+    018f: check-cast 
+    0195: new-instance La/a/u$a;
+    01cc: const-string v0, "Lcom/bkdisplay/systemui/power/-$$Lambda$c$AGa3ntnywUw3OXuhLfDPaGf_kJg;"
+    01d6: check-cast 
+    020a: const-string v0, "Lcom/bkdisplay/systemui/other/-$$Lambda$PowerDownDialog$w6Cx9qJBhkIBIQdACqdYPhxY5Mk;"
+    0216: check-cast 
+    0241: const-string v0, "Lcom/bkdisplay/systemui/common/b$4;"
+    024f: check-cast La/a/u$a;
+    0271: const-string v0, "Lcom/bkdisplay/system/ota/BaiduOtaManager;"
+    0281: field-op Landroidx/appcompat/app/AppCompatDelegateImpl;->o:Z
+    0299: const-string v0, "Lcom/bkdisplay/api/b$1;"
+    02b8: const-string v0, "Lcom/alibaba/fastjson2/writer/FieldWriterInt16ValField;"
+    02d5: const-string/jumbo v0, ""
+    02ee: instance-field-op Landroidx/constraintlayout/widget/R$styleable;->GradientColor_android_startX:I
+    02f0: instance-field-op Landroid/net/wifi/ScanResult;->SSID:Ljava/lang/String;
+    02f6: instance-field-op Landroidx/constraintlayout/motion/widget/s$b;->e:Z
+    02fe: instance-field-op Landroidx/constraintlayout/widget/R$attr;->layout_constraintRight_toLeftOf:I
+    0302: instance-field-op Landroidx/constraintlayout/widget/R$attr;->layout_constraintRight_toLeftOf:I
+    0333: const-string v0, "TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5"
+    0352: new-instance Lcom/bkdisplay/systemui/f/a;
+    0376: instance-field-op Landroid/net/wifi/ScanResult;->SSID:Ljava/lang/String;
+    037a: instance-field-op Landroidx/constraintlayout/widget/R$styleable;->ConstraintSet_android_orientation:I
+    037c: instance-field-op Landroidx/constraintlayout/widget/R$drawable;->abc_vector_test:I
+    037e: instance-field-op Landroidx/appcompat/widget/r;->f:I
+    0385: invoke-static Lcom/alibaba/fastjson2/util/DateUtils;->month(C, C, C)I
+    0397: const-string v0, " frames and "
+    03b7: const-string v0, "TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5"
+    03d4: field-op Landroidx/appcompat/widget/AppCompatImageButton;->b:Landroidx/appcompat/widget/h;
+    03d6: field-op La/b/f;->a:La/b/f;
+    03dc: instance-field-op Landroidx/appcompat/R$dimen;->abc_dialog_corner_radius_material:I
+    03de: instance-field-op La/b/f;->a:La/b/f;
+    03e2: instance-field-op Landroidx/appcompat/R$attr;->homeLayout:I
+    03e4: instance-field-op La/b/f;->a:La/b/f;
+    03e8: instance-field-op La/b/f;->a:La/b/f;
+    03ee: instance-field-op Landroidx/appcompat/app/AlertController$a;->K:Landroid/database/Cursor;
+    03fa: instance-field-op Landroidx/appcompat/app/AlertController$a;->L:Ljava/lang/String;
+    0425: const-string v0, "TYPE_OBJECT_WRITER_3"
+    0435: const-string/jumbo v0, ""
+    043e: invoke-super Landroid/widget/Button;->onLayout(Z, I, I, I, I)V
+    0446: instance-field-op Landroidx/appcompat/R$dimen;->abc_dialog_corner_radius_material:I
+    0448: field-op La/b/f;->a:La/b/f;
+    044c: field-op Landroidx/appcompat/R$attr;->homeLayout:I
+    044e: instance-field-op La/b/f;->a:La/b/f;
+    0452: instance-field-op La/b/f;->a:La/b/f;
+    045c: instance-field-op ->:
+    0468: instance-field-op ->:
+    0496: const-string v0, "The Path should be continuous, can't have 2+ contours"
+    04a4: const-string/jumbo v0, ""
+    04b3: instance-field-op ->:
+    04b5: instance-field-op Landroidx/appcompat/widget/m;->g:Landroidx/appcompat/widget/ac;
+    04bb: instance-field-op ->:
+    04c3: instance-field-op ->:
+    04c7: instance-field-op ->:
+    04cb: instance-field-op ->:
+    04ec: const-string v0, "SOUND_MODE_STANDARD"
+    0525: const-string/jumbo v0, ""
+    053c: instance-field-op Landroidx/appcompat/app/i$a;->b:Z
+    0543: invoke-static Lcom/alibaba/fastjson2/util/DateUtils;->month(C, C, C)I
+    0556: const-string v0, "JavaMax:    "
+    0578: const-string v0, "Lokhttp3/internal/g/f$f;"
+    05a1: const-string/jumbo v0, ""
+    05ab: field-op Landroidx/appcompat/app/k$a;->f:J
+    05af: field-op Landroidx/appcompat/app/k$a;->f:J
+    05b3: instance-field-op Landroidx/appcompat/app/k$a;->f:J
+    05b7: instance-field-op Landroidx/appcompat/app/k$a;->f:J
+    05bb: instance-field-op Lcom/umeng/cconfig/R$styleable;->ViewBackgroundHelper_android_background:I
+    05bd: instance-field-op Landroidx/appcompat/app/k$a;->f:J
+    05f2: const-string v0, "TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5"
+    061e: invoke-super/range Lcom/bkdisplay/systemui/a/a;->a()V
+    0622: invoke-static Landroid/view/KeyEvent;->isShiftPressed()Z
+    0628: field-op Lcom/bkdisplay/systemui/R$drawable;->notification_bg_low_pressed:I
+    062a: field-op Landroidx/appcompat/R$style;->Base_ThemeOverlay_AppCompat:I
+    062e: field-op Landroidx/appcompat/R$style;->Base_ThemeOverlay_AppCompat:I
+    0636: instance-field-op Landroidx/appcompat/R$style;->Base_ThemeOverlay_AppCompat:I
+    063a: instance-field-op Landroidx/appcompat/R$style;->Base_TextAppearance_AppCompat_Widget_ActionBar_Title:I
+    063d: invoke-static Lcom/alibaba/fastjson2/util/DateUtils;->month(C, C, C)I
+    0651: const-string v0, "context is null in onEventNoCheck, please check!"
+    0674: const-string v0, "SpaceBroadcast"
+    0688: const-string/jumbo v0, ""
+    06ad: invoke-interface/range Lcom/efs/sdk/base/core/util/Log;->d(Ljava/lang/String;, Ljava/lang/Throwable;)V
+    06b3: invoke-interface Lcom/efs/sdk/net/a/a;-><init>()V
+    06b9: field-op Landroidx/appcompat/R$styleable;->AppCompatTheme_tooltipForegroundColor:I
+    06c1: field-op Landroidx/appcompat/R$styleable;->AppCompatTheme_tooltipForegroundColor:I
+    06c5: field-op Landroidx/recyclerview/widget/StaggeredGridLayoutManager$SavedState;->d:[I
+    06da: const-string v0, "context is null in onEventNoCheck, please check!"
+    06f9: const-string v0, "SpaceBroadcast"
+    070d: const-string/jumbo v0, ""
+    073f: invoke-static/range Lcom/efs/sdk/base/core/util/Log;->d(Ljava/lang/String;, Ljava/lang/Throwable;)V
+    0745: invoke-static Landroid/os/Looper;->getThread()Ljava/lang/Thread;
+    0756: field-op Landroidx/appcompat/R$styleable;->AppCompatTheme_tooltipForegroundColor:I
+    075e: instance-field-op Landroidx/recyclerview/widget/StaggeredGridLayoutManager$SavedState;->d:[I
+    0772: const-string v0, "MISC_MIRROR_CFG"
+    0792: const-string v0, "TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5"
+    07a4: const-string/jumbo v0, ""
+    07ac: field-op Landroidx/constraintlayout/motion/widget/q$a;->c:I
+    07c2: invoke-static/range La/a/aa;->a()J
+    07c8: instance-field-op Landroidx/appcompat/R$dimen;->abc_dialog_corner_radius_material:I
+    07ca: invoke-super La/a/aa;->a()J
+    07ce: field-op Landroidx/databinding/library/baseAdapters/R$attr;->dialogCornerRadius:I
+    07d6: field-op La/a/b$b;->b:I
+    07d8: const-string/jumbo v0, ""
+    07dc: field-op Landroidx/appcompat/R$style;->Widget_AppCompat_Light_DropDownItem_Spinner:I
+    07e2: instance-field-op Lcom/bkdisplay/systemui/other/alarmclock/YtR1sAlarmClock;->g:Lcom/bkdisplay/systemui/other/alarmclock/YtR1sAlarmClock$NetReceiver;
+    07f2: instance-field-op Lcom/bkdisplay/systemui/other/alarmclock/YtR1sAlarmClock;->h:Z
+    081f: const-string v0, "Transition_constraintSetStart"
+    0836: const-string/jumbo v0, ""
+    083d: const-string/jumbo v0, ""
+    0843: invoke-direct/range Lcom/bkdisplay/systemui/source/b$b;->lambda$pX93zsjKXIcyG6dtjQwXWy44my4(Landroid/widget/ImageView;)V
+    084b: instance-field-op Lcom/bkdisplay/systemui/R$styleable;->Slider_thumbElevation:I
+    084d: field-op Landroidx/appcompat/R$style;->Widget_AppCompat_Light_DropDownItem_Spinner:I
+    0851: field-op Lcom/bkdisplay/systemui/autosleep/AutoSleepDialog$1;->c:Lcom/bkdisplay/systemui/autosleep/AutoSleepDialog;
+    0853: field-op Landroidx/appcompat/R$style;->Widget_AppCompat_Light_DropDownItem_Spinner:I
+    0857: field-op Landroidx/appcompat/R$style;->Widget_AppCompat_Light_DropDownItem_Spinner:I
+    085d: const-string/jumbo v0, ""
+    0861: instance-field-op ->:
+    0871: instance-field-op ->:
+    08a2: const-string v0, "Uploaded log: "
+    08ac: const-string/jumbo v0, ""
+    08bf: invoke-direct/range ->
+    08c7: instance-field-op ->:
+    08c9: field-op Landroidx/appcompat/widget/ActivityChooserView;->b:Landroid/widget/FrameLayout;
+    08cd: field-op ->:
+    08cf: field-op Landroidx/appcompat/widget/ActivityChooserView;->b:Landroid/widget/FrameLayout;
+    08d3: field-op Landroidx/appcompat/widget/ActivityChooserView;->b:Landroid/widget/FrameLayout;
+    08d9: const-string/jumbo v0, ""
+    08dd: instance-field-op Lcom/bkdisplay/system/ntechservcie/recents/b;->a:I
+    08ed: instance-field-op Lcom/bkdisplay/system/ntechservcie/recents/b;->b:Ljava/lang/String;
+    091e: const-string v0, "VLIILL"
+    0926: const-string/jumbo v0, ""
+    093b: invoke-interface Lcom/alibaba/fastjson2/util/DynamicClassLoader;-><init>()V
+    0943: instance-field-op Lcom/bkdisplay/framework/R$style;->ThemeOverlay_MaterialComponents_Toolbar_Surface:I
+    0945: field-op Landroidx/appcompat/R$id;->accessibility_custom_action_31:I
+    0949: field-op Lcom/bkdisplay/framework/R$styleable;->AppCompatTheme_windowMinWidthMinor:I
+    094b: field-op Landroidx/appcompat/R$id;->accessibility_custom_action_31:I
+    094f: instance-field-op Landroidx/appcompat/R$id;->accessibility_custom_action_31:I
+    0951: const-string v0, "Lcom/bkdisplay/system/ota/BaiduOtaManager;"
+    0959: instance-field-op ->:
+    0969: instance-field-op ->:
+    0970: const-string v0, "+TK;+TV;>;)V"
+    0999: const-string v0, "VZCBSIFJD"
+    099f: const-string/jumbo v0, ""
+    09ab: instance-field-op Landroidx/databinding/library/baseAdapters/R$id;->decor_content_parent:I
+    09bb: instance-field-op ->:
+    09c9: const-string/jumbo v0, ""
+    09d1: instance-field-op Lcom/bkdisplay/system/ntechservcie/recents/b;->a:I
+    09e1: instance-field-op Lcom/bkdisplay/system/ntechservcie/recents/b;->b:Ljava/lang/String;
+    09e3: invoke-static/range Landroid/animation/ObjectAnimator;->setEvaluator(Landroid/animation/TypeEvaluator;)V
+    0a08: const-string v0, "Transition_constraintSetStart"
+    0a14: const-string/jumbo v0, ""
+    0a23: const-string/jumbo v0, ""
+    0a4c: const-string v0, "Widget_MaterialComponents_CompoundButton_CheckBox"
+    0a50: const-string/jumbo v0, ""
+    0a54: invoke-virtual Landroidx/constraintlayout/motion/widget/q;->a(I)Ljava/util/List;
+    0a5c: invoke-direct Lcom/alibaba/fastjson2/util/DynamicClassLoader;-><init>()V
+    0a64: instance-field-op Lcom/bkdisplay/framework/R$style;->ThemeOverlay_MaterialComponents_Toolbar_Surface:I
+    0a66: field-op Landroidx/appcompat/R$id;->accessibility_custom_action_31:I
+    0a6a: field-op Lcom/bkdisplay/framework/R$styleable;->AppCompatTheme_windowMinWidthMinor:I
+    0a6c: field-op Landroidx/appcompat/R$id;->accessibility_custom_action_31:I
+    0a70: instance-field-op Landroidx/appcompat/R$id;->accessibility_custom_action_31:I
+    0a7a: instance-field-op ->:
+    0a8a: instance-field-op ->:
+    0aba: const-string v0, "Lcom/ktcp/launcher/open/entry/StatusItem$1;"
+    0abc: const-string/jumbo v0, ""
+    0ad2: invoke-super Landroid/widget/AutoCompleteTextView;->getPaddingBottom()I
+    0ad6: field-op ->:
+    0ad8: field-op ->:
+    0ada: field-op Landroidx/appcompat/widget/ActivityChooserView;->b:Landroid/widget/FrameLayout;
+    0ade: field-op ->:
+    0ae0: field-op Landroidx/appcompat/widget/ActivityChooserView;->b:Landroid/widget/FrameLayout;
+    0ae4: instance-field-op ->:
+    0ae6: instance-field-op Landroidx/appcompat/widget/ActionMenuView;->j:I
+    0ae9: invoke-static Lcom/alibaba/fastjson2/util/DateUtils;->month(C, C, C)I
+    0afd: const-string v0, "context is null in onEventNoCheck, please check!"
+    0b01: new-instance Ljava/lang/String;
+    0b0a: invoke-direct Ljava/lang/String;-><init>([B, I, I)V
+    0b25: const-string v0, "TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5"
+    0b4f: field-op Landroidx/appcompat/R$id;->accessibility_custom_action_31:I
+    0b53: field-op Landroidx/appcompat/R$id;->accessibility_custom_action_31:I
+    0b57: instance-field-op Lcom/bkdisplay/framework/ui/d;->l:Lcom/bkdisplay/framework/ui/f;
+    0b59: instance-field-op Lcom/bkdisplay/framework/R$style;->ThemeOverlay_MaterialComponents_Toolbar_Surface:I
+    0b5b: instance-field-op Lcom/bkdisplay/systemui/R$attr;->endIconTint:I
+    0b5d: instance-field-op Landroidx/appcompat/R$id;->accessibility_custom_action_31:I
+    0b61: instance-field-op Lcom/bkdisplay/framework/R$styleable;->MaterialButtonToggleGroup_selectionRequired:I
+    0b63: instance-field-op Landroidx/appcompat/R$id;->accessibility_custom_action_31:I
+    0b6c: invoke-static Lcom/alibaba/fastjson2/util/DateUtils;->month(C, C, C)I
+    0b7f: const-string v0, "IOnBlackAreaListener"
+    0b90: const-string v0, "SpaceBroadcast"
+    0bc0: invoke-interface Landroid/graphics/drawable/ScaleDrawable;->getDrawable()Landroid/graphics/drawable/Drawable;
+    0bc4: invoke-virtual Landroid/graphics/drawable/ScaleDrawable;->getDrawable()Landroid/graphics/drawable/Drawable;
+    0bc8: field-op Lcom/bkdisplay/systemui/other/camera/i;->a:Landroid/os/Handler;
+    0bca: field-op Landroidx/constraintlayout/widget/b$b;->f:Landroidx/constraintlayout/widget/c;
+    0bd0: instance-field-op Lcom/bkdisplay/systemui/autosleep/AutoSleepDialog$1;->c:Lcom/bkdisplay/systemui/autosleep/AutoSleepDialog;
+    0bd2: instance-field-op Landroidx/appcompat/R$style;->Widget_AppCompat_Light_DropDownItem_Spinner:I
+    0bd6: instance-field-op Lcom/bkdisplay/systemui/other/alarmclock/YtR1sAlarmClock;->h:Z
+    0bd8: instance-field-op Landroidx/constraintlayout/widget/R$attr;->wavePeriod:I
+    0be0: instance-field-op Landroidx/recyclerview/widget/StaggeredGridLayoutManager$SavedState;->d:[I
+    0bf5: const-string v0, "context is null in onEventNoCheck, please check!"
+    0c08: const-string v0, "TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5"
+    0c3c: invoke-direct Lcom/ktcp/launcher/open/entry/AccountInfo;->getUserId()Ljava/lang/String;
+    0c44: instance-field-op Lcom/google/android/material/internal/r$b;->c:I
+    0c46: field-op Landroidx/appcompat/app/AlertController$3;->c:Landroidx/appcompat/app/AlertController;
+    0c4a: field-op Lcom/google/android/material/textfield/a$1;->a:Lcom/google/android/material/textfield/a;
+    0c4c: field-op Landroidx/appcompat/app/AlertController$3;->c:Landroidx/appcompat/app/AlertController;
+    0c50: instance-field-op Landroidx/appcompat/app/AlertController$3;->c:Landroidx/appcompat/app/AlertController;
+    0c54: const-string/jumbo v0, ""
+    0c5a: instance-field-op Lcom/google/android/material/R$string;->bottom_sheet_behavior:I
+    0c6a: instance-field-op Lcom/google/android/material/R$string;->character_counter_content_description:I
+    0c97: const-string/jumbo v0, ""
+    0ca8: check-cast La/a/u$a;
+    0cd9: const-string v0, "Transition_constraintSetStart"
+    0ce5: const-string/jumbo v0, ""
+    0cf7: invoke-static Lcom/alibaba/fastjson2/util/DateUtils;->hourAfterNoon(C, C)I
+    0d09: invoke-static/range Lcom/alibaba/fastjson2/util/DateUtils;->localDateTime(C, C, C, C, C, C, C, C, C, C, C, C, C, C, C, C, C, C, C, C, C, C, C)Ljava/time/LocalDateTime;
+    0d13: new-instance Ljava/lang/String;
+    0d16: invoke-direct Ljava/lang/String;-><init>([B, I, I)V
+    0d19: const-string v1, "UTC"
+    0d1b: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    0d21: const-string v1, "[UTC]"
+    0d23: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    0d29: invoke-static Ljava/util/TimeZone;->getTimeZone(Ljava/lang/String;)Ljava/util/TimeZone;
+    0d2d: invoke-virtual Ljava/util/TimeZone;->toZoneId()Ljava/time/ZoneId;
+    0d32: field-op Ljava/time/ZoneOffset;->UTC:Ljava/time/ZoneOffset;
+    0d43: instance-field-op Lcom/bkdisplay/systemui/R$drawable;->notification_bg_low_pressed:I
+    0d46: field-op Ljava/time/ZoneOffset;->UTC:Ljava/time/ZoneOffset;
+    0d5a: new-instance Ljava/lang/String;
+    0d62: invoke-direct Ljava/lang/String;-><init>([B, I, I)V
+    0d68: new-instance Ljava/lang/String;
+    0d70: invoke-direct Ljava/lang/String;-><init>([B, I, I)V
+    0d78: new-instance Ljava/lang/String;
+    0d7c: invoke-direct Ljava/lang/String;-><init>([B, I, I)V
+    0d81: invoke-static Lcom/alibaba/fastjson2/util/DateUtils;->getZoneId(Ljava/lang/String;, Ljava/time/ZoneId;)Ljava/time/ZoneId;
+    0d8a: field-op Lcom/alibaba/fastjson2/util/DateUtils;->DEFAULT_ZONE_ID:Ljava/time/ZoneId;
+    0d8d: invoke-static Ljava/time/ZonedDateTime;->ofLocal(Ljava/time/LocalDateTime;, Ljava/time/ZoneId;, Ljava/time/ZoneOffset;)Ljava/time/ZonedDateTime;
+    0d9d: const-string v0, "toInstant"
+    0db5: invoke-direct/range La/a/aa;->a()J
+    0ddd: new-instance Landroid/view/VelocityTracker;
+    0de3: new-instance La/a/b$b;
+    0e1b: const-string v0, " in onInterceptTouchEvent"
+    0e2a: new-instance Ljava/lang/String;
+    0e2c: invoke-direct Ljava/lang/String;-><init>([B, I, I)V
+    0e2f: invoke-static Lcom/alibaba/fastjson2/util/DateUtils;->parseZonedDateTimeCookie(Ljava/lang/String;)Ljava/time/ZonedDateTime;
+    0e35: new-instance Landroid/view/VelocityTracker;
+    0e38: field-op Lcom/alibaba/fastjson2/util/DateUtils;->DATE_TIME_FORMATTER_34:Ljava/time/format/DateTimeFormatter;
+    0e3c: const-string v0, "EEE MMM dd HH:mm:ss O yyyy"
+    0e3e: invoke-static Ljava/time/format/DateTimeFormatter;->ofPattern(Ljava/lang/String;)Ljava/time/format/DateTimeFormatter;
+    0e42: field-op Lcom/alibaba/fastjson2/util/DateUtils;->DATE_TIME_FORMATTER_34:Ljava/time/format/DateTimeFormatter;
+    0e44: new-instance Ljava/lang/String;
+    0e46: invoke-direct Ljava/lang/String;-><init>([B, I, I)V
+    0e49: invoke-static Ljava/time/ZonedDateTime;->parse(Ljava/lang/CharSequence;, Ljava/time/format/DateTimeFormatter;)Ljava/time/ZonedDateTime;
+    0e4f: check-cast Landroid/view/VelocityTracker;
+    0e58: field-op Lcom/alibaba/fastjson2/util/DateUtils;->DATE_TIME_FORMATTER_RFC_2822:Ljava/time/format/DateTimeFormatter;
+    0e5c: const-string v0, "EEE, dd MMM yyyy HH:mm:ss Z"
+    0e5e: invoke-static Ljava/time/format/DateTimeFormatter;->ofPattern(Ljava/lang/String;)Ljava/time/format/DateTimeFormatter;
+    0e62: field-op Lcom/alibaba/fastjson2/util/DateUtils;->DATE_TIME_FORMATTER_RFC_2822:Ljava/time/format/DateTimeFormatter;
+    0e64: new-instance Ljava/lang/String;
+    0e66: invoke-direct Ljava/lang/String;-><init>([B, I, I)V
+    0e69: invoke-static Ljava/time/ZonedDateTime;->parse(Ljava/lang/CharSequence;, Ljava/time/format/DateTimeFormatter;)Ljava/time/ZonedDateTime;
+    0e88: instance-field-op La/a/a$a;->a:La/a/a;
+
+================================================================================
+CLASS: Lcom/alibaba/fastjson2/util/DateUtils;
+METHOD: parseZonedDateTime([C, I, I, Ljava/time/ZoneId;)Ljava/time/ZonedDateTime;
+================================================================================
+    0013: invoke-static Lcom/alibaba/fastjson2/util/DateUtils;->parseZonedDateTime16([C, I, Ljava/time/ZoneId;)Ljava/time/ZonedDateTime;
+    00b1: const-string/jumbo v0, ""
+    00b9: check-cast 
+    00bf: new-instance 
+    00eb: const-string/jumbo v0, ""
+    00f3: check-cast 
+    00f9: new-instance 
+    011f: const-string v0, "Lcom/alibaba/fastjson2/writer/FieldWriterInt16ValField;"
+    0121: const-string/jumbo v0, ""
+    0129: check-cast 
+    012f: new-instance La/a/u$a;
+    014f: const-string v0, "Lcom/google/android/material/bottomappbar/BottomAppBar$Behavior;"
+    0153: const-string/jumbo v0, ""
+    015b: check-cast 
+    017b: const-string v0, "Lcom/efs/sdk/base/core/config/a/b;"
+    0181: const-string/jumbo v0, ""
+    0189: check-cast 
+    01a3: const-string v0, "Lcom/bumptech/glide/load/b/a;"
+    01ab: const-string/jumbo v0, ""
+    01b3: check-cast La/a/u$a;
+    01c7: const-string v0, "Lcom/bkdisplay/systemui/power/-$$Lambda$c$AGa3ntnywUw3OXuhLfDPaGf_kJg;"
+    01d1: const-string/jumbo v0, ""
+    01d9: field-op Landroidx/constraintlayout/widget/R$styleable;->ConstraintLayout_Layout_constraint_referenced_ids:I
+    01e7: const-string v0, "Lcom/bkdisplay/systemui/other/-$$Lambda$PowerDownDialog$w6Cx9qJBhkIBIQdACqdYPhxY5Mk;"
+    01f3: const-string/jumbo v0, ""
+    0202: const-string v0, "Lcom/bkdisplay/systemui/common/b$4;"
+    0210: const-string/jumbo v0, ""
+    0219: const-string v0, "Lcom/bkdisplay/system/ota/BaiduOtaManager;"
+    0229: const-string/jumbo v0, ""
+    022c: const-string v0, "Lcom/bkdisplay/system/ota/BaiduOtaManager;"
+    0246: instance-field-op Lorg/apache/a/a/e/p;->a:Ljava/lang/String;
+    0248: instance-field-op Landroidx/appcompat/app/k$a;->f:J
+    024e: instance-field-op Lcom/umeng/commonsdk/config/d$c;->c:Lcom/umeng/commonsdk/config/d$c;
+    0256: instance-field-op Lcom/umeng/commonsdk/utils/b;->B:Ljava/lang/String;
+    025a: instance-field-op Lcom/umeng/commonsdk/utils/b;->B:Ljava/lang/String;
+    0287: const-string v0, "Transition_constraintSetStart"
+    02d2: const-string v0, "Transition_constraintSetStart"
+    02ec: instance-field-op Landroidx/appcompat/app/k$a;->f:J
+    02f0: instance-field-op Lorg/apache/a/a/c/a/d;->NOT_POWER_OF_TWO_CONSIDER_PADDING:Lorg/apache/a/a/c/a/d;
+    02f2: instance-field-op Lokhttp3/i;->ar:Lokhttp3/i;
+    02f4: instance-field-op Landroidx/appcompat/widget/r;->f:I
+    02fb: invoke-static Lcom/alibaba/fastjson2/util/DateUtils;->month(C, C, C)I
+    030d: const-string v0, ", zipCrashLog: "
+    032b: const-string v0, "Transition_constraintSetStart"
+    0345: field-op Landroidx/appcompat/app/i$a;->b:Z
+    034b: field-op Landroidx/appcompat/widget/SwitchCompat;->e:Landroid/content/res/ColorStateList;
+    034d: field-op La/b/f;->a:La/b/f;
+    0353: instance-field-op Landroidx/appcompat/R$dimen;->abc_dialog_corner_radius_material:I
+    0355: field-op La/b/f;->a:La/b/f;
+    0359: instance-field-op Landroidx/appcompat/R$attr;->homeLayout:I
+    035b: instance-field-op La/b/f;->a:La/b/f;
+    035f: instance-field-op La/b/f;->a:La/b/f;
+    0367: instance-field-op Landroidx/constraintlayout/a/a/a/f$a;->$VALUES:[Landroidx/constraintlayout/a/a/a/f$a;
+    0373: instance-field-op Landroidx/constraintlayout/a/a/a/f$a;->BASELINE:Landroidx/constraintlayout/a/a/a/f$a;
+    03a1: const-string v0, "Uploaded log: "
+    03bc: invoke-interface Landroidx/appcompat/widget/a$a;->b(Landroid/view/View;)V
+    03c4: instance-field-op Landroidx/constraintlayout/motion/widget/s$b;->e:Z
+    03c6: field-op Landroid/net/wifi/ScanResult;->SSID:Ljava/lang/String;
+    03ca: field-op Landroidx/constraintlayout/motion/widget/d;->w:F
+    03cc: field-op Landroid/net/wifi/ScanResult;->SSID:Ljava/lang/String;
+    03d0: instance-field-op Landroid/net/wifi/ScanResult;->SSID:Ljava/lang/String;
+    03da: instance-field-op ->:
+    03e6: instance-field-op ->:
+    0413: const-string v0, "VLIILL"
+    0434: instance-field-op ->:
+    0436: instance-field-op Landroidx/appcompat/widget/m;->g:Landroidx/appcompat/widget/ac;
+    043c: instance-field-op ->:
+    0444: instance-field-op ->:
+    0448: instance-field-op ->:
+    044c: instance-field-op ->:
+    0470: const-string v0, "TYPE_OBJECT_WRITER_3"
+    048c: const-string v8, "ConstraintSet_layout_constraintCircleAngle"
+    04bd: invoke-direct Landroid/view/View;->performAccessibilityAction(I, Landroid/os/Bundle;)Z
+    04c1: instance-field-op Landroidx/appcompat/resources/R$id;->tag_unhandled_key_listeners:I
+    04c8: invoke-static Lcom/alibaba/fastjson2/util/DateUtils;->month(C, C, C)I
+    04db: const-string v0, "LIII"
+    04fb: const-string v0, "MotionPaths"
+    052d: field-op Landroidx/appcompat/resources/R$style;->TextAppearance_Compat_Notification_Time:I
+    0531: field-op Landroidx/appcompat/resources/R$style;->TextAppearance_Compat_Notification_Time:I
+    0535: instance-field-op Landroidx/appcompat/resources/R$style;->TextAppearance_Compat_Notification_Time:I
+    0539: instance-field-op Landroidx/appcompat/resources/R$style;->TextAppearance_Compat_Notification_Time:I
+    053d: instance-field-op ->:
+    053f: instance-field-op Landroidx/appcompat/resources/R$style;->TextAppearance_Compat_Notification_Time:I
+    0576: const-string v0, "Transition_constraintSetStart"
+    059f: invoke-interface/range Lcom/bumptech/glide/f/d;->c()Lcom/bumptech/glide/load/b;
+    05a3: invoke-virtual/range Landroid/view/View;->offsetLeftAndRight(I)V
+    05a9: field-op Lcom/bkdisplay/systemui/R$styleable;->View_android_theme:I
+    05ab: field-op Landroidx/appcompat/R$style;->Widget_AppCompat_Light_DropDownItem_Spinner:I
+    05af: field-op Landroidx/appcompat/R$style;->Widget_AppCompat_Light_DropDownItem_Spinner:I
+    05b7: instance-field-op Landroidx/appcompat/R$style;->Widget_AppCompat_Light_DropDownItem_Spinner:I
+    05bb: instance-field-op Landroidx/appcompat/R$style;->Widget_AppCompat_EditText:I
+    05be: invoke-static Lcom/alibaba/fastjson2/util/DateUtils;->month(C, C, C)I
+    05d1: const-string v0, "createToIntFunction"
+    05f3: const-string v0, "The Path should be continuous, can't have 2+ contours"
+    0623: invoke-static/range Landroidx/appcompat/widget/r;->setListSelectionHidden(Z)V
+    0631: invoke-static Lcom/google/android/material/internal/o;-><init>(Landroid/content/Context;, Landroid/view/ViewGroup;, Landroid/view/View;)V
+    0637: field-op Lcom/google/android/material/snackbar/BaseTransientBottomBar$3;->b:Lcom/google/android/material/snackbar/BaseTransientBottomBar;
+    0639: field-op Landroidx/appcompat/app/AlertController$3;->c:Landroidx/appcompat/app/AlertController;
+    063d: field-op Landroidx/appcompat/app/AlertController$3;->c:Landroidx/appcompat/app/AlertController;
+    0645: instance-field-op Landroidx/appcompat/app/AlertController$3;->c:Landroidx/appcompat/app/AlertController;
+    0649: instance-field-op Landroidx/recyclerview/widget/StaggeredGridLayoutManager$SavedState;->d:[I
+    065e: const-string v0, "createToIntFunction"
+    067e: const-string v0, "The Path should be continuous, can't have 2+ contours"
+    06be: invoke-static/range Landroid/text/Spannable;->removeSpan(Ljava/lang/Object;)V
+    06d3: field-op Landroidx/appcompat/app/AlertController$3;->c:Landroidx/appcompat/app/AlertController;
+    06db: instance-field-op Landroidx/recyclerview/widget/StaggeredGridLayoutManager$SavedState;->d:[I
+    06ef: const-string v0, "MotionLayout_showPaths"
+    0711: const-string v0, "Transition_constraintSetStart"
+    0741: invoke-interface/range Landroid/graphics/drawable/ScaleDrawable;->getDrawable()Landroid/graphics/drawable/Drawable;
+    0747: instance-field-op Lcom/bkdisplay/systemui/R$styleable;->Slider_thumbElevation:I
+    0749: invoke-direct Landroid/graphics/drawable/ScaleDrawable;->getDrawable()Landroid/graphics/drawable/Drawable;
+    074d: field-op Landroidx/databinding/library/baseAdapters/R$style;->Base_Widget_AppCompat_ActionBar_TabText:I
+    0755: field-op Landroidx/appcompat/R$style;->Widget_AppCompat_EditText:I
+    075b: field-op Landroidx/appcompat/widget/SearchView;->n:Landroid/view/View;
+    0761: instance-field-op ->:
+    0771: instance-field-op ->:
+    079f: const-string v0, "VZCBSIFJD"
+    07b4: invoke-virtual/range Landroid/graphics/drawable/Icon;->getResId()I
+    07c3: invoke-static/range ->
+    07cb: instance-field-op ->:
+    07cd: field-op Landroidx/appcompat/widget/SearchView;->n:Landroid/view/View;
+    07d1: field-op ->:
+    07d3: field-op Landroidx/appcompat/widget/SearchView;->n:Landroid/view/View;
+    07d7: field-op Landroidx/appcompat/widget/SearchView;->n:Landroid/view/View;
+    07dd: const-string/jumbo v0, ""
+    07e1: instance-field-op Lcom/bkdisplay/systemui/R$attr;->alphabeticModifiers:I
+    07f1: instance-field-op Lcom/bkdisplay/systemui/R$attr;->altSrc:I
+    0823: const-string v0, "Widget_MaterialComponents_CompoundButton_CheckBox"
+    0840: invoke-super/range Lcom/alibaba/fastjson2/util/TypeUtils;->parseDouble([C, I, I)D
+    0848: instance-field-op Lcom/bkdisplay/framework/R$style;->ThemeOverlay_MaterialComponents_Toolbar_Surface:I
+    084a: field-op Landroidx/appcompat/R$id;->accessibility_custom_action_31:I
+    084e: field-op Lcom/bkdisplay/framework/R$styleable;->FloatingActionButton_elevation:I
+    0850: field-op Landroidx/appcompat/R$id;->accessibility_custom_action_31:I
+    0854: field-op Landroidx/appcompat/R$id;->accessibility_custom_action_31:I
+    085e: instance-field-op Landroidx/constraintlayout/widget/R$anim;->abc_tooltip_exit:I
+    086e: instance-field-op Landroidx/constraintlayout/widget/R$anim;->btn_checkbox_to_checked_box_inner_merged_animation:I
+    089e: const-string v0, "ZLLILL"
+    08b3: invoke-static/range Landroidx/constraintlayout/utils/widget/MockView;->getHeight()I
+    08bb: invoke-interface/range Landroidx/appcompat/widget/ScrollingTabContainerView;->smoothScrollTo(I, I)V
+    08c3: instance-field-op Landroidx/constraintlayout/motion/widget/s$b;->e:Z
+    08c5: invoke-virtual La/a/x;->size()I
+    08c9: field-op Landroidx/constraintlayout/widget/R$drawable;->abc_vector_test:I
+    08cb: field-op Landroid/net/wifi/ScanResult;->SSID:Ljava/lang/String;
+    08cf: field-op Landroid/net/wifi/ScanResult;->SSID:Ljava/lang/String;
+    08d1: const-string v0, "Lcom/bkdisplay/systemui/power/-$$Lambda$c$AGa3ntnywUw3OXuhLfDPaGf_kJg;"
+    08d9: instance-field-op Lcom/bkdisplay/framework/R$id;->onDateChanged:I
+    08e9: instance-field-op Lcom/bkdisplay/framework/R$id;->outline:I
+    08f0: const-string v0, "------>>> lastActivityEndTime: "
+    091b: const-string v0, "[Lcom/google/android/material/bottomnavigation/BottomNavigationView$SavedState;"
+    0931: invoke-super/range Landroidx/constraintlayout/widget/a$1;-><clinit>()V
+    0941: instance-field-op Lcom/bkdisplay/framework/R$style;->ThemeOverlay_MaterialComponents_Toolbar_Surface:I
+    094f: const-string/jumbo v0, ""
+    0957: instance-field-op Landroidx/constraintlayout/widget/R$anim;->abc_tooltip_exit:I
+    0967: instance-field-op Landroidx/constraintlayout/widget/R$anim;->btn_checkbox_to_checked_box_inner_merged_animation:I
+    098f: const-string v0, "VZCBSIFJD"
+    09ac: const-string/jumbo v0, ""
+    09d7: const-string v0, "^\s*?(.+)@(.+?)\s*$"
+    09f3: invoke-virtual/range Landroidx/appcompat/widget/ScrollingTabContainerView;->smoothScrollTo(I, I)V
+    09fb: instance-field-op Landroidx/constraintlayout/motion/widget/s$b;->e:Z
+    09fd: field-op Landroid/net/wifi/ScanResult;->SSID:Ljava/lang/String;
+    0a01: field-op Landroidx/constraintlayout/widget/R$drawable;->abc_vector_test:I
+    0a03: field-op Landroid/net/wifi/ScanResult;->SSID:Ljava/lang/String;
+    0a07: field-op Landroid/net/wifi/ScanResult;->SSID:Ljava/lang/String;
+    0a11: instance-field-op Lcom/bkdisplay/framework/R$id;->onDateChanged:I
+    0a21: instance-field-op Lcom/bkdisplay/framework/R$id;->outline:I
+    0a53: const-string v0, "Lorg/apache/http/conn/ssl/X509HostnameVerifier;"
+    0a6d: invoke-interface/range Landroid/content/res/Resources;->getIntArray(I)[I
+    0a71: invoke-virtual/range Lcom/alibaba/fastjson2/util/TypeUtils;->parseDouble([C, I, I)D
+    0a75: invoke-direct Landroid/content/res/Resources;->getIntArray(I)[I
+    0a79: field-op Lcom/bkdisplay/framework/R$styleable;->FloatingActionButton_elevation:I
+    0a7b: field-op Landroidx/appcompat/R$id;->accessibility_custom_action_31:I
+    0a7f: field-op Lcom/bkdisplay/framework/R$styleable;->ViewStubCompat_android_id:I
+    0a81: field-op Landroidx/appcompat/R$id;->accessibility_custom_action_16:I
+    0a84: invoke-static Lcom/alibaba/fastjson2/util/DateUtils;->month(C, C, C)I
+    0a98: const-string v0, "createToIntFunction"
+    0a9c: new-instance Ljava/lang/String;
+    0aa5: invoke-direct Ljava/lang/String;-><init>([C, I, I)V
+    0abe: const-string v0, "Transition_constraintSetStart"
+    0af1: field-op Landroidx/appcompat/resources/R$style;->TextAppearance_Compat_Notification_Time:I
+    0af5: field-op Landroidx/appcompat/resources/R$style;->TextAppearance_Compat_Notification_Time:I
+    0af9: instance-field-op ->:
+    0afb: instance-field-op ->:
+    0afd: instance-field-op ->:
+    0aff: instance-field-op Landroidx/appcompat/resources/R$style;->TextAppearance_Compat_Notification_Time:I
+    0b03: instance-field-op ->:
+    0b05: instance-field-op Landroidx/appcompat/resources/R$style;->TextAppearance_Compat_Notification_Time:I
+    0b0e: invoke-static Lcom/alibaba/fastjson2/util/DateUtils;->month(C, C, C)I
+    0b20: const-string v0, "(Ljava/lang/Object;J)B"
+    0b34: const-string v0, "The Path should be continuous, can't have 2+ contours"
+    0b68: invoke-static/range Landroid/widget/FrameLayout;->setPadding(I, I, I, I)V
+    0b6e: invoke-static Landroidx/appcompat/widget/e;->a(Landroid/graphics/PorterDuff$Mode;)V
+    0b74: field-op ->:
+    0b76: field-op Landroidx/appcompat/widget/SearchView;->n:Landroid/view/View;
+    0b7a: instance-field-op Landroidx/constraintlayout/widget/R$drawable;->abc_ic_star_half_black_16dp:I
+    0b82: instance-field-op Landroidx/appcompat/widget/SearchView;->V:Landroid/widget/TextView$OnEditorActionListener;
+    0b88: field-op Landroidx/recyclerview/widget/StaggeredGridLayoutManager$SavedState;->d:[I
+    0b9c: const-string v0, "MotionLayout_showPaths"
+    0bb3: const-string v0, "Transition_constraintSetStart"
+    0bed: invoke-interface ->
+    0bf5: instance-field-op ->:
+    0bf7: field-op Landroidx/appcompat/widget/m;->g:Landroidx/appcompat/widget/ac;
+    0bfb: field-op ->:
+    0bfd: field-op Landroidx/appcompat/widget/m;->g:Landroidx/appcompat/widget/ac;
+    0c01: instance-field-op Landroidx/appcompat/widget/m;->g:Landroidx/appcompat/widget/ac;
+    0c05: const-string/jumbo v0, ""
+    0c0b: instance-field-op Lcom/umeng/cconfig/R$drawable;->abc_seekbar_tick_mark_material:I
+    0c1b: instance-field-op Lcom/umeng/cconfig/R$drawable;->abc_seekbar_track_material:I
+    0c49: check-cast 
+    0c89: const-string v0, "VZCBSIFJD"
+    0c95: check-cast 
+    0ca7: invoke-static Lcom/alibaba/fastjson2/util/DateUtils;->hourAfterNoon(C, C)I
+    0cb9: invoke-static/range Lcom/alibaba/fastjson2/util/DateUtils;->localDateTime(C, C, C, C, C, C, C, C, C, C, C, C, C, C, C, C, C, C, C, C, C, C, C)Ljava/time/LocalDateTime;
+    0cc3: new-instance Ljava/lang/String;
+    0cc7: invoke-direct Ljava/lang/String;-><init>([C, I, I)V
+    0cca: const-string v1, "UTC"
+    0ccc: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    0cd2: const-string v1, "[UTC]"
+    0cd4: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    0cda: invoke-static Ljava/util/TimeZone;->getTimeZone(Ljava/lang/String;)Ljava/util/TimeZone;
+    0cde: invoke-virtual Ljava/util/TimeZone;->toZoneId()Ljava/time/ZoneId;
+    0ce3: field-op Ljava/time/ZoneOffset;->UTC:Ljava/time/ZoneOffset;
+    0cf0: instance-field-op Lcom/bkdisplay/systemui/R$dimen;->mtrl_snackbar_margin:I
+    0cf3: field-op Ljava/time/ZoneOffset;->UTC:Ljava/time/ZoneOffset;
+    0d07: new-instance Ljava/lang/String;
+    0d0e: invoke-direct Ljava/lang/String;-><init>([C, I, I)V
+    0d14: new-instance Ljava/lang/String;
+    0d1b: invoke-direct Ljava/lang/String;-><init>([C, I, I)V
+    0d23: new-instance Ljava/lang/String;
+    0d26: invoke-direct Ljava/lang/String;-><init>([C, I, I)V
+    0d2b: invoke-static Lcom/alibaba/fastjson2/util/DateUtils;->getZoneId(Ljava/lang/String;, Ljava/time/ZoneId;)Ljava/time/ZoneId;
+    0d34: field-op Lcom/alibaba/fastjson2/util/DateUtils;->DEFAULT_ZONE_ID:Ljava/time/ZoneId;
+    0d37: invoke-static Ljava/time/ZonedDateTime;->ofLocal(Ljava/time/LocalDateTime;, Ljava/time/ZoneId;, Ljava/time/ZoneOffset;)Ljava/time/ZonedDateTime;
+    0d47: const-string v0, ""
+    0d5f: invoke-direct/range Landroid/graphics/Paint;->setAlpha(I)V
+    0d67: new-instance Landroidx/core/graphics/g;
+    0d6f: const-string v0, "ARRAY "
+    0d89: new-instance 
+    0dc5: const-string v0, "
+infeasibleDetermineGroups: "
+    0dd4: new-instance Ljava/lang/String;
+    0dd6: invoke-direct Ljava/lang/String;-><init>([C, I, I)V
+    0dd9: invoke-static Lcom/alibaba/fastjson2/util/DateUtils;->parseZonedDateTimeCookie(Ljava/lang/String;)Ljava/time/ZonedDateTime;
+    0ddf: new-instance Landroid/view/VelocityTracker;
+    0de2: field-op Lcom/alibaba/fastjson2/util/DateUtils;->DATE_TIME_FORMATTER_34:Ljava/time/format/DateTimeFormatter;
+    0de6: const-string v0, "EEE MMM dd HH:mm:ss O yyyy"
+    0de8: invoke-static Ljava/time/format/DateTimeFormatter;->ofPattern(Ljava/lang/String;)Ljava/time/format/DateTimeFormatter;
+    0dec: field-op Lcom/alibaba/fastjson2/util/DateUtils;->DATE_TIME_FORMATTER_34:Ljava/time/format/DateTimeFormatter;
+    0dee: new-instance Ljava/lang/String;
+    0df0: invoke-direct Ljava/lang/String;-><init>([C, I, I)V
+    0df3: invoke-static Ljava/time/ZonedDateTime;->parse(Ljava/lang/CharSequence;, Ljava/time/format/DateTimeFormatter;)Ljava/time/ZonedDateTime;
+    0df9: check-cast Landroid/view/VelocityTracker;
+    0e02: field-op Lcom/alibaba/fastjson2/util/DateUtils;->DATE_TIME_FORMATTER_RFC_2822:Ljava/time/format/DateTimeFormatter;
+    0e06: const-string v0, "EEE, dd MMM yyyy HH:mm:ss Z"
+    0e08: invoke-static Ljava/time/format/DateTimeFormatter;->ofPattern(Ljava/lang/String;)Ljava/time/format/DateTimeFormatter;
+    0e0c: field-op Lcom/alibaba/fastjson2/util/DateUtils;->DATE_TIME_FORMATTER_RFC_2822:Ljava/time/format/DateTimeFormatter;
+    0e0e: new-instance Ljava/lang/String;
+    0e10: invoke-direct Ljava/lang/String;-><init>([C, I, I)V
+    0e13: invoke-static Ljava/time/ZonedDateTime;->parse(Ljava/lang/CharSequence;, Ljava/time/format/DateTimeFormatter;)Ljava/time/ZonedDateTime;
+    0e1b: new-instance Ljava/lang/String;
+    0e1f: invoke-direct Ljava/lang/String;-><init>([C, I, I)V
+    0e22: new-instance Ljava/time/format/DateTimeParseException;
+    0e24: new-instance Ljava/lang/StringBuilder;
+    0e26: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    0e29: const-string v3, "illegal input "
+    0e2b: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0e2f: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0e33: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    0e38: invoke-direct Ljava/time/format/DateTimeParseException;-><init>(Ljava/lang/String;, Ljava/lang/CharSequence;, I)V
+    0e46: invoke-virtual/range La/a/a$a;-><init>(La/a/a;)V
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/-$$Lambda$BaiduOtaManager$U1h5ko3pzn7mCOt0d7ORrReLTiY;
+METHOD: <init>(Lcom/bkdisplay/system/ota/BaiduOtaManager;)V
+================================================================================
+    0000: invoke-direct Ljava/lang/Object;-><init>()V
+    0003: instance-field-op Lcom/bkdisplay/system/ota/-$$Lambda$BaiduOtaManager$U1h5ko3pzn7mCOt0d7ORrReLTiY;->f$0:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/-$$Lambda$BaiduOtaManager$U1h5ko3pzn7mCOt0d7ORrReLTiY;
+METHOD: run()V
+================================================================================
+    0000: instance-field-op Lcom/bkdisplay/system/ota/-$$Lambda$BaiduOtaManager$U1h5ko3pzn7mCOt0d7ORrReLTiY;->f$0:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    0002: invoke-static Lcom/bkdisplay/system/ota/BaiduOtaManager;->lambda$U1h5ko3pzn7mCOt0d7ORrReLTiY(Lcom/bkdisplay/system/ota/BaiduOtaManager;)V
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/-$$Lambda$BaiduOtaManager$V1utVg1sADs5h7qaom-iEy30lTY;
+METHOD: <init>(Lcom/bkdisplay/system/ota/BaiduOtaManager;)V
+================================================================================
+    0000: invoke-direct Ljava/lang/Object;-><init>()V
+    0003: instance-field-op Lcom/bkdisplay/system/ota/-$$Lambda$BaiduOtaManager$V1utVg1sADs5h7qaom-iEy30lTY;->f$0:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/-$$Lambda$BaiduOtaManager$V1utVg1sADs5h7qaom-iEy30lTY;
+METHOD: run()V
+================================================================================
+    0000: instance-field-op Lcom/bkdisplay/system/ota/-$$Lambda$BaiduOtaManager$V1utVg1sADs5h7qaom-iEy30lTY;->f$0:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    0002: invoke-static Lcom/bkdisplay/system/ota/BaiduOtaManager;->lambda$V1utVg1sADs5h7qaom-iEy30lTY(Lcom/bkdisplay/system/ota/BaiduOtaManager;)V
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/-$$Lambda$BaiduOtaManager$WtAYfsKe2IVCqPgZYFAcIw-pS_4;
+METHOD: <init>(Lcom/bkdisplay/system/ota/BaiduOtaManager;)V
+================================================================================
+    0000: invoke-direct Ljava/lang/Object;-><init>()V
+    0003: instance-field-op Lcom/bkdisplay/system/ota/-$$Lambda$BaiduOtaManager$WtAYfsKe2IVCqPgZYFAcIw-pS_4;->f$0:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/-$$Lambda$BaiduOtaManager$WtAYfsKe2IVCqPgZYFAcIw-pS_4;
+METHOD: run()V
+================================================================================
+    0000: instance-field-op Lcom/bkdisplay/system/ota/-$$Lambda$BaiduOtaManager$WtAYfsKe2IVCqPgZYFAcIw-pS_4;->f$0:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    0002: invoke-static Lcom/bkdisplay/system/ota/BaiduOtaManager;->lambda$WtAYfsKe2IVCqPgZYFAcIw-pS_4(Lcom/bkdisplay/system/ota/BaiduOtaManager;)V
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager$2;
+METHOD: <init>(Lcom/bkdisplay/system/ota/BaiduOtaManager;, Ljava/lang/String;)V
+================================================================================
+    0000: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$2;->b:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    0002: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$2;->a:Ljava/lang/String;
+    0004: invoke-direct Ljava/lang/Thread;-><init>()V
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager$2;
+METHOD: run()V
+================================================================================
+    0000: new-instance Ljava/io/File;
+    0002: const-string v1, "/data/cache/version.info"
+    0004: invoke-direct Ljava/io/File;-><init>(Ljava/lang/String;)V
+    0007: invoke-virtual Ljava/io/File;->exists()Z
+    000d: invoke-virtual Ljava/io/File;->createNewFile()Z
+    0010: new-instance Ljava/io/FileOutputStream;
+    0012: invoke-direct Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
+    0015: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$2;->a:Ljava/lang/String;
+    0017: invoke-virtual Ljava/lang/String;->getBytes()[B
+    001b: invoke-virtual Ljava/io/FileOutputStream;->write([B)V
+    001e: invoke-virtual Ljava/io/FileOutputStream;->flush()V
+    0021: invoke-virtual Ljava/io/FileOutputStream;->close()V
+    0026: invoke-virtual Ljava/io/IOException;->printStackTrace()V
+    002b: invoke-virtual Ljava/io/FileNotFoundException;->printStackTrace()V
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager$3$1$1;
+METHOD: <init>(Lcom/bkdisplay/system/ota/BaiduOtaManager$3$1;, Ljava/lang/String;, Ljava/lang/String;, I)V
+================================================================================
+    0000: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$3$1$1;->d:Lcom/bkdisplay/system/ota/BaiduOtaManager$3$1;
+    0002: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$3$1$1;->a:Ljava/lang/String;
+    0004: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$3$1$1;->b:Ljava/lang/String;
+    0006: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$3$1$1;->c:I
+    0008: invoke-direct Ljava/lang/Object;-><init>()V
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager$3$1$1;
+METHOD: onDismiss(Landroid/content/DialogInterface;)V
+================================================================================
+    0000: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$3$1$1;->a:Ljava/lang/String;
+    0002: const-string v0, "ignore"
+    0004: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    000a: invoke-static Lcom/bkdisplay/systemui/SystemUIApplication;->a()Landroid/app/Application;
+    000e: new-instance Ljava/lang/StringBuilder;
+    0010: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    0013: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$3$1$1;->b:Ljava/lang/String;
+    0015: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0019: const-string v1, ":"
+    001b: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    001f: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$3$1$1;->c:I
+    0023: invoke-virtual Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    0027: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    002b: const-string v1, "ota_ignore_version"
+    002d: invoke-static Lcom/bkdisplay/api/util/a;->a(Landroid/content/Context;, Ljava/lang/String;, Ljava/lang/String;)V
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager$3$1$2;
+METHOD: <init>(Lcom/bkdisplay/system/ota/BaiduOtaManager$3$1;)V
+================================================================================
+    0000: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$3$1$2;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager$3$1;
+    0002: invoke-direct Ljava/lang/Object;-><init>()V
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager$3$1$2;
+METHOD: onClick(Landroid/content/DialogInterface;, I)V
+================================================================================
+    0003: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$3$1$2;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager$3$1;
+    0005: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$3$1;->b:Lcom/bkdisplay/system/ota/BaiduOtaManager$3;
+    0007: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$3;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    0009: invoke-virtual Lcom/bkdisplay/system/ota/BaiduOtaManager;->g()V
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager$3$1;
+METHOD: <init>(Lcom/bkdisplay/system/ota/BaiduOtaManager$3;, Ljava/lang/String;)V
+================================================================================
+    0000: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$3$1;->b:Lcom/bkdisplay/system/ota/BaiduOtaManager$3;
+    0002: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$3$1;->a:Ljava/lang/String;
+    0004: invoke-direct Ljava/lang/Object;-><init>()V
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager$3$1;
+METHOD: run()V
+================================================================================
+    0000: const-string v0, "count"
+    0002: const-string v1, "update_type"
+    0004: const-string v2, "ignore"
+    0006: const-string v3, ""
+    0008: invoke-static Lcom/bkdisplay/systemui/SystemUIApplication;->a()Landroid/app/Application;
+    000c: const-string v5, "ota_progress"
+    000f: invoke-static Lcom/bkdisplay/api/util/a;->b(Landroid/content/Context;, Ljava/lang/String;, I)I
+    0013: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$3$1;->b:Lcom/bkdisplay/system/ota/BaiduOtaManager$3;
+    0015: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$3;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    0017: invoke-static Lcom/bkdisplay/system/ota/BaiduOtaManager;->b(Lcom/bkdisplay/system/ota/BaiduOtaManager;)Z
+    001d: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$3$1;->b:Lcom/bkdisplay/system/ota/BaiduOtaManager$3;
+    001f: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$3;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    0021: invoke-static Lcom/bkdisplay/system/ota/BaiduOtaManager;->c(Lcom/bkdisplay/system/ota/BaiduOtaManager;)I
+    0025: field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->b:I
+    002b: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$3$1;->b:Lcom/bkdisplay/system/ota/BaiduOtaManager$3;
+    002d: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$3;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    0030: invoke-static Lcom/bkdisplay/system/ota/BaiduOtaManager;->b(Lcom/bkdisplay/system/ota/BaiduOtaManager;, Z)Z
+    0034: field-op Lcom/bkdisplay/framework/R$style;->Theme_AppCompat:I
+    0037: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$3$1;->b:Lcom/bkdisplay/system/ota/BaiduOtaManager$3;
+    0039: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$3;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    003b: invoke-virtual Lcom/bkdisplay/system/ota/BaiduOtaManager;->g()V
+    003f: const-string/jumbo v1, ""
+    0043: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$3$1;->a:Ljava/lang/String;
+    0045: invoke-direct Lorg/json/JSONArray;-><init>(Ljava/lang/String;)V
+    0048: invoke-virtual Lorg/json/JSONArray;->getJSONObject(I)Lorg/json/JSONObject;
+    004c: const-string v9, "detail"
+    004e: invoke-virtual Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
+    0052: const-string v10, "version"
+    0054: invoke-virtual Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
+    0058: invoke-static Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    005e: new-instance Lorg/json/JSONObject;
+    0060: invoke-direct Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
+    0063: invoke-virtual Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+    0069: invoke-virtual Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
+    006d: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    0072: new-instance 
+    0079: invoke-virtual Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
+    007d: invoke-virtual Ljava/lang/String;->trim()Ljava/lang/String;
+    0081: invoke-static Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+    0090: invoke-virtual Ljava/lang/Exception;->printStackTrace()V
+    0094: field-op Lcom/bkdisplay/system/ota/a;->d:Ljava/lang/String;
+    0096: invoke-static Lcom/bkdisplay/api/util/e;->a(Ljava/lang/String;, Ljava/lang/String;)V
+    0099: field-op Lcom/bkdisplay/system/ota/a;->f:Ljava/lang/String;
+    009b: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    00a1: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$3$1;->b:Lcom/bkdisplay/system/ota/BaiduOtaManager$3;
+    00a3: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$3;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    00a5: invoke-virtual Lcom/bkdisplay/system/ota/BaiduOtaManager;->b()V
+    00a9: field-op Lcom/bkdisplay/system/ota/a;->e:Ljava/lang/String;
+    00ab: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    00b1: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$3$1;->b:Lcom/bkdisplay/system/ota/BaiduOtaManager$3;
+    00b3: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$3;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    00b5: invoke-virtual Lcom/bkdisplay/system/ota/BaiduOtaManager;->g()V
+    00b9: invoke-static Lcom/bkdisplay/systemui/SystemUIApplication;->a()Landroid/app/Application;
+    00bd: const-string v10, "ota_ignore_version"
+    00bf: invoke-static Lcom/bkdisplay/api/util/a;->b(Landroid/content/Context;, Ljava/lang/String;, Ljava/lang/String;)Ljava/lang/String;
+    00c3: const-string v10, ":"
+    00c5: invoke-virtual Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
+    00ce: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    00d6: invoke-static Ljava/lang/Integer;->valueOf(Ljava/lang/String;)Ljava/lang/Integer;
+    00da: invoke-virtual Ljava/lang/Integer;->intValue()I
+    00de: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    00e4: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    00ed: new-instance Lcom/bkdisplay/systemui/common/b;
+    00ef: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$3$1;->b:Lcom/bkdisplay/system/ota/BaiduOtaManager$3;
+    00f1: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$3;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    00f3: invoke-static Lcom/bkdisplay/system/ota/BaiduOtaManager;->a(Lcom/bkdisplay/system/ota/BaiduOtaManager;)Landroid/content/Context;
+    00f7: invoke-direct Lcom/bkdisplay/systemui/common/b;-><init>(Landroid/content/Context;)V
+    00fb: invoke-virtual Lcom/bkdisplay/systemui/common/b;->a(I)V
+    00fe: field-op Lcom/bkdisplay/system/ota/a;->g:Ljava/lang/String;
+    0100: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    0106: invoke-virtual Lcom/bkdisplay/systemui/common/b;->a(Z)V
+    010a: field-op Lcom/bkdisplay/system/ota/a;->h:Ljava/lang/String;
+    010c: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    0112: invoke-virtual Lcom/bkdisplay/systemui/common/b;->a(Z)V
+    0115: invoke-virtual Lcom/bkdisplay/systemui/common/b;->setCancelable(Z)V
+    0118: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    0120: invoke-static Lcom/bkdisplay/systemui/SystemUIApplication;->a()Landroid/app/Application;
+    0127: invoke-direct Lcom/bumptech/glide/load/b/b/c;-><init>()V
+    012f: field-op Lcom/bumptech/glide/load/c/d;->a:Ljava/net/URL;
+    0131: invoke-static Lcom/bkdisplay/framework/f/i;->c(I)I
+    0135: invoke-virtual Landroid/app/Application;->getString(I)Ljava/lang/String;
+    0139: invoke-virtual Lcom/bkdisplay/systemui/common/b;->c(Ljava/lang/String;)V
+    013d: field-op Lcom/bumptech/glide/load/c/d;->a:Ljava/net/URL;
+    013f: invoke-static Lcom/bkdisplay/framework/f/i;->b(I)Ljava/lang/String;
+    0143: invoke-virtual Lcom/bkdisplay/systemui/common/b;->a(Ljava/lang/String;)V
+    0146: new-instance Lcom/bkdisplay/system/ota/BaiduOtaManager$3$1$1;
+    0148: invoke-direct Lcom/bkdisplay/system/ota/BaiduOtaManager$3$1$1;-><init>(Lcom/bkdisplay/system/ota/BaiduOtaManager$3$1;, Ljava/lang/String;, Ljava/lang/String;, I)V
+    014b: invoke-virtual Lcom/bkdisplay/systemui/common/b;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
+    014e: new-instance Lcom/bkdisplay/system/ota/BaiduOtaManager$3$1$2;
+    0150: invoke-direct Lcom/bkdisplay/system/ota/BaiduOtaManager$3$1$2;-><init>(Lcom/bkdisplay/system/ota/BaiduOtaManager$3$1;)V
+    0153: invoke-virtual Lcom/bkdisplay/systemui/common/b;->a(Landroid/content/DialogInterface$OnClickListener;)V
+    0156: invoke-virtual Lcom/bkdisplay/systemui/common/b;->show()V
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager$4;
+METHOD: <init>(Lcom/bkdisplay/system/ota/BaiduOtaManager;)V
+================================================================================
+    0000: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$4;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    0002: invoke-direct Ljava/lang/Object;-><init>()V
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager$4;
+METHOD: run()V
+================================================================================
+    0000: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$4;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    0002: invoke-static Lcom/bkdisplay/system/ota/BaiduOtaManager;->a(Lcom/bkdisplay/system/ota/BaiduOtaManager;)Landroid/content/Context;
+    0006: const-string v1, "wifi"
+    0008: invoke-virtual Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    000c: check-cast Landroid/net/wifi/WifiManager;
+    000e: invoke-virtual Landroid/net/wifi/WifiManager;->getConnectionInfo()Landroid/net/wifi/WifiInfo;
+    0012: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$4;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    0014: invoke-static Lcom/bkdisplay/system/ota/BaiduOtaManager;->a(Lcom/bkdisplay/system/ota/BaiduOtaManager;)Landroid/content/Context;
+    0018: const-string v2, "connectivity"
+    001a: invoke-virtual Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    001e: check-cast Landroid/net/ConnectivityManager;
+    0024: invoke-virtual Landroid/net/ConnectivityManager;->getNetworkInfo(I)Landroid/net/NetworkInfo;
+    002a: invoke-virtual Landroid/net/wifi/WifiInfo;->getSupplicantState()Landroid/net/wifi/SupplicantState;
+    002e: field-op Landroid/net/wifi/SupplicantState;->COMPLETED:Landroid/net/wifi/SupplicantState;
+    0035: invoke-virtual Landroid/net/NetworkInfo;->isConnected()Z
+    003b: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$4;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    003d: invoke-static Lcom/bkdisplay/system/ota/BaiduOtaManager;->e(Lcom/bkdisplay/system/ota/BaiduOtaManager;)V
+    0040: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$4;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    0042: invoke-static Lcom/bkdisplay/system/ota/BaiduOtaManager;->b(Lcom/bkdisplay/system/ota/BaiduOtaManager;)Z
+    0048: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$4;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    004a: invoke-static Lcom/bkdisplay/system/ota/BaiduOtaManager;->f(Lcom/bkdisplay/system/ota/BaiduOtaManager;)V
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager$5;
+METHOD: <init>(Lcom/bkdisplay/system/ota/BaiduOtaManager;)V
+================================================================================
+    0000: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$5;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    0002: invoke-direct Ljava/lang/Object;-><init>()V
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager$5;
+METHOD: run()V
+================================================================================
+    0000: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$5;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    0002: invoke-static Lcom/bkdisplay/system/ota/BaiduOtaManager;->g(Lcom/bkdisplay/system/ota/BaiduOtaManager;)Z
+    0008: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$5;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    000a: invoke-static Lcom/bkdisplay/system/ota/BaiduOtaManager;->a(Lcom/bkdisplay/system/ota/BaiduOtaManager;)Landroid/content/Context;
+    000e: const-string v1, "wifi"
+    0010: invoke-virtual Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    0014: check-cast Landroid/net/wifi/WifiManager;
+    0016: invoke-virtual Landroid/net/wifi/WifiManager;->getConnectionInfo()Landroid/net/wifi/WifiInfo;
+    001a: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$5;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    001c: invoke-static Lcom/bkdisplay/system/ota/BaiduOtaManager;->a(Lcom/bkdisplay/system/ota/BaiduOtaManager;)Landroid/content/Context;
+    0020: const-string v2, "connectivity"
+    0022: invoke-virtual Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    0026: check-cast Landroid/net/ConnectivityManager;
+    002d: invoke-virtual Landroid/net/ConnectivityManager;->getNetworkInfo(I)Landroid/net/NetworkInfo;
+    0031: invoke-virtual Landroid/net/wifi/WifiInfo;->getSupplicantState()Landroid/net/wifi/SupplicantState;
+    0035: field-op Landroid/net/wifi/SupplicantState;->COMPLETED:Landroid/net/wifi/SupplicantState;
+    003c: invoke-virtual Landroid/net/NetworkInfo;->isConnected()Z
+    0042: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$5;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    0044: invoke-static Lcom/bkdisplay/system/ota/BaiduOtaManager;->e(Lcom/bkdisplay/system/ota/BaiduOtaManager;)V
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager$NetReceiver;
+METHOD: <init>(Lcom/bkdisplay/system/ota/BaiduOtaManager;)V
+================================================================================
+    0000: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$NetReceiver;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    0002: invoke-direct Landroid/content/BroadcastReceiver;-><init>()V
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager$NetReceiver;
+METHOD: onReceive(Landroid/content/Context;, Landroid/content/Intent;)V
+================================================================================
+    0000: new-instance Ljava/lang/StringBuilder;
+    0002: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    0005: const-string v1, "onReceive: "
+    0007: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    000b: invoke-virtual Landroid/content/Intent;->getAction()Ljava/lang/String;
+    000f: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0013: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    0017: const-string v2, "BaiduOtaManager"
+    0019: invoke-static Landroid/util/Log;->d(Ljava/lang/String;, Ljava/lang/String;)I
+    001c: const-string v0, "networkInfo"
+    001e: invoke-virtual Landroid/content/Intent;->getParcelableExtra(Ljava/lang/String;)Landroid/os/Parcelable;
+    0022: check-cast Landroid/net/NetworkInfo;
+    0024: new-instance Ljava/lang/StringBuilder;
+    0026: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    0029: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    002d: invoke-virtual Landroid/net/NetworkInfo;->isConnected()Z
+    0031: invoke-virtual Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+    0035: const-string v1, " "
+    0037: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    003b: invoke-virtual Landroid/net/NetworkInfo;->getTypeName()Ljava/lang/String;
+    003f: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0043: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0047: invoke-virtual Landroid/net/NetworkInfo;->getState()Landroid/net/NetworkInfo$State;
+    004b: invoke-virtual Landroid/net/NetworkInfo$State;->name()Ljava/lang/String;
+    004f: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0053: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    0057: invoke-static Landroid/util/Log;->d(Ljava/lang/String;, Ljava/lang/String;)I
+    005a: const-string v6, "wifi"
+    005c: invoke-virtual Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    0060: check-cast Landroid/net/wifi/WifiManager;
+    0062: invoke-virtual Landroid/net/wifi/WifiManager;->getConnectionInfo()Landroid/net/wifi/WifiInfo;
+    0066: const-string v0, "connectivity"
+    0068: invoke-virtual Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    006c: check-cast Landroid/net/ConnectivityManager;
+    0072: invoke-virtual Landroid/net/ConnectivityManager;->getNetworkInfo(I)Landroid/net/NetworkInfo;
+    0078: invoke-virtual Landroid/net/wifi/WifiInfo;->getSupplicantState()Landroid/net/wifi/SupplicantState;
+    007c: field-op Landroid/net/wifi/SupplicantState;->COMPLETED:Landroid/net/wifi/SupplicantState;
+    0083: invoke-virtual Landroid/net/NetworkInfo;->isConnected()Z
+    008a: const-string v6, "silence_download"
+    008c: invoke-static Lcom/bkdisplay/api/util/e;->b(Ljava/lang/String;, I)I
+    0094: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$NetReceiver;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    0096: invoke-static Lcom/bkdisplay/system/ota/BaiduOtaManager;->g(Lcom/bkdisplay/system/ota/BaiduOtaManager;)Z
+    009c: const-string v5, "checkUpdate: onReceive"
+    009e: invoke-static Landroid/util/Log;->d(Ljava/lang/String;, Ljava/lang/String;)I
+    00a1: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$NetReceiver;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    00a3: invoke-virtual Lcom/bkdisplay/system/ota/BaiduOtaManager;->f()V
+    00a7: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$NetReceiver;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    00a9: invoke-static Lcom/bkdisplay/system/ota/BaiduOtaManager;->c(Lcom/bkdisplay/system/ota/BaiduOtaManager;)I
+    00ad: field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->c:I
+    00b1: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$NetReceiver;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    00b3: invoke-static Lcom/bkdisplay/system/ota/BaiduOtaManager;->h(Lcom/bkdisplay/system/ota/BaiduOtaManager;)I
+    00bb: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$NetReceiver;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    00bd: invoke-virtual Lcom/bkdisplay/system/ota/BaiduOtaManager;->g()V
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/a;
+METHOD: a()Ljava/lang/String;
+================================================================================
+    0000: const-string v0, "ntech_ota_id"
+    0002: const-string v1, ""
+    0004: invoke-static Lcom/bkdisplay/api/util/b;->a(Ljava/lang/String;, Ljava/lang/String;)Ljava/lang/String;
+    0008: invoke-static Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    000e: const-string v0, "ro.vendor.ota.id"
+    0010: invoke-static Landroid/os/SystemProperties;->get(Ljava/lang/String;, Ljava/lang/String;)Ljava/lang/String;
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/a;
+METHOD: b()Ljava/lang/String;
+================================================================================
+    0000: const-string v0, "ntech_ota_key"
+    0002: const-string v1, ""
+    0004: invoke-static Lcom/bkdisplay/api/util/b;->a(Ljava/lang/String;, Ljava/lang/String;)Ljava/lang/String;
+    0008: invoke-static Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    000e: const-string v0, "ro.vendor.ota.key"
+    0010: invoke-static Landroid/os/SystemProperties;->get(Ljava/lang/String;, Ljava/lang/String;)Ljava/lang/String;
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/b$1;
+METHOD: onClick(Landroid/content/DialogInterface;, I)V
+================================================================================
+    0003: invoke-static Lcom/bkdisplay/system/ota/BaiduOtaManager;->a()Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    0007: invoke-virtual Lcom/bkdisplay/system/ota/BaiduOtaManager;->h()V
+
+================================================================================
+CLASS: Lcom/bkdisplay/systemui/SystemUIApplication;
+METHOD: b()V
+================================================================================
+    0000: invoke-static Lcom/bkdisplay/system/c/b;->a(Landroid/content/Context;)Ljava/lang/String;
+    0004: const-string v1, ":"
+    0006: invoke-virtual Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+    000c: new-instance Lcom/bkdisplay/system/ota/BaiduOtaReceiver;
+    000e: invoke-direct Lcom/bkdisplay/system/ota/BaiduOtaReceiver;-><init>()V
+    0011: new-instance Landroid/content/IntentFilter;
+    0013: const-string v2, "ota_broadcast"
+    0015: invoke-direct Landroid/content/IntentFilter;-><init>(Ljava/lang/String;)V
+    0018: const-string v2, "ota_upgrade_broadcast"
+    001a: invoke-virtual Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
+    001d: invoke-virtual Lcom/bkdisplay/systemui/SystemUIApplication;->registerReceiver(Landroid/content/BroadcastReceiver;, Landroid/content/IntentFilter;)Landroid/content/Intent;
+    0020: invoke-static Lcom/bkdisplay/system/ota/BaiduOtaManager;->a()Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    0024: invoke-virtual Lcom/bkdisplay/system/ota/BaiduOtaManager;->a(Landroid/content/Context;)V
+
+================================================================================
+CLASS: Lcom/bkdisplay/systemui/SystemUIApplication;
+METHOD: attachBaseContext(Landroid/content/Context;)V
+================================================================================
+    0000: invoke-super Landroid/app/Application;->attachBaseContext(Landroid/content/Context;)V
+    0003: field-op Lcom/bkdisplay/system/ota/a;->a:Ljava/lang/String;
+    0005: invoke-static Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    000b: invoke-static Lcom/bkdisplay/system/ota/BaiduOtaManager;->a()Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    000f: invoke-static Lcom/baidu/otasdk/ota/b;->a(Landroid/content/Context;, Lcom/baidu/otasdk/ota/b$a;)V
+    0014: invoke-virtual Ljava/lang/Exception;->printStackTrace()V
+    0018: invoke-static Lcom/bumptech/glide/e;->b(I)V
+    001b: invoke-static Lcom/bkdisplay/framework/f/m;->a(Landroid/content/Context;)V
+    001e: const-string v1, "systemui"
+    0020: invoke-static Lcom/bkdisplay/framework/f/i;->a(Landroid/content/Context;, Ljava/lang/String;)V
+    0023: invoke-static Lcom/bkdisplay/api/util/a;->a(Landroid/content/Context;)V
+    0026: const-string v3, "/cache/recovery/last_eshare_setting.xml"
+    0028: const-string v1, "/data/data/com.ecloud.eshare.server/shared_prefs/setting.xml"
+    002a: invoke-static Lcom/bkdisplay/api/util/a;->a(Ljava/lang/String;, Ljava/lang/String;, Z)V
+    002d: const-string v3, "/cache/recovery/last_xindawn.jpg"
+    002f: const-string v0, "/data/xindawn.jpg"
+    0032: invoke-static Lcom/bkdisplay/api/util/a;->a(Ljava/lang/String;, Ljava/lang/String;, Z)V
+    0035: const-string v3, "/cache/recovery/last_xindawn3.jpg"
+    0037: const-string v0, "/data/xindawn3.jpg"
+    0039: invoke-static Lcom/bkdisplay/api/util/a;->a(Ljava/lang/String;, Ljava/lang/String;, Z)V
+    003c: const-string v3, "/cache/recovery/last_mixcast_auth.bin"
+    003e: const-string v0, "/data/data/com.konka.kkmultiscreen/files/mixcast_auth.bin"
+    0040: invoke-static Lcom/bkdisplay/api/util/a;->a(Ljava/lang/String;, Ljava/lang/String;, Z)V
+    0043: const-string v3, "last_ft_activated_data"
+    0045: invoke-virtual Lcom/bkdisplay/systemui/SystemUIApplication;->a(Ljava/lang/String;)Ljava/lang/String;
+    0049: invoke-static Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    004f: invoke-virtual Lcom/bkdisplay/systemui/SystemUIApplication;->getContentResolver()Landroid/content/ContentResolver;
+    0053: const-string v1, "ft_activated_data"
+    0055: invoke-static Landroid/provider/Settings$Global;->putString(Landroid/content/ContentResolver;, Ljava/lang/String;, Ljava/lang/String;)Z
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager$1;
+METHOD: <init>(Lcom/bkdisplay/system/ota/BaiduOtaManager;)V
+================================================================================
+    0000: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$1;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    0002: invoke-direct Ljava/lang/Object;-><init>()V
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager$1;
+METHOD: onFail(I, Ljava/lang/String;)V
+================================================================================
+    0003: field-op Lcom/bkdisplay/system/ota/a;->d:Ljava/lang/String;
+    0005: const-string v0, ""
+    0007: invoke-static Lcom/bkdisplay/api/util/e;->a(Ljava/lang/String;, Ljava/lang/String;)V
+    000a: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$1;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    000c: invoke-virtual Lcom/bkdisplay/system/ota/BaiduOtaManager;->c()V
+    000f: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$1;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    0011: invoke-static Lcom/bkdisplay/system/ota/BaiduOtaManager;->a(Lcom/bkdisplay/system/ota/BaiduOtaManager;)Landroid/content/Context;
+    0015: invoke-virtual Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+    0019: new-instance Ljava/lang/StringBuilder;
+    001b: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    001e: const-string v1, "content://com.bkdisplay.system.provider/method/SYSTEM_CHECK_UPDATE?ret="
+    0020: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0024: invoke-virtual Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    0028: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    002c: invoke-static Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+    0031: invoke-virtual Landroid/content/ContentResolver;->notifyChange(Landroid/net/Uri;, Landroid/database/ContentObserver;)V
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager$1;
+METHOD: onSuccess(Ljava/lang/String;)V
+================================================================================
+    0000: const-string v0, "version_name"
+    0002: const-string v1, ""
+    0005: new-instance Lorg/json/JSONArray;
+    0007: invoke-direct Lorg/json/JSONArray;-><init>(Ljava/lang/String;)V
+    000a: invoke-virtual Lorg/json/JSONArray;->getJSONObject(I)Lorg/json/JSONObject;
+    000e: const-string v3, "version"
+    0010: invoke-virtual Lorg/json/JSONObject;->get(Ljava/lang/String;)Ljava/lang/Object;
+    0014: check-cast Ljava/lang/String;
+    0016: const-string v4, "info"
+    0018: invoke-virtual Lorg/json/JSONObject;->get(Ljava/lang/String;)Ljava/lang/Object;
+    001c: check-cast Ljava/lang/String;
+    001e: const-string v5, "detail"
+    0020: invoke-virtual Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
+    0024: invoke-static Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    0028: const-string v6, "update_type"
+    002c: new-instance Lorg/json/JSONObject;
+    002e: invoke-direct Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
+    0031: invoke-virtual Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+    0037: invoke-virtual Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
+    003d: invoke-virtual Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+    0043: invoke-virtual Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
+    004c: invoke-static Lcom/bkdisplay/api/util/e;->a(Ljava/lang/String;, Ljava/lang/String;)V
+    004f: field-op Lcom/bkdisplay/system/ota/a;->f:Ljava/lang/String;
+    0051: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    0057: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$1;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    0059: invoke-virtual Lcom/bkdisplay/system/ota/BaiduOtaManager;->b()V
+    005d: field-op Lcom/bkdisplay/system/ota/a;->e:Ljava/lang/String;
+    005f: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    0065: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$1;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    0067: invoke-virtual Lcom/bkdisplay/system/ota/BaiduOtaManager;->g()V
+    006a: invoke-static Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    0070: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$1;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    0072: invoke-virtual Lcom/bkdisplay/system/ota/BaiduOtaManager;->a(Ljava/lang/String;)V
+    007f: invoke-virtual Lorg/json/JSONException;->printStackTrace()V
+    0083: invoke-static Lcom/bkdisplay/systemui/SystemUIApplication;->a()Landroid/app/Application;
+    0087: const-string v5, "ota_progress"
+    0089: invoke-static Lcom/bkdisplay/api/util/a;->b(Landroid/content/Context;, Ljava/lang/String;, I)I
+    008d: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$1;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    008f: invoke-static Lcom/bkdisplay/system/ota/BaiduOtaManager;->a(Lcom/bkdisplay/system/ota/BaiduOtaManager;)Landroid/content/Context;
+    0093: invoke-virtual Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+    0097: new-instance Ljava/lang/StringBuilder;
+    0099: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    009c: const-string v6, "content://com.bkdisplay.system.provider/method/SYSTEM_CHECK_UPDATE?ret=4&version="
+    009e: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    00a2: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    00a6: const-string v5, "&version_name="
+    00a8: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    00ac: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    00b0: const-string v3, "&info="
+    00b2: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    00b8: const-string v1, "/data/cache/version.info"
+    00ba: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    00be: const-string v0, "&progress="
+    00c0: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    00c4: invoke-virtual Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    00c8: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    00cc: invoke-static Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+    00d1: invoke-virtual Landroid/content/ContentResolver;->notifyChange(Landroid/net/Uri;, Landroid/database/ContentObserver;)V
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager$3;
+METHOD: <init>(Lcom/bkdisplay/system/ota/BaiduOtaManager;)V
+================================================================================
+    0000: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$3;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    0002: invoke-direct Ljava/lang/Object;-><init>()V
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager$3;
+METHOD: onFail(I, Ljava/lang/String;)V
+================================================================================
+    0000: new-instance Ljava/lang/StringBuilder;
+    0002: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    0005: const-string v1, "onFail: "
+    0007: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    000b: invoke-virtual Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    000f: const-string v1, "__"
+    0011: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0015: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0019: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    001d: const-string v0, "BaiduOtaManager"
+    001f: invoke-static Landroid/util/Log;->e(Ljava/lang/String;, Ljava/lang/String;)I
+    0025: field-op Lcom/bkdisplay/system/ota/a;->d:Ljava/lang/String;
+    0027: const-string v4, ""
+    0029: invoke-static Lcom/bkdisplay/api/util/e;->a(Ljava/lang/String;, Ljava/lang/String;)V
+    002c: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$3;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    002e: invoke-virtual Lcom/bkdisplay/system/ota/BaiduOtaManager;->c()V
+    0031: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$3;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    0034: invoke-static Lcom/bkdisplay/system/ota/BaiduOtaManager;->a(Lcom/bkdisplay/system/ota/BaiduOtaManager;, Z)Z
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager$3;
+METHOD: onSuccess(Ljava/lang/String;)V
+================================================================================
+    0000: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$3;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    0003: invoke-static Lcom/bkdisplay/system/ota/BaiduOtaManager;->a(Lcom/bkdisplay/system/ota/BaiduOtaManager;, Z)Z
+    0006: new-instance Ljava/lang/StringBuilder;
+    0008: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    000b: const-string v1, "onSuccess: "
+    000d: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0011: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0015: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    0019: const-string v1, "BaiduOtaManager"
+    001b: invoke-static Landroid/util/Log;->d(Ljava/lang/String;, Ljava/lang/String;)I
+    001e: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$3;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    0020: invoke-static Lcom/bkdisplay/system/ota/BaiduOtaManager;->d(Lcom/bkdisplay/system/ota/BaiduOtaManager;)Landroid/os/Handler;
+    0024: new-instance Lcom/bkdisplay/system/ota/BaiduOtaManager$3$1;
+    0026: invoke-direct Lcom/bkdisplay/system/ota/BaiduOtaManager$3$1;-><init>(Lcom/bkdisplay/system/ota/BaiduOtaManager$3;, Ljava/lang/String;)V
+    0029: invoke-virtual Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager$6;
+METHOD: <init>(Lcom/bkdisplay/system/ota/BaiduOtaManager;)V
+================================================================================
+    0000: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$6;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    0002: invoke-direct Ljava/lang/Object;-><init>()V
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager$6;
+METHOD: onFailed(Ljava/lang/String;, I, Ljava/lang/String;)V
+================================================================================
+    0000: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$6;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    0002: invoke-static Lcom/bkdisplay/system/ota/BaiduOtaManager;->a(Lcom/bkdisplay/system/ota/BaiduOtaManager;)Landroid/content/Context;
+    0006: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager$6;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    0008: invoke-static Lcom/bkdisplay/system/ota/BaiduOtaManager;->a(Lcom/bkdisplay/system/ota/BaiduOtaManager;)Landroid/content/Context;
+    000d: invoke-direct/range Lcom/bumptech/glide/load/b/b/c;-><init>()V
+    0013: invoke-static Lcom/bkdisplay/systemui/common/e;->a(Landroid/content/Context;, Ljava/lang/String;)V
+    0016: invoke-static Lcom/bkdisplay/systemui/SystemUIApplication;->a()Landroid/app/Application;
+    001a: const-string v1, "ota_progress"
+    001d: invoke-static Lcom/bkdisplay/api/util/a;->a(Landroid/content/Context;, Ljava/lang/String;, I)V
+    0020: invoke-static Lcom/bkdisplay/systemui/SystemUIApplication;->a()Landroid/app/Application;
+    0024: const-string v1, "ota_ignore_version"
+    0026: const-string v2, ""
+    0028: invoke-static Lcom/bkdisplay/api/util/a;->a(Landroid/content/Context;, Ljava/lang/String;, Ljava/lang/String;)V
+    002b: new-instance Ljava/lang/StringBuilder;
+    002d: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    0030: const-string v1, "upgrade onFailed: "
+    0032: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0036: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    003a: const-string v1, "__"
+    003c: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0040: invoke-virtual Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    0044: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0048: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    004c: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    0050: const-string v0, "BaiduOtaManager"
+    0052: invoke-static Landroid/util/Log;->d(Ljava/lang/String;, Ljava/lang/String;)I
+    0055: invoke-static Lcom/bkdisplay/systemui/SystemUIApplication;->a()Landroid/app/Application;
+    0059: invoke-virtual Landroid/app/Application;->getContentResolver()Landroid/content/ContentResolver;
+    005d: new-instance Ljava/lang/StringBuilder;
+    005f: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    0062: const-string v1, "content://com.bkdisplay.system.provider/method/METHOD_UPDATE?ret="
+    0064: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0068: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    006c: const-string v0, "&state="
+    006e: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0073: invoke-virtual Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    0077: const-string v0, "&code="
+    0079: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    007d: invoke-virtual Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    0081: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    0085: invoke-static Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+    008a: invoke-virtual Landroid/content/ContentResolver;->notifyChange(Landroid/net/Uri;, Landroid/database/ContentObserver;)V
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager$6;
+METHOD: onProgress(Ljava/lang/String;, Ljava/lang/String;, I)V
+================================================================================
+    0000: new-instance Ljava/lang/StringBuilder;
+    0002: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    0005: const-string v1, "upgrade onProgress: "
+    0007: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    000b: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    000f: const-string v1, "__"
+    0011: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0015: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0019: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    001d: invoke-virtual Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    0021: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    0025: const-string v0, "BaiduOtaManager"
+    0027: invoke-static Landroid/util/Log;->d(Ljava/lang/String;, Ljava/lang/String;)I
+    002a: invoke-static Lcom/bkdisplay/systemui/SystemUIApplication;->a()Landroid/app/Application;
+    002e: invoke-virtual Landroid/app/Application;->getContentResolver()Landroid/content/ContentResolver;
+    0032: new-instance Ljava/lang/StringBuilder;
+    0034: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    0037: const-string v1, "content://com.bkdisplay.system.provider/method/METHOD_UPDATE?ret="
+    0039: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    003d: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0041: const-string v0, "&state="
+    0043: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0048: invoke-virtual Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    004c: const-string v0, "&progress="
+    004e: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0052: invoke-virtual Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    0056: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    005a: invoke-static Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+    005f: invoke-virtual Landroid/content/ContentResolver;->notifyChange(Landroid/net/Uri;, Landroid/database/ContentObserver;)V
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager$6;
+METHOD: onSuccess(Ljava/lang/String;)V
+================================================================================
+    0000: invoke-static Lcom/bkdisplay/systemui/SystemUIApplication;->a()Landroid/app/Application;
+    0004: const-string v1, "ota_progress"
+    0007: invoke-static Lcom/bkdisplay/api/util/a;->a(Landroid/content/Context;, Ljava/lang/String;, I)V
+    000a: invoke-static Lcom/bkdisplay/systemui/SystemUIApplication;->a()Landroid/app/Application;
+    000e: const-string v1, "ota_ignore_version"
+    0010: const-string v2, ""
+    0012: invoke-static Lcom/bkdisplay/api/util/a;->a(Landroid/content/Context;, Ljava/lang/String;, Ljava/lang/String;)V
+    0015: new-instance Ljava/lang/StringBuilder;
+    0017: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    001a: const-string v1, "upgrade onSuccess: "
+    001c: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0020: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0024: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    0028: const-string v1, "BaiduOtaManager"
+    002a: invoke-static Landroid/util/Log;->d(Ljava/lang/String;, Ljava/lang/String;)I
+    002d: invoke-static Lcom/bkdisplay/systemui/SystemUIApplication;->a()Landroid/app/Application;
+    0031: invoke-virtual Landroid/app/Application;->getContentResolver()Landroid/content/ContentResolver;
+    0035: new-instance Ljava/lang/StringBuilder;
+    0037: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    003a: const-string v2, "content://com.bkdisplay.system.provider/method/METHOD_UPDATE?ret="
+    003c: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0040: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0044: const-string v1, "&state="
+    0046: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    004b: invoke-virtual Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    004f: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    0053: invoke-static Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+    0058: invoke-virtual Landroid/content/ContentResolver;->notifyChange(Landroid/net/Uri;, Landroid/database/ContentObserver;)V
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager$6;
+METHOD: onWriteDone(Ljava/lang/String;)V
+================================================================================
+    0000: new-instance Ljava/lang/StringBuilder;
+    0002: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    0005: const-string v1, "upgrade onWriteDone: "
+    0007: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    000b: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    000f: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    0013: const-string v0, "BaiduOtaManager"
+    0015: invoke-static Landroid/util/Log;->d(Ljava/lang/String;, Ljava/lang/String;)I
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager;
+METHOD: <clinit>()V
+================================================================================
+    0000: new-instance Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    0002: invoke-direct Lcom/bkdisplay/system/ota/BaiduOtaManager;-><init>()V
+    0005: field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    0008: field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->b:I
+    000b: field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->c:I
+    000e: field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->d:I
+    0011: field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->e:I
+    0014: field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->f:I
+    0017: field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->g:I
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager;
+METHOD: <init>()V
+================================================================================
+    0000: invoke-direct Ljava/lang/Object;-><init>()V
+    0003: new-instance Ljava/util/concurrent/atomic/AtomicBoolean;
+    0006: invoke-direct Ljava/util/concurrent/atomic/AtomicBoolean;-><init>(Z)V
+    0009: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->m:Ljava/util/concurrent/atomic/AtomicBoolean;
+    000b: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->n:Z
+    000d: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->q:Z
+    000f: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->s:I
+    0011: new-instance Lcom/bkdisplay/system/ota/BaiduOtaManager$4;
+    0013: invoke-direct Lcom/bkdisplay/system/ota/BaiduOtaManager$4;-><init>(Lcom/bkdisplay/system/ota/BaiduOtaManager;)V
+    0016: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->i:Ljava/lang/Runnable;
+    0018: new-instance Lcom/bkdisplay/system/ota/BaiduOtaManager$5;
+    001a: invoke-direct Lcom/bkdisplay/system/ota/BaiduOtaManager$5;-><init>(Lcom/bkdisplay/system/ota/BaiduOtaManager;)V
+    001d: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->j:Ljava/lang/Runnable;
+    001f: new-instance Landroid/os/Handler;
+    0021: invoke-static Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+    0025: invoke-direct Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+    0028: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->p:Landroid/os/Handler;
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager;
+METHOD: a(Lcom/bkdisplay/system/ota/BaiduOtaManager;)Landroid/content/Context;
+================================================================================
+    0000: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->o:Landroid/content/Context;
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager;
+METHOD: a()Lcom/bkdisplay/system/ota/BaiduOtaManager;
+================================================================================
+    0000: field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->a:Lcom/bkdisplay/system/ota/BaiduOtaManager;
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager;
+METHOD: a(Lcom/bkdisplay/system/ota/BaiduOtaManager;, Z)Z
+================================================================================
+    0000: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->n:Z
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager;
+METHOD: b(Lcom/bkdisplay/system/ota/BaiduOtaManager;)Z
+================================================================================
+    0000: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->q:Z
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager;
+METHOD: b(Lcom/bkdisplay/system/ota/BaiduOtaManager;, Z)Z
+================================================================================
+    0000: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->q:Z
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager;
+METHOD: c(Lcom/bkdisplay/system/ota/BaiduOtaManager;)I
+================================================================================
+    0000: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->s:I
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager;
+METHOD: d(Lcom/bkdisplay/system/ota/BaiduOtaManager;)Landroid/os/Handler;
+================================================================================
+    0000: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->p:Landroid/os/Handler;
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager;
+METHOD: e(Lcom/bkdisplay/system/ota/BaiduOtaManager;)V
+================================================================================
+    0000: invoke-direct Lcom/bkdisplay/system/ota/BaiduOtaManager;->j()V
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager;
+METHOD: f(Lcom/bkdisplay/system/ota/BaiduOtaManager;)V
+================================================================================
+    0000: invoke-direct Lcom/bkdisplay/system/ota/BaiduOtaManager;->i()V
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager;
+METHOD: g(Lcom/bkdisplay/system/ota/BaiduOtaManager;)Z
+================================================================================
+    0000: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->n:Z
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager;
+METHOD: h(Lcom/bkdisplay/system/ota/BaiduOtaManager;)I
+================================================================================
+    0000: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->r:I
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager;
+METHOD: i()V
+================================================================================
+    0000: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->p:Landroid/os/Handler;
+    0002: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->i:Ljava/lang/Runnable;
+    0004: invoke-virtual Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
+    0007: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->p:Landroid/os/Handler;
+    0009: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->i:Ljava/lang/Runnable;
+    000d: const-string/jumbo v0, ""
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager;
+METHOD: j()V
+================================================================================
+    0000: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->m:Ljava/util/concurrent/atomic/AtomicBoolean;
+    0002: invoke-virtual Ljava/util/concurrent/atomic/AtomicBoolean;->get()Z
+    0008: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->l:Lcom/baidu/commonlib/interfaces/IOtaAgent;
+    000e: invoke-virtual Lcom/bkdisplay/system/ota/BaiduOtaManager;->a(I)V
+    0011: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->l:Lcom/baidu/commonlib/interfaces/IOtaAgent;
+    0014: new-instance Lcom/bkdisplay/system/ota/BaiduOtaManager$3;
+    0016: invoke-direct Lcom/bkdisplay/system/ota/BaiduOtaManager$3;-><init>(Lcom/bkdisplay/system/ota/BaiduOtaManager;)V
+    0019: invoke-interface Lcom/baidu/commonlib/interfaces/IOtaAgent;->checkUpdate(Z, Lcom/baidu/commonlib/interfaces/ICheckUpdateListener;)V
+    001d: const-string v0, "BaiduOtaManager"
+    001f: const-string v1, "checkUpdate: 初始化未完成"
+    0021: invoke-static Landroid/util/Log;->e(Ljava/lang/String;, Ljava/lang/String;)I
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager;
+METHOD: k()V
+================================================================================
+    0000: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->o:Landroid/content/Context;
+    0005: invoke-static Lcom/bkdisplay/framework/f/i;->b(I)Ljava/lang/String;
+    000a: invoke-static Landroid/widget/Toast;->makeText(Landroid/content/Context;, Ljava/lang/CharSequence;, I)Landroid/widget/Toast;
+    000e: invoke-virtual Landroid/widget/Toast;->show()V
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager;
+METHOD: l()V
+================================================================================
+    0000: invoke-virtual Lcom/bkdisplay/system/ota/BaiduOtaManager;->d()V
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager;
+METHOD: lambda$U1h5ko3pzn7mCOt0d7ORrReLTiY(Lcom/bkdisplay/system/ota/BaiduOtaManager;)V
+================================================================================
+    0000: invoke-direct Lcom/bkdisplay/system/ota/BaiduOtaManager;->l()V
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager;
+METHOD: lambda$V1utVg1sADs5h7qaom-iEy30lTY(Lcom/bkdisplay/system/ota/BaiduOtaManager;)V
+================================================================================
+    0000: invoke-direct Lcom/bkdisplay/system/ota/BaiduOtaManager;->m()V
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager;
+METHOD: lambda$WtAYfsKe2IVCqPgZYFAcIw-pS_4(Lcom/bkdisplay/system/ota/BaiduOtaManager;)V
+================================================================================
+    0000: invoke-direct Lcom/bkdisplay/system/ota/BaiduOtaManager;->k()V
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager;
+METHOD: m()V
+================================================================================
+    0000: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->h:Lcom/bkdisplay/system/ota/LockDeviceDialog;
+    0004: invoke-virtual Lcom/bkdisplay/system/ota/LockDeviceDialog;->dismiss()V
+    0008: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->h:Lcom/bkdisplay/system/ota/LockDeviceDialog;
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager;
+METHOD: a(I)V
+================================================================================
+    0000: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->r:I
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager;
+METHOD: a(Landroid/content/Context;)V
+================================================================================
+    0000: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->o:Landroid/content/Context;
+    0002: new-instance Landroid/content/IntentFilter;
+    0004: invoke-direct Landroid/content/IntentFilter;-><init>()V
+    0007: const-string v1, "android.net.wifi.STATE_CHANGE"
+    0009: invoke-virtual Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
+    000c: const-string v1, "android.net.conn.CONNECTIVITY_CHANGE"
+    000e: invoke-virtual Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
+    0011: new-instance Lcom/bkdisplay/system/ota/BaiduOtaManager$NetReceiver;
+    0013: invoke-direct Lcom/bkdisplay/system/ota/BaiduOtaManager$NetReceiver;-><init>(Lcom/bkdisplay/system/ota/BaiduOtaManager;)V
+    0016: invoke-virtual Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;, Landroid/content/IntentFilter;)Landroid/content/Intent;
+    0019: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->o:Landroid/content/Context;
+    001b: const-string v0, "version"
+    001d: const-string v1, ""
+    001f: invoke-static Lcom/bkdisplay/api/util/a;->b(Landroid/content/Context;, Ljava/lang/String;, Ljava/lang/String;)Ljava/lang/String;
+    0023: const-string v2, "ro.build.date.utc"
+    0025: invoke-static Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
+    0029: invoke-static Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    002f: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->o:Landroid/content/Context;
+    0031: invoke-static Lcom/bkdisplay/api/util/a;->a(Landroid/content/Context;, Ljava/lang/String;, Ljava/lang/String;)V
+    0035: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    0039: const-string v3, "silence_download"
+    003e: invoke-static Lcom/bkdisplay/systemui/SystemUIApplication;->a()Landroid/app/Application;
+    0042: const-string v5, "ota_progress"
+    0044: invoke-static Lcom/bkdisplay/api/util/a;->a(Landroid/content/Context;, Ljava/lang/String;, I)V
+    0047: new-instance Ljava/io/File;
+    0049: new-instance Ljava/lang/StringBuilder;
+    004b: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    004e: field-op Lcom/bkdisplay/system/ota/a;->c:Ljava/lang/String;
+    0050: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0054: field-op Lcom/bkdisplay/system/ota/a;->a:Ljava/lang/String;
+    0056: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    005a: const-string v6, "_com.android.system.ota"
+    005c: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0060: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    0064: invoke-direct Ljava/io/File;-><init>(Ljava/lang/String;)V
+    0067: invoke-virtual Ljava/io/File;->exists()Z
+    006d: invoke-virtual Ljava/io/File;->delete()Z
+    0070: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->o:Landroid/content/Context;
+    0072: invoke-static Lcom/bkdisplay/api/util/a;->a(Landroid/content/Context;, Ljava/lang/String;, Ljava/lang/String;)V
+    0075: invoke-static Lcom/bkdisplay/api/util/e;->a(Ljava/lang/String;, I)V
+    0078: field-op Lcom/bkdisplay/system/ota/a;->d:Ljava/lang/String;
+    007a: invoke-static Lcom/bkdisplay/api/util/e;->b(Ljava/lang/String;, Ljava/lang/String;)Ljava/lang/String;
+    007e: field-op Lcom/bkdisplay/system/ota/a;->f:Ljava/lang/String;
+    0080: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    0086: invoke-virtual Lcom/bkdisplay/system/ota/BaiduOtaManager;->b()V
+    0089: invoke-static Lcom/bkdisplay/api/util/e;->b(Ljava/lang/String;, I)I
+    0090: field-op Lcom/bkdisplay/system/ota/a;->e:Ljava/lang/String;
+    0092: invoke-virtual Lcom/bkdisplay/system/ota/BaiduOtaManager;->b(Ljava/lang/String;)V
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager;
+METHOD: a(Lcom/baidu/commonlib/interfaces/IOtaSdkHelper;)V
+================================================================================
+    0000: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->k:Lcom/baidu/commonlib/interfaces/IOtaSdkHelper;
+    0002: invoke-virtual Lcom/bkdisplay/system/ota/BaiduOtaManager;->d()V
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager;
+METHOD: a(Ljava/lang/String;)V
+================================================================================
+    0000: new-instance Lcom/bkdisplay/system/ota/BaiduOtaManager$2;
+    0002: invoke-direct Lcom/bkdisplay/system/ota/BaiduOtaManager$2;-><init>(Lcom/bkdisplay/system/ota/BaiduOtaManager;, Ljava/lang/String;)V
+    0005: invoke-virtual Lcom/bkdisplay/system/ota/BaiduOtaManager$2;->start()V
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager;
+METHOD: b()V
+================================================================================
+    0000: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->h:Lcom/bkdisplay/system/ota/LockDeviceDialog;
+    0004: new-instance Lcom/bkdisplay/system/ota/LockDeviceDialog;
+    0006: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->o:Landroid/content/Context;
+    0008: invoke-direct Lcom/bkdisplay/system/ota/LockDeviceDialog;-><init>(Landroid/content/Context;)V
+    000b: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->h:Lcom/bkdisplay/system/ota/LockDeviceDialog;
+    000d: invoke-virtual Lcom/bkdisplay/system/ota/LockDeviceDialog;->show()V
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager;
+METHOD: b(I)V
+================================================================================
+    0000: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->s:I
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager;
+METHOD: b(Ljava/lang/String;)V
+================================================================================
+    0001: invoke-virtual Lcom/bkdisplay/system/ota/BaiduOtaManager;->a(I)V
+    0004: new-instance Ljava/lang/StringBuilder;
+    0006: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    0009: const-string v2, "upgradeSystem: "
+    000b: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    000f: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0013: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    0017: const-string v2, "BaiduOtaManager"
+    0019: invoke-static Landroid/util/Log;->d(Ljava/lang/String;, Ljava/lang/String;)I
+    001c: field-op Lcom/bkdisplay/system/ota/a;->e:Ljava/lang/String;
+    001e: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    0022: const-string v1, "com.android.system"
+    0025: invoke-virtual Landroid/os/Parcel;->createBooleanArray()[Z
+    0028: new-instance Ljava/lang/StringBuilder;
+    002a: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    002d: field-op Lcom/bkdisplay/system/ota/a;->c:Ljava/lang/String;
+    002f: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0033: field-op Lcom/bkdisplay/system/ota/a;->a:Ljava/lang/String;
+    0035: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0039: const-string v3, "_"
+    003b: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    003f: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0043: const-string v3, ".ota"
+    0045: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0049: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    004d: invoke-direct Ljava/io/File;-><init>(Ljava/lang/String;)V
+    0051: invoke-virtual Ljava/io/File;->exists()Z
+    0055: const-string v4, "silence_download"
+    0059: new-instance Lcom/bkdisplay/system/ota/SilenceUpdateDialog;
+    005b: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->o:Landroid/content/Context;
+    005d: invoke-direct Lcom/bkdisplay/system/ota/SilenceUpdateDialog;-><init>(Landroid/content/Context;)V
+    0060: invoke-virtual Lcom/bkdisplay/system/ota/SilenceUpdateDialog;->show()V
+    0063: invoke-static Lcom/bkdisplay/api/util/e;->a(Ljava/lang/String;, I)V
+    0066: new-instance Ljava/io/File;
+    0068: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->o:Landroid/content/Context;
+    006a: invoke-virtual Landroid/content/Context;->getFilesDir()Ljava/io/File;
+    006e: const-string v6, "com.bkdisplay.systemui:ota.sessions.map"
+    0070: invoke-direct Ljava/io/File;-><init>(Ljava/io/File;, Ljava/lang/String;)V
+    0073: invoke-virtual Ljava/io/File;->exists()Z
+    0079: invoke-virtual Ljava/io/File;->delete()Z
+    007c: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->o:Landroid/content/Context;
+    007e: invoke-static Landroid/os/RecoverySystem;->installPackage(Landroid/content/Context;, Ljava/io/File;)V
+    0086: invoke-virtual Ljava/lang/Exception;->printStackTrace()V
+    008b: invoke-virtual Lcom/bkdisplay/system/ota/SilenceUpdateDialog;->dismiss()V
+    008e: invoke-static Lcom/bkdisplay/api/util/e;->a(Ljava/lang/String;, I)V
+    0092: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->o:Landroid/content/Context;
+    0097: invoke-static Lcom/bkdisplay/framework/f/i;->b(I)Ljava/lang/String;
+    009b: invoke-static Lcom/bkdisplay/systemui/common/e;->a(Landroid/content/Context;, Ljava/lang/String;)V
+    009e: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->l:Lcom/baidu/commonlib/interfaces/IOtaAgent;
+    00a0: new-instance Lcom/bkdisplay/system/ota/BaiduOtaManager$6;
+    00a2: invoke-direct Lcom/bkdisplay/system/ota/BaiduOtaManager$6;-><init>(Lcom/bkdisplay/system/ota/BaiduOtaManager;)V
+    00a5: invoke-interface Lcom/baidu/commonlib/interfaces/IOtaAgent;->upgrade(Ljava/lang/String;, Lcom/baidu/commonlib/interfaces/IUpgradeListener;)V
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager;
+METHOD: c()V
+================================================================================
+    0000: new-instance Landroid/os/Handler;
+    0002: invoke-static Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+    0006: invoke-direct Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+    0009: new-instance Lcom/bkdisplay/system/ota/-$$Lambda$BaiduOtaManager$V1utVg1sADs5h7qaom-iEy30lTY;
+    000b: invoke-direct Lcom/bkdisplay/system/ota/-$$Lambda$BaiduOtaManager$V1utVg1sADs5h7qaom-iEy30lTY;-><init>(Lcom/bkdisplay/system/ota/BaiduOtaManager;)V
+    000e: invoke-virtual Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager;
+METHOD: d()V
+================================================================================
+    0000: const-string v0, "BaiduOtaManager"
+    0002: invoke-static Lcom/bkdisplay/api/a;->a()Ljava/lang/String;
+    0006: invoke-virtual Ljava/lang/String;->toLowerCase()Ljava/lang/String;
+    000a: new-instance Ljava/lang/StringBuilder;
+    000c: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    000f: const-string v3, "checkInit: mac "
+    0011: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0015: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0019: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    001d: invoke-static Landroid/util/Log;->e(Ljava/lang/String;, Ljava/lang/String;)I
+    0020: invoke-static Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    0026: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->p:Landroid/os/Handler;
+    0028: new-instance Lcom/bkdisplay/system/ota/-$$Lambda$BaiduOtaManager$U1h5ko3pzn7mCOt0d7ORrReLTiY;
+    002a: invoke-direct Lcom/bkdisplay/system/ota/-$$Lambda$BaiduOtaManager$U1h5ko3pzn7mCOt0d7ORrReLTiY;-><init>(Lcom/bkdisplay/system/ota/BaiduOtaManager;)V
+    002f: invoke-virtual Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;, J)Z
+    0033: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->k:Lcom/baidu/commonlib/interfaces/IOtaSdkHelper;
+    0035: new-instance Lcom/bkdisplay/system/ota/d;
+    0037: invoke-direct Lcom/bkdisplay/system/ota/d;-><init>()V
+    003a: invoke-interface Lcom/baidu/commonlib/interfaces/IOtaSdkHelper;->init(Ljava/lang/String;, Lcom/baidu/commonlib/interfaces/ISystemInfo;)V
+    003d: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->k:Lcom/baidu/commonlib/interfaces/IOtaSdkHelper;
+    0041: const-string v3, "1"
+    0043: invoke-interface Lcom/baidu/commonlib/interfaces/IOtaSdkHelper;->setExtOption(I, Ljava/lang/String;)V
+    0046: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->k:Lcom/baidu/commonlib/interfaces/IOtaSdkHelper;
+    0048: field-op Lcom/bkdisplay/system/ota/a;->c:Ljava/lang/String;
+    004a: invoke-interface Lcom/baidu/commonlib/interfaces/IOtaSdkHelper;->setUpgradePath(Ljava/lang/String;)V
+    004d: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->k:Lcom/baidu/commonlib/interfaces/IOtaSdkHelper;
+    004f: field-op Lcom/bkdisplay/system/ota/a;->a:Ljava/lang/String;
+    0051: field-op Lcom/bkdisplay/system/ota/a;->b:Ljava/lang/String;
+    0053: invoke-interface Lcom/baidu/commonlib/interfaces/IOtaSdkHelper;->getInst(Ljava/lang/String;, Ljava/lang/String;)Lcom/baidu/commonlib/interfaces/IOtaAgent;
+    0057: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->l:Lcom/baidu/commonlib/interfaces/IOtaAgent;
+    0059: invoke-interface Lcom/baidu/commonlib/interfaces/IOtaAgent;->getProductId()Ljava/lang/String;
+    005d: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->l:Lcom/baidu/commonlib/interfaces/IOtaAgent;
+    005f: invoke-interface Lcom/baidu/commonlib/interfaces/IOtaAgent;->getSdkInfo()Ljava/lang/String;
+    0063: new-instance Ljava/lang/StringBuilder;
+    0065: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    0068: const-string v4, "checkInit: "
+    006a: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    006e: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0072: const-string v3, "__"
+    0074: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0078: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    007c: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    0080: invoke-static Landroid/util/Log;->e(Ljava/lang/String;, Ljava/lang/String;)I
+    0083: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->m:Ljava/util/concurrent/atomic/AtomicBoolean;
+    0086: invoke-virtual Ljava/util/concurrent/atomic/AtomicBoolean;->set(Z)V
+    0089: const-string v0, "silence_download"
+    008c: invoke-static Lcom/bkdisplay/api/util/e;->b(Ljava/lang/String;, I)I
+    0092: invoke-virtual Lcom/bkdisplay/system/ota/BaiduOtaManager;->f()V
+    0095: invoke-direct Lcom/bkdisplay/system/ota/BaiduOtaManager;->i()V
+    009a: invoke-virtual Ljava/lang/Exception;->printStackTrace()V
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager;
+METHOD: e()V
+================================================================================
+    0000: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->m:Ljava/util/concurrent/atomic/AtomicBoolean;
+    0002: invoke-virtual Ljava/util/concurrent/atomic/AtomicBoolean;->get()Z
+    0008: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->l:Lcom/baidu/commonlib/interfaces/IOtaAgent;
+    000d: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->k:Lcom/baidu/commonlib/interfaces/IOtaSdkHelper;
+    000f: field-op Lcom/bkdisplay/system/ota/a;->a:Ljava/lang/String;
+    0011: field-op Lcom/bkdisplay/system/ota/a;->b:Ljava/lang/String;
+    0013: invoke-interface Lcom/baidu/commonlib/interfaces/IOtaSdkHelper;->getInst(Ljava/lang/String;, Ljava/lang/String;)Lcom/baidu/commonlib/interfaces/IOtaAgent;
+    0017: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->l:Lcom/baidu/commonlib/interfaces/IOtaAgent;
+    001a: new-instance Lcom/bkdisplay/system/ota/BaiduOtaManager$1;
+    001c: invoke-direct Lcom/bkdisplay/system/ota/BaiduOtaManager$1;-><init>(Lcom/bkdisplay/system/ota/BaiduOtaManager;)V
+    001f: invoke-interface Lcom/baidu/commonlib/interfaces/IOtaAgent;->checkUpdate(Z, Lcom/baidu/commonlib/interfaces/ICheckUpdateListener;)V
+    0023: const-string v0, "BaiduOtaManager"
+    0025: const-string v1, "checkUpdate: 初始化未完成"
+    0027: invoke-static Landroid/util/Log;->e(Ljava/lang/String;, Ljava/lang/String;)I
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager;
+METHOD: f()V
+================================================================================
+    0000: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->p:Landroid/os/Handler;
+    0002: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->j:Ljava/lang/Runnable;
+    0004: invoke-virtual Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
+    0007: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->p:Landroid/os/Handler;
+    0009: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->j:Ljava/lang/Runnable;
+    000d: invoke-virtual Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;, J)Z
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager;
+METHOD: g()V
+================================================================================
+    0000: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->p:Landroid/os/Handler;
+    0002: new-instance Lcom/bkdisplay/system/ota/-$$Lambda$BaiduOtaManager$WtAYfsKe2IVCqPgZYFAcIw-pS_4;
+    0004: invoke-direct Lcom/bkdisplay/system/ota/-$$Lambda$BaiduOtaManager$WtAYfsKe2IVCqPgZYFAcIw-pS_4;-><init>(Lcom/bkdisplay/system/ota/BaiduOtaManager;)V
+    0007: invoke-virtual Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+    000a: field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->b:I
+    000c: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->s:I
+    000f: invoke-virtual Lcom/bkdisplay/system/ota/BaiduOtaManager;->a(I)V
+    0012: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->l:Lcom/baidu/commonlib/interfaces/IOtaAgent;
+    0014: new-instance Lcom/bkdisplay/system/ota/b;
+    0016: invoke-direct Lcom/bkdisplay/system/ota/b;-><init>()V
+    0019: const-string v2, "com.android.system"
+    001b: invoke-interface Lcom/baidu/commonlib/interfaces/IOtaAgent;->downLoad(Ljava/lang/String;, Lcom/baidu/commonlib/interfaces/IDownloadListener;)V
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager;
+METHOD: h()V
+================================================================================
+    0000: const-string v0, ""
+    0002: invoke-virtual Lcom/bkdisplay/system/ota/BaiduOtaManager;->b(Ljava/lang/String;)V
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/provider/b;
+METHOD: a(Ljava/lang/String;, Ljava/lang/String;, Landroid/os/Bundle;)Landroid/os/Bundle;
+================================================================================
+    0000: new-instance Ljava/lang/StringBuilder;
+    0002: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    0005: const-string v1, "call: "
+    0007: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    000b: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    000f: const-string v2, ", key :"
+    0011: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0015: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0019: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    001d: const-string v0, "SystemPresenter"
+    001f: invoke-static Landroid/util/Log;->d(Ljava/lang/String;, Ljava/lang/String;)I
+    0022: new-instance Landroid/os/Bundle;
+    0024: invoke-direct Landroid/os/Bundle;-><init>()V
+    0027: const-string v2, "METHOD_KEYSTONE_RESET"
+    0029: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    002d: const-string v3, "ret"
+    0031: invoke-static Lcom/bkdisplay/systemui/other/g;->b()V
+    0034: instance-field-op Lcom/bkdisplay/system/provider/b;->c:Lcom/bkdisplay/api/b;
+    0036: invoke-virtual Lcom/bkdisplay/api/b;->l()Z
+    003a: invoke-virtual Landroid/os/Bundle;->putBoolean(Ljava/lang/String;, Z)V
+    003e: invoke-virtual La/i/a;->a(C, C, Z)Z
+    0041: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    0048: instance-field-op Lcom/bkdisplay/system/provider/b;->b:Landroid/content/Context;
+    004a: invoke-static Lcom/bkdisplay/systemui/keystone/b;->a(Landroid/content/Context;)V
+    004d: invoke-virtual Landroid/os/Bundle;->putBoolean(Ljava/lang/String;, Z)V
+    0051: instance-field-op Landroidx/activity/R$id;->accessibility_custom_action_2:I
+    0054: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    005a: instance-field-op Lcom/bkdisplay/system/provider/b;->b:Landroid/content/Context;
+    005c: invoke-static Lcom/bkdisplay/systemui/other/a;->b(Landroid/content/Context;)V
+    005f: invoke-virtual Landroid/os/Bundle;->putBoolean(Ljava/lang/String;, Z)V
+    0064: const-string v2, "METHOD_AUTO_FOCUS_NO_KEYSTONE"
+    0066: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    006c: instance-field-op Lcom/bkdisplay/system/provider/b;->b:Landroid/content/Context;
+    006e: invoke-static Lcom/bkdisplay/systemui/other/a;->c(Landroid/content/Context;)V
+    0071: invoke-virtual Landroid/os/Bundle;->putBoolean(Ljava/lang/String;, Z)V
+    0076: const-string v2, "METHOD_AUTO_KEYSTONE"
+    0078: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    007e: instance-field-op Lcom/bkdisplay/system/provider/b;->b:Landroid/content/Context;
+    0080: invoke-static Lcom/bkdisplay/systemui/other/a;->d(Landroid/content/Context;)V
+    0083: invoke-virtual Landroid/os/Bundle;->putBoolean(Ljava/lang/String;, Z)V
+    0088: const-string v2, "METHOD_SCREEN_AVOID"
+    008a: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    0092: invoke-static Lcom/ntech/system/NtechClient;->autoFocusKeystone(I)I
+    0095: invoke-virtual Landroid/os/Bundle;->putBoolean(Ljava/lang/String;, Z)V
+    009a: const-string v2, "METHOD_SCREEN_CURTAIN"
+    009c: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    00a3: invoke-static Lcom/ntech/system/NtechClient;->autoFocusKeystone(I)I
+    00a6: invoke-virtual Landroid/os/Bundle;->putBoolean(Ljava/lang/String;, Z)V
+    00ab: const-string v2, "METHOD_FACTORY_FOCUS_KEYSTONE"
+    00ad: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    00b6: invoke-static Lcom/ntech/system/NtechClient;->autoFocusKeystone(I)I
+    00be: invoke-virtual Landroid/os/Bundle;->putBoolean(Ljava/lang/String;, Z)V
+    00c3: const-string v2, "METHOD_AUTO_FOCUS_NO_VIEW"
+    00c5: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    00cb: new-instance Lcom/bkdisplay/systemui/other/camera/CameraFocusObserver;
+    00cd: instance-field-op Lcom/bkdisplay/system/provider/b;->b:Landroid/content/Context;
+    00cf: invoke-direct Lcom/bkdisplay/systemui/other/camera/CameraFocusObserver;-><init>(Landroid/content/Context;)V
+    00d2: invoke-virtual Lcom/bkdisplay/systemui/other/camera/CameraFocusObserver;->forceKeystoneAuto()V
+    00d5: const-string v13, "call: forceKeystoneAuto"
+    00d7: invoke-static Landroid/util/Log;->d(Ljava/lang/String;, Ljava/lang/String;)I
+    00da: invoke-virtual Landroid/os/Bundle;->putBoolean(Ljava/lang/String;, Z)V
+    00df: const-string v2, "METHOD_ON_CALIBRATION_VIEW_STATUS"
+    00e1: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    00e5: const-string v7, ""
+    00e9: const-string v13, "param"
+    00eb: invoke-virtual Landroid/os/Bundle;->getInt(Ljava/lang/String;)I
+    00ef: new-instance Ljava/lang/StringBuilder;
+    00f1: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    00f4: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    00f8: invoke-virtual Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    00fc: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    0100: invoke-static Landroid/util/Log;->d(Ljava/lang/String;, Ljava/lang/String;)I
+    0103: new-instance Ljava/lang/StringBuilder;
+    0105: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    0108: invoke-virtual Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    010c: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0110: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    0114: const-string v0, "vendor.ntech.calibration_status"
+    0116: invoke-static Landroid/os/SystemProperties;->set(Ljava/lang/String;, Ljava/lang/String;)V
+    0119: invoke-static Lcom/ntech/system/NtechClient;->onCalibrationViewState(I)V
+    011e: const-string v2, "METHOD_KEYSTONE_HORI_BASE"
+    0120: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    0124: const-string v8, "camera_user_calibration"
+    0128: instance-field-op Lcom/bkdisplay/system/provider/b;->c:Lcom/bkdisplay/api/b;
+    012a: invoke-virtual Lcom/bkdisplay/api/b;->aq()V
+    012d: invoke-static Lcom/bkdisplay/api/util/b;->c(Ljava/lang/String;)Z
+    0133: instance-field-op Lcom/bkdisplay/system/provider/b;->b:Landroid/content/Context;
+    0135: new-instance Landroid/content/Intent;
+    0137: const-string v0, "com.ntech.user.camera_calibrate"
+    0139: invoke-direct Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+    013e: invoke-virtual Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
+    0142: invoke-virtual Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
+    0145: invoke-virtual Landroid/os/Bundle;->putBoolean(Ljava/lang/String;, Z)V
+    0149: field-op Landroidx/activity/R$id;->accessibility_custom_action_2:I
+    014c: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    0152: instance-field-op Lcom/bkdisplay/system/provider/b;->c:Lcom/bkdisplay/api/b;
+    0154: invoke-virtual Lcom/bkdisplay/api/b;->ar()V
+    0157: invoke-static Lcom/bkdisplay/api/util/b;->c(Ljava/lang/String;)Z
+    015e: invoke-static Lcom/ntech/system/NtechClient;->cameraCalibrate(I)I
+    0161: invoke-virtual Landroid/os/Bundle;->putBoolean(Ljava/lang/String;, Z)V
+    0166: const-string v2, "METHOD_KEYSTONE_ANGLE_BASE_FACTORY"
+    0168: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    016e: instance-field-op Lcom/bkdisplay/system/provider/b;->c:Lcom/bkdisplay/api/b;
+    0170: invoke-virtual Lcom/bkdisplay/api/b;->as()V
+    0173: invoke-virtual Landroid/os/Bundle;->putBoolean(Ljava/lang/String;, Z)V
+    0178: const-string v2, "METHOD_KEYSTONE_ANGLE_FACTORY_RESET"
+    017a: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    0180: instance-field-op Lcom/bkdisplay/system/provider/b;->c:Lcom/bkdisplay/api/b;
+    0182: invoke-virtual Lcom/bkdisplay/api/b;->at()V
+    0185: invoke-virtual Landroid/os/Bundle;->putBoolean(Ljava/lang/String;, Z)V
+    018a: const-string v2, "METHOD_KEYSTONE_DISABLE"
+    018c: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    0192: instance-field-op Lcom/bkdisplay/system/provider/b;->c:Lcom/bkdisplay/api/b;
+    0194: invoke-virtual Lcom/bkdisplay/api/b;->n()V
+    0197: invoke-virtual Landroid/os/Bundle;->putBoolean(Ljava/lang/String;, Z)V
+    019c: const-string v2, "METHOD_KEYSTONE_ENABLE"
+    019e: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    01a4: instance-field-op Lcom/bkdisplay/system/provider/b;->c:Lcom/bkdisplay/api/b;
+    01a6: invoke-virtual Lcom/bkdisplay/api/b;->q()Z
+    01a9: invoke-virtual Landroid/os/Bundle;->putBoolean(Ljava/lang/String;, Z)V
+    01ae: const-string v2, "KEYSTONE_MINI_ENABLE"
+    01b0: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    01b6: instance-field-op Lcom/bkdisplay/system/provider/b;->c:Lcom/bkdisplay/api/b;
+    01b8: invoke-virtual Lcom/bkdisplay/api/b;->o()Z
+    01bb: invoke-virtual Landroid/os/Bundle;->putBoolean(Ljava/lang/String;, Z)V
+    01c0: const-string v2, "KEYSTONE_MINI_DISABLE"
+    01c2: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    01c8: invoke-static Lcom/bkdisplay/systemui/d/i;->a()Lcom/bkdisplay/systemui/d/i;
+    01cc: new-instance Lcom/bkdisplay/system/provider/a/b;
+    01ce: invoke-direct Lcom/bkdisplay/system/provider/a/b;-><init>()V
+    01d1: invoke-virtual Lcom/bkdisplay/systemui/d/i;->b(Lcom/bkdisplay/systemui/d/h;)V
+    01d4: invoke-virtual Landroid/os/Bundle;->putBoolean(Ljava/lang/String;, Z)V
+    01d9: const-string v2, "METHOD_KEYSTONE_REFRESH"
+    01db: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    01e1: instance-field-op Lcom/bkdisplay/system/provider/b;->c:Lcom/bkdisplay/api/b;
+    01e3: invoke-virtual Lcom/bkdisplay/api/b;->r()V
+    01e8: const-string v2, "SYSTEM_CHECK_UPDATE"
+    01ea: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    01f0: invoke-static Lcom/bkdisplay/system/ota/BaiduOtaManager;->a()Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    01f4: invoke-virtual Lcom/bkdisplay/system/ota/BaiduOtaManager;->e()V
+    01f7: invoke-virtual Landroid/os/Bundle;->putBoolean(Ljava/lang/String;, Z)V
+    01fc: const-string v2, "METHOD_DOWNLOAD"
+    01fe: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    0204: invoke-static Lcom/bkdisplay/system/ota/BaiduOtaManager;->a()Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    0208: invoke-virtual Lcom/bkdisplay/system/ota/BaiduOtaManager;->g()V
+    020b: invoke-virtual Landroid/os/Bundle;->putBoolean(Ljava/lang/String;, Z)V
+    0210: const-string v2, "METHOD_UPDATE"
+    0212: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    0218: invoke-static Lcom/bkdisplay/system/ota/BaiduOtaManager;->a()Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    021c: invoke-virtual Lcom/bkdisplay/system/ota/BaiduOtaManager;->h()V
+    021f: invoke-virtual Landroid/os/Bundle;->putBoolean(Ljava/lang/String;, Z)V
+    0224: const-string v2, "METHOD_OTA"
+    0226: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    022a: const-string v8, "path"
+    022e: invoke-virtual Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+    0232: instance-field-op Lcom/bkdisplay/system/provider/b;->b:Landroid/content/Context;
+    0234: new-instance Ljava/io/File;
+    0236: invoke-direct Ljava/io/File;-><init>(Ljava/lang/String;)V
+    0239: invoke-static Landroid/os/RecoverySystem;->installPackage(Landroid/content/Context;, Ljava/io/File;)V
+    023d: invoke-super Landroid/widget/AutoCompleteTextView;-><init>(Landroid/content/Context;, Landroid/util/AttributeSet;, I)V
+    0241: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    0244: const-string v0, "exception = "
+    0246: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    024a: invoke-virtual Ljava/io/IOException;->getMessage()Ljava/lang/String;
+    024e: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0252: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    0256: const-string v0, "ntechmm"
+    0258: invoke-static Landroid/util/Log;->e(Ljava/lang/String;, Ljava/lang/String;)I
+    025b: invoke-virtual Ljava/io/IOException;->printStackTrace()V
+    0260: const-string v2, "METHOD_MOTOR"
+    0262: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    0266: const-string v9, "value"
+    026a: invoke-virtual Landroid/os/Bundle;->getInt(Ljava/lang/String;)I
+    026e: invoke-static Lcom/ntech/system/NtechClient;->setMotor(I)I
+    0272: invoke-virtual Landroid/os/Bundle;->putInt(Ljava/lang/String;, I)V
+    0277: const-string v2, "METHOD_RESET_FACTORY"
+    0279: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    027f: invoke-static Lcom/bkdisplay/system/c;->b()Lcom/bkdisplay/system/c;
+    0283: invoke-virtual Lcom/bkdisplay/system/c;->h_()V
+    0286: instance-field-op Lcom/bkdisplay/system/provider/b;->c:Lcom/bkdisplay/api/b;
+    0288: invoke-virtual Lcom/bkdisplay/api/b;->I()Z
+    028b: invoke-virtual Landroid/os/Bundle;->putBoolean(Ljava/lang/String;, Z)V
+    0290: const-string v2, "METHOD_PICTURE_RESET"
+    0292: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    0297: const-string v11, "memc"
+    029b: instance-field-op Lcom/bkdisplay/system/provider/b;->b:Landroid/content/Context;
+    029d: invoke-static Lcom/bkdisplay/api/util/a;->a(Landroid/content/Context;, Ljava/lang/String;, I)V
+    02a0: instance-field-op Lcom/bkdisplay/system/provider/b;->c:Lcom/bkdisplay/api/b;
+    02a2: invoke-virtual Lcom/bkdisplay/api/b;->ad()V
+    02a5: invoke-virtual Landroid/os/Bundle;->putBoolean(Ljava/lang/String;, Z)V
+    02aa: const-string v2, "METHOD_SOUND_RESET"
+    02ac: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    02b2: instance-field-op Lcom/bkdisplay/system/provider/b;->c:Lcom/bkdisplay/api/b;
+    02b4: invoke-virtual Lcom/bkdisplay/api/b;->am()V
+    02b7: invoke-virtual Landroid/os/Bundle;->putBoolean(Ljava/lang/String;, Z)V
+    02bc: const-string v2, "METHOD_CLEAR_RECENT"
+    02be: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    02c6: invoke-static Lcom/bkdisplay/system/c;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    02ca: check-cast Lcom/bkdisplay/system/ntechservcie/recents/a;
+    02cc: invoke-virtual Lcom/bkdisplay/system/ntechservcie/recents/a;->j()V
+    02d1: const-string v2, "METHOD_CLEAR_FACTORY"
+    02d3: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    02d9: instance-field-op Lcom/bkdisplay/system/provider/b;->b:Landroid/content/Context;
+    02db: invoke-static Lcom/bkdisplay/api/util/a;->a(Landroid/content/Context;, Ljava/lang/String;, I)V
+    02de: invoke-static Lcom/bkdisplay/system/c;->b()Lcom/bkdisplay/system/c;
+    02e2: invoke-virtual Lcom/bkdisplay/system/c;->d()V
+    02e5: instance-field-op Lcom/bkdisplay/system/provider/b;->c:Lcom/bkdisplay/api/b;
+    02e7: invoke-virtual Lcom/bkdisplay/api/b;->J()Z
+    02ec: const-string v2, "METHOD_SHUTDOWN"
+    02ee: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    02f6: invoke-static Lcom/bkdisplay/system/c;->a(Ljava/lang/Class;)Ljava/lang/Object;
+    02fa: check-cast Lcom/bkdisplay/system/ntechservcie/PowerManagerProxy;
+    02fc: invoke-virtual Lcom/bkdisplay/system/ntechservcie/PowerManagerProxy;->i()V
+    0301: const-string v2, "METHOD_REBOOT"
+    0303: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    0309: instance-field-op Lcom/bkdisplay/system/provider/b;->c:Lcom/bkdisplay/api/b;
+    030b: invoke-virtual Lcom/bkdisplay/api/b;->aI()V
+    0310: const-string v2, "METHOD_OPEN_SCREEN"
+    0312: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    0318: instance-field-op Lcom/bkdisplay/system/provider/b;->b:Landroid/content/Context;
+    031a: new-instance Landroid/content/Intent;
+    031c: const-string v0, "com.bkdisplay.intent.action.SCREEN_ON"
+    031e: invoke-direct Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+    0321: invoke-virtual Landroid/content/Context;->sendBroadcast(Landroid/content/Intent;)V
+    0326: const-string v2, "METHOD_CLOSE_SCREEN"
+    0328: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    032e: instance-field-op Lcom/bkdisplay/system/provider/b;->c:Lcom/bkdisplay/api/b;
+    0330: invoke-virtual Lcom/bkdisplay/api/b;->K(I)V
+    0334: invoke-interface/range La/i/a;->a(C, C, Z)Z
+    0337: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    033d: const-string v13, "which"
+    033f: invoke-virtual Landroid/os/Bundle;->getInt(Ljava/lang/String;)I
+    0343: const-string v0, "duty"
+    0345: invoke-virtual Landroid/os/Bundle;->getInt(Ljava/lang/String;)I
+    0349: invoke-static Lcom/ntech/system/NtechClient;->setPwmDuty(I, I)I
+    034c: invoke-virtual Landroid/os/Bundle;->putBoolean(Ljava/lang/String;, Z)V
+    0350: instance-field-op Landroidx/activity/R$id;->accessibility_custom_action_2:I
+    0353: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    0359: const-string v13, "sourceId"
+    035b: invoke-virtual Landroid/os/Bundle;->getInt(Ljava/lang/String;)I
+    035f: invoke-static Lcom/ntech/platform/b;->a()Lcom/ntech/platform/api/PlatformApi;
+    0363: invoke-virtual Lcom/ntech/platform/api/PlatformApi;->isSourceDetected(I)Z
+    0367: invoke-virtual Landroid/os/Bundle;->putBoolean(Ljava/lang/String;, Z)V
+    036c: const-string v2, "METHOD_OPEN_SOURCE"
+    036e: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    0374: new-instance Lcom/bkdisplay/api/a/a;
+    0376: invoke-direct Lcom/bkdisplay/api/a/a;-><init>()V
+    0379: const-string v0, "system_api_hdmi_swap"
+    037b: invoke-static Lcom/bkdisplay/api/util/b;->c(Ljava/lang/String;)Z
+    037f: const-string v1, "source"
+    0382: check-cast 
+    0385: check-cast La/a/ac;
+    038b: invoke-virtual Landroid/os/Bundle;->getInt(Ljava/lang/String;)I
+    0394: invoke-virtual Landroid/os/Bundle;->getInt(Ljava/lang/String;)I
+    039a: instance-field-op Lcom/bkdisplay/api/a/a;->a:I
+    039d: instance-field-op Lcom/bkdisplay/api/a/a;->a:I
+    03a0: invoke-virtual Landroid/os/Bundle;->getInt(Ljava/lang/String;)I
+    03a4: instance-field-op Lcom/bkdisplay/api/a/a;->a:I
+    03a6: instance-field-op Lcom/bkdisplay/system/provider/b;->c:Lcom/bkdisplay/api/b;
+    03a8: invoke-virtual Lcom/bkdisplay/api/b;->a(Lcom/bkdisplay/api/a/a;)Z
+    03ab: invoke-virtual Landroid/os/Bundle;->putBoolean(Ljava/lang/String;, Z)V
+    03b0: const-string v2, "METHOD_MANUAL_FOCUS"
+    03b2: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    03b8: new-instance Landroid/os/Handler;
+    03ba: invoke-static Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+    03be: invoke-direct Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+    03c1: new-instance Lcom/bkdisplay/system/provider/-$$Lambda$b$GHAzNqcDKzZcjKt6lbEja_KSnck;
+    03c3: invoke-direct Lcom/bkdisplay/system/provider/-$$Lambda$b$GHAzNqcDKzZcjKt6lbEja_KSnck;-><init>(Lcom/bkdisplay/system/provider/b;)V
+    03c6: invoke-virtual Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+    03cb: const-string v2, "METHOD_MANUAL_FOCUS_LEFT"
+    03cd: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    03d3: new-instance Landroid/os/Handler;
+    03d5: invoke-static Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+    03d9: invoke-direct Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+    03dc: new-instance Lcom/bkdisplay/system/provider/-$$Lambda$b$juN3wGMBnbzVMOYICuAt7MDFupQ;
+    03de: invoke-direct Lcom/bkdisplay/system/provider/-$$Lambda$b$juN3wGMBnbzVMOYICuAt7MDFupQ;-><init>(Lcom/bkdisplay/system/provider/b;)V
+    03e1: invoke-virtual Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+    03e6: const-string v2, "METHOD_MANUAL_FOCUS_RIGHT"
+    03e8: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    03ee: new-instance Landroid/os/Handler;
+    03f0: invoke-static Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+    03f4: invoke-direct Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+    03f7: new-instance Lcom/bkdisplay/system/provider/-$$Lambda$b$T3cz5BzkTmvoFSzD0HeDBTEm6JU;
+    03f9: invoke-direct Lcom/bkdisplay/system/provider/-$$Lambda$b$T3cz5BzkTmvoFSzD0HeDBTEm6JU;-><init>(Lcom/bkdisplay/system/provider/b;)V
+    03fc: invoke-virtual Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+    0401: const-string v2, "METHOD_GOTO_HOME"
+    0403: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    040a: invoke-direct Lcom/bkdisplay/system/provider/b;->a(I)V
+    040f: const-string v2, "METHOD_CAMERA_PICTUE"
+    0411: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    0417: new-instance Landroid/os/Handler;
+    0419: invoke-static Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+    041d: invoke-direct Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+    0420: new-instance Lcom/bkdisplay/system/provider/-$$Lambda$b$It2q4inCBJUDHm_xTdFPwP0ezfo;
+    0422: invoke-direct Lcom/bkdisplay/system/provider/-$$Lambda$b$It2q4inCBJUDHm_xTdFPwP0ezfo;-><init>(Lcom/bkdisplay/system/provider/b;)V
+    0425: invoke-virtual Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+    042a: const-string v2, "METHOD_GET_CONFIGURED_NETWORKS_WITH_PASSWORD"
+    042c: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    0432: instance-field-op Lcom/bkdisplay/system/provider/b;->c:Lcom/bkdisplay/api/b;
+    0434: invoke-virtual Lcom/bkdisplay/api/b;->aR()Ljava/util/List;
+    0438: check-cast Ljava/util/ArrayList;
+    043a: invoke-virtual Landroid/os/Bundle;->putParcelableArrayList(Ljava/lang/String;, Ljava/util/ArrayList;)V
+    043e: invoke-virtual La/i/a;->a(C, C, Z)Z
+    0441: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    0447: instance-field-op Lcom/bkdisplay/system/provider/b;->c:Lcom/bkdisplay/api/b;
+    0449: invoke-virtual Lcom/bkdisplay/api/b;->aS()Landroid/net/wifi/WifiConfiguration;
+    044d: invoke-virtual Landroid/os/Bundle;->putParcelable(Ljava/lang/String;, Landroid/os/Parcelable;)V
+    0451: instance-field-op Landroidx/activity/R$id;->accessibility_custom_action_2:I
+    0454: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    045a: const-string v13, "iface"
+    045c: invoke-virtual Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+    0460: const-string v13, "networkPrefixLength"
+    0462: invoke-virtual Landroid/os/Bundle;->getInt(Ljava/lang/String;)I
+    0466: const-string v13, "ipAddr"
+    0468: invoke-virtual Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+    046c: const-string v13, "gateway"
+    046e: invoke-virtual Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+    0472: const-string v13, "dmains"
+    0474: invoke-virtual Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+    0478: const-string v13, "dns"
+    047a: invoke-virtual Landroid/os/Bundle;->getStringArray(Ljava/lang/String;)[Ljava/lang/String;
+    047e: invoke-static Lcom/bkdisplay/framework/f/g;->a()Lcom/bkdisplay/api/b;
+    0482: invoke-virtual/range Lcom/bkdisplay/api/b;->a(Ljava/lang/String;, I, Ljava/lang/String;, Ljava/lang/String;, Ljava/lang/String;, [Ljava/lang/String;)Z
+    0486: invoke-virtual Landroid/os/Bundle;->putBoolean(Ljava/lang/String;, Z)V
+    048a: new-instance Landroid/view/DisplayCutout;
+    048c: instance-field-op Landroidx/coordinatorlayout/widget/CoordinatorLayout;->l:[I
+    0492: const-string v0, "Landroidx/transition/h;"
+    0497: new-instance Lcom/bkdisplay/system/b/a;
+    0499: instance-field-op Lcom/bkdisplay/system/provider/b;->b:Landroid/content/Context;
+    049b: invoke-direct Lcom/bkdisplay/system/b/a;-><init>(Landroid/content/Context;)V
+    049e: instance-field-op Lcom/bkdisplay/system/provider/b;->b:Landroid/content/Context;
+    04a0: invoke-virtual Lcom/bkdisplay/system/b/a;->a(Landroid/content/Context;, Ljava/lang/String;)I
+    04a4: const-string v15, "session_id"
+    04a6: invoke-virtual Landroid/os/Bundle;->putInt(Ljava/lang/String;, I)V
+    04ab: const-string v2, "boot_video"
+    04ad: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    04b3: new-instance Lcom/bkdisplay/system/provider/a/a;
+    04b5: invoke-direct Lcom/bkdisplay/system/provider/a/a;-><init>()V
+    04b8: invoke-virtual Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+    04bc: invoke-virtual Lcom/bkdisplay/system/provider/a/a;->b(Ljava/lang/String;)Z
+    04c0: invoke-virtual Landroid/os/Bundle;->putBoolean(Ljava/lang/String;, Z)V
+    04c5: const-string v2, "boot_image"
+    04c7: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    04cd: new-instance Lcom/bkdisplay/system/provider/a/a;
+    04cf: invoke-direct Lcom/bkdisplay/system/provider/a/a;-><init>()V
+    04d2: invoke-virtual Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+    04d6: invoke-virtual Lcom/bkdisplay/system/provider/a/a;->a(Ljava/lang/String;)Z
+    04da: invoke-virtual Landroid/os/Bundle;->putBoolean(Ljava/lang/String;, Z)V
+    04df: const-string v2, "boot_animation"
+    04e1: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    04e7: new-instance Lcom/bkdisplay/system/provider/a/a;
+    04e9: invoke-direct Lcom/bkdisplay/system/provider/a/a;-><init>()V
+    04ec: invoke-virtual Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+    04f0: invoke-virtual Lcom/bkdisplay/system/provider/a/a;->c(Ljava/lang/String;)Z
+    04f4: invoke-virtual Landroid/os/Bundle;->putBoolean(Ljava/lang/String;, Z)V
+    04f9: const-string v2, "execute_shell"
+    04fb: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    0501: const-string v13, "cmd"
+    0503: invoke-virtual Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+    0507: invoke-static Lcom/ntech/system/NtechClient;->execCmd(Ljava/lang/String;)I
+    050a: invoke-virtual Landroid/os/Bundle;->putBoolean(Ljava/lang/String;, Z)V
+    050f: const-string v2, "method_set_env_value"
+    0511: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    0517: const-string v13, "key"
+    0519: invoke-virtual Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+    051d: invoke-virtual Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+    0521: instance-field-op Lcom/bkdisplay/system/provider/b;->c:Lcom/bkdisplay/api/b;
+    0523: invoke-virtual Lcom/bkdisplay/api/b;->b(Ljava/lang/String;, Ljava/lang/String;)V
+    0526: invoke-virtual Landroid/os/Bundle;->putBoolean(Ljava/lang/String;, Z)V
+    0529: new-instance Ljava/lang/StringBuilder;
+    052b: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    052e: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0532: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0536: const-string v1, ","
+    0538: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    053c: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0540: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    0544: invoke-static Landroid/util/Log;->d(Ljava/lang/String;, Ljava/lang/String;)I
+    0548: const-string v0, "method_tof_detect"
+    054a: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    0550: invoke-static Lcom/ntech/system/NtechClient;->getDeviceActive(I)I
+    0554: invoke-virtual Landroid/os/Bundle;->putInt(Ljava/lang/String;, I)V
+    0558: const-string v0, "method_set_dlp_rgb"
+    055a: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    055e: const-string v1, "rgb"
+    0562: invoke-virtual Landroid/os/Bundle;->getInt(Ljava/lang/String;)I
+    0566: invoke-virtual Landroid/os/Bundle;->getInt(Ljava/lang/String;)I
+    056a: invoke-static Lcom/ntech/system/NtechClient;->setDLP(I, I)I
+    056d: invoke-virtual Landroid/os/Bundle;->putInt(Ljava/lang/String;, I)V
+    0571: const-string v0, "method_get_dlp_rgb"
+    0573: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    0579: invoke-virtual Landroid/os/Bundle;->getInt(Ljava/lang/String;)I
+    057d: invoke-static Lcom/ntech/system/NtechClient;->getDLP(I)I
+    0581: const-string v15, "return"
+    0583: invoke-virtual Landroid/os/Bundle;->putInt(Ljava/lang/String;, I)V
+    0586: invoke-virtual Landroid/os/Bundle;->putInt(Ljava/lang/String;, I)V
+    058a: const-string v15, "method_get_hid_pair"
+    058c: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    0592: invoke-static Lcom/ntech/system/NtechClient;->hidAudioPair()V
+    0595: invoke-virtual Landroid/os/Bundle;->putBoolean(Ljava/lang/String;, Z)V
+    0599: const-string v15, "method_get_hid_unpair"
+    059b: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    05a1: invoke-static Lcom/ntech/system/NtechClient;->hidAudioUnpair()V
+    05a4: invoke-virtual Landroid/os/Bundle;->putBoolean(Ljava/lang/String;, Z)V
+    05a8: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/b;
+METHOD: onFailed(Ljava/lang/String;, I, Ljava/lang/String;)V
+================================================================================
+    0000: new-instance Ljava/lang/StringBuilder;
+    0002: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    0005: const-string v1, "onFailed: "
+    0007: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    000b: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    000f: const-string v1, "__"
+    0011: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0015: invoke-virtual Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    0019: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    001d: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0021: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    0025: const-string v0, "Download"
+    0027: invoke-static Landroid/util/Log;->d(Ljava/lang/String;, Ljava/lang/String;)I
+    002e: invoke-static Landroid/app/ActivityThread;->currentApplication()Landroid/app/Application;
+    0035: invoke-static Lcom/bkdisplay/framework/ui/a;->a(Landroid/content/Context;, I)V
+    0038: invoke-static Lcom/bkdisplay/system/ota/BaiduOtaManager;->a()Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    003e: invoke-virtual Lcom/bkdisplay/system/ota/BaiduOtaManager;->a(I)V
+    0041: invoke-static Lcom/bkdisplay/system/ota/BaiduOtaManager;->a()Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    0045: field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->c:I
+    0047: invoke-virtual Lcom/bkdisplay/system/ota/BaiduOtaManager;->b(I)V
+    004a: invoke-static Lcom/bkdisplay/systemui/SystemUIApplication;->a()Landroid/app/Application;
+    004e: invoke-virtual Landroid/app/Application;->getContentResolver()Landroid/content/ContentResolver;
+    0052: new-instance Ljava/lang/StringBuilder;
+    0054: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    0057: const-string v1, "content://com.bkdisplay.system.provider/method/METHOD_DOWNLOAD?ret="
+    0059: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    005d: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0061: const-string v0, "&errCode="
+    0063: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0067: invoke-virtual Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    006b: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    006f: invoke-static Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+    0074: invoke-virtual Landroid/content/ContentResolver;->notifyChange(Landroid/net/Uri;, Landroid/database/ContentObserver;)V
+
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/b;
+METHOD: onFinished(Ljava/lang/String;)V
+================================================================================
+    0000: new-instance Ljava/lang/StringBuilder;
+    0002: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    0005: const-string v1, "onFinished: "
+    0007: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    000b: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    000f: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    0013: const-string v1, "Download"
+    0015: invoke-static Landroid/util/Log;->d(Ljava/lang/String;, Ljava/lang/String;)I
+    0018: invoke-static Lcom/bkdisplay/system/ota/BaiduOtaManager;->a()Lcom/bkdisplay/system/ota/BaiduOtaManager;
+    001c: field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->c:I
+    001e: invoke-virtual Lcom/bkdisplay/system/ota/BaiduOtaManager;->b(I)V
+    0021: invoke-static Lcom/bkdisplay/systemui/SystemUIApplication;->a()Landroid/app/Application;
+    0025: const-string v1, "ota_progress"
+    0028: field-op Landroidx/recyclerview/widget/StaggeredGridLayoutManager$SavedState;->d:[I
+    002c: invoke-static Lcom/bkdisplay/systemui/SystemUIApplication;->a()Landroid/app/Application;
+    0030: invoke-virtual Landroid/app/Application;->getContentResolver()Landroid/content/ContentResolver;
+    0034: new-instance Ljava/lang/StringBuilder;
+    0036: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    0039: const-string v3, "content://com.bkdisplay.system.provider/method/METHOD_DOWNLOAD?ret="
+    003b: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    003f: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0043: const-string v1, "&progress="
+    0045: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0049: invoke-virtual Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    004d: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    0051: invoke-static Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+    0056: invoke-virtual Landroid/content/ContentResolver;->notifyChange(Landroid/net/Uri;, Landroid/database/ContentObserver;)V
+    0059: const-string v5, "update_type"
+    005b: const-string v0, ""
+    005d: invoke-static Lcom/bkdisplay/api/util/e;->b(Ljava/lang/String;, Ljava/lang/String;)Ljava/lang/String;
+    0061: field-op Lcom/bkdisplay/system/ota/a;->e:Ljava/lang/String;
+    0063: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    006a: const-string v0, "silence_download"
+    006c: invoke-static Lcom/bkdisplay/api/util/e;->a(Ljava/lang/String;, I)V
+    0070: new-instance Lcom/bkdisplay/systemui/common/b;
+    0072: invoke-static Lcom/bkdisplay/systemui/SystemUIApplication;->a()Landroid/app/Application;
+    0076: invoke-direct Lcom/bkdisplay/systemui/common/b;-><init>(Landroid/content/Context;)V
+    007a: invoke-virtual Lcom/bkdisplay/systemui/common/b;->a(I)V
+    007d: field-op Lcom/bkdisplay/system/ota/a;->d:Ljava/lang/String;
+    007f: invoke-static Lcom/bkdisplay/api/util/e;->b(Ljava/lang/String;, Ljava/lang/String;)Ljava/lang/String;
+    0083: field-op Lcom/bkdisplay/system/ota/a;->h:Ljava/lang/String;
+    0085: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    008c: invoke-virtual Lcom/bkdisplay/systemui/common/b;->a(Z)V
+    008f: invoke-virtual Lcom/bkdisplay/systemui/common/b;->setCancelable(Z)V
+    0092: invoke-static Lcom/bkdisplay/systemui/SystemUIApplication;->a()Landroid/app/Application;
+    0099: invoke-virtual Landroid/app/Application;->getString(I)Ljava/lang/String;
+    009d: invoke-virtual Lcom/bkdisplay/systemui/common/b;->a(Ljava/lang/String;)V
+    00a0: new-instance Lcom/bkdisplay/system/ota/b$1;
+    00a2: invoke-direct Lcom/bkdisplay/system/ota/b$1;-><init>(Lcom/bkdisplay/system/ota/b;)V
+    00a5: invoke-virtual Lcom/bkdisplay/systemui/common/b;->a(Landroid/content/DialogInterface$OnClickListener;)V
+    00a8: invoke-virtual Lcom/bkdisplay/systemui/common/b;->show()V

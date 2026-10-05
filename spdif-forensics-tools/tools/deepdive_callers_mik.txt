@@ -1,0 +1,16 @@
+=== mik.ko: caller cross-references
+
+--- callers of _MI_AOUT_SetHdmiAutoMode (0 sites) ---
+
+--- callers of _MI_AOUT_ParseEdidAudioDataBlock (0 sites) ---
+
+--- callers of _MI_AOUT_SetHdmiInfo (0 sites) ---
+
+--- callers of MI_AOUT_SetDigitalMode (0 sites) ---
+
+--- callers of _MI_AOUT_SetDigitalChannelStatus (0 sites) ---
+
+--- callers of MApi_AUDIO_SPDIF_SetMode (3 sites) ---
+  0x0007dd64  (in .L.str.14)
+  0x0007de40  (in .L.str.124)
+  0x00098ddc  (in _aszDapParamName)

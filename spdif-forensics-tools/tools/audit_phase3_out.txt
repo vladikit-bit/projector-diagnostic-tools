@@ -1,0 +1,1369 @@
+[utpa2k.ko] branch relocs=43707 data relocs=108197
+==============================================================================
+MDrv_AUTH_IPCheck @ 0x1390c  size 0x180  (96 insns)
+==============================================================================
+0x0001390c: push     {r4, lr}
+0x00013910: movw     r1, #0
+0x00013914: movt     r1, #0
+0x00013918: ldr      r1, [r1]
+0x0001391c: cmp      r1, #0
+0x00013920: beq      #0x1395c
+0x00013924: ldrb     r2, [r1, #9]
+0x00013928: sub      r3, r2, #0x10
+0x0001392c: cmp      r3, #0x71
+0x00013930: blo      #0x13980
+0x00013934: movw     r0, #0
+0x00013938: movw     r1, #0
+0x0001393c: movt     r0, #0
+0x00013940: movt     r1, #0
+0x00013944: bl       #0x13944
+0x00013948: mov      r4, #0
+0x0001394c: cmp      r0, #0
+0x00013950: bne      #0x139d0
+0x00013954: mov      r0, r4
+0x00013958: pop      {r4, pc}
+0x0001395c: movw     r0, #0
+0x00013960: movt     r0, #0
+0x00013964: bl       #0x13964
+0x00013968: mov      r4, #0
+0x0001396c: cmp      r0, #1
+0x00013970: bne      #0x13954
+0x00013974: movw     r0, #0
+0x00013978: movt     r0, #0
+0x0001397c: b        #0x139d8
+0x00013980: mvn      r3, r0, lsr #3
+0x00013984: add      r2, r2, r3
+0x00013988: cmn      r2, #1
+0x0001398c: ble      #0x139ac
+0x00013990: add      r1, r1, r2
+0x00013994: and      r0, r0, #7
+0x00013998: mov      r2, #1
+0x0001399c: ldrb     r1, [r1, #0xa]
+0x000139a0: and      r4, r2, r1, lsr r0
+0x000139a4: mov      r0, r4
+0x000139a8: pop      {r4, pc}
+0x000139ac: movw     r0, #0
+0x000139b0: movt     r0, #0
+0x000139b4: bl       #0x139b4
+0x000139b8: mov      r4, #0
+0x000139bc: cmp      r0, #1
+0x000139c0: bne      #0x13954
+0x000139c4: movw     r0, #0
+0x000139c8: movt     r0, #0
+0x000139cc: b        #0x139d8
+0x000139d0: movw     r0, #0
+0x000139d4: movt     r0, #0
+0x000139d8: bl       #0x139d8      ; -> printk  
+0x000139dc: mov      r0, r4
+0x000139e0: pop      {r4, pc}
+0x000139e4: movw     r1, #0
+0x000139e8: movt     r1, #0
+0x000139ec: ldrb     r2, [r1]
+0x000139f0: strb     r2, [r0]
+0x000139f4: ldrb     r1, [r1, #1]
+0x000139f8: strb     r1, [r0, #1]
+0x000139fc: movw     r1, #0
+0x00013a00: movt     r1, #0
+0x00013a04: ldrb     r2, [r1]
+0x00013a08: strb     r2, [r0, #2]
+0x00013a0c: ldrb     r2, [r1, #1]
+0x00013a10: strb     r2, [r0, #3]
+0x00013a14: ldrb     r2, [r1, #2]
+0x00013a18: strb     r2, [r0, #4]
+0x00013a1c: ldrb     r2, [r1, #3]
+0x00013a20: strb     r2, [r0, #5]
+0x00013a24: ldrb     r2, [r1, #4]
+0x00013a28: strb     r2, [r0, #6]
+0x00013a2c: ldrb     r2, [r1, #5]
+0x00013a30: strb     r2, [r0, #7]
+0x00013a34: ldrb     r2, [r1, #6]
+0x00013a38: strb     r2, [r0, #8]
+0x00013a3c: ldrb     r2, [r1, #7]
+0x00013a40: strb     r2, [r0, #9]
+0x00013a44: ldrb     r2, [r1, #8]
+0x00013a48: strb     r2, [r0, #0xa]
+0x00013a4c: ldrb     r2, [r1, #9]
+0x00013a50: strb     r2, [r0, #0xb]
+0x00013a54: ldrb     r2, [r1, #0xa]
+0x00013a58: strb     r2, [r0, #0xc]
+0x00013a5c: ldrb     r2, [r1, #0xb]
+0x00013a60: strb     r2, [r0, #0xd]
+0x00013a64: ldrb     r2, [r1, #0xc]
+0x00013a68: strb     r2, [r0, #0xe]
+0x00013a6c: ldrb     r2, [r1, #0xd]
+0x00013a70: strb     r2, [r0, #0xf]
+0x00013a74: ldrb     r2, [r1, #0xe]
+0x00013a78: strb     r2, [r0, #0x10]
+0x00013a7c: ldrb     r1, [r1, #0xf]
+0x00013a80: strb     r1, [r0, #0x11]
+0x00013a84: bx       lr
+0x00013a88: mov      r0, #0
+==============================================================================
+HAL_AUDIO_SetSystem2 @ 0x44d0b0  size 0x85c  (535 insns)
+==============================================================================
+0x0044d0b0: push     {r4, r5, r6, r7, r8, lr}
+0x0044d0b4: sub      sp, sp, #8
+0x0044d0b8: movw     r8, #0
+0x0044d0bc: mov      r5, r0
+0x0044d0c0: movt     r8, #0
+0x0044d0c4: mov      r7, r1
+0x0044d0c8: ldr      r0, [r8]
+0x0044d0cc: cmp      r0, #0
+0x0044d0d0: bne      #0x44d0e4
+0x0044d0d4: bl       #0x44d0d4      ; -> MDrv_AUDIO_SHM_Init  
+0x0044d0d8: ldr      r0, [r8]
+0x0044d0dc: cmp      r0, #0
+0x0044d0e0: beq      #0x44d220
+0x0044d0e4: ldr      r0, [r0, #0x4c8]
+0x0044d0e8: cmp      r0, #4
+0x0044d0ec: blo      #0x44d104
+0x0044d0f0: movw     r0, #0
+0x0044d0f4: movt     r0, #0
+0x0044d0f8: bl       #0x44d0f8      ; -> UtopiaLogSystem  
+0x0044d0fc: cmp      r0, #1
+0x0044d100: beq      #0x44d360
+0x0044d104: movw     r6, #0x2e98
+0x0044d108: cmp      r5, #2
+0x0044d10c: movt     r6, #0x11
+0x0044d110: bne      #0x44d11c
+0x0044d114: orr      r6, r6, #2
+0x0044d118: b        #0x44d128
+0x0044d11c: mov      r4, #1
+0x0044d120: cmp      r5, #1
+0x0044d124: beq      #0x44d900
+0x0044d128: movw     r0, #0x396
+0x0044d12c: mov      r1, #0x40
+0x0044d130: movt     r0, #0x16
+0x0044d134: mov      r2, #0
+0x0044d138: mov      r4, #0
+0x0044d13c: bl       #0x44d13c
+0x0044d140: ldr      r0, [r8]
+0x0044d144: ldr      r1, [r0, #0x4d0]     [0x4d0 Dolby/DSP-tier]
+0x0044d148: cmp      r1, #4
+0x0044d14c: sub      r1, r7, #1
+0x0044d150: mvneq    r4, #0x7f
+0x0044d154: cmp      r1, #0x1d
+0x0044d158: bhi      #0x44d3c4
+0x0044d15c: add      r2, pc, #0
+0x0044d160: ldr      pc, [r2, r1, lsl #2]
+0x0044d164: subeq    sp, r4, r4, lsl #5
+0x0044d168: subeq    sp, r4, r8, lsr #4
+0x0044d16c: subeq    sp, r4, r8, lsr #4
+0x0044d170: subeq    sp, r4, r0, asr #5
+0x0044d174: subeq    sp, r4, r4, lsl #5
+0x0044d178: subeq    sp, r4, ip, lsl #7
+0x0044d17c: subeq    sp, r4, r4, asr #7
+0x0044d180: subeq    sp, r4, r8, lsl #8
+0x0044d184: subeq    sp, r4, r0, asr #8
+0x0044d188: subeq    sp, r4, r4, asr #7
+0x0044d18c: ldrdeq   sp, lr, [r4], #-0x1c
+0x0044d190: subeq    sp, r4, r0, asr #5
+0x0044d194: subeq    sp, r4, r8, lsr #4
+0x0044d198: subeq    sp, r4, r8, ror r4
+0x0044d19c: strheq   sp, [r4], #-0x40
+0x0044d1a0: subeq    sp, r4, r8, ror #9
+0x0044d1a4: ldrdeq   sp, lr, [r4], #-0x1c
+0x0044d1a8: subeq    sp, r4, r8, lsl #6
+0x0044d1ac: subeq    sp, r4, r8, lsl #6
+0x0044d1b0: subeq    sp, r4, r0, lsr #10
+0x0044d1b4: subeq    sp, r4, r4, asr #7
+0x0044d1b8: ldrdeq   sp, lr, [r4], #-0x1c
+0x0044d1bc: ldrdeq   sp, lr, [r4], #-0x1c
+0x0044d1c0: subeq    sp, r4, r8, asr r5
+0x0044d1c4: umaaleq  sp, r4, r0, r5
+0x0044d1c8: subeq    sp, r4, ip, asr #11
+0x0044d1cc: subeq    sp, r4, r8, lsl #12
+0x0044d1d0: subeq    sp, r4, r0, asr #12
+0x0044d1d4: ldrdeq   sp, lr, [r4], #-0x1c
+0x0044d1d8: strheq   sp, [r4], #-0x6c
+0x0044d1dc: ldr      r0, [r0, #0x4d8]     [0x4d8 DTS level]
+0x0044d1e0: mov      r1, #4
+0x0044d1e4: cmp      r0, #3
+0x0044d1e8: mov      r0, r6
+0x0044d1ec: movweq   r1, #0x97
+0x0044d1f0: bl       #0x44d1f0
+0x0044d1f4: ldr      r0, [r8]
+0x0044d1f8: cmp      r5, #2
+0x0044d1fc: bne      #0x44d264
+0x0044d200: cmp      r0, #0
+0x0044d204: bne      #0x44d218
+0x0044d208: bl       #0x44d208      ; -> MDrv_AUDIO_SHM_Init  
+0x0044d20c: ldr      r0, [r8]
+0x0044d210: cmp      r0, #0
+0x0044d214: beq      #0x44d8fc
+0x0044d218: mov      r1, #0xa
+0x0044d21c: b        #0x44d6f0
+0x0044d220: mov      r4, #0
+0x0044d224: b        #0x44d900
+0x0044d228: orr      r0, r4, #1
+0x0044d22c: uxtb     r1, r0
+0x0044d230: mov      r0, r6
+0x0044d234: bl       #0x44d234
+0x0044d238: ldr      r0, [r8]
+0x0044d23c: cmp      r5, #2
+0x0044d240: bne      #0x44d340
+0x0044d244: cmp      r0, #0
+0x0044d248: bne      #0x44d25c
+0x0044d24c: bl       #0x44d24c
+0x0044d250: ldr      r0, [r8]
+0x0044d254: cmp      r0, #0
+0x0044d258: beq      #0x44d8fc
+0x0044d25c: mov      r1, #3
+0x0044d260: b        #0x44d6f0
+0x0044d264: cmp      r0, #0
+0x0044d268: bne      #0x44d27c
+0x0044d26c: bl       #0x44d26c      ; -> MDrv_AUDIO_SHM_Init  
+0x0044d270: ldr      r0, [r8]
+0x0044d274: cmp      r0, #0
+0x0044d278: beq      #0x44d8fc
+0x0044d27c: mov      r1, #0xa
+0x0044d280: b        #0x44d8f8
+0x0044d284: mov      r0, r6
+0x0044d288: mov      r1, #3
+0x0044d28c: bl       #0x44d28c
+0x0044d290: ldr      r0, [r8]
+0x0044d294: cmp      r5, #2
+0x0044d298: bne      #0x44d6f8
+0x0044d29c: cmp      r0, #0
+0x0044d2a0: bne      #0x44d2b4
+0x0044d2a4: bl       #0x44d2a4
+0x0044d2a8: ldr      r0, [r8]
+0x0044d2ac: cmp      r0, #0
+0x0044d2b0: beq      #0x44d8fc
+0x0044d2b4: mov      r4, #1
+0x0044d2b8: str      r4, [r0, #0x528]
+0x0044d2bc: b        #0x44d900
+0x0044d2c0: ldrb     r0, [r0, #0x43d]     [0x43d?]
+0x0044d2c4: mov      r1, #0xd
+0x0044d2c8: cmp      r0, #1
+0x0044d2cc: mov      r0, r6
+0x0044d2d0: orreq    r1, r4, #5
+0x0044d2d4: uxtb     r1, r1
+0x0044d2d8: bl       #0x44d2d8      ; -> HAL_AUDIO_AbsWriteByte  
+0x0044d2dc: ldr      r0, [r8]
+0x0044d2e0: cmp      r5, #2
+0x0044d2e4: bne      #0x44d71c
+0x0044d2e8: cmp      r0, #0
+0x0044d2ec: bne      #0x44d300
+0x0044d2f0: bl       #0x44d2f0
+0x0044d2f4: ldr      r0, [r8]
+0x0044d2f8: cmp      r0, #0
+0x0044d2fc: beq      #0x44d8fc
+0x0044d300: mov      r1, #4
+0x0044d304: b        #0x44d6f0
+0x0044d308: mov      r0, r6
+0x0044d30c: mov      r1, #0
+0x0044d310: bl       #0x44d310
+0x0044d314: ldr      r0, [r8]
+0x0044d318: cmp      r5, #2
+0x0044d31c: bne      #0x44d73c
+0x0044d320: cmp      r0, #0
+0x0044d324: bne      #0x44d338
+0x0044d328: bl       #0x44d328      ; -> MDrv_AUDIO_SHM_Init  
+0x0044d32c: ldr      r0, [r8]
+0x0044d330: cmp      r0, #0
+0x0044d334: beq      #0x44d8fc
+0x0044d338: mvn      r1, #0
+0x0044d33c: b        #0x44d6f0
+0x0044d340: cmp      r0, #0
+0x0044d344: bne      #0x44d358
+0x0044d348: bl       #0x44d348
+0x0044d34c: ldr      r0, [r8]
+0x0044d350: cmp      r0, #0
+0x0044d354: beq      #0x44d8fc
+0x0044d358: mov      r1, #3
+0x0044d35c: b        #0x44d8f8
+0x0044d360: ldr      r0, [r8]
+0x0044d364: movw     r1, #0
+0x0044d368: movt     r1, #0
+0x0044d36c: mov      r2, r5
+0x0044d370: mov      r3, r7
+0x0044d374: ldr      r0, [r0, #0x1cc]
+0x0044d378: str      r0, [sp]
+0x0044d37c: movw     r0, #0
+0x0044d380: movt     r0, #0
+0x0044d384: bl       #0x44d384      ; -> printk  
+0x0044d388: b        #0x44d104
+0x0044d38c: mov      r0, r6
+0x0044d390: mov      r1, #0xa
+0x0044d394: bl       #0x44d394
+0x0044d398: ldr      r0, [r8]
+0x0044d39c: cmp      r5, #2
+0x0044d3a0: bne      #0x44d75c
+0x0044d3a4: cmp      r0, #0
+0x0044d3a8: bne      #0x44d3bc
+0x0044d3ac: bl       #0x44d3ac
+0x0044d3b0: ldr      r0, [r8]
+0x0044d3b4: cmp      r0, #0
+0x0044d3b8: beq      #0x44d8fc
+0x0044d3bc: mov      r1, #6
+0x0044d3c0: b        #0x44d6f0
+0x0044d3c4: cmp      r0, #0
+0x0044d3c8: mov      r4, #1
+0x0044d3cc: ldrne    r0, [r0, #0x4c8]
+0x0044d3d0: cmpne    r0, #0
+0x0044d3d4: beq      #0x44d900
+0x0044d3d8: movw     r0, #0
+0x0044d3dc: movt     r0, #0
+0x0044d3e0: bl       #0x44d3e0
+0x0044d3e4: cmp      r0, #1
+0x0044d3e8: bne      #0x44d900
+0x0044d3ec: movw     r0, #0
+0x0044d3f0: movw     r1, #0
+0x0044d3f4: movt     r0, #0
+0x0044d3f8: movt     r1, #0
+0x0044d3fc: mov      r2, r7
+0x0044d400: bl       #0x44d400
+0x0044d404: b        #0x44d900
+0x0044d408: mov      r0, r6
+0x0044d40c: mov      r1, #0xc
+0x0044d410: bl       #0x44d410
+0x0044d414: ldr      r0, [r8]
+0x0044d418: cmp      r5, #2
+0x0044d41c: bne      #0x44d77c
+0x0044d420: cmp      r0, #0
+0x0044d424: bne      #0x44d438
+0x0044d428: bl       #0x44d428      ; -> MDrv_AUDIO_SHM_Init  
+0x0044d42c: ldr      r0, [r8]
+0x0044d430: cmp      r0, #0
+0x0044d434: beq      #0x44d8fc
+0x0044d438: mov      r1, #7
+0x0044d43c: b        #0x44d6f0
+0x0044d440: mov      r0, r6
+0x0044d444: mov      r1, #7
+0x0044d448: bl       #0x44d448
+0x0044d44c: ldr      r0, [r8]
+0x0044d450: cmp      r5, #2
+0x0044d454: bne      #0x44d79c
+0x0044d458: cmp      r0, #0
+0x0044d45c: bne      #0x44d470
+0x0044d460: bl       #0x44d460
+0x0044d464: ldr      r0, [r8]
+0x0044d468: cmp      r0, #0
+0x0044d46c: beq      #0x44d8fc
+0x0044d470: mov      r1, #8
+0x0044d474: b        #0x44d6f0
+0x0044d478: mov      r0, r6
+0x0044d47c: mov      r1, #0xb
+0x0044d480: bl       #0x44d480      ; -> HAL_AUDIO_AbsWriteByte  
+0x0044d484: ldr      r0, [r8]
+0x0044d488: cmp      r5, #2
+0x0044d48c: bne      #0x44d7bc
+0x0044d490: cmp      r0, #0
+0x0044d494: bne      #0x44d4a8
+0x0044d498: bl       #0x44d498
+0x0044d49c: ldr      r0, [r8]
+0x0044d4a0: cmp      r0, #0
+0x0044d4a4: beq      #0x44d8fc
+0x0044d4a8: mov      r1, #0xd
+0x0044d4ac: b        #0x44d6f0
+0x0044d4b0: mov      r0, r6
+0x0044d4b4: mov      r1, #9
+0x0044d4b8: bl       #0x44d4b8
+0x0044d4bc: ldr      r0, [r8]
+0x0044d4c0: cmp      r5, #2
+0x0044d4c4: bne      #0x44d7dc
+0x0044d4c8: cmp      r0, #0
+0x0044d4cc: bne      #0x44d4e0
+0x0044d4d0: bl       #0x44d4d0      ; -> MDrv_AUDIO_SHM_Init  
+0x0044d4d4: ldr      r0, [r8]
+0x0044d4d8: cmp      r0, #0
+0x0044d4dc: beq      #0x44d8fc
+0x0044d4e0: mov      r1, #0xe
+0x0044d4e4: b        #0x44d6f0
+0x0044d4e8: mov      r0, r6
+0x0044d4ec: mov      r1, #8
+0x0044d4f0: bl       #0x44d4f0
+0x0044d4f4: ldr      r0, [r8]
+0x0044d4f8: cmp      r5, #2
+0x0044d4fc: bne      #0x44d7fc
+0x0044d500: cmp      r0, #0
+0x0044d504: bne      #0x44d518
+0x0044d508: bl       #0x44d508
+0x0044d50c: ldr      r0, [r8]
+0x0044d510: cmp      r0, #0
+0x0044d514: beq      #0x44d8fc
+0x0044d518: mov      r1, #0xf
+0x0044d51c: b        #0x44d6f0
+0x0044d520: mov      r0, r6
+0x0044d524: mov      r1, #0x10
+0x0044d528: bl       #0x44d528      ; -> HAL_AUDIO_AbsWriteByte  
+0x0044d52c: ldr      r0, [r8]
+0x0044d530: cmp      r5, #2
+0x0044d534: bne      #0x44d81c
+0x0044d538: cmp      r0, #0
+0x0044d53c: bne      #0x44d550
+0x0044d540: bl       #0x44d540
+0x0044d544: ldr      r0, [r8]
+0x0044d548: cmp      r0, #0
+0x0044d54c: beq      #0x44d8fc
+0x0044d550: mov      r1, #0x13
+0x0044d554: b        #0x44d6f0
+0x0044d558: mov      r0, r6
+0x0044d55c: mov      r1, #0
+0x0044d560: bl       #0x44d560
+0x0044d564: ldr      r0, [r8]
+0x0044d568: cmp      r5, #2
+0x0044d56c: bne      #0x44d83c
+0x0044d570: cmp      r0, #0
+0x0044d574: bne      #0x44d588
+0x0044d578: bl       #0x44d578      ; -> MDrv_AUDIO_SHM_Init  
+0x0044d57c: ldr      r0, [r8]
+0x0044d580: cmp      r0, #0
+0x0044d584: beq      #0x44d8fc
+0x0044d588: mov      r1, #0x5f
+0x0044d58c: b        #0x44d6f0
+0x0044d590: orr      r0, r4, #0x13
+0x0044d594: uxtb     r1, r0
+0x0044d598: mov      r0, r6
+0x0044d59c: bl       #0x44d59c
+0x0044d5a0: ldr      r0, [r8]
+0x0044d5a4: cmp      r5, #2
+0x0044d5a8: bne      #0x44d85c
+0x0044d5ac: cmp      r0, #0
+0x0044d5b0: bne      #0x44d5c4
+0x0044d5b4: bl       #0x44d5b4
+0x0044d5b8: ldr      r0, [r8]
+0x0044d5bc: cmp      r0, #0
+0x0044d5c0: beq      #0x44d8fc
+0x0044d5c4: mov      r1, #0x17
+0x0044d5c8: b        #0x44d6f0
+0x0044d5cc: orr      r0, r4, #0x14
+0x0044d5d0: uxtb     r1, r0
+0x0044d5d4: mov      r0, r6
+0x0044d5d8: bl       #0x44d5d8      ; -> HAL_AUDIO_AbsWriteByte  
+0x0044d5dc: ldr      r0, [r8]
+0x0044d5e0: cmp      r5, #2
+0x0044d5e4: bne      #0x44d87c
+0x0044d5e8: cmp      r0, #0
+0x0044d5ec: bne      #0x44d600
+0x0044d5f0: bl       #0x44d5f0
+0x0044d5f4: ldr      r0, [r8]
+0x0044d5f8: cmp      r0, #0
+0x0044d5fc: beq      #0x44d8fc
+0x0044d600: mov      r1, #0x18
+0x0044d604: b        #0x44d6f0
+0x0044d608: mov      r0, r6
+0x0044d60c: mov      r1, #0x15
+0x0044d610: bl       #0x44d610
+0x0044d614: ldr      r0, [r8]
+0x0044d618: cmp      r5, #2
+0x0044d61c: bne      #0x44d89c
+0x0044d620: cmp      r0, #0
+0x0044d624: bne      #0x44d638
+0x0044d628: bl       #0x44d628      ; -> MDrv_AUDIO_SHM_Init  
+0x0044d62c: ldr      r0, [r8]
+0x0044d630: cmp      r0, #0
+0x0044d634: beq      #0x44d8fc
+0x0044d638: mov      r1, #0x1a
+0x0044d63c: b        #0x44d6f0
+0x0044d640: orr      r0, r4, #0x16
+0x0044d644: uxtb     r1, r0
+0x0044d648: mov      r0, r6
+0x0044d64c: bl       #0x44d64c
+0x0044d650: ldr      r0, [r8]
+0x0044d654: cmp      r5, #2
+0x0044d658: bne      #0x44d8bc
+0x0044d65c: cmp      r0, #0
+0x0044d660: bne      #0x44d674
+0x0044d664: bl       #0x44d664
+0x0044d668: ldr      r0, [r8]
+0x0044d66c: cmp      r0, #0
+0x0044d670: beq      #0x44d8fc
+0x0044d674: ldr      r0, [r0, #0x4c8]
+0x0044d678: mov      r4, #1
+0x0044d67c: cmp      r0, #0
+0x0044d680: beq      #0x44d900
+0x0044d684: movw     r0, #0
+0x0044d688: movt     r0, #0
+0x0044d68c: bl       #0x44d68c
+0x0044d690: cmp      r0, #1
+0x0044d694: bne      #0x44d900
+0x0044d698: movw     r0, #0
+0x0044d69c: movw     r1, #0
+0x0044d6a0: movw     r3, #0
+0x0044d6a4: movt     r0, #0
+0x0044d6a8: movt     r1, #0
+0x0044d6ac: movt     r3, #0
+0x0044d6b0: mov      r2, #0x1b
+0x0044d6b4: bl       #0x44d6b4      ; -> printk  
+0x0044d6b8: b        #0x44d900
+0x0044d6bc: mov      r0, r6
+0x0044d6c0: mov      r1, #0x1b
+0x0044d6c4: bl       #0x44d6c4
+0x0044d6c8: ldr      r0, [r8]
+0x0044d6cc: cmp      r5, #2
+0x0044d6d0: bne      #0x44d8dc
+0x0044d6d4: cmp      r0, #0
+0x0044d6d8: bne      #0x44d6ec
+0x0044d6dc: bl       #0x44d6dc
+0x0044d6e0: ldr      r0, [r8]
+0x0044d6e4: cmp      r0, #0
+0x0044d6e8: beq      #0x44d8fc
+0x0044d6ec: mov      r1, #0x1c
+0x0044d6f0: str      r1, [r0, #0x528]
+0x0044d6f4: b        #0x44d8fc
+0x0044d6f8: cmp      r0, #0
+0x0044d6fc: bne      #0x44d710
+0x0044d700: bl       #0x44d700      ; -> MDrv_AUDIO_SHM_Init  
+0x0044d704: ldr      r0, [r8]
+0x0044d708: cmp      r0, #0
+0x0044d70c: beq      #0x44d8fc
+0x0044d710: mov      r4, #1
+0x0044d714: str      r4, [r0, #0x524]
+0x0044d718: b        #0x44d900
+0x0044d71c: cmp      r0, #0
+0x0044d720: bne      #0x44d734
+0x0044d724: bl       #0x44d724
+0x0044d728: ldr      r0, [r8]
+0x0044d72c: cmp      r0, #0
+0x0044d730: beq      #0x44d8fc
+0x0044d734: mov      r1, #4
+0x0044d738: b        #0x44d8f8
+0x0044d73c: cmp      r0, #0
+0x0044d740: bne      #0x44d754
+0x0044d744: bl       #0x44d744
+0x0044d748: ldr      r0, [r8]
+0x0044d74c: cmp      r0, #0
+0x0044d750: beq      #0x44d8fc
+0x0044d754: mvn      r1, #0
+0x0044d758: b        #0x44d8f8
+0x0044d75c: cmp      r0, #0
+0x0044d760: bne      #0x44d774
+0x0044d764: bl       #0x44d764      ; -> MDrv_AUDIO_SHM_Init  
+0x0044d768: ldr      r0, [r8]
+0x0044d76c: cmp      r0, #0
+0x0044d770: beq      #0x44d8fc
+0x0044d774: mov      r1, #6
+0x0044d778: b        #0x44d8f8
+0x0044d77c: cmp      r0, #0
+0x0044d780: bne      #0x44d794
+0x0044d784: bl       #0x44d784
+0x0044d788: ldr      r0, [r8]
+0x0044d78c: cmp      r0, #0
+0x0044d790: beq      #0x44d8fc
+0x0044d794: mov      r1, #7
+0x0044d798: b        #0x44d8f8
+0x0044d79c: cmp      r0, #0
+0x0044d7a0: bne      #0x44d7b4
+0x0044d7a4: bl       #0x44d7a4
+0x0044d7a8: ldr      r0, [r8]
+0x0044d7ac: cmp      r0, #0
+0x0044d7b0: beq      #0x44d8fc
+0x0044d7b4: mov      r1, #8
+0x0044d7b8: b        #0x44d8f8
+0x0044d7bc: cmp      r0, #0
+0x0044d7c0: bne      #0x44d7d4
+0x0044d7c4: bl       #0x44d7c4      ; -> MDrv_AUDIO_SHM_Init  
+0x0044d7c8: ldr      r0, [r8]
+0x0044d7cc: cmp      r0, #0
+0x0044d7d0: beq      #0x44d8fc
+0x0044d7d4: mov      r1, #0xd
+0x0044d7d8: b        #0x44d8f8
+0x0044d7dc: cmp      r0, #0
+0x0044d7e0: bne      #0x44d7f4
+0x0044d7e4: bl       #0x44d7e4
+0x0044d7e8: ldr      r0, [r8]
+0x0044d7ec: cmp      r0, #0
+0x0044d7f0: beq      #0x44d8fc
+0x0044d7f4: mov      r1, #0xe
+0x0044d7f8: b        #0x44d8f8
+0x0044d7fc: cmp      r0, #0
+0x0044d800: bne      #0x44d814
+0x0044d804: bl       #0x44d804
+0x0044d808: ldr      r0, [r8]
+0x0044d80c: cmp      r0, #0
+0x0044d810: beq      #0x44d8fc
+0x0044d814: mov      r1, #0xf
+0x0044d818: b        #0x44d8f8
+0x0044d81c: cmp      r0, #0
+0x0044d820: bne      #0x44d834
+0x0044d824: bl       #0x44d824      ; -> MDrv_AUDIO_SHM_Init  
+0x0044d828: ldr      r0, [r8]
+0x0044d82c: cmp      r0, #0
+0x0044d830: beq      #0x44d8fc
+0x0044d834: mov      r1, #0x13
+0x0044d838: b        #0x44d8f8
+0x0044d83c: cmp      r0, #0
+0x0044d840: bne      #0x44d854
+0x0044d844: bl       #0x44d844
+0x0044d848: ldr      r0, [r8]
+0x0044d84c: cmp      r0, #0
+0x0044d850: beq      #0x44d8fc
+0x0044d854: mov      r1, #0x5f
+0x0044d858: b        #0x44d8f8
+0x0044d85c: cmp      r0, #0
+0x0044d860: bne      #0x44d874
+0x0044d864: bl       #0x44d864
+0x0044d868: ldr      r0, [r8]
+0x0044d86c: cmp      r0, #0
+0x0044d870: beq      #0x44d8fc
+0x0044d874: mov      r1, #0x17
+0x0044d878: b        #0x44d8f8
+0x0044d87c: cmp      r0, #0
+0x0044d880: bne      #0x44d894
+0x0044d884: bl       #0x44d884      ; -> MDrv_AUDIO_SHM_Init  
+0x0044d888: ldr      r0, [r8]
+0x0044d88c: cmp      r0, #0
+0x0044d890: beq      #0x44d8fc
+0x0044d894: mov      r1, #0x18
+0x0044d898: b        #0x44d8f8
+0x0044d89c: cmp      r0, #0
+0x0044d8a0: bne      #0x44d8b4
+0x0044d8a4: bl       #0x44d8a4
+0x0044d8a8: ldr      r0, [r8]
+0x0044d8ac: cmp      r0, #0
+0x0044d8b0: beq      #0x44d8fc
+0x0044d8b4: mov      r1, #0x1a
+0x0044d8b8: b        #0x44d8f8
+0x0044d8bc: cmp      r0, #0
+0x0044d8c0: bne      #0x44d8d4
+0x0044d8c4: bl       #0x44d8c4
+0x0044d8c8: ldr      r0, [r8]
+0x0044d8cc: cmp      r0, #0
+0x0044d8d0: beq      #0x44d8fc
+0x0044d8d4: mov      r1, #0x1b
+0x0044d8d8: b        #0x44d8f8
+0x0044d8dc: cmp      r0, #0
+0x0044d8e0: bne      #0x44d8f4
+0x0044d8e4: bl       #0x44d8e4      ; -> MDrv_AUDIO_SHM_Init  
+0x0044d8e8: ldr      r0, [r8]
+0x0044d8ec: cmp      r0, #0
+0x0044d8f0: beq      #0x44d8fc
+0x0044d8f4: mov      r1, #0x1c
+0x0044d8f8: str      r1, [r0, #0x524]
+0x0044d8fc: mov      r4, #1
+0x0044d900: mov      r0, r4
+0x0044d904: add      sp, sp, #8
+0x0044d908: pop      {r4, r5, r6, r7, r8, pc}
+==============================================================================
+MDrv_AUDIO_Get_DTS_License @ 0x422aa0  size 0x400  (256 insns)
+==============================================================================
+0x00422aa0: push     {r4, r5, r6, r7, fp, lr}
+0x00422aa4: mov      r0, #0xf      ; IPID#0xf  
+0x00422aa8: mov      r5, #0xf      ; IPID#0xf  
+0x00422aac: bl       #0x422aac      ; -> MDrv_AUTH_IPCheck  
+0x00422ab0: sub      r0, r0, #1
+0x00422ab4: clz      r0, r0
+0x00422ab8: lsr      r4, r0, #5
+0x00422abc: mov      r0, #0x3a      ; IPID#0x3a  
+0x00422ac0: bl       #0x422ac0
+0x00422ac4: cmp      r0, #1
+0x00422ac8: mov      r0, #0x12      ; IPID#0x12  
+0x00422acc: orreq    r4, r4, #2
+0x00422ad0: bl       #0x422ad0
+0x00422ad4: cmp      r0, #1
+0x00422ad8: mov      r0, #7      ; IPID#0x7  
+0x00422adc: orreq    r4, r4, #4
+0x00422ae0: bl       #0x422ae0      ; -> MDrv_AUTH_IPCheck  
+0x00422ae4: movw     r7, #0
+0x00422ae8: cmp      r0, #1
+0x00422aec: movt     r7, #0
+0x00422af0: orreq    r4, r4, #8
+0x00422af4: ldr      r0, [r7]
+0x00422af8: cmp      r0, #0
+0x00422afc: beq      #0x422b20
+0x00422b00: ldr      r0, [r0, #0x4c8]
+0x00422b04: cmp      r0, #4
+0x00422b08: blo      #0x422b20
+0x00422b0c: movw     r0, #0
+0x00422b10: movt     r0, #0
+0x00422b14: bl       #0x422b14
+0x00422b18: cmp      r0, #1
+0x00422b1c: beq      #0x422bb4
+0x00422b20: movw     r0, #0x2cf0
+0x00422b24: movt     r0, #0x11
+0x00422b28: bl       #0x422b28      ; -> HAL_AUDIO_AbsReadReg  
+0x00422b2c: lsl      r0, r0, #0x18
+0x00422b30: and      r6, r5, r0, asr #31
+0x00422b34: ldr      r0, [r7]
+0x00422b38: cmp      r0, #0
+0x00422b3c: beq      #0x422ba0
+0x00422b40: ldr      r0, [r0, #0x4c8]
+0x00422b44: cmp      r0, #4
+0x00422b48: blo      #0x422b60
+0x00422b4c: movw     r0, #0
+0x00422b50: movt     r0, #0
+0x00422b54: bl       #0x422b54      ; -> UtopiaLogSystem  
+0x00422b58: cmp      r0, #1
+0x00422b5c: beq      #0x422bd4
+0x00422b60: ldr      r0, [r7]
+0x00422b64: ands     r4, r6, r4
+0x00422b68: mov      r5, #0
+0x00422b6c: mvneq    r5, #0
+0x00422b70: cmp      r0, #0
+0x00422b74: beq      #0x422b98
+0x00422b78: ldr      r0, [r0, #0x4c8]
+0x00422b7c: cmp      r0, #4
+0x00422b80: blo      #0x422b98
+0x00422b84: movw     r0, #0
+0x00422b88: movt     r0, #0
+0x00422b8c: bl       #0x422b8c      ; -> UtopiaLogSystem  
+0x00422b90: cmp      r0, #1
+0x00422b94: beq      #0x422bf4
+0x00422b98: mov      r0, r5
+0x00422b9c: pop      {r4, r5, r6, r7, fp, pc}
+0x00422ba0: mov      r5, #0
+0x00422ba4: tst      r6, r4
+0x00422ba8: mvneq    r5, #0
+0x00422bac: mov      r0, r5
+0x00422bb0: pop      {r4, r5, r6, r7, fp, pc}
+0x00422bb4: movw     r0, #0
+0x00422bb8: movw     r1, #0
+0x00422bbc: movt     r0, #0
+0x00422bc0: movt     r1, #0
+0x00422bc4: movw     r2, #0x241
+0x00422bc8: mov      r3, r4
+0x00422bcc: bl       #0x422bcc
+0x00422bd0: b        #0x422b20
+0x00422bd4: movw     r0, #0
+0x00422bd8: movw     r1, #0
+0x00422bdc: movt     r0, #0
+0x00422be0: movt     r1, #0
+0x00422be4: movw     r2, #0x252
+0x00422be8: mov      r3, r6
+0x00422bec: bl       #0x422bec
+0x00422bf0: b        #0x422b60
+0x00422bf4: movw     r0, #0
+0x00422bf8: movw     r1, #0
+0x00422bfc: movt     r0, #0
+0x00422c00: movt     r1, #0
+0x00422c04: movw     r2, #0x25b
+0x00422c08: mov      r3, r4
+0x00422c0c: bl       #0x422c0c      ; -> printk  
+0x00422c10: mov      r0, r5
+0x00422c14: pop      {r4, r5, r6, r7, fp, pc}
+0x00422c18: push     {r4, lr}
+0x00422c1c: mov      r0, #0x7c      ; IPID#0x7  
+0x00422c20: bl       #0x422c20
+0x00422c24: movw     r1, #0
+0x00422c28: cmp      r0, #1
+0x00422c2c: movt     r1, #0
+0x00422c30: ldr      r1, [r1]
+0x00422c34: bne      #0x422c6c
+0x00422c38: mov      r4, #0
+0x00422c3c: cmp      r1, #0
+0x00422c40: beq      #0x422c64
+0x00422c44: ldr      r0, [r1, #0x4c8]
+0x00422c48: cmp      r0, #4
+0x00422c4c: blo      #0x422c64
+0x00422c50: movw     r0, #0
+0x00422c54: movt     r0, #0
+0x00422c58: bl       #0x422c58      ; -> UtopiaLogSystem  
+0x00422c5c: cmp      r0, #1
+0x00422c60: beq      #0x422cb0
+0x00422c64: mov      r0, r4
+0x00422c68: pop      {r4, pc}
+0x00422c6c: mvn      r4, #0
+0x00422c70: cmp      r1, #0
+0x00422c74: beq      #0x422c64
+0x00422c78: ldr      r0, [r1, #0x4c8]
+0x00422c7c: cmp      r0, #4
+0x00422c80: blo      #0x422c64
+0x00422c84: movw     r0, #0
+0x00422c88: movt     r0, #0
+0x00422c8c: bl       #0x422c8c      ; -> UtopiaLogSystem  
+0x00422c90: cmp      r0, #1
+0x00422c94: bne      #0x422c64
+0x00422c98: movw     r0, #0
+0x00422c9c: movw     r1, #0
+0x00422ca0: movt     r0, #0
+0x00422ca4: movt     r1, #0
+0x00422ca8: movw     r2, #0x26d
+0x00422cac: b        #0x422cc4
+0x00422cb0: movw     r0, #0
+0x00422cb4: movw     r1, #0
+0x00422cb8: movt     r0, #0
+0x00422cbc: movt     r1, #0
+0x00422cc0: movw     r2, #0x269
+0x00422cc4: bl       #0x422cc4      ; -> printk  
+0x00422cc8: mov      r0, r4
+0x00422ccc: pop      {r4, pc}
+0x00422cd0: push     {r4, lr}
+0x00422cd4: mov      r0, #0x1e
+0x00422cd8: bl       #0x422cd8
+0x00422cdc: movw     r1, #0
+0x00422ce0: cmp      r0, #1
+0x00422ce4: movt     r1, #0
+0x00422ce8: ldr      r1, [r1]
+0x00422cec: bne      #0x422d34
+0x00422cf0: mov      r4, #0
+0x00422cf4: cmp      r1, #0
+0x00422cf8: beq      #0x422d60
+0x00422cfc: ldr      r0, [r1, #0x4c8]
+0x00422d00: cmp      r0, #4
+0x00422d04: blo      #0x422d60
+0x00422d08: movw     r0, #0
+0x00422d0c: movt     r0, #0
+0x00422d10: bl       #0x422d10      ; -> UtopiaLogSystem  
+0x00422d14: cmp      r0, #1
+0x00422d18: bne      #0x422d60
+0x00422d1c: movw     r0, #0
+0x00422d20: movw     r1, #0
+0x00422d24: movt     r0, #0
+0x00422d28: movt     r1, #0
+0x00422d2c: movw     r2, #0x287
+0x00422d30: b        #0x422d98
+0x00422d34: mov      r4, #1
+0x00422d38: cmp      r1, #0
+0x00422d3c: beq      #0x422d60
+0x00422d40: ldr      r0, [r1, #0x4c8]
+0x00422d44: cmp      r0, #4
+0x00422d48: blo      #0x422d60
+0x00422d4c: movw     r0, #0
+0x00422d50: movt     r0, #0
+0x00422d54: bl       #0x422d54
+0x00422d58: cmp      r0, #1
+0x00422d5c: beq      #0x422d84
+0x00422d60: movw     r0, #0x2cf0
+0x00422d64: movt     r0, #0x11
+0x00422d68: bl       #0x422d68
+0x00422d6c: and      r0, r0, #0x800
+0x00422d70: mov      r1, #1
+0x00422d74: eor      r0, r1, r0, lsr #11      ; IPID#0xb  
+0x00422d78: orr      r0, r4, r0
+0x00422d7c: rsb      r0, r0, #0
+0x00422d80: pop      {r4, pc}
+0x00422d84: movw     r0, #0
+0x00422d88: movw     r1, #0
+0x00422d8c: movt     r0, #0
+0x00422d90: movt     r1, #0
+0x00422d94: movw     r2, #0x28b
+0x00422d98: bl       #0x422d98
+0x00422d9c: b        #0x422d60
+0x00422da0: push     {r4, lr}
+0x00422da4: mov      r0, #0x41
+0x00422da8: bl       #0x422da8
+0x00422dac: movw     r1, #0
+0x00422db0: cmp      r0, #1
+0x00422db4: movt     r1, #0
+0x00422db8: ldr      r1, [r1]
+0x00422dbc: bne      #0x422e04
+0x00422dc0: mov      r4, #0
+0x00422dc4: cmp      r1, #0
+0x00422dc8: beq      #0x422e30
+0x00422dcc: ldr      r0, [r1, #0x4c8]
+0x00422dd0: cmp      r0, #4
+0x00422dd4: blo      #0x422e30
+0x00422dd8: movw     r0, #0
+0x00422ddc: movt     r0, #0
+0x00422de0: bl       #0x422de0
+0x00422de4: cmp      r0, #1
+0x00422de8: bne      #0x422e30
+0x00422dec: movw     r0, #0
+0x00422df0: movw     r1, #0
+0x00422df4: movt     r0, #0
+0x00422df8: movt     r1, #0
+0x00422dfc: movw     r2, #0x2aa
+0x00422e00: b        #0x422e68
+0x00422e04: mov      r4, #1
+0x00422e08: cmp      r1, #0
+0x00422e0c: beq      #0x422e30
+0x00422e10: ldr      r0, [r1, #0x4c8]
+0x00422e14: cmp      r0, #4
+0x00422e18: blo      #0x422e30
+0x00422e1c: movw     r0, #0
+0x00422e20: movt     r0, #0
+0x00422e24: bl       #0x422e24
+0x00422e28: cmp      r0, #1
+0x00422e2c: beq      #0x422e54
+0x00422e30: movw     r0, #0x2cf0
+0x00422e34: movt     r0, #0x11
+0x00422e38: bl       #0x422e38      ; -> HAL_AUDIO_AbsReadReg  
+0x00422e3c: and      r0, r0, #0x400
+0x00422e40: mov      r1, #1
+0x00422e44: eor      r0, r1, r0, lsr #10
+0x00422e48: orr      r0, r4, r0
+0x00422e4c: rsb      r0, r0, #0
+0x00422e50: pop      {r4, pc}
+0x00422e54: movw     r0, #0
+0x00422e58: movw     r1, #0
+0x00422e5c: movt     r0, #0
+0x00422e60: movt     r1, #0
+0x00422e64: movw     r2, #0x2ae
+0x00422e68: bl       #0x422e68
+0x00422e6c: b        #0x422e30
+0x00422e70: push     {r4, lr}
+0x00422e74: mov      r0, #0x1c
+0x00422e78: bl       #0x422e78      ; -> MDrv_AUTH_IPCheck  
+0x00422e7c: movw     r1, #0
+0x00422e80: cmp      r0, #1
+0x00422e84: movt     r1, #0
+0x00422e88: ldr      r1, [r1]
+0x00422e8c: bne      #0x422ec4
+0x00422e90: mov      r4, #0
+0x00422e94: cmp      r1, #0
+0x00422e98: beq      #0x422ebc
+0x00422e9c: ldr      r0, [r1, #0x4c8]
+==============================================================================
+MDrv_AUDIO_CheckHashkey @ 0x423494 size 0x16fc -- field writers
+==============================================================================
+
+--- writes/reads to g_AudioVars2[0x43d] (0x43d?) : 2 ---
+  0x00424880: strb     sl, [r0, #0x43d]
+  0x004248f0: ldrb     r3, [r0, #0x43d]
+
+--- writes/reads to g_AudioVars2[0x43e] (0x43e?) : 2 ---
+  0x0042487c: strb     r7, [r0, #0x43e]
+  0x004248e8: ldrb     r1, [r0, #0x43e]
+
+--- writes/reads to g_AudioVars2[0x440] (0x440 missing-mask) : 60 ---
+  0x004234d8: str      r1, [r0, #0x440]
+  0x0042354c: ldr      r0, [r1, #0x440]
+  0x00423558: str      r0, [r1, #0x440]
+  0x00423590: ldr      r2, [r1, #0x440]
+  0x0042359c: str      r0, [r1, #0x440]
+  0x004235e8: str      r0, [r1, #0x440]
+  0x00423684: ldr      r2, [r1, #0x440]
+  0x00423690: str      r0, [r1, #0x440]
+  0x00423704: ldr      r0, [r1, #0x440]
+  0x0042370c: str      r0, [r1, #0x440]
+  0x0042377c: ldr      r2, [r1, #0x440]
+  0x00423788: str      r0, [r1, #0x440]
+  0x004237b4: str      r0, [r1, #0x440]
+  0x00423818: str      r0, [r1, #0x440]
+  0x00423888: ldr      r2, [r1, #0x440]
+  0x00423894: str      r0, [r1, #0x440]
+  0x004238bc: str      r0, [r1, #0x440]
+  0x0042396c: ldr      r1, [r0, #0x440]
+  0x00423974: str      r1, [r0, #0x440]
+  0x004239c0: ldr      r0, [r1, #0x440]
+  0x004239cc: str      r0, [r1, #0x440]
+  0x00423a40: ldr      r0, [r1, #0x440]
+  0x00423a4c: str      r0, [r1, #0x440]
+  0x00423ac0: ldr      r0, [r1, #0x440]
+  0x00423ad0: str      r0, [r1, #0x440]
+  0x00423b40: ldr      r0, [r1, #0x440]
+  0x00423b4c: str      r0, [r1, #0x440]
+  0x00423bbc: ldr      r0, [r1, #0x440]
+  0x00423bc8: str      r0, [r1, #0x440]
+  0x00423c38: ldr      r0, [r1, #0x440]
+  0x00423c44: str      r0, [r1, #0x440]
+  0x00423cb4: ldr      r0, [r1, #0x440]
+  0x00423cc0: str      r0, [r1, #0x440]
+  0x00423d30: ldr      r0, [r1, #0x440]
+  0x00423d3c: str      r0, [r1, #0x440]
+  0x00423dac: ldr      r0, [r1, #0x440]
+  0x00423db8: str      r0, [r1, #0x440]
+  0x00423e28: ldr      r0, [r1, #0x440]
+  0x00423e34: str      r0, [r1, #0x440]
+  0x00423ea4: ldr      r0, [r1, #0x440]
+  0x00423eb0: str      r0, [r1, #0x440]
+  0x00423ee8: ldr      r2, [r1, #0x440]
+  0x00423efc: str      r0, [r1, #0x440]
+  0x00423f38: str      r0, [r1, #0x440]
+  0x00423fa8: ldr      r0, [r1, #0x440]
+  0x00423fb4: str      r0, [r1, #0x440]
+  0x00424024: ldr      r0, [r1, #0x440]
+  0x00424030: str      r0, [r1, #0x440]
+  0x0042415c: ldr      r0, [r1, #0x440]
+  0x00424170: str      r0, [r1, #0x440]
+  0x00424244: ldr      r0, [r1, #0x440]
+  0x00424258: str      r0, [r1, #0x440]
+  0x00424394: ldr      r0, [r1, #0x440]
+  0x004243a8: str      r0, [r1, #0x440]
+  0x00424448: ldr      r0, [r1, #0x440]
+  0x0042445c: str      r0, [r1, #0x440]
+  0x004247f8: ldr      r1, [r0, #0x440]
+  0x00424800: str      r1, [r0, #0x440]
+  0x00424858: ldr      r0, [r0, #0x440]
+  0x004248f4: ldr      r7, [r0, #0x440]
+
+--- writes/reads to g_AudioVars2[0x444] (0x444 avail-mask) : 28 ---
+  0x004234dc: str      r2, [r0, #0x444]
+  0x0042406c: ldr      r0, [r1, #0x444]
+  0x0042407c: str      r0, [r1, #0x444]
+  0x004240ec: ldr      r0, [r1, #0x444]
+  0x00424100: str      r0, [r1, #0x444]
+  0x00424164: ldr      r2, [r1, #0x444]
+  0x00424194: str      r2, [r1, #0x444]
+  0x0042424c: ldr      r2, [r1, #0x444]
+  0x0042427c: str      r2, [r1, #0x444]
+  0x004242f8: ldr      r0, [r1, #0x444]
+  0x0042430c: str      r0, [r1, #0x444]
+  0x0042439c: ldr      r2, [r1, #0x444]
+  0x004243d8: str      r0, [r1, #0x444]
+  0x00424450: ldr      r2, [r1, #0x444]
+  0x00424488: str      r0, [r1, #0x444]
+  0x004244c8: ldr      r0, [r1, #0x444]
+  0x004244d4: str      r0, [r1, #0x444]
+  0x0042457c: ldr      r0, [r1, #0x444]
+  0x00424588: str      r0, [r1, #0x444]
+  0x004245f8: ldr      r0, [r1, #0x444]
+  0x00424604: str      r0, [r1, #0x444]
+  0x00424674: ldr      r0, [r1, #0x444]
+  0x00424680: str      r0, [r1, #0x444]
+  0x00424700: ldr      r0, [r1, #0x444]
+  0x00424708: str      r0, [r1, #0x444]
+  0x00424778: ldr      r0, [r1, #0x444]
+  0x00424784: str      r0, [r1, #0x444]
+  0x004248f8: ldr      r0, [r0, #0x444]
+
+--- writes/reads to g_AudioVars2[0x4d0] (0x4d0 Dolby/DSP-tier) : 2 ---
+  0x00424870: str      r6, [r0, #0x4d0]
+  0x004248ec: ldr      r2, [r0, #0x4d0]
+
+--- writes/reads to g_AudioVars2[0x4d4] (0x4d4 sub-tier) : 1 ---
+  0x00424874: str      r5, [r0, #0x4d4]
+
+--- writes/reads to g_AudioVars2[0x4d8] (0x4d8 DTS level) : 1 ---
+  0x00424878: str      r8, [r0, #0x4d8]
+
+--- writes/reads to g_AudioVars2[0x582] (0x582 DTS:X) : 2 ---
+  0x004234e0: strb     r1, [r0, #0x582]
+  0x004246f8: strb     r0, [r1, #0x582]
+
+
+##############################################################################
+# mik.ko
+##############################################################################
+==============================================================================
+_MI_AOUT_SetHdmiAutoMode @ 0x7e99e  size 0x400  (13 insns)
+==============================================================================
+0x0007e99e: andeq    lr, r0, sp, lsl #11
+0x0007e9a2: rsbseq   lr, lr, r0, asr #6
+0x0007e9a6: andvs    lr, r3, r0, lsl #20
+0x0007e9aa: andvc    lr, r1, r0, lsr #3
+0x0007e9ae: ldcllo   p1, c14, [r2, #0x280]
+0x0007e9b2: andeq    lr, r0, r0, lsl #22
+0x0007e9b6: andeq    lr, pc, r0, asr r3
+0x0007e9ba: andmi    r0, r0, r0, lsl #20
+0x0007e9be: andeq    lr, r0, r0, lsr #3
+0x0007e9c2: andeq    lr, r0, r0, lsl #6
+0x0007e9c6: andeq    lr, r0, r0, asr #6
+0x0007e9ca: mlaeq    r0, r0, r5, lr
+0x0007e9ce: rsbseq   lr, r6, r0, asr r3
+==============================================================================
+MI_AOUT_SetDigitalMode @ 0x7faf8  size 0x400  (256 insns)
+==============================================================================
+0x0007faf8: push     {r4, r5, r6, r7, r8, sb, fp, lr}
+0x0007fafc: sub      sp, sp, #0x20
+0x0007fb00: movw     sb, #0
+0x0007fb04: movw     r7, #0
+0x0007fb08: movt     sb, #0
+0x0007fb0c: mov      r4, r0
+0x0007fb10: ldr      r0, [sb]
+0x0007fb14: movt     r7, #0
+0x0007fb18: str      r0, [sp, #0x1c]
+0x0007fb1c: mov      r5, r1
+0x0007fb20: ldr      r0, [r7]
+0x0007fb24: cmp      r0, #0xf0
+0x0007fb28: bhs      #0x7fd04
+0x0007fb2c: mov      r0, #0
+0x0007fb30: cmp      r5, #0
+0x0007fb34: str      r0, [sp, #0x18]
+0x0007fb38: beq      #0x7fba0
+0x0007fb3c: movw     r8, #0
+0x0007fb40: movt     r8, #0
+0x0007fb44: ldr      r0, [r8]
+0x0007fb48: cmn      r0, #1
+0x0007fb4c: beq      #0x7fb58
+0x0007fb50: mvn      r1, #0xff
+0x0007fb54: bl       #0x7fb54
+0x0007fb58: ldr      r6, [r5]
+0x0007fb5c: cmp      r6, #9
+0x0007fb60: blo      #0x7fbf0
+0x0007fb64: ldr      r0, [r7]
+0x0007fb68: mov      r4, #8
+0x0007fb6c: cmp      r0, #0x20
+0x0007fb70: blo      #0x7fd24
+0x0007fb74: bl       #0x7fb74
+0x0007fb78: ldr      r0, [r0, #0xc]
+0x0007fb7c: movw     r1, #0
+0x0007fb80: movt     r1, #0
+0x0007fb84: movw     r2, #0x3b98
+0x0007fb88: ldr      r3, [r0, #0x400]
+0x0007fb8c: movw     r0, #0
+0x0007fb90: str      r6, [sp]
+0x0007fb94: movt     r0, #0
+0x0007fb98: bl       #0x7fb98
+0x0007fb9c: b        #0x7fd24
+0x0007fba0: ldr      r0, [r7]
+0x0007fba4: mov      r4, #8
+0x0007fba8: cmp      r0, #0x20
+0x0007fbac: blo      #0x7fd34
+0x0007fbb0: movw     r0, #0
+0x0007fbb4: movw     r1, #0
+0x0007fbb8: movt     r0, #0
+0x0007fbbc: movt     r1, #0
+0x0007fbc0: movw     r2, #0x3b92
+0x0007fbc4: bl       #0x7fbc4      ; -> printk  
+0x0007fbc8: ldr      r0, [r7]
+0x0007fbcc: cmp      r0, #0x20
+0x0007fbd0: blo      #0x7fd34
+0x0007fbd4: movw     r0, #0
+0x0007fbd8: movw     r1, #0
+0x0007fbdc: movt     r0, #0
+0x0007fbe0: movt     r1, #0
+0x0007fbe4: movw     r2, #0x3b92
+0x0007fbe8: bl       #0x7fbe8
+0x0007fbec: b        #0x7fd34
+0x0007fbf0: mov      r0, #0
+0x0007fbf4: add      r1, sp, #0x18
+0x0007fbf8: str      r0, [sp, #0x18]
+0x0007fbfc: mov      r0, r4
+0x0007fc00: bl       #0x95f9c
+0x0007fc04: cmp      r0, #0
+0x0007fc08: beq      #0x7fc74
+0x0007fc0c: mov      r4, r0
+0x0007fc10: ldr      r0, [r7]
+0x0007fc14: cmp      r0, #0x20
+0x0007fc18: blo      #0x7fd24
+0x0007fc1c: bl       #0x7fc1c      ; -> current_thread_info  
+0x0007fc20: mov      r5, r0
+0x0007fc24: ldr      r0, [r0, #0xc]
+0x0007fc28: movw     r1, #0
+0x0007fc2c: movw     r2, #0x9c8
+0x0007fc30: movt     r1, #0
+0x0007fc34: ldr      r3, [r0, #0x400]
+0x0007fc38: movw     r0, #0
+0x0007fc3c: movt     r0, #0
+0x0007fc40: str      r4, [sp]
+0x0007fc44: bl       #0x7fc44
+0x0007fc48: ldr      r0, [r7]
+0x0007fc4c: cmp      r0, #0x20
+0x0007fc50: blo      #0x7fd24
+0x0007fc54: ldr      r0, [r5, #0xc]
+0x0007fc58: movw     r1, #0
+0x0007fc5c: movt     r1, #0
+0x0007fc60: movw     r2, #0x3ba2
+0x0007fc64: ldr      r3, [r0, #0x400]
+0x0007fc68: movw     r0, #0
+0x0007fc6c: movt     r0, #0
+0x0007fc70: b        #0x7fb98
+0x0007fc74: ldr      r0, [r5, #4]
+0x0007fc78: cmp      r0, #0xff
+0x0007fc7c: bne      #0x7fca8
+0x0007fc80: mov      r0, #0
+0x0007fc84: movw     r1, #0
+0x0007fc88: str      r0, [r5, #0xc]
+0x0007fc8c: movt     r1, #0
+0x0007fc90: ldr      r0, [r5]
+0x0007fc94: add      r0, r1, r0, lsl #4
+0x0007fc98: ldr      r1, [r0, #4]
+0x0007fc9c: str      r1, [r5, #4]
+0x0007fca0: ldr      r0, [r0, #8]
+0x0007fca4: str      r0, [r5, #8]
+0x0007fca8: mov      r0, r5
+0x0007fcac: bl       #0x7d588
+0x0007fcb0: cmp      r0, #0
+0x0007fcb4: beq      #0x7fd20
+0x0007fcb8: mov      r4, r0
+0x0007fcbc: ldr      r0, [r7]
+0x0007fcc0: cmp      r0, #0x20
+0x0007fcc4: blo      #0x7fd24
+0x0007fcc8: bl       #0x7fcc8      ; -> current_thread_info  
+0x0007fccc: ldr      r0, [r0, #0xc]
+0x0007fcd0: movw     r7, #0
+0x0007fcd4: movt     r7, #0
+0x0007fcd8: ldrb     r7, [r7]
+0x0007fcdc: ldr      r3, [r0, #0x400]
+0x0007fce0: ldm      r5, {r0, r1, r2}
+0x0007fce4: str      r4, [sp]
+0x0007fce8: stmib    sp, {r0, r1, r2, r7}
+0x0007fcec: movw     r0, #0
+0x0007fcf0: movw     r1, #0
+0x0007fcf4: movt     r0, #0
+0x0007fcf8: movt     r1, #0
+0x0007fcfc: movw     r2, #0x3bb1
+0x0007fd00: b        #0x7fb98
+0x0007fd04: movw     r0, #0
+0x0007fd08: movw     r1, #0
+0x0007fd0c: movt     r0, #0
+0x0007fd10: movt     r1, #0
+0x0007fd14: movw     r2, #0x3b8c
+0x0007fd18: bl       #0x7fd18
+0x0007fd1c: b        #0x7fb2c
+0x0007fd20: mov      r4, #0
+0x0007fd24: ldr      r0, [r8]
+0x0007fd28: cmn      r0, #1
+0x0007fd2c: beq      #0x7fd34
+0x0007fd30: bl       #0x7fd30      ; -> MI_OS_ReleaseMutex  
+0x0007fd34: ldr      r0, [sb]
+0x0007fd38: ldr      r1, [sp, #0x1c]
+0x0007fd3c: subs     r0, r0, r1
+0x0007fd40: moveq    r0, r4
+0x0007fd44: addeq    sp, sp, #0x20
+0x0007fd48: popeq    {r4, r5, r6, r7, r8, sb, fp, pc}
+0x0007fd4c: bl       #0x7fd4c
+0x0007fd50: push     {r4, r5, r6, r7, r8, lr}
+0x0007fd54: sub      sp, sp, #0x10
+0x0007fd58: movw     r6, #0
+0x0007fd5c: mov      r4, r0
+0x0007fd60: movt     r6, #0
+0x0007fd64: cmp      r1, #0
+0x0007fd68: ldr      r0, [r6]
+0x0007fd6c: str      r0, [sp, #0xc]
+0x0007fd70: mov      r0, #0
+0x0007fd74: str      r0, [sp, #8]
+0x0007fd78: beq      #0x7fe2c
+0x0007fd7c: movw     r7, #0
+0x0007fd80: mov      r5, r1
+0x0007fd84: movt     r7, #0
+0x0007fd88: ldr      r0, [r7]
+0x0007fd8c: cmn      r0, #1
+0x0007fd90: beq      #0x7fd9c
+0x0007fd94: mvn      r1, #0xff
+0x0007fd98: bl       #0x7fd98      ; -> MI_OS_ObtainMutex  
+0x0007fd9c: mov      r0, #0
+0x0007fda0: add      r1, sp, #8
+0x0007fda4: str      r0, [sp, #8]
+0x0007fda8: mov      r0, r4
+0x0007fdac: bl       #0x95f9c
+0x0007fdb0: mov      r4, r0
+0x0007fdb4: cmp      r0, #0
+0x0007fdb8: beq      #0x7fe84
+0x0007fdbc: movw     r5, #0
+0x0007fdc0: movt     r5, #0
+0x0007fdc4: ldr      r0, [r5]
+0x0007fdc8: cmp      r0, #0x20
+0x0007fdcc: blo      #0x7fed4
+0x0007fdd0: bl       #0x7fdd0      ; -> current_thread_info  
+0x0007fdd4: mov      r8, r0
+0x0007fdd8: ldr      r0, [r0, #0xc]
+0x0007fddc: movw     r1, #0
+0x0007fde0: movw     r2, #0x9c8
+0x0007fde4: movt     r1, #0
+0x0007fde8: ldr      r3, [r0, #0x400]
+0x0007fdec: movw     r0, #0
+0x0007fdf0: movt     r0, #0
+0x0007fdf4: str      r4, [sp]
+0x0007fdf8: bl       #0x7fdf8
+0x0007fdfc: ldr      r0, [r5]
+0x0007fe00: cmp      r0, #0x20
+0x0007fe04: blo      #0x7fed4
+0x0007fe08: ldr      r0, [r8, #0xc]
+0x0007fe0c: movw     r1, #0
+0x0007fe10: movt     r1, #0
+0x0007fe14: movw     r2, #0x3bc9
+0x0007fe18: ldr      r3, [r0, #0x400]
+0x0007fe1c: movw     r0, #0
+0x0007fe20: movt     r0, #0
+0x0007fe24: bl       #0x7fe24
+0x0007fe28: b        #0x7fed4
+0x0007fe2c: movw     r5, #0
+0x0007fe30: mov      r4, #8
+0x0007fe34: movt     r5, #0
+0x0007fe38: ldr      r0, [r5]
+0x0007fe3c: cmp      r0, #0x20
+0x0007fe40: blo      #0x7fee4
+0x0007fe44: movw     r0, #0
+0x0007fe48: movw     r1, #0
+0x0007fe4c: movt     r0, #0
+0x0007fe50: movt     r1, #0
+0x0007fe54: movw     r2, #0x3bc2
+0x0007fe58: bl       #0x7fe58
+0x0007fe5c: ldr      r0, [r5]
+0x0007fe60: cmp      r0, #0x20
+0x0007fe64: blo      #0x7fee4
+0x0007fe68: movw     r0, #0
+0x0007fe6c: movw     r1, #0
+0x0007fe70: movt     r0, #0
+0x0007fe74: movt     r1, #0
+0x0007fe78: movw     r2, #0x3bc2
+0x0007fe7c: bl       #0x7fe7c
+0x0007fe80: b        #0x7fee4
+0x0007fe84: ldr      r0, [sp, #8]
+0x0007fe88: movw     r2, #0
+0x0007fe8c: movt     r2, #0
+0x0007fe90: ldr      r0, [r0, #0x10]
+0x0007fe94: add      r1, r0, r0, lsl #1
+0x0007fe98: ldrb     r3, [r2, r1, lsl #2]
+0x0007fe9c: cmp      r3, #1
+0x0007fea0: bne      #0x7feb8
+0x0007fea4: add      r0, r2, r1, lsl #2
+0x0007fea8: ldr      r1, [r0, #4]
+0x0007feac: str      r1, [r5, #4]
+0x0007feb0: ldr      r0, [r0, #8]
+0x0007feb4: b        #0x7fed0
+0x0007feb8: movw     r1, #0
+0x0007febc: movt     r1, #0
+0x0007fec0: add      r0, r1, r0, lsl #4
+0x0007fec4: ldr      r1, [r0, #0x4c]
+0x0007fec8: str      r1, [r5, #4]
+0x0007fecc: ldr      r0, [r0, #0x50]
+0x0007fed0: str      r0, [r5, #8]
+0x0007fed4: ldr      r0, [r7]
+0x0007fed8: cmn      r0, #1
+0x0007fedc: beq      #0x7fee4
+0x0007fee0: bl       #0x7fee0      ; -> MI_OS_ReleaseMutex  
+0x0007fee4: ldr      r0, [r6]
+0x0007fee8: ldr      r1, [sp, #0xc]
+0x0007feec: subs     r0, r0, r1
+0x0007fef0: moveq    r0, r4
+0x0007fef4: addeq    sp, sp, #0x10
+==============================================================================
+_MI_AOUT_SetDigitalChannelStatus @ 0x6c268  size 0x120  (72 insns)
+==============================================================================
+0x0006c268: push     {fp, lr}
+0x0006c26c: movw     r1, #0x120c
+0x0006c270: ldr      r1, [r0, r1]
+0x0006c274: mov      r0, #0
+0x0006c278: bl       #0x6c278
+0x0006c27c: movw     r1, #0
+0x0006c280: cmp      r0, #1
+0x0006c284: movt     r1, #0
+0x0006c288: ldr      r1, [r1]
+0x0006c28c: bne      #0x6c2a0
+0x0006c290: cmp      r1, #0x50
+0x0006c294: bhs      #0x6c2cc
+0x0006c298: mov      r0, #0
+0x0006c29c: pop      {fp, pc}
+0x0006c2a0: cmp      r1, #0x20
+0x0006c2a4: blo      #0x6c298
+0x0006c2a8: bl       #0x6c2a8
+0x0006c2ac: ldr      r0, [r0, #0xc]
+0x0006c2b0: movw     r1, #0
+0x0006c2b4: movt     r1, #0
+0x0006c2b8: movw     r2, #0x2abe
+0x0006c2bc: ldr      r3, [r0, #0x400]
+0x0006c2c0: movw     r0, #0
+0x0006c2c4: movt     r0, #0
+0x0006c2c8: b        #0x6c2ec
+0x0006c2cc: bl       #0x6c2cc      ; -> current_thread_info  
+0x0006c2d0: ldr      r0, [r0, #0xc]
+0x0006c2d4: movw     r2, #0
+0x0006c2d8: movt     r2, #0
+0x0006c2dc: movw     r3, #0x2abe
+0x0006c2e0: ldr      r1, [r0, #0x400]
+0x0006c2e4: movw     r0, #0
+0x0006c2e8: movt     r0, #0
+0x0006c2ec: bl       #0x6c2ec
+0x0006c2f0: mov      r0, #0
+0x0006c2f4: pop      {fp, pc}
+0x0006c2f8: push     {r4, r5, r6, r7, r8, sb, sl, fp, lr}
+0x0006c2fc: sub      sp, sp, #0xac
+0x0006c300: movw     r8, #0
+0x0006c304: movw     r5, #0
+0x0006c308: movt     r8, #0
+0x0006c30c: mov      fp, r1
+0x0006c310: ldr      r1, [r8]
+0x0006c314: cmp      r0, #0
+0x0006c318: movt     r5, #0
+0x0006c31c: str      r1, [sp, #0xa8]
+0x0006c320: beq      #0x6c3d8
+0x0006c324: cmp      fp, #0
+0x0006c328: beq      #0x6c424
+0x0006c32c: mov      r0, #1
+0x0006c330: mov      sb, r2
+0x0006c334: strb     r0, [sp, #0x30]
+0x0006c338: add      r0, sp, #0x30
+0x0006c33c: movw     r4, #0x1150
+0x0006c340: bl       #0x6c340
+0x0006c344: mov      ip, r0
+0x0006c348: ldr      r0, [r5]
+0x0006c34c: cmp      ip, #0
+0x0006c350: beq      #0x6c35c
+0x0006c354: cmp      r0, #0x20
+0x0006c358: bhs      #0x6e680
+0x0006c35c: and      r0, r0, #0xf
+0x0006c360: add      sl, fp, r4
+0x0006c364: cmp      r0, #2
+0x0006c368: beq      #0x6e6b8
+0x0006c36c: ldrb     r0, [sl, #0x130]
+0x0006c370: cmp      r0, #1
+0x0006c374: bne      #0x6c4a4
+0x0006c378: ldr      r0, [r5]
+0x0006c37c: mov      r6, ip
+0x0006c380: and      r0, r0, #0xf
+0x0006c384: sub      r0, r0, #1

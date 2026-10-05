@@ -1,0 +1,46 @@
+// fn00000000
+// Return size: 0
+define fn00000000
+fn00000000_entry:
+	r1 = fp
+	// succ:  l00000000
+l00000000:
+	v6 = Mem0[r14 - 17<i32>:byte]
+	r23 = CONVERT(v6, byte, word32)
+	v9 = Mem0[r5 - 110<i32>:uint16]
+	r28 = CONVERT(v9, uint16, word32)
+	r25 = Mem0[r1 + 164<i32>:word32]
+	r24 = r24 + 8<i32>
+	cy = cond(r24)
+	ov = cond(r24)
+	r23 = r10 + 9484<i32>
+	cy = cond(r23)
+	ov = cond(r23)
+	Mem0[r12:word32] = r24
+	Mem0[r25:word32] = r23
+	r25 = -1934<i32>
+	cy = cond(r25)
+	ov = cond(r25)
+	v16 = SLICE(r25, word16, 0)
+	Mem0[r10 + 9484<i32>:word16] = v16
+	r24 = Mem0[r10 + 160<i32>:word32]
+	r25 = 19999<i32>
+	cy = cond(r25)
+	ov = cond(r25)
+	v17 = SLICE(r25, word16, 0)
+	Mem0[r10 + 9486<i32>:word16] = v17
+	branch r24 == 0<i32> l0000002A_then
+	call fn00000162 (retsize: 0;)
+	return
+	// succ:  fn00000000_exit l0000002E l0000002A_then
+l0000002A_then:
+l0000002E:
+	r24 = Mem0[r11 - 31344<i32>:word32]
+	r25 = 0x6000<32>
+	Mem0[r12:word32] = r25
+	r25 = 0x15<32>
+	v19 = SLICE(r25, word16, 0)
+	Mem0[r10 + 9488<i32>:word16] = v19
+fn00000000_exit:
+
+

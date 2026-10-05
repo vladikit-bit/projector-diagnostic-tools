@@ -1,0 +1,656 @@
+### MI_DISP_IMPL_XC_HDMIRx_SetEDID caller in mik: 0x17ef00 inside MI_EXTIN_SetAttr+0xa80 @0x17e480 size=0x0
+
+;;; MI_EXTIN_SetAttr+0xa80 @ 0x17e480 size 0x200 (ARM)
+0x0017e480: push     {r4, r5, r6, r7, r8, sb, fp, lr}
+0x0017e484: sub      sp, sp, #8
+0x0017e488: movw     r5, #0
+0x0017e48c: mov      r4, r0
+0x0017e490: movt     r5, #0
+0x0017e494: mov      r6, r2
+0x0017e498: ldrb     r0, [r5]
+0x0017e49c: mov      r8, r1
+0x0017e4a0: cmp      r0, #0xf0
+0x0017e4a4: bhs      #0x17e658
+0x0017e4a8: cmp      r0, #0x40
+0x0017e4ac: bhs      #0x17e67c
+0x0017e4b0: movw     r0, #0
+0x0017e4b4: movt     r0, #0
+0x0017e4b8: ldrb     r0, [r0]
+0x0017e4bc: cmp      r0, #0
+0x0017e4c0: beq      #0x17e4ec
+0x0017e4c4: cmn      r4, #0xbc000001
+0x0017e4c8: bne      #0x17e518
+0x0017e4cc: cmp      r6, #0
+0x0017e4d0: beq      #0x17e624
+0x0017e4d4: movw     r1, #0
+0x0017e4d8: ldrb     r0, [r6]
+0x0017e4dc: movt     r1, #0
+0x0017e4e0: mov      r6, #3
+0x0017e4e4: strb     r0, [r1]
+0x0017e4e8: b        #0x17e628
+0x0017e4ec: ldrb     r0, [r5]
+0x0017e4f0: mov      r6, #4
+0x0017e4f4: cmp      r0, #0x20
+0x0017e4f8: blo      #0x17e7f8
+0x0017e4fc: movw     r0, #0
+0x0017e500: movw     r1, #0
+0x0017e504: movt     r0, #0
+0x0017e508: movt     r1, #0
+0x0017e50c: movw     r2, #0xedd
+0x0017e510: bl       #0x17e510
+0x0017e514: b        #0x17e7f8
+0x0017e518: movw     sb, #0
+0x0017e51c: movt     sb, #0
+0x0017e520: ldr      r0, [sb]
+0x0017e524: cmp      r0, #1
+0x0017e528: blt      #0x17e540
+0x0017e52c: ldrb     r1, [r5]
+0x0017e530: cmp      r1, #0x40
+0x0017e534: bhs      #0x17e698
+0x0017e538: mvn      r1, #0xff
+0x0017e53c: bl       #0x17e53c
+0x0017e540: and      r0, r4, #0x43000000
+0x0017e544: cmp      r0, #0x43000000
+0x0017e548: bne      #0x17e5dc
+0x0017e54c: ubfx     r1, r4, #8, #8
+0x0017e550: bic      r3, r4, #0x43000000
+0x0017e554: cmp      r1, #6
+0x0017e558: bhi      #0x17e7d8
+0x0017e55c: movw     r0, #0
+0x0017e560: uxtb     r7, r4
+0x0017e564: movt     r0, #0
+0x0017e568: ldrb     r0, [r0, r1]
+0x0017e56c: cmp      r7, r0
+0x0017e570: bhs      #0x17e7d8
+0x0017e574: lsr      r0, r4, #8
+0x0017e578: uxtb     r0, r0
+0x0017e57c: cmp      r0, #6
+0x0017e580: bhi      #0x17e7b8
+0x0017e584: add      r2, pc, #0
+0x0017e588: ldr      pc, [r2, r0, lsl #2]
+0x0017e58c: andseq   lr, r7, r8, lsr #11
+0x0017e590: andseq   lr, r7, r0, asr #13
+0x0017e594: andseq   lr, r7, r0, lsr #14
+0x0017e598: andseq   lr, r7, r4, lsr #15
+0x0017e59c: ldrheq   lr, [r7], -r8
+0x0017e5a0: andseq   lr, r7, r4, lsl #16
+0x0017e5a4: andseq   lr, r7, r0, asr r8
+0x0017e5a8: mov      r0, #0x34
+0x0017e5ac: movw     r1, #0
+0x0017e5b0: smulbb   r0, r7, r0
+0x0017e5b4: movt     r1, #0
+0x0017e5b8: ldrb     r0, [r1, r0]
+0x0017e5bc: cmp      r0, #0
+0x0017e5c0: beq      #0x17e7d8
+0x0017e5c4: mov      r0, r7
+0x0017e5c8: mov      r1, r8
+0x0017e5cc: mov      r2, r6
+0x0017e5d0: bl       #0x17eda8
+0x0017e5d4: mov      r6, r0
+0x0017e5d8: b        #0x17ed0c
+0x0017e5dc: ldr      r0, [sb]
+0x0017e5e0: cmp      r0, #1
+0x0017e5e4: blt      #0x17e5f8
+0x0017e5e8: ldrb     r1, [r5]
+0x0017e5ec: cmp      r1, #0x40
+0x0017e5f0: bhs      #0x17e6ac
+0x0017e5f4: bl       #0x17e5f4
+0x0017e5f8: ldrb     r0, [r5]
+0x0017e5fc: mov      r6, #7
+0x0017e600: cmp      r0, #0x20
+0x0017e604: blo      #0x17e7f8
+0x0017e608: movw     r0, #0
+0x0017e60c: movw     r1, #0
+0x0017e610: movt     r0, #0
+0x0017e614: movt     r1, #0
+0x0017e618: movw     r2, #0xeea
+0x0017e61c: bl       #0x17e61c
+0x0017e620: b        #0x17e7f8
+0x0017e624: mov      r6, #8
+0x0017e628: ldrb     r0, [r5]
+0x0017e62c: cmp      r0, #0x20
+0x0017e630: blo      #0x17e7f8
+0x0017e634: movw     r0, #0
+0x0017e638: movw     r1, #0
+0x0017e63c: movt     r0, #0
+0x0017e640: movt     r1, #0
+0x0017e644: movw     r2, #0xf21
+0x0017e648: mov      r3, r4
+0x0017e64c: str      r8, [sp]
+0x0017e650: bl       #0x17e650
+0x0017e654: b        #0x17e7f8
+0x0017e658: movw     r0, #0
+0x0017e65c: movw     r1, #0
+0x0017e660: movt     r0, #0
+0x0017e664: movt     r1, #0
+0x0017e668: movw     r2, #0xeda
+0x0017e66c: bl       #0x17e66c
+0x0017e670: ldrb     r0, [r5]
+0x0017e674: cmp      r0, #0x40
+0x0017e678: blo      #0x17e4b0
+0x0017e67c: movw     r0, #0
+
+--- calls in that function ---
+  0x0017e510: -> MI_EXTIN_SetAttr(0x17e510)
+  0x0017e53c: -> MI_EXTIN_SetAttr(0x17e53c)
+  0x0017e5d0: -> MI_EXTIN_SetAttr+0x928(0x17eda8)
+  0x0017e5f4: -> MI_EXTIN_SetAttr(0x17e5f4)
+  0x0017e61c: -> MI_EXTIN_SetAttr(0x17e61c)
+  0x0017e650: -> MI_EXTIN_SetAttr(0x17e650)
+  0x0017e66c: -> MI_EXTIN_SetAttr(0x17e66c)
+
+### mi_aout_EdidAutoSetup @0x8c2d4
+;;; mi_aout_EdidAutoSetup @ 0x8c2d4 size 0x90 (ARM)
+0x0008c2d4: push     {r4, lr}
+0x0008c2d8: movw     r1, #0
+0x0008c2dc: cmp      r0, #0
+0x0008c2e0: movt     r1, #0
+0x0008c2e4: ldr      r1, [r1]
+0x0008c2e8: beq      #0x8c31c
+0x0008c2ec: mov      r4, #0
+0x0008c2f0: cmp      r1, #0x40
+0x0008c2f4: blo      #0x8c328
+0x0008c2f8: bl       #0x8c2f8
+0x0008c2fc: ldr      r0, [r0, #0xc]
+0x0008c300: movw     r2, #0
+0x0008c304: movt     r2, #0
+0x0008c308: movw     r3, #0x4251
+0x0008c30c: ldr      r1, [r0, #0x400]
+0x0008c310: movw     r0, #0
+0x0008c314: movt     r0, #0
+0x0008c318: b        #0x8c35c
+0x0008c31c: mov      r4, #1
+0x0008c320: cmp      r1, #0x40
+0x0008c324: bhs      #0x8c33c
+0x0008c328: movw     r0, #0
+0x0008c32c: movt     r0, #0
+0x0008c330: strb     r4, [r0]
+0x0008c334: mov      r0, #0
+0x0008c338: pop      {r4, pc}
+0x0008c33c: bl       #0x8c33c
+0x0008c340: ldr      r0, [r0, #0xc]
+0x0008c344: movw     r2, #0
+0x0008c348: movt     r2, #0
+0x0008c34c: movw     r3, #0x4256
+0x0008c350: ldr      r1, [r0, #0x400]
+0x0008c354: movw     r0, #0
+0x0008c358: movt     r0, #0
+0x0008c35c: bl       #0x8c35c
+0x0008c360: b        #0x8c328
+  0x0008c2f8: -> _aszDapParamName(0x8c2f8)
+  0x0008c33c: -> _aszDapParamName(0x8c33c)
+  0x0008c35c: -> _aszDapParamName(0x8c35c)
+
+### mi_aout_GetCurEdid @0x8c364
+;;; mi_aout_GetCurEdid @ 0x8c364 size 0xd0 (ARM)
+0x0008c364: push     {r4, r5, fp, lr}
+0x0008c368: cmp      r0, #0
+0x0008c36c: beq      #0x8c3b8
+0x0008c370: movw     r5, #0
+0x0008c374: mov      r4, r0
+0x0008c378: movt     r5, #0
+0x0008c37c: ldr      r0, [r5]
+0x0008c380: cmn      r0, #1
+0x0008c384: beq      #0x8c3d8
+0x0008c388: mvn      r1, #0xff
+0x0008c38c: bl       #0x8c38c
+0x0008c390: movw     r1, #0
+0x0008c394: ldr      r0, [r5]
+0x0008c398: movt     r1, #0
+0x0008c39c: ldr      r1, [r1]
+0x0008c3a0: cmn      r0, #1
+0x0008c3a4: str      r1, [r4]
+0x0008c3a8: mov      r4, #0
+0x0008c3ac: beq      #0x8c3d0
+0x0008c3b0: bl       #0x8c3b0
+0x0008c3b4: b        #0x8c3d0
+0x0008c3b8: movw     r5, #0
+0x0008c3bc: mov      r4, #8
+0x0008c3c0: movt     r5, #0
+0x0008c3c4: ldr      r0, [r5]
+0x0008c3c8: cmp      r0, #0x20
+0x0008c3cc: bhs      #0x8c3f0
+0x0008c3d0: mov      r0, r4
+0x0008c3d4: pop      {r4, r5, fp, pc}
+0x0008c3d8: movw     r0, #0
+0x0008c3dc: movt     r0, #0
+0x0008c3e0: ldr      r0, [r0]
+0x0008c3e4: str      r0, [r4]
+0x0008c3e8: mov      r0, #0
+0x0008c3ec: pop      {r4, r5, fp, pc}
+0x0008c3f0: movw     r0, #0
+0x0008c3f4: movw     r1, #0
+0x0008c3f8: movt     r0, #0
+0x0008c3fc: movt     r1, #0
+0x0008c400: movw     r2, #0x4262
+0x0008c404: bl       #0x8c404
+0x0008c408: ldr      r0, [r5]
+0x0008c40c: cmp      r0, #0x20
+0x0008c410: blo      #0x8c3d0
+0x0008c414: movw     r0, #0
+0x0008c418: movw     r1, #0
+0x0008c41c: movt     r0, #0
+0x0008c420: movt     r1, #0
+0x0008c424: movw     r2, #0x4262
+0x0008c428: bl       #0x8c428
+0x0008c42c: mov      r0, r4
+0x0008c430: pop      {r4, r5, fp, pc}
+  0x0008c38c: -> _aszDapParamName(0x8c38c)
+  0x0008c3b0: -> _aszDapParamName(0x8c3b0)
+  0x0008c404: -> _aszDapParamName(0x8c404)
+  0x0008c428: -> _aszDapParamName(0x8c428)
+
+### EDID blob search (.rodata)
+
+mik EDID blobs found: 0; dtv EDID blobs found: 0
+
+### EDID-related strings in mik.ko
+  0x003fec9c: HdmiEdidInfo
+  0x003ff63b: edid
+  0x0040043f: HDMI_RX_MUTE_EVENT:SampleFlatBit
+  0x00400494: HdmiMonTask
+  0x00401b71: HDMITimingInfo stTravelHDMIInfo.u32ClockRate = 0x%u
+  0x00401ea8: EDID_TO_CFD(...)!
+  0x0040367b: HDMI port:%d SPD info:
+  0x004063e5: CfgLoadAndSetAudioAmpDeciveInfoForBoardInfo
+  0x00406444: CfgLoadAndSetAttrDataType(...).
+  0x004064cf: CfgLoadAndSetAttrDataType
+  0x00406673: EdidFilePath(MI_S32, MI_U8 **)
+  0x00407f02: edid 1 > /sys/kernel/mik/MI_CEC"
+  0x00409600: vendor/config/aq/DtsSs2/
+  0x0040a4c7: HDMITx count for allocate PA/LA!!!
+  0x0040a57f: VendorId = %d, pszName = %s
+  0x0040b4c0: HDMITx_EdidChecking
+  0x0040bf51: vendor/tvconfig/apollo/hdmi_map.ini
+  0x0040cb1e: vendor/mediatek/tv/misdk/mi/mi/mik/build/../../modules/osd/src/mi_osd.c
+  0x0040e82d: CfgLoadMiConfigData(E_MI_SYS_SEQ_001) failed
+  0x0040e8ca: EdidCfgName:%s
+  0x0040eb36: CfgLoadAndSetAttrName(...).
+  0x0040eb9a: CfgLoadModuleFromIniFileToDictionary(void)
+  0x0040ebcd: CfgLoadFromIniFileToDictionary
+  0x0041075a: EDID for the specified outputtiming : 
+  0x004112bf: hdmi infor e.g. 
+  0x00411f8a: HdmiInfo
+  0x0041208c: EdidExtendedBlock
+  0x00412d4d: EDID white list CEC group num to 0
+  0x004130fd: EDID 3D mode mapping for XC 3D Mode: %d
+  0x004145b1: EDID white list SPD information to 0
+  0x00414771: Hdmi port%d HDCP Info fail! 
+  0x004171b5: CfgLoadCustomerInfo
+  0x00417310: EDID_INFO:BOARD_EDID_INFO_HDMI_COUNT
+  0x00417320: EDID_INFO_HDMI_COUNT
+  0x0041732a: HDMI_COUNT
+  0x0041751a: HDMITX_RES_720x576p
+  0x00418fa1: EDID info, eq. 
+  0x00418ff6: EDID Raw Data, 1 Get EDID video prefered outputiming, 2 Get outputiming which is also supported in EDID, 3 Get Max Support Color Depth in EDID, 4 Get Supported 3D format of the connected HDMIRx
+  0x0041900b: EDID video prefered outputiming, 2 Get outputiming which is also supported in EDID, 3 Get Max Support Color Depth in EDID, 4 Get Supported 3D format of the connected HDMIRx
+  0x00419059: EDID, 3 Get Max Support Color Depth in EDID, 4 Get Supported 3D format of the connected HDMIRx
+  0x00419080: EDID, 4 Get Supported 3D format of the connected HDMIRx
+  0x004191d8: EDID : 
+  0x0041a45d: vendor/config/aq/Aiaq/
+  0x0041a751: HDMI_Ctrl(E_HDMI_EARC_CMD_GET_CAPABILITY_INFO)
+  0x0041b176: HDMITimingInfo stTravelHDMIInfo.u16SrcHeight = %u
+  0x0041b457: HDMITx_GetEDIDPhyAdr
+  0x0041b7ef: EDID first and then Set correct 3D output format %d
+  0x0041bf35: EDID
+  0x0041fc9a: CfgLoadPanelInfoFromDictionary(void)
+  0x0041fd89: CfgLoadUltraBlackWhite
+  0x0041fe70: CfgLoadHdrLevelAttributes
+  0x004222b7: EDID Auto Setup
+  0x00422fbc: HDMITimingInfo stTravelHDMIInfo.enColorFormat = %d
+  0x00423278: HDMI_HPD_INVERT
+  0x00424726: EDID white list SPD group num to 0
+  0x00426f02: HDMITX_ANALOG_CONFIGURATION:HDMITX_ANALOG_TUNING_HD_4
+  0x00427028: CfgLoadAttrData
+  0x0042728b: HdmiColorCorrectionMatrix
+  0x00427f79: Edid
+  0x004290db: HdmiInfor
+  0x0042aed5: HdmiResMapping
+  0x0042be72: EDID_HDMISupport fail.
+  0x0042f1ab: CfgLoadMiConfigData(mi_sys_TaskOrder_e)
+  0x0042f1e3: CfgLoadAndSetBoardInfo(void)
+  0x0042f469: HDMITX_INFO:BOARD_HDMITX_INFO_SIZE
+  0x0042f673: CfgLoadPanelInfoFromDictionary
+  0x0042f74f: CfgLoadHdrFromIniFileToDictionary(void)
+  0x0042f86c: EdidEnabled = %d.
+  0x00431023: EDID Info
+  0x004335a0: HDMITimingInfo stTravelHDMIInfo.u16SrcFrameRate = %u
+  0x004337af: EDID_WHITE_LIST_CEC_GROUP_NUM
+  0x00434623: Hdmi Info fail
+  0x004353b8: HDMI1:driverId
+  0x00437d15: EDID:m_pIniEdidCfgFile
+  0x00437d20: EdidCfgFile
+  0x00437d54: CfgLoadAndSetBoardInfo
+  0x0043809a: HDMITX_ANALOG_CONFIGURATION:HDMITX_ANALOG_TUNING_SD_4
+  0x00438249: CfgLoadUltraBlackWhite(void)
+  0x00438339: CfgLoadHdrTmo1DLut(void)
+  0x0043aef1: HDMI.ini
+  0x0043be02: VendorId
+  0x0043be29: VendorId = %d!
+  0x0043bf49: HDMITx_SetAVMUTE
+  0x00440226: HDMIUnstableCount
+  0x0044056a: CfgLoadAndSetGammaBinInfo
+  0x0044058c: CfgLoadAndSetGammaInfo
+  0x00440638: EDID %d Failed!
+  0x0044065a: EDID_File_2_1 = %s.
+  0x00440677: CfgLoadAndSetVgaEdidInfo
+  0x00440687: EdidInfo
+  0x00440ba7: vendor/mediatek/tv/misdk/mi/mi/mik/build/../../modules/util/src/mi_util_vector.c
+  0x004443e4: HDMITimingInfo stTravelHDMIInfo.bSignalStable = %d
+  0x0044443e: HDMITimingInfo enInputSourceType is not HDMI!!! 
+  0x00444496: HDMITimingInfo MDrv_HDMI_Ctrl GET_TIMING_INFO u16SrcFrameRate fail!! 
+  0x004446aa: EDID_HDMISupport is not ready
+  0x00444990: EDIDSupport3D=%d, eHdmiUser3D=%d!
+  0x00444f13: HDMITx_SetVideoOutputAsepctRatio
+  0x004454fc: HdmitxDeviceInfo
+  0x00449269: HDMITX_4K2K_25P
+  0x0044940e: EDID_%d:u16CecPhyAddr
+  0x00449429: EDID_%d:u8CecPhyAddrIdxL
+  0x00449481: EDID %d)
+  0x004494ab: EdidFilePath
+  0x004494c0: CfgLoadHdmiEdidSpecifiedVersion
+  0x004494cb: EdidSpecifiedVersion
+  0x004495d2: CfgLoadMiConfigData(E_MI_SYS_PAR_003); failed
+  0x004496c9: vendor/mediatek/tv/misdk/mi/mi/mik/build/../../modules/sys/src/mi_sys_mmap.c
+  0x00449e83: EDID_AUTO_SETUP got NULL arg
+  0x0044aab2: vendor/mediatek/tv/misdk/mi/mi/mik/build/../device/sys/src/mi_dev_sys.c
+  0x0044cf31: HDMITimingInfo MDrv_HDMI_Ctrl GET_TMDS_RATES_KHZ u32ClockRate fail!! 
+  0x0044e342: EDIDData
+  0x0044eb66: vendor/tvconfig/config/module/Customer_Module.ini
+  0x004504b3: vendor/mediatek/tv/misdk/mi/mi/mik/build/../../modules/tuner/src/mi_tuner.c
+  0x0045164a: CfgLoadAndSetPanelCustICInfo(void)
+  0x004516b1: HDMITX_1080_50I
+  0x004518a6: CfgLoadCfdOutputTR
+  0x00451920: CfgLoadVocConfigPath(void)
+  0x004524bb: HdmiHdcpKeyInfo
+  0x00452bb6: edid 0 > /sys/kernel/mik/MI_AOUT"
+  0x00454013: EDID
+  0x00454456: vendor/config/aq/SonicEmotion/
+  0x00454494: HDMI
+  0x00455bd3: HDMITx_GetRx3DStructureFromEDID
+  0x0045660a: EdidBlock
+  0x00456929: .bin exists in tcon folder!!
+  0x0045695a: EDID block = %d
+  0x0045698f: EDID checking failed!!
+  0x004576b1: HDMI2:driverId
+  0x00457737: HDMI Dev:%d not Support Timing, Can't get AVI INFO 
+  0x00459c31: CfgLoadInfo
+  0x00459d3c: CfgLoadCustomerInfo(E_MI_SYS_SEQ_001) failed
+  0x00459d7f: CfgLoadCustomerInfo
+  0x0045a245: EdidFilePath(MI_S32)
+  0x0045a26c: EdidVersionList
+  0x0045d653: HDMITimingInfo MDrv_HDMI_Ctrl GET_TIMING_INFO HDMI clock stable fail!! 
+  0x0045d8a8: EDID PA: (0x%02X 0x%02X),   Self PA: (0x%02X %02X)
+  0x0045d92e: vendor command id"
+  0x0045dbbd: HDMITx_SetVideoOutputOverscan_AFD_II
+  0x0045e53e: HDMI case info correct, Redo set Pqbypass is %s
+  0x0045e986: EDID data file.
+  0x00463540: VendorId = %d)
+  0x00463e76: hdmi infor e.g. 
+  0x00463e99: edid > %sMI_UTIL"
+  0x00464b0c: vendor/config/aq/SoundStyle/
+  0x00467227: Hdmi port%d HDCP 14 Info fail! 
+  0x004695de: HDMI_SHM
+  0x004697c0: vendor/cusdata/config/project_id.ini
+  0x00469827: EdidBinName:%s
+  0x00469899: CfgLoadCustomerInfo(E_MI_SYS_PAR_001) failed
+  0x00469be1: CfgLoadAndSetAttrData(...).
+  0x00469c3d: Hdmi1_Enable
+  0x00469e11: CfgLoadColorMatrix(const MI_U8 *, dictionary *, MI_S16 *, MI_S16 *, MI_U16)
+  0x00469e84: HDMI_EDID_VERSION:bHDMI_EDID_1.4
+  0x00469eb6: EDID_File = %s.
+  0x00469ed4: EdidVersion is out of range. Use default instead.
+  0x00469f23: EDID info failed!
+  0x00469f74: EDID)
+  0x0046c926: EdidSupportList: 0x%x ==> %d
+  0x0046d844: HDMI:F_HDMI_AUTO_EDID_WHITE_LIST_CEC
+  0x0046e42f: .bin
+  0x0046e4f5: HdmitxColorType
+  0x0046ec12: EDID_HPD_DELAY_COUNT
+  0x00471ec0: HdmiHdcpEnable
+  0x0047211c: vendor/tvconfig/config/VD/VD.ini
+  0x0047218f: HdmiTxCount
+  0x00474976: HDMITx_GetDataBlockLengthFromEDID
+  0x0047a396: CfgLoadAndSet3dRouterSetting(void)
+  0x0047a446: CfgLoadAndSetVgaEdidInfo(void)
+  0x0047a456: EdidInfo(void)
+  0x0047a483: CfgLoadDolbyHdr3dLut
+  0x0047a4fa: CfgLoadAndSetPowerkeyFromIrIni
+  0x0047a59c: CfgLoadMiConfigData(E_MI_SYS_PAR_001); failed
+  0x0047c53d: HdmiInfor
+  0x0047c569: vendor/mediatek/tv/misdk/mi/mi/build/../debug/ge/src/mi_debug_ge.c
+  0x0047d1d2: HdmiAutoMode
+  0x0047d893: HdmiPcmStatusChange
+  0x0047dc8f: HDMITimingInfo stTravelHDMIInfo.enMultiPixelMode = %d
+  0x0047dfd3: Edid
+  0x0047eb85: .bin
+  0x0047ee82: EDID failed.
+  0x0047f718: HdmiDebugInfor
+  0x00482770: CfgLoadMiConfigData
+  0x004827f6: CfgLoadCustomerInfo(mi_sys_TaskOrder_e)
+  0x00482c6a: CfgLoadAndSetPanelInfo
+  0x00482d34: CfgLoadCustomerModuleInfo
+  0x00482d6b: CfgLoadAndSetDvContentType
+  0x00482db3: CfgLoadDispPixelShiftInfo
+  0x00482ddd: CfgLoadDispPixelShiftInfo(void)
+  0x00483db8: vendor/cusdata/bsp/common/MMAP_MI.h
+  0x00485901: vendor/config/aq/InputSrc/
+  0x00486933: EDID][PortIdx :%d] HDMI device supports HDMI 2.0, OSD name:
+  0x0048699d: vendor remote buttom down"
+  0x00487b52: HDMITx_PKT_Content_Define
+  0x0048ad6d: CfgLoadCustomerInfo
+  0x0048af5e: HDMITX_INFO:BOARD_HDMITX_INFO_HDMI_ANALOG_CONFIG[%d]
+  0x0048b19f: CfgLoadAndSet3dRouterSetting
+  0x0048b1f7: CfgLoadIrConfigFromIniFileToDictionary
+  0x0048b360: HDMI Input
+  0x0048b3b5: EDID:bEDIDEnabled
+  0x0048b3bb: EDIDEnabled
+  0x0048c80a: Edid
+  0x0048d39e: edid infor
+  0x0048de9f: vendor/config/aq/Dbx/
+  0x0048e018: HdmiArcOutputMute=%d
+  0x0048e072: vendor/tvconfig/config/module/Customer_SAD.ini
+  0x0048ec48: HDMITimingInfo fail!!!
+  0x0048ef4e: EDID CEC whitelist:
+  0x0049003b: HDMITx_GetEdidDataBlocks
+  0x00493761: CfgLoadAndSetAttrName
+  0x004937be: CfgLoadModuleFromIniFileToDictionary
+  0x00493924: CfgLoadColorMatricesFromIniFileToDictionary
+  0x004939e0: HDMI_EDID_%d:HDMI_EDID_File
+  0x00493a0d: EDID_File_1_4 = %s.
+  0x00493a3c: EdidVersionList(MI_U32 *, MI_U32)
+  0x004958ab: hdmi active connect port infor
+  0x004969e2: vendor/config/aq/
+  0x0049757b: HDMITimingInfo stHDMITimingInfo.u16TimingInfo = %d 
+  0x00498097: vendor/tvconfig/config/model/Customer_1.ini
+  0x0049bab6: CfgLoadCustomerInfo() failed
+  0x0049be4b: CfgLoadAndSetAttr(...) u8ItemNo = %d, u16AttrNo = %d.
+  0x0049bef9: HDMITX_1080_60P
+  0x0049c00b: CfgLoadAndSetGammaInfo(MI_U8)
+  0x0049c0cc: CfgLoadHdmiEdidInfo(mi_sys_HdmiEdidInfo_t *, void *, MI_S32)
+  0x0049c0d3: HdmiEdidInfo(mi_sys_HdmiEdidInfo_t *, void *, MI_S32)
+  0x0049e079: hdmi infor e.g. 
+  0x0049e0d4: vendor/mediatek/tv/misdk/mi/mi/build/../debug/gop/src/mi_debug_gop.c
+  0x0049e4c3: HdmiInfo
+  0x0049f6cd: HDMITimingInfo MDrv_HDMI_Ctrl GET_TIMING_INFO enMultiPixelMode fail!! 
+  0x004a45d7: Hdmi4_Enable
+  0x004a4734: CfgLoadColorMatricesFromIniFileToDictionary(void)
+  0x004a47a9: CfgLoadHdmiEdidSpecifiedVersion(MI_U8 *, mi_sys_HdmiEdidVersion_e, void *, MI_S32)
+  0x004a47b0: HdmiEdidSpecifiedVersion(MI_U8 *, mi_sys_HdmiEdidVersion_e, void *, MI_S32)
+  0x004a4823: EDID:VGA_EDID_File
+  0x004a482c: EDID_File
+  0x004a4891: CfgLoadDolbyHdr3dLut(void)
+  0x004a4916: CfgLoadVocConfigPath
+  0x004a6ee1: EDID Auto Setup
+  0x004a7367: HdmiInfoMonitor
+  0x004a7f77: HDMIInfo.enColorFormat = %d now
+  0x004a7fbe: HDMITimingInfo MDrv_HDMI_Ctrl E_HDMI_INTERFACE_CMD_GET_AVI_PARSING_INFO enColorFormat fail!! 
+  0x004a838c: vendor command"
+  0x004a940e: HdmitxDeInit
+  0x004a9f29: EDID flow
+  0x004ab11b: vendor/tvconfig/config/factory_keypad.ini
+  0x004ac895: CfgLoadInfo
+  0x004acb2a: EDID:m_pEdidBinPath
+  0x004acb32: EdidBinPath
+  0x004ace49: EDID_INFO:BOARD_EDID_INFO_HOT_PLUG_INVERSE
+  0x004ace59: EDID_INFO_HOT_PLUG_INVERSE
+  0x004acf5e: HDMITX_ANALOG_CONFIGURATION:HDMITX_ANALOG_TUNING_HD_3
+  0x004ad1f1: HDMITX_RES_1920x1080i_60Hz
+  0x004ad463: CfgLoadAndSetHdmiEdidInfoSet(void)
+  0x004ad470: HdmiEdidInfoSet(void)
+  0x004ad4a9: EDID %d File!
+  0x004ad4fb: CfgLoadAndSetOsdAttr
+  0x004ae9cd: edid: <<0/1>>: Enable/Disable edid control.
+  0x004ae9eb: edid control.
+  0x004aea24: edid 1 > /sys/kernel/mik/MI_AOUT"
+  0x004aebbb: edid 0 > /sys/kernel/mik/MI_CEC"
+  0x004aecfa: EDID prefertiming : %d
+  0x004afe14: EdidSupportList is NULL.
+  0x004b01bc: vendor/config/aq/DtsSs1/
+  0x004b2c06: HDMI decoder infor Fail
+  0x004b3d89: vendor/mediatek/tv/misdk/mi/mi/mik/build/../../modules/pm/src/mi_pm.c
+  0x004b53af: CfgLoadMiConfigData() failed
+  0x004b58a4: CfgLoadHdrFromIniFileToDictionary
+  0x004b591f: HdmiEdidInfoSet(const mi_sys_HdmiEdidInfo_t *const, MI_U8)
+  0x004b597c: EDID file!
+  0x004b59b8: CfgLoadAndSetDvContentType(void)
+  0x004b6317: EDID got NULL arg
+  0x004b6f0d: VendorId = %d)
+  0x004b8843: EDID may be change!! 
+  0x004b97ed: EDID white list CEC information to 0
+  0x004b9b4c: HdmiTx3dMapping
+  0x004baaa6: HDMI_HDCP
+  0x004bb52d: HDMI:F_HDMI_AUTO_EDID_BY_HDCP
+  0x004be437: HDMITX_4K2K_30P
+  0x004be610: HDMIEDIDInfoSet = 
+  0x004be65b: HdmiEdidInfoSet
+  0x004bf885: Edid
+  0x004bf8f5: HDMI info, eq. 
+  0x004c0560: HDMI_RX_MUTE_EVENT:SamplePriorityError
+  0x004c11db: EdidAudioDataBlock, eErrCode:0x%x
+  0x004c282a: HDMI bHDRInfoFrameValid:(%d), PrimariesX:(0x%x, 0x%x, 0x%x), PrimariesY:(0x%x, 0x%x, 0x%x), MaxPanelL:(0x%x),MinPanelL:(0x%x), u32Wx:(0x%x), u32Wy:(0x%x), bHDRInfoFrameValid:(%d),  u32MaxCL:(0x%x), u32MaxFrameAvgL:(0x%x),
+  0x004c2d79: HdmiSetAttr
+  0x004c2f6d: HdmitxHdcpKey
+  0x004c3ace: EDID_HPD_DELAY_COUNT
+  0x004c3af6: EDID_WAIT_STABLE_COUNT
+  0x004c6344: HDMITX_ANALOG_CONFIGURATION:HDMITX_ANALOG_TUNING_HD_2
+  0x004c64f6: HDMITX_720_50P
+  0x004c65bc: CfgLoadVocConfigFromIniFileToDictionary(void)
+  0x004c6682: CfgLoadAndSetHdmiEdidInfoSet
+  0x004c668f: HdmiEdidInfoSet
+  0x004c7b41: edid 0 > /sys/kernel/mik/MI_AUDIO"
+  0x004c8a9a: HdmiMonitorTask
+  0x004c9076: EdidAutoSetup
+  0x004c95a0: EDID Block Length fail
+  0x004ca3e2: vendor remote buttom up"
+  0x004ca83f: vendor/cusdata/config/dataIndex/dataIndex_%d.ini
+  0x004caf79: HDMI_TX_MODE
+  0x004cb974: EDID_WHITE_LIST_SPD
+  0x004ce682: CfgLoadInfo
+  0x004cea52: CfgLoadAndSetPanelCustICInfo
+  0x004cebbf: HDMITX_RES_4K1Kp_60Hz
+  0x004ced75: HdmiEdidFilePath
+  0x004d0270: edid 1 > /sys/kernel/mik/MI_AUDIO"
+  0x004d1b31: EdidExtendedBlock, eErrCode:0x%x
+  0x004d1b61: EdidAudioDataBlock
+  0x004d2598: HDMITimingInfo
+  0x004d3623: EdidDataBlocks HSMDB failed!!!
+  0x004d3eec: EDID HPD count
+  0x004d3f0f: EDID_WHITE_LIST_SPD_GROUP_NUM
+  0x004d6710: vendor/mediatek/tv/misdk/mi/mi/mik/build/../../modules/sys/src/mi_sys_cfg.c
+  0x004d681f: vendor/tvconfig/config/sys.ini
+  0x004d6b06: Hdmi2_Enable
+  0x004d6d51: EDID_VERSION:bHDMI_EDID_DEFAULT
+  0x004d6d64: EDID_DEFAULT
+  0x004d6d76: EDID_VERSION:bHDMI_EDID_2.0
+  0x004d6d89: EDID_2.0
+  0x004d7f57: vendor/tvconfig/config/mik_init.ini
+  0x004d97ac: vendor/config/aq/DtsSrs/
+  0x004da3a1: HDMITimingInfo MDrv_HDMI_Ctrl GET_TIMING_INFO u16SrcWidth fail!! 
+  0x004da40a: HDMITimingInfo MDrv_HDMI_Ctrl GET_TIMING_INFO u16SrcHeight fail!! 
+  0x004dab0d: EDID 3D Support Format. Change 3D outputformat to None!
+  0x004db736: EdidDataBlocks VSVDB failed!!!
+  0x004db762: HdmitxPowerOnOff
+  0x004ded0a: HDMITX_ANALOG_CONFIGURATION:HDMITX_ANALOG_TUNING_SD_3
+  0x004dedf2: CfgLoadSysPanelNameFromDefaultPanelDictionary
+  0x004deeaf: HDMI_EDID_%d:bEDIDEnabled
+  0x004deefa: EDID_File_2_0 = %s.
+  0x004def1f: CfgLoadActiveHdrLevelAttribues(void)
+  0x004def54: CfgLoadHdrLevelAttributes(mi_sys_XcHdrLevelAttributes_t *, mi_sys_XcHdrType_e)
+  0x004e03af: HDMI Info
+  0x004e1519: Edid
+  0x004e28a5: VendorId!
+  0x004e28ec: VendorId = %d, pszHandleName = %s
+  0x004e4152: EDID][PortIdx :%d] HDMI device supports HDMI 2.0, SPD info:
+  0x004e4165: HDMI device supports HDMI 2.0, SPD info:
+  0x004e723f: HDMI_CEC_SETTING:BOARD_HDMI_CEC_XTAL_CLK_HZ
+  0x004e7726: CfgLoadMiConfigData(E_MI_SYS_PAR_002); failed
+  0x004e9c56: hdmi Port %d infor
+  0x004ea34a: EDID maybe not support AudioCodecType: %d
+  0x004ea687: vendor/config/aq/DtsVx/
+  0x004ea93a: HDMITx_SetAudioConfiguration
+  0x004eb2ce: HDMITimingInfo stTravelHDMIInfo.u16SrcWidth = %u
+  0x004efc15: HDMITX_ANALOG_CONFIGURATION:HDMITX_ANALOG_TUNING_DEEP_HD_3
+  0x004efcc0: CfgLoadDefaultPanelFromIniFileToDictionary
+  0x004efd2b: HDMITX_RES_720x480i
+  0x004f0982: HdmiHdcpKeyInfo
+  0x004f0ac5: Edid
+  0x004f219f: vendor/config/audio/
+  0x004f3114: EDID_BLOCK_SIZE = %d+%d
+  0x004f3f18: vendor id"
+  0x004f4969: EDID
+  0x004f5147: HdmitxMode
+  0x004f5968: hdmi %d ->(0 1 2 3)extin hdmi infor ==========
+  0x004f59b1: HDMI_Ctrl return False,Can't get AVI INFO
+  0x004f59f4: Hdmi port%d HDCP 22 Info fail! 
+  0x004f835c: CfgLoadMiConfigData
+  0x004f86ff: HDMITX_4K1K_60P
+  0x004f887b: CfgLoadAndSetGammaBinInfo(void)
+  0x004f8929: CfgLoadAndSetDlcInfo(void)
+  0x004f89e6: HdmiEdidInfo->eEdidVersion is out of range. Use default instead.
+  0x004f89f5: EdidVersion is out of range. Use default instead.
+  0x004fb6c1: HdmiInfo
+  0x004fd4b9: EdidData
+  0x004fddd4: EDID HPD count
+  0x004fde45: Edid Ver:  %s
+  0x004fee05: vendor/tvconfig/config/PQ_general/OSDPQConfig.ini
+  0x00500afc: CfgLoadMiConfigData
+  0x00500d3e: HDMITX_ANALOG_CONFIGURATION:HDMITX_ANALOG_TUNING_HD_5
+  0x00500e0e: CfgLoadAndSetAttr
+  0x00500e53: CfgLoadAttrData(...).
+  0x00500e72: CfgLoadPCModeFromIniFileToDictionary
+  0x00501014: CfgLoadAudioAmpConfigFromIniFileToDictionary
+  0x00501049: CfgLoadAndSetDlcInfo
+  0x005010cf: HDMI_EDID_%d:bUseDefaultValue
+  0x00503b0e: vendor/config/aq/Dap/
+  0x00504733: HDMITimingInfo MDrv_HDMI_Get_ColorFormat fail!! 
+  0x00504a62: EDID_HDMISupport
+  0x005059c2: HDMITX_HDCP_STATUS_INFO type = %d 
+  0x005065d2: EDID SPD whitelist:
+  0x00508fcd: Hdmi3_Enable
+  0x005090ad: HDMITX_RES_4K2Kp_25Hz
+  0x005091ba: HDMI_EDID_%d:eEdidVersion
+  0x005091e1: EdidVersion = %d.
+  0x005091f4: HDMI_EDID_%d:HDMI_EDID_File_2_1
+  0x00509e82: vendor/mediatek/tv/misdk/mi/mi/mik/build/../../modules/util/src/mi_util_vector.c
+  0x00509ef5: vendor/mediatek/tv/misdk/mi/mi/mik/build/../device/sys/src/mi_dev_sys.c
+  0x00509f5f: vendor/mediatek/tv/misdk/mi/mi/mik/build/../../modules/pm/src/mi_pm.c
+  0x00509fc7: vendor/mediatek/tv/misdk/mi/mi/mik/build/../../modules/sys/src/mi_sys_cfg.c
+  0x0050a409: vendor/tvconfig/config/Qos.bin
+  0x0050a423: .bin
+  0x0050a42b: HdmiArcOutputType=ATMOS
+  0x0050b009: vendor/config/amp/
+  0x0050c467: HdmiSetAttr
+  0x005108d4: eDid
+  0x0051c424: Hdmi20BySpd
+  0x0051cc61: Edid
+  0x0051cca1: Edid
+  0x0051cd1e: EDID
+  0x0051cdd4: HDMIRx_SetHPD
+  0x0051d1d9: HDMIRx
+  0x0051e517: HDMITxHDCPStatus
+  0x0051efd7: HDMITxOutputInfo
+  0x00521811: HDMITxQuery
+  0x00521bda: HdmiInfo
+  0x00523324: Hdmi20ByCec
+  0x0059eeaa: HDMIRx_GetHwAbility

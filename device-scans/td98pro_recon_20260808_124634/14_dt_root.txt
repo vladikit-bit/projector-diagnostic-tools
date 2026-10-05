@@ -1,0 +1,1 @@
+﻿lrwxrwxrwx 1 root root 29 2026-08-08 05:46 /proc/device-tree -> /sys/firmware/devicetree/base

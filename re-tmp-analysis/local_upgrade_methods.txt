@@ -1,0 +1,328 @@
+================================================================================
+CLASS: Lcom/bkdisplay/system/ota/BaiduOtaManager;
+METHOD: b(Ljava/lang/String;)V
+================================================================================
+  Matched: 0x0009 const-string v2, "upgradeSystem: "
+
+  Full disassembly:
+    0001: invoke-virtual Lcom/bkdisplay/system/ota/BaiduOtaManager;->a(I)V
+    0004: new-instance Ljava/lang/StringBuilder;
+    0006: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    0009: const-string v2, "upgradeSystem: "
+    000b: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    000f: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0013: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    0017: const-string v2, "BaiduOtaManager"
+    0019: invoke-static Landroid/util/Log;->d(Ljava/lang/String;, Ljava/lang/String;)I
+    001c: field-op Lcom/bkdisplay/system/ota/a;->e:Ljava/lang/String;
+    001e: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    0022: const-string v1, "com.android.system"
+    0025: invoke-virtual Landroid/os/Parcel;->createBooleanArray()[Z
+    0028: new-instance Ljava/lang/StringBuilder;
+    002a: invoke-direct Ljava/lang/StringBuilder;-><init>()V
+    002d: field-op Lcom/bkdisplay/system/ota/a;->c:Ljava/lang/String;
+    002f: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0033: field-op Lcom/bkdisplay/system/ota/a;->a:Ljava/lang/String;
+    0035: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0039: const-string v3, "_"
+    003b: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    003f: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0043: const-string v3, ".ota"
+    0045: invoke-virtual Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    0049: invoke-virtual Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    004d: invoke-direct Ljava/io/File;-><init>(Ljava/lang/String;)V
+    0051: invoke-virtual Ljava/io/File;->exists()Z
+    0055: const-string v4, "silence_download"
+    0059: new-instance Lcom/bkdisplay/system/ota/SilenceUpdateDialog;
+    005b: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->o:Landroid/content/Context;
+    005d: invoke-direct Lcom/bkdisplay/system/ota/SilenceUpdateDialog;-><init>(Landroid/content/Context;)V
+    0060: invoke-virtual Lcom/bkdisplay/system/ota/SilenceUpdateDialog;->show()V
+    0063: invoke-static Lcom/bkdisplay/api/util/e;->a(Ljava/lang/String;, I)V
+    0066: new-instance Ljava/io/File;
+    0068: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->o:Landroid/content/Context;
+    006a: invoke-virtual Landroid/content/Context;->getFilesDir()Ljava/io/File;
+    006e: const-string v6, "com.bkdisplay.systemui:ota.sessions.map"
+    0070: invoke-direct Ljava/io/File;-><init>(Ljava/io/File;, Ljava/lang/String;)V
+    0073: invoke-virtual Ljava/io/File;->exists()Z
+    0079: invoke-virtual Ljava/io/File;->delete()Z
+    007c: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->o:Landroid/content/Context;
+    007e: invoke-static Landroid/os/RecoverySystem;->installPackage(Landroid/content/Context;, Ljava/io/File;)V
+    0086: invoke-virtual Ljava/lang/Exception;->printStackTrace()V
+    008b: invoke-virtual Lcom/bkdisplay/system/ota/SilenceUpdateDialog;->dismiss()V
+    008e: invoke-static Lcom/bkdisplay/api/util/e;->a(Ljava/lang/String;, I)V
+    0092: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->o:Landroid/content/Context;
+    0097: invoke-static Lcom/bkdisplay/framework/f/i;->b(I)Ljava/lang/String;
+    009b: invoke-static Lcom/bkdisplay/systemui/common/e;->a(Landroid/content/Context;, Ljava/lang/String;)V
+    009e: instance-field-op Lcom/bkdisplay/system/ota/BaiduOtaManager;->l:Lcom/baidu/commonlib/interfaces/IOtaAgent;
+    00a0: new-instance Lcom/bkdisplay/system/ota/BaiduOtaManager$6;
+    00a2: invoke-direct Lcom/bkdisplay/system/ota/BaiduOtaManager$6;-><init>(Lcom/bkdisplay/system/ota/BaiduOtaManager;)V
+    00a5: invoke-interface Lcom/baidu/commonlib/interfaces/IOtaAgent;->upgrade(Ljava/lang/String;, Lcom/baidu/commonlib/interfaces/IUpgradeListener;)V
+
+================================================================================
+CLASS: Lcom/bkdisplay/systemui/f/d;
+METHOD: a()V
+================================================================================
+  Matched: 0x00ba const-string v3, "com.bkdisplay.settings.ui.view.upgrade.UpgradeActivity"
+
+  Full disassembly:
+    0000: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    0002: new-instance Lcom/bkdisplay/systemui/f/b;
+    0004: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    0006: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    0009: const-string v2, "android.intent.action.ALL_APPS"
+    000b: invoke-virtual Lcom/bkdisplay/systemui/f/b;->a(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    000f: const-string v3, "my_application"
+    0011: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    0014: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    0016: new-instance Lcom/bkdisplay/systemui/f/b;
+    0018: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    001a: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    001d: const-string v3, "android.settings.SETTINGS"
+    001f: invoke-virtual Lcom/bkdisplay/systemui/f/b;->a(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    0023: const-string v3, "system_settings"
+    0025: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    0028: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    002a: new-instance Lcom/bkdisplay/systemui/f/b;
+    002c: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    002e: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    0031: const-string v3, "com.bkdisplay.intent.action.DIGITAL_ZOOM"
+    0033: invoke-virtual Lcom/bkdisplay/systemui/f/b;->a(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    0037: const-string v3, "zoom_settings"
+    0039: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    003c: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    003e: new-instance Lcom/bkdisplay/systemui/f/b;
+    0040: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    0042: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    0045: const-string v3, "android.settings.SETTINGS_CAST"
+    0047: invoke-virtual Lcom/bkdisplay/systemui/f/b;->a(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    004b: const-string v3, "projection_settings"
+    004d: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    0050: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    0052: new-instance Lcom/bkdisplay/systemui/f/b;
+    0054: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    0056: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    0059: const-string v3, "com.bkdisplay.intent.action.TRAPE_PAGE"
+    005b: invoke-virtual Lcom/bkdisplay/systemui/f/b;->a(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    005f: const-string v3, "four-point_correction"
+    0061: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    0064: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    0066: new-instance Lcom/bkdisplay/systemui/f/b;
+    0068: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    006a: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    006d: const-string v3, "com.bkdisplay.intent.action.VH_KEYSTONE"
+    006f: invoke-virtual Lcom/bkdisplay/systemui/f/b;->a(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    0073: const-string v3, "four-sided_correction"
+    0075: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    0078: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    007a: new-instance Lcom/bkdisplay/systemui/f/b;
+    007c: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    007e: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    0081: const-string v3, "jy_wifi_page_enable"
+    0083: invoke-static Lcom/bkdisplay/api/util/b;->c(Ljava/lang/String;)Z
+    0089: const-string v3, "com.bkdisplay.intent.action.JY_WIFI_PAGE"
+    008c: const-string v3, "com.bkdisplay.intent.action.WIFI_PAGE"
+    008e: invoke-virtual Lcom/bkdisplay/systemui/f/b;->a(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    0092: const-string v3, "network_settings"
+    0094: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    0097: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    0099: new-instance Lcom/bkdisplay/systemui/f/b;
+    009b: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    009d: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    00a0: const-string v3, "com.bkdisplay.intent.action.BLUETOOTH_PAGE"
+    00a2: invoke-virtual Lcom/bkdisplay/systemui/f/b;->a(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    00a6: const-string v3, "bluetooth_settings"
+    00a8: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    00ab: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    00ad: new-instance Lcom/bkdisplay/systemui/f/b;
+    00af: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    00b1: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    00b4: const-string v3, "com.bkdisplay.settings"
+    00b6: invoke-virtual Lcom/bkdisplay/systemui/f/b;->b(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    00ba: const-string v3, "com.bkdisplay.settings.ui.view.upgrade.UpgradeActivity"
+    00bc: invoke-virtual Lcom/bkdisplay/systemui/f/b;->c(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    00c0: const-string v3, "system_update"
+    00c2: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    00c5: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    00c7: new-instance Lcom/bkdisplay/systemui/f/b;
+    00c9: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    00cb: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    00ce: const-string v3, "android.settings.SETTINGS_ABOUT"
+    00d0: invoke-virtual Lcom/bkdisplay/systemui/f/b;->a(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    00d4: const-string v3, "system_about"
+    00d6: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    00d9: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    00db: new-instance Lcom/bkdisplay/systemui/f/b;
+    00dd: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    00df: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    00e3: invoke-virtual Lcom/bkdisplay/systemui/f/b;->b(I)Lcom/bkdisplay/systemui/f/b;
+    00e8: invoke-virtual Lcom/bkdisplay/systemui/f/b;->a(I)Lcom/bkdisplay/systemui/f/b;
+    00ec: const-string v4, "cancel_shutdown"
+    00ee: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    00f1: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    00f3: new-instance Lcom/bkdisplay/systemui/f/b;
+    00f5: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    00f7: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    00fa: const-string v4, "com.ntech.localmedia"
+    00fc: invoke-virtual Lcom/bkdisplay/systemui/f/b;->b(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    0100: const-string v4, "com.ntech.localmedia.MainActivity"
+    0102: invoke-virtual Lcom/bkdisplay/systemui/f/b;->c(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    0106: const-string v4, "multimedia"
+    0108: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    010b: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    010d: new-instance Lcom/bkdisplay/systemui/f/b;
+    010f: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    0111: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    0114: const-string v4, "com.mstar.android.intent.action.START_MEDIA_BROWSER"
+    0116: invoke-virtual Lcom/bkdisplay/systemui/f/b;->a(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    011a: const-string v4, "filemanager"
+    011c: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    011f: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    0121: new-instance Lcom/bkdisplay/systemui/f/b;
+    0123: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    0125: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    0128: const-string v4, "bk.intent.action.MIRACAST"
+    012a: invoke-virtual Lcom/bkdisplay/systemui/f/b;->a(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    012e: const-string v4, "same_screen"
+    0130: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    0133: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    0135: new-instance Lcom/bkdisplay/systemui/f/b;
+    0137: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    0139: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    013c: const-string v4, "android.intent.action.MANAGE_PACKAGE_STORAGE"
+    013e: invoke-virtual Lcom/bkdisplay/systemui/f/b;->a(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    0142: const-string v4, "app_manager"
+    0144: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    0147: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    0149: invoke-static Lcom/bkdisplay/framework/f/a;->c(Landroid/content/Context;)Ljava/lang/String;
+    014d: const-string v1, "com.dangbei.mimir.lightos.launcher"
+    014f: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    0153: const-string v4, "com.lerad.launcher.home.ui.myapp.MyAppActivity"
+    0155: const-string v5, "my_apps"
+    0159: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    015b: new-instance Lcom/bkdisplay/systemui/f/b;
+    015d: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    015f: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    0162: invoke-virtual Lcom/bkdisplay/systemui/f/b;->b(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    0166: invoke-virtual Lcom/bkdisplay/systemui/f/b;->c(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    016a: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    016e: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    0170: invoke-static Lcom/bkdisplay/framework/f/a;->c(Landroid/content/Context;)Ljava/lang/String;
+    0174: const-string v6, "com.bk.home"
+    0176: invoke-static Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;, Ljava/lang/CharSequence;)Z
+    017c: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    017e: new-instance Lcom/bkdisplay/systemui/f/b;
+    0180: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    0182: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    0185: invoke-virtual Lcom/bkdisplay/systemui/f/b;->a(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    0189: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    018d: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    018f: new-instance Lcom/bkdisplay/systemui/f/b;
+    0191: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    0193: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    0196: invoke-virtual Lcom/bkdisplay/systemui/f/b;->b(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    019a: invoke-virtual Lcom/bkdisplay/systemui/f/b;->c(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    019e: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    01a1: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    01a3: new-instance Lcom/bkdisplay/systemui/f/b;
+    01a5: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    01a7: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    01aa: const-string v2, "com.cibn.tv"
+    01ac: invoke-virtual Lcom/bkdisplay/systemui/f/b;->b(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    01b0: const-string v2, "play_cibn"
+    01b2: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    01b5: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    01b7: new-instance Lcom/bkdisplay/systemui/f/b;
+    01b9: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    01bb: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    01be: const-string v2, "com.qiyivideo.sibichi"
+    01c0: invoke-virtual Lcom/bkdisplay/systemui/f/b;->b(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    01c4: const-string v2, "play_qiyivideo"
+    01c6: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    01c9: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    01cb: new-instance Lcom/bkdisplay/systemui/f/b;
+    01cd: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    01cf: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    01d2: const-string v2, "com.ktcp.tvvideo"
+    01d4: invoke-virtual Lcom/bkdisplay/systemui/f/b;->b(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    01d8: const-string v2, "play_ktcp"
+    01da: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    01dd: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    01df: new-instance Lcom/bkdisplay/systemui/f/b;
+    01e1: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    01e3: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    01e6: const-string v2, "ntech.intent.action.CAST_ALL"
+    01e8: invoke-virtual Lcom/bkdisplay/systemui/f/b;->a(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    01ec: const-string v2, "open_mira_cast"
+    01ee: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    01f1: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    01f3: new-instance Lcom/bkdisplay/systemui/f/b;
+    01f5: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    01f7: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    01fa: const-string v2, "back_home"
+    01fc: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    01ff: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    0201: new-instance Lcom/bkdisplay/systemui/f/b;
+    0203: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    0205: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    0208: const-string v2, "com.dianshijia.newlive"
+    020a: invoke-virtual Lcom/bkdisplay/systemui/f/b;->b(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    020e: const-string v4, "open_dina_shi_jia"
+    0210: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    0213: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    0215: new-instance Lcom/bkdisplay/systemui/f/b;
+    0217: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    0219: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    021c: invoke-virtual Lcom/bkdisplay/systemui/f/b;->b(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    0220: const-string v4, "play_channel_id"
+    0222: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    0225: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    0227: new-instance Lcom/bkdisplay/systemui/f/b;
+    0229: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    022b: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    022e: invoke-virtual Lcom/bkdisplay/systemui/f/b;->b(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    0232: const-string v4, "com.dianshijia.newlive.player.ChangeChannel"
+    0234: invoke-virtual Lcom/bkdisplay/systemui/f/b;->a(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    0238: const-string v4, "switch_channel_num"
+    023a: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    023d: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    023f: new-instance Lcom/bkdisplay/systemui/f/b;
+    0241: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    0243: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    0246: invoke-virtual Lcom/bkdisplay/systemui/f/b;->b(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    024a: const-string v4, "watch_tv"
+    024c: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    024f: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    0251: new-instance Lcom/bkdisplay/systemui/f/b;
+    0253: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    0255: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    0258: invoke-virtual Lcom/bkdisplay/systemui/f/b;->b(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    025c: const-string v4, "com.dianshijia.newlive.player.PreChannel"
+    025e: invoke-virtual Lcom/bkdisplay/systemui/f/b;->a(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    0262: const-string v4, "play_prev_channel"
+    0264: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    0267: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    0269: new-instance Lcom/bkdisplay/systemui/f/b;
+    026b: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    026d: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    0270: invoke-virtual Lcom/bkdisplay/systemui/f/b;->b(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    0274: const-string v2, "com.dianshijia.newlive.player.NextChannel"
+    0276: invoke-virtual Lcom/bkdisplay/systemui/f/b;->a(Ljava/lang/String;)Lcom/bkdisplay/systemui/f/b;
+    027a: const-string v2, "play_next_channel"
+    027c: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    027f: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    0281: new-instance Lcom/bkdisplay/systemui/f/b;
+    0283: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    0285: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    0289: const-string v0, "Landroidx/transition/h;"
+    028e: invoke-virtual Lcom/bkdisplay/systemui/f/b;->a(I)Lcom/bkdisplay/systemui/f/b;
+    0292: const-string v2, "shutdown"
+    0294: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    0297: instance-field-op Lcom/bkdisplay/systemui/f/d;->b:Ljava/util/HashMap;
+    0299: new-instance Lcom/bkdisplay/systemui/f/b;
+    029b: instance-field-op Lcom/bkdisplay/systemui/f/d;->a:Landroid/content/Context;
+    029d: invoke-direct Lcom/bkdisplay/systemui/f/b;-><init>(Landroid/content/Context;)V
+    02a2: invoke-virtual Lcom/bkdisplay/systemui/f/b;->b(I)Lcom/bkdisplay/systemui/f/b;
+    02a6: invoke-virtual Lcom/bkdisplay/systemui/f/b;->a(I)Lcom/bkdisplay/systemui/f/b;
+    02aa: const-string v2, "signal_source"
+    02ac: invoke-virtual Ljava/util/HashMap;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+

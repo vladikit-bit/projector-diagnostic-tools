@@ -1,0 +1,1715 @@
+mst_snd_r2_MS12V22         st_value 0x0077a164 size 0x001c1330 sec .data sec_off 0x6592a0 -> file 0x00dd3404
+mst_snd_r2                 st_value 0x005fb81c size 0x0017e948 sec .data sec_off 0x6592a0 -> file 0x00c54abc
+mst_codec_r2               st_value 0x0016be18 size 0x0029c0f4 sec .data sec_off 0x6592a0 -> file 0x007c50b8
+mst_codec_r2_MS12V22       st_value 0x00407f0c size 0x001e401c sec .data sec_off 0x6592a0 -> file 0x00a611ac
+wrote r2img/mst_snd_r2_MS12V22.bin (0x1c1330 bytes)
+wrote r2img/mst_snd_r2.bin (0x17e948 bytes)
+wrote r2img/mst_codec_r2.bin (0x29c0f4 bytes)
+wrote r2img/mst_codec_r2_MS12V22.bin (0x1e401c bytes)
+mst_snd_r2_MS12V22: 2967 strings
+mst_snd_r2: 3023 strings
+mst_codec_r2: 2981 strings
+mst_codec_r2_MS12V22: 2242 strings
+
+==== mst_codec_r2 ONLY (752) vs mst_codec_r2_MS12V22 ONLY (13) ====
+---- ONLY in mst_codec_r2 (752) ----
+     #D$_@AK##
+     %d ch, (%d,%d), (%d, %d),(%d)
+     /!("%#$
+     AKUMJ
+     Al]Mk
+     E)KE#K
+     EJSEJ
+     EJSEMS
+     FE# \
+     J`T!W
+     OZ@GZ
+     W9?C8
+     `$\`!J
+     a|!Ap 
+     d| i\
+    !!&((())%%%"
+    !!&((())%%%".2
+    !'bj{d
+    !("%#$
+    !9P#|4
+    !DLB_IltSS(h_converter->current_clipgain, DLB_S00)
+    !K&;Ke3
+    !Ow(C*
+    !SlI<`
+    !ddp_udc_int_evo_ll_empty(&pb->ll)
+    !ddp_udc_int_evo_ll_empty(ll)
+    ""33DDUUffwwww
+    "&~bW-
+    "@,"  
+    "N1"NR"N
+    "_`)Ka
+    "`,"@ 
+    ###K"q!
+    #$$_ AK
+    #$KIj`
+    #($_ )K
+    #9$(%&
+    #@.OWh
+    #`cypc
+    $$ngK/n
+    $e$ h$
+    %,1u<,
+    %/&)'(
+    %1~doY~M
+    %8$U#p"
+    %TX77T
+    %c9ys9
+    &.z"D(&
+    '5&?%J$T#N"X!R L
+    '8Lgm8S
+    'bsyrs
+    (-1 <= phase_rot) && (phase_rot <= 1)
+    (/),*+
+    (DNt>F
+    (R<3($NJ(
+    (hSbrDec[numChannels]->hSbrChannel[0]) != 0
+    (hSbrDec[numChannels]->hSbrChannel[1]) != 0
+    (int)accuracy < JOCDEC_NUM_ENTRIES_ACCURACY
+    (ll->head == NULL) == (ll->tail == NULL)
+    (unsigned char *) end >= e->bs.p_data + (e->size_in_bits + 7) / 8
+    )G9.OZ
+    )Lc@@`
+    )OZFC{
+    )S IC9
+    )S NC9
+    )S xC9
+    )\\GZvG9N
+    )^:79^S
+    * `^P`.
+    *>S` S
+    *>pCjd
+    *M[KEJ
+    *^O90# `
+    *num_lores > 0
+    +8#drO#
+    +>S` S
+    +Mk[BF
+    +O*AO9
+    +O9[Gz
+    , function: 
+    ,5'8KL'^hc'k
+    ,Ns,NR,N1,N
+    ,S-oHQ
+    . '!$"#
+    ._fB~_&
+    /60312
+    /C9E_9
+    /k~PPD]
+    0000000000000000                INF
+    071423
+    0B182534
+    0Vz>AVynRV
+    0]<g@]}
+    2 p%4g`
+    2'5Z7\95;
+    2MrsO:K
+    2N^Lc8
+    2TLLc8
+    2Z:Lc8
+    2c16951c38232060d8975aa6cbdc54813142dc269dcc5d437697206c93871de4
+    2j~$?j
+    34;5867
+    3G9*EZ
+    3NR;O,
+    3Ns;NO
+    3QlI<`
+    4 5N5{5
+    43)1K3
+    4uTr=u
+    5*8K;n>
+    5`cypc
+    6/5Z4d3o2y1s0m/V.?-),
+    7bRypr
+    7g{7G\
+    8&D2kF
+    8{g~?{('F{V
+    : ;L;y;
+    :9,TP9s
+    :O{@C[sO9
+    :Y;J<C=@>?
+    :f"wGf
+    :sp#Ds
+    ;._6]<
+    ;4c$pBc
+    ;`FGqW\
+    <>S` S
+    <OL!Om
+    <}$-<&
+    =&>R>~>
+    >:i7T:-
+    >MWsOpK
+    >O9*G9
+    ?##jO8
+    ?##~C3
+    ?##~G=
+    ?DS=TD
+    ?I?e>(=
+    ?L?f>/=
+    ?q?P?+?
+    ?}?L?+?
+    @!AMAxA
+    @"ar"@
+    @# dW3
+    @4TCV4
+    @>9A4heaacdec_ChannelMapEvalStreamInfo
+    @Q@$@#%9@;
+    @a@@@ @
+    @c]CyT
+    A# DS 0
+    A$BOBzB
+    A/f+X/J
+    A@UekW
+    AD ERROR: too large %d consumed bytes
+    AJCaJyqJ
+    AOSBRKM
+    AQ` Ak%B %
+    AR{B0[N
+    AhAFA%A
+    Aheaacdec_sbr_dec_concealment_dmx
+    Aw[KZx
+    Aw[K{x
+    B$SigJC
+    B&CQC{C
+    B@J?me
+    BHtF1^
+    BM]sO[K
+    BwBUB3B
+    C&DPD{D
+    C'EGFZGaH\IMJ5K
+    C:3c9ys9
+    CBsCBW
+    CJlC*t
+    CNsRN1ZC
+    CO78_9
+    CPU MS12 V1 HEAAC hook ok
+    CPU MS12 V1 ac4 hook ok
+    CPU MS12V1 ddp hook ok
+    CPU MS12V1 ddp init ok
+    CPU ms12v1 ac4 init ok
+    CPU ms12v1 heaac init ok
+    CYDKEHFG
+    C`)$lP
+    Cc{ys{
+    ChyuNi
+    CmCIC&C
+    CotCRm_9
+    Cy;c{ys{
+    Cyd# h
+    D$EOEyE
+    DDP L0_dirty_size=%d, L1_dirty_size=%d, L0_residual_size=%d, L1_residual_size=%d
+    DDP ddenc L0_dirty_size=%d, L1_dirty_size=%d, L0_residual_size=%d, L1_residual_size=%d
+    DDP mixer L1_residual_size=%d
+    DDP reenc L0_dirty_size=%d, L1_dirty_size=%d, L0_residual_size=%d, L1_residual_size=%d
+    DOr>Fs
+    DiDDD D
+    E!FKFuF
+    EAm]Ek[#A0
+    EDlEk&FR<E
+    EEkfF3
+    EJDEJe
+    EJENR3O9
+    EkKEJK
+    Ek{ypA
+    ElEGE!E
+    E{]Ez]
+    E|^EJY%\2O
+    E|^ElY
+    F1:Ek[F
+    F<G1)PG
+    FNQsO:K
+    FR~N<Q
+    FlvFR>G
+    FxFQF+F
+    GC%]@c]
+    GFsfEJ^D
+    G{LCZEG[
+    G|L_Q'V
+    H$IMIvI
+    HEAAC ad L0_dirty_size=%d, L1_dirty_size=%d, L0_residual_size=%d, L1_residual_size=%d
+    HEAAC md L0_dirty_size=%d, L1_dirty_size=%d, L0_residual_size=%d, L1_residual_size=%d
+    HP7dZPZ
+    HaqjWa
+    HnHK-o
+    IyINI%I
+    J$KMKuK
+    J+wNv3w
+    J=aO9p
+    JK@J-`
+    J`Bs[N
+    Je;J&C
+    Jt]?{5
+    JyJNJ#J
+    KFu$"Ouz
+    KI1M;D
+    KKcZysZ
+    KRLOMN
+    KS,k j,
+    L,LTL|L
+    LMJ3OZ
+    L\fWz]
+    LuZ/LRoBL
+    M!NINqN
+    M$LG9LM9ZM)
+    MD ERROR: too large %d consumed bytes(%d, %d)
+    MJ+OZ[F[
+    MJ+O{[F0
+    MJ@EWV
+    MJ@EYV]J
+    MRQEKVC
+    MS11 DDP dec %d MHz, mixer %d MHz, Reenc %d MHz (%d)
+    MS11 DDP:%d: NPCM type=%d, %d, ddenc_owner=%d, ddp_bp=%d, ES type=%d, i0_type=%d, diff_ad=%d
+    MS11 HEAAC md %d MHz(ad %d)(pcm %d) (ddenc %d)
+    MS11 HEAAC:%d: fifo length=%d, NPCM type=%d, %d, ddenc_owner=%d
+    MS12 AAC L1_residual_size=%d, L1_dirty_size=%d
+    MS12 AAC hook memory error
+    MS12 DDP L1_residual_size=%d
+    MS12 DDP dec %d MHz, mixer %d MHz
+    MS12 DDP hook memory error
+    MS12 DDP init fail
+    MS12 DDP:%d: SPDIF type=%d, ddenc_owner=%d, %d, drc=%d, bp=%d, fe=%d
+    MS12 HEAAC md %d MHz,ad %d MHz,mixer %d MHz, pcmr %d MHz
+    MS12 HEAAC:dec_done=%d,need_more_ES=%d, valid_bytes=%d,curPlayType=%d
+    MS12 Mixer L1_residual_size=%d
+    MS12 Mixer hook memory error
+    MS12 mixer0 error 
+    MS12 mixer0 init fail
+    MS12 pcm render error 
+    MS12 pcm render init fail
+    MS12V1 AD bReptFrame
+    MS12V1 DDP skip %d frame
+    MS12V1 mat hook ok
+    MS12V1 mat init ok
+    MS12_CProgramConfigSetChannelSelection
+    Mk+O9[
+    Mk.MJ.
+    MsE)Wsp
+    Mstar_MS12_heaacdec_decode_frame
+    M{QF1^C6
+    N#OJOrO
+    N13Ns;OV
+    NR+N1[
+    NR+N1[F
+    NR+O9[E
+    NXq5tbqf
+    N[sN0K
+    Nb*j]b
+    NlsMKK
+    NluNPu
+    Nv[N1+N
+    O dd h
+    O#PJPqP
+    O#`\C*|
+    O#`dC*|
+    O+ OZ 
+    O9i# 8@
+    OHrt'Rr
+    OOc8_{
+    OXKF1f
+    OXW\`Xt
+    OYAO9@G9
+    OZQ#@8B
+    O{,# T@
+    O{HOZHO9H
+    PAJ]@m|
+    PIn|dI
+    P\tbwet
+    P`@@c@
+    QBp\G{
+    QH]IeH
+    R @B1eN
+    R/RVR|R
+    RAkUUk
+    S @C9uM
+    S TFTlT
+    S)SOSuS
+    S@ O8z^
+    SG{SGZSO
+    SN"8fN
+    SOJ0W7
+    SZ OZ0O
+    TJACSaJyqJ
+    Taux>O
+    TfDAbf
+    Tn21zZ
+    U(UNUsU
+    UNR@B2
+    U~\D[~'
+    V-VSVxV
+    V;'<l;;
+    VC uW9
+    Vs@"a`
+    W0WUWzW
+    X `^P`.
+    X1XUXyX
+    Xwg$\4I
+    Y(}Gyyn
+    Y0"YYQ*
+    YSY(Yp
+    YeYSXLV
+    Z"[E[h[
+    Z)ZMZqZ
+    Z7lxp7
+    Zi[b\_]^
+    ZwZ^Z:Z
+    [)\>]P^^_h`oarbqclddeWfGg2h
+    [4[W[z[
+    [FRVF1
+    [GXTFRf
+    [Gj\Fsv
+    [Mk+E[
+    [Ns+MJ[Gk
+    []nqHYo
+    \ ]L]w]
+    \)\L\o\
+    \>S` S
+    \Rmh\$
+    ]&^R^}^
+    ]-]P]r]
+    ]Ao]]C
+    ]Bs]BR]B1]B
+    ]C9]Az]
+    ]Ez]Km
+    ^.^P^r^
+    ^1t/u1
+    ^^@3O9
+    ^a(Cnx(
+    _#CBO94
+    _,_M_o_
+    _/}JD5}
+    _jocdec_dequantize
+    _jocdec_get_ddp_udc_int_par_band_conv_table
+    `# TC`
+    `&`G`h`
+    `)aSa}a
+    `7`X`y`
+    `BKeB,\
+    `DLB_logDualisDiv8
+    `FGq5v
+    `sq"jsH
+    `{_Lg{
+    a%bNbxb
+    a*M+a;
+    a.aNaoa
+    a>=0 && a<LOG_DUALIS_TABLE_SIZE
+    aCZ%Lc$C
+    add_aligned
+    assertion "%s" failed: file "%s", line %d%s%s
+    b!bBbbb
+    b2bRbrb
+    bitbuf_size <= DLB_BITBUF_MAX_BUFFER_SIZE
+    bsyb1ya
+    buf_size=%x, end_off=%x,star_off=%x
+    build_dmx_matrix
+    c"cBcac
+    c2cQcqc
+    cZyc9ysZ
+    calcAvgGain
+    calcFactorPerBand
+    calcNrgPerSfb
+    capacity_head % evo_ll_align == 0
+    ch <= hChannelMap->maxNumChannels
+    checkEnvelopeData
+    clipgain_cod <= 255
+    context_p != NULL
+    context_p->bufWrIdx < BLOCK_SIZE_BYTES
+    context_p->bufWrIdx == 0
+    convert_clipgain
+    converter.c
+    copyMsgToBuf
+    cpuDec_gaac_hook
+    cpuDec_gaac_init
+    cumSum
+    d.dMdld
+    d4RAMj
+    d>d]d|d
+    dB{dB'd
+    dB{dBGdB:d
+    dOH[MJ+E
+    dcZysZ
+    ddp ddenc hook memory error
+    ddp md hook memory error
+    ddp mixer hook memory error
+    ddp reenc hook memory error
+    ddp_udc_int_converter_convert_input
+    ddp_udc_int_converter_convert_output_pcm
+    ddp_udc_int_converter_process_lfe
+    ddp_udc_int_converter_simple_convert_input
+    ddp_udc_int_evo_ll_empty
+    ddp_udc_int_evo_ll_get_capacity
+    ddp_udc_int_evo_ll_insert
+    ddp_udc_int_evo_ll_remove_tail
+    ddp_udc_int_evo_parse_bitstream
+    ddp_udc_int_evo_pb_get_newest
+    ddp_udc_int_evo_pb_init
+    ddp_udc_int_evo_pb_insert
+    ddp_udc_int_evo_pb_remove
+    ddp_udc_int_evo_write_bitstream
+    ddp_udc_int_jocdec_decode
+    ddp_udc_int_ph90_qmf_process
+    ddp_udc_int_processor_apply
+    ddp_udc_int_processor_mix_slot
+    ddp_udc_int_sha256_do_hash_stride
+    decodeEnvelope
+    decodeNoiseFloorlevels
+    dj&DpjC
+    dlb_bitbuf_get_alignment_bits
+    dlb_bitbuf_get_bits_left
+    dlb_bitbuf_init
+    dp->num_datapoints > 0
+    e != NULL
+    e == eTrnsptOK
+    e#fKfsf
+    e&eEede
+    e->bs.p_data >= ll->memory
+    e4RAMj
+    e6eTese
+    enable associated audio and reset ddp ad delay buffer(%d)
+    evo size=%d, index=%d
+    evo_enc.c
+    evo_pb.c
+    evo_priv.c
+    f*fHfff
+    f4RAM-
+    f9fWfuf
+    fEkd%|2M
+    fE|^El\
+    fO+QOZ
+    force transcode, ddenc_owner=%d, ddpenc_owner=%d
+    force transcode, ddenc_owner=%d, ddpenc_owner=%d, aacenc_owner=%d
+    g)gGgdg
+    g8gVgsg
+    g{3gZ;
+    g{7gZ7
+    h$hAh^h{h
+    h'hOhvh
+    h2hPhmh
+    hFreq->noLimiterBands > 0
+    hHeaderData->hFreqBandData->nNfb * h_data_left->frameInfo.nNoiseEnvelopes > 0
+    hHeaderData->hFreqBandData->nSfb[HIGH_RES] >= 1
+    h_data_left->nScaleFactors > 0
+    h_pcm_buf->ppdata[hChannelMap->fillChannel]
+    h_sbr_data->frameInfo.nEnvelopes > 0
+    h_sbr_data->frameInfo.nNoiseEnvelopes * nNfb > 0
+    h_sbr_data->nScaleFactors > 0
+    heaacdec_ADTSParse
+    heaacdec_ChannelMapNormalizeSource
+    heaacdec_DrcDecCreate
+    heaacdec_LOASParse
+    heaacdec_NCCFromASConfig
+    heaacdec_ResetLimiterBands
+    heaacdec_calculateSbrEnvelope
+    heaacdec_deltaToLinearPcmEnvelopeDecoding
+    heaacdec_getSBRDecoderSize
+    heaacdec_leanSbrConcealment
+    heaacdec_lppTransposer
+    heaacdec_requantizeEnvelopeData
+    heaacdec_sbrStereoDmx
+    heaacdec_sbrdecUpdateLoRes
+    hiBand < MAX_NO_SYNTHESIS_CHANNELS
+    hmac != NULL
+    hook memory ddt mixer error L1_residual_size=%d
+    hook memory ddt src error L1_residual_size=%d
+    hook memory heaac ad error
+    hook memory heaac md error
+    i < JOCDEC_NUM_PAR_BAND_CFG
+    i!lZnvptrSt
+    i"jHjoj
+    i(iEiai~i
+    i7iSipi
+    i;a3`q
+    idx <= PH90_DELAY
+    idzjwd(L
+    iixR#qx
+    indexHeader >= 0
+    inputMsg != NULL
+    interpol_mult_UM
+    is_aligned(e)
+    is_aligned(e->bs.p_data)
+    is_aligned(e2)
+    is_aligned(new_data)
+    is_aligned(p)
+    is_aligned(s)
+    iu9]rud${u
+    iybEqy
+    j O9@G9
+    j$O9@G9
+    j't@jl
+    j(O9@G9
+    j(jDj`j|j
+    j(|Elr|
+    j,O9@G9
+    j0O9@G9
+    j4$b"N
+    j4O9@G9
+    j6jRjnj
+    j8O9@G9
+    j<O9@G9
+    j@O9@G9
+    jDO9@G9
+    jHO9@G9
+    jLOZ@GZ
+    joc_90deg_phase_shift.c
+    jocdeclib.c
+    jqknlm
+    k"k=kYktk
+    k/kUk{k
+    k0kKkfk
+    k_*Cz_
+    ki0qxi
+    l$l?lZlul
+    l2lLlgl
+    lI<`.[
+    lOS@N1
+    lOj[Mk+EX
+    lcK {c@C
+    length <= MAX_INPUT_LEN
+    length > 0
+    limitNoiseLevels
+    ll != NULL
+    ll->tail < e
+    lowSubband < highSubband
+    m!m;mUmom
+    m!nFnkn
+    m.mHmbm|m
+    mS`-S@
+    mapLowResEnergyVal
+    mapSineFlags
+    maxNumChannels <= MAXNRSBRCHANNELS
+    mixing FAIL=%d
+    ms11 ddp hook ok
+    ms11 ddp init fail
+    ms11 ddp init ok,dd_licensee=%d,ddp_licensee=%d,dd_reenc_licensee=%d
+    ms11 ddt mixer init fail
+    ms11 heaac ad init fail
+    ms11 heaac hook ok
+    ms11 heaac init ok, heaac_licensee=%d
+    ms11 heaac md init fail
+    ms12 ddp hook ok
+    ms12 ddp init ok,dd_licensee=%d,ddp_licensee=%d
+    ms12 heaac hook ok
+    ms12 heaac init ok, heaac_licensee=%d
+    ms12_adts.c
+    ms12_bitbuf_common.c
+    ms12_channelmap.c
+    ms12_drc_dec.c
+    ms12_env_calc.c
+    ms12_env_dec.c
+    ms12_freq_sca.c
+    ms12_heaacdec.c
+    ms12_latm.c
+    ms12_lpp_tran.c
+    ms12_md_to_gains.c
+    ms12_programcfg.c
+    ms12_sbr_math.c
+    ms12_sbrdecoder.c
+    ms12_transport.c
+    ms_ddc_get_free_inbuf fail %x
+    mult_UM
+    n$n>nWnqn
+    n$oIomo
+    n1nJndn}n
+    nMaxAudioChannels < 256
+    nNoiseFloorEnvelopes*nNfb
+    nO{;O5
+    nProgram == 0
+    nScalefactors > 0
+    nSfb > 0
+    nSfb[freq_res] > 0
+    new_bit_pos < DLB_BITBUF_WIDTH
+    nextPayload
+    next_pos - start_pos >= 2
+    noFreqBands > 0
+    noPatches > 0
+    noSubbands-skipBands >= 1
+    no_of_bands > 0
+    numChannels < 6
+    numChannels == 5
+    numChannels > 2
+    num_bands > 0
+    o!o:oSoko
+    o-oFo_oxo
+    obcAp&
+    obj[ob].quant_select < JOCDEC_NUM_QUANT_STEPS_TAB_SIZE
+    offset==0 || offset==1
+    p#p;pSpkp
+    p#qGqkq
+    p%pIpnp
+    pASC->ucChannelConfiguration < 8
+    pChannelAssignment->channelMap != 0
+    pV(p3x&x
+    p_base != 0
+    p_bitbuf
+    p_bitbuf != 0
+    p_bitbuf->p_cur >= p_bitbuf->p_base
+    p_data->header.num_dmx_channels <= (int)h_processor->config.max_num_downmix_channels
+    p_dp_info->num_datapoints > 0
+    p_mix_coeffs_prev || p_dp_info->num_datapoints
+    p_stream_info->output_samples_per_frame <= 1024
+    parse_data
+    parse_datapoint_info
+    parse_frame_mode
+    parser.c
+    pb != NULL
+    pb_activity[obj] == 0
+    ph90_delay + QMF_ALGORITHMIC_DELAY <= frame_len
+    processor.c
+    processor_upmix.c
+    punBitrate
+    q*qAqXqpq
+    q+qQqxq
+    q5qMqdq{q
+    qX}2F^}s
+    q`b%q3
+    qeTlI<`
+    r(r?rUrlr
+    r3rJr`rwr
+    rQ`@Ak
+    reset AD consumed bytes
+    ret == EVO_NO_ERROR
+    rlj-~l
+    s)s?sTsjs
+    s0B~TB
+    s3sVsys
+    s4sJs_sus
+    sFGfF16F
+    sO:KEq\Ek
+    sOXKFL
+    sO|KF>
+    sbrFrameDataSize <= FRAME_SIZE
+    sbr_envelope_unmapping
+    sha256.c
+    size_in_bits != NULL
+    slot < h_processor->config.frame_length
+    slot == pos2
+    srate:ES %d, pcm %d, mul_frame_header=%d
+    stop_pos - start_pos >= 2
+    t!t6tKt`tut
+    t$tFtgt
+    t+t@tUtjt
+    t+{*%2{
+    t5tXt{t
+    tN13O{
+    tc)%tqb.ta
+    timeCompensateFirstEnvelope
+    turn off force encoding, ddpenc_owner ddenc_owner: DEC R2
+    u#u8uLu`utu
+    u*uIuiu
+    u+uNupu
+    u-uBuVuju~u
+    u-uVu~u
+    uQ@0AJ
+    ui > li
+    v#wHwlw
+    v%v8vKv^vrv
+    v.vBvUvhv{v
+    v=vZvwv
+    vt ghN
+    w!w=wXwsw
+    w#w6wHwZwlw~w
+    w-w?wQwcwuw
+    w3wUwww
+    w`cypc
+    wrap->aacenc_owner=%d
+    write_bits
+    writer.bits_left == 0
+    x"xDxfx
+    x#@dOZ
+    x&x8xIxZxkx|x
+    x*xCx\xux
+    x/x@xQxcxtx
+    xMk@AwZ
+    x_e#xV8+xt
+    y#eP#j
+    y*y:yJy[yjyzy
+    y*yJyjy
+    y2ySyuy
+    y3yJy`ywy
+    yF1fG8
+    ycux>O
+    yc{ysZ
+    z"z6zKz_zsz
+    z$z3zBzQz`znz}z
+    z$zBz`z}z
+    z,z;zIzXzgzvz
+    zD`)$l2
+    z`cypc
+    { {.{;{I{V{d{q{~{
+    {'{4{B{P{]{j{x{
+    {'{B{]{x{
+    {){J{k{
+    {.{@{R{c{t{
+    {:a3`qG
+    |$|0|<|H|T|`|l|x|
+    |%|4|C|Q|`|n|||
+    |*|6|B|N|Z|f|r|~|
+    |*|B|Z|r|
+    |2|R|s|
+    |4_`!KB
+    }%}/}:}D}N}X}c}m}w}
+    }%}:}N}c}w}
+    }&}1}=}I}T}`}k}v}
+    }*}4}?}I}S}]}h}r}|}
+    }8}Y}z}
+    }Dc~Fo
+    }T_`!I
+    ~"~*~3~;~C~L~T~\~d~l~t~{~
+    ~&~.~7~?~G~O~W~_~g~n~v~}~
+    ~&~/~7~?~H~P~X~`~h~p~x~
+    ~/~?~P~`~p~
+    ~=~]~~~
+    ~CZ5OZ*'\x_G
+    ~CZ5OZ*']
+---- ONLY in mst_codec_r2_MS12V22 (13) ----
+    !!&((())%%%"#.
+    $LzLc8
+    $RhLc8
+    CPU MS12 V2 HEAAC hook ok
+    CPU MS12 V2 ac4 hook ok
+    CPU MS12V2 ddp hook ok
+    CPU MS12V2 ddp init ok
+    CPU ms12v2 ac4 init ok
+    CPU ms12v2 heaac init ok
+    HAJ]@m|
+    Mk@AwZ
+    ]~ `*V
+    lCn|_|
+
+==== mst_snd_r2 ONLY (493) vs mst_snd_r2_MS12V22 ONLY (437) ====
+---- ONLY in mst_snd_r2 (493) ----
+     W9?C8
+     aj#!^%
+     ew["#$L
+    !DDPENC_CE_RES__evo_ll_empty(&pb->ll)
+    !DDPENC_CE_RES__evo_ll_empty(ll)
+    "K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K
+    #D"S#/)7%
+    $e$ h$
+    $}F!@>
+    %'%e#9 
+    %O)j$d
+    'd1V1J#B
+    (K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K
+    (K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K
+    (hp_idx + lp_idx) == p_psthru->n_supp_pylds
+    (ll->head == NULL) == (ll->tail == NULL)
+    (p_mm_mnger->mem_size + header_size) < mem_size
+    (unsigned char *) end >= e->bs.p_data + (e->size_in_bits + 7) / 8
+    )J;n5=!n
+    )\`;H`
+    *F!f: `
+    *G(:G}3G
+    , function: 
+    ,0  ,0[
+    .S7IT+O
+    /*,4"]
+    /s+#(E&
+    0#3A#-
+    0T:VUtS
+    1 <= N && N<=DMX_MAX_DMX_IN_CHANS
+    1589474320,0
+    2: [surr_virt] [surround_decoder_enable] [virtualizer_enable] [headphone_reverb] [speaker_angle] [speaker_star
+    3(AJ}@
+    3: [leveler] [leveler_enable] [leveler_amount] [leveler_input] [leveler_output]
+    4 5N5{5
+    4 bTP`;
+    4: [de] [de_enable] [de_amount] [de_ducking]
+    5qJKRgV
+    7O4V2J0*,
+    7T;M>8C8CRARA
+    7p&p&\)(=
+    7~A@Ue
+    7~A@Uf
+    8: [modeler] [modeler_enable] [modeler_calibration]
+    9: [geq] [enable] [nb_bands] [band_center] [band_target]
+    9y*2$G,
+    : ;L;y;
+    <#1#15,
+    <9zW<9
+    <OL!Om
+    =6D LzP0Q
+    =pR#W;PkNxJ=L
+    >B6E@jD
+    >B;39:9
+    >O9*G9
+    >T8T8$4
+    >YCNL$P
+    ?,$aEA
+    ?9?9 O
+    ?R `bP`
+    ?lB`GmI
+    @!AMAxA
+    @# dW3
+    @c#@c+
+    @u?u?{5{5
+    A# DS 0
+    A$BOBzB
+    A: [optimizer] [enable] [nb_bands] [band_center_freq] [band_gain]
+    AEGVH#C~B|FQG=D
+    AHT bitstreams not yet supported!
+    AXD: Aux Data Length Exceeds Maximum For DD Frame. Input Frame Aux Data Not Copied
+    All other input strings     -> Ms12v1_dap parameter strings
+    B!a6"A
+    B&CQC{C
+    B: [bass] [bass_enable] [bass_boost] [bass_cutoff] [bass_width]
+    B>F>FnAnA
+    BMkBM)B
+    C&DPD{D
+    C: [regulator] [enable] [mode] [overdrive] [timbre] [distortion] [nb_bands] [band_center] [low_thresholds] [hi
+    CGnZGL
+    Channel mismatch between convexpstr and DD+ bitstream.
+    D$EOEyE
+    D: [virtual_bass] [enable] [mode] [low_src_freq] [high_src_freq] [overall_gain] [slope_gain] [subgain[0]] [sub
+    DAP MHz:%d (%d, 0x%x)
+    DAP=%d,DDPE=%d,AVR_no_atmos=%d,md_sel=%d,mid=%d,sm=%d, Atmos=%d,%d
+    DDPENC node: Error opening the encoder (errcode %d)
+    DDPENC node: setdata (evo packed) returned error %d
+    DDPENC_CE_RES__DMX_blk_LmixnL
+    DDPENC_CE_RES__abke_pacdd: usedbits not equal to fixedbits
+    DDPENC_CE_RES__add_frame_config_to_buffer
+    DDPENC_CE_RES__bcte_cntbits_dd: Aux data exceeds 3/8 of frame
+    DDPENC_CE_RES__bcte_cntbits_dd: Data rate too low to pass all of fixed bit data
+    DDPENC_CE_RES__bcte_cntbits_dd: Fixed data in first two blocks exceeds 5/8 of frame
+    DDPENC_CE_RES__bcte_cntbits_ddlive: Data rate too low to pass all of fixed bit data
+    DDPENC_CE_RES__copyframe: Buffer not big enough
+    DDPENC_CE_RES__dmx_kernel
+    DDPENC_CE_RES__dmx_process
+    DDPENC_CE_RES__enc_process_lc
+    DDPENC_CE_RES__evo_ll_empty
+    DDPENC_CE_RES__evo_ll_get_capacity
+    DDPENC_CE_RES__evo_ll_insert
+    DDPENC_CE_RES__evo_ll_remove_tail
+    DDPENC_CE_RES__evo_parse_bitstream
+    DDPENC_CE_RES__evo_pb_get_newest
+    DDPENC_CE_RES__evo_pb_init
+    DDPENC_CE_RES__evo_pb_insert
+    DDPENC_CE_RES__evo_pb_remove
+    DDPENC_CE_RES__evo_write_bitstream
+    DDPENC_CE_RES__evoe_get_next_payload
+    DDPENC_CE_RES__evoe_load_frame
+    DDPENC_CE_RES__evoe_open
+    DDPENC_CE_RES__evoe_query_mem
+    DDPENC_CE_RES__evoe_unpack_frame
+    DDPENC_CE_RES__evoe_write_frame
+    DDPENC_CE_RES__flte_ph90_get_scratch_buf_ptr
+    DDPENC_CE_RES__flte_ph90_set_scratch_buf_ptr
+    DDPENC_CE_RES__get_payload_substream
+    DDPENC_CE_RES__mem_mnger_free
+    DDPENC_CE_RES__mem_mnger_init
+    DDPENC_CE_RES__passthru_dequeue_next_payload
+    DDPENC_CE_RES__passthru_open
+    DDPENC_CE_RES__passthru_query_mem
+    DDPENC_CE_RES__pbuf_dequeue
+    DDPENC_CE_RES__pbuf_open
+    DDPENC_CE_RES__pbuf_query_mem
+    DDPENC_CE_RES__pbuf_queue
+    DDPENC_CE_RES__preproc_process
+    DDPENC_CE_RES__set_dependent_params_ce
+    DDPENC_CE_RES__set_dependent_params_lc
+    DDPENC_CE_RES__set_dependent_params_ll
+    DDPENC_CE_RES__sha256_do_hash_stride
+    DDPENC_CE_RES__stufffrmset: Invalid convexpstr bitstream pointer.
+    DDPENC_CE_RES__stufffrmset: Invalid convsnroffst bitstream pointer.
+    DOLBY DAP 2.4.0.0
+    DYDlE8F FfE
+    Display Ms12v1_dap parameter setting           -> #1
+    Display Ms12v1_dap parameter setting usage     -> #2
+    Dolby_DAP
+    E!FKFuF
+    E: [disable_all] -> Set all DAP modules enable to 0
+    EIFWE4D
+    EYESEhEkEfE
+    E[E%EYE
+    Enhanced coupling not yet supported!
+    Error: DDPenc %x
+    EsE_E`EeE1D1D
+    Example: leveler 1 10 -496 -496
+    Exit Ms12v1_dap's CLI                          -> exit
+    EyEDE>EVEkEpEkEfE
+    E{FRE`D E$F
+    E{]Ez]
+    G)H5I+J
+    G>K'LUI
+    GBL_MAXBLOCKS % p_pgm->blocksperframe == 0
+    GD `PR
+    H#`f\h
+    Half sample rate unsupported
+    Hdmi dd encoder skip frame !!
+    Hdmi ddp encoder skip frame !!
+    I6JiJ-J
+    IHPIdX
+    IMJWJ0J
+    I\L9K=G
+    Invalid frame size code
+    Invalid frame: Cannot couple in 1+1 dual mono mode
+    Invalid frame: mixdeflen inconsistent with mixdata bits.
+    Invalid sampling rate code
+    Invalid synchronization word
+    J$KMKuK
+    J.OgSAS
+    J=aO9p
+    JzKbJsG
+    K)W+T*I#E
+    KNI#IxJ
+    K|P:P`J
+    L1N>O'OMN
+    LOOKHEREOnly DD+ Frames are supported.
+    M!NINqN
+    MAX_INPUT_CHANNEL_NUM >= p_input->num_channels
+    MCV: Unconvertable due to invalid strmtyp or fscod
+    MCV: Unconvertible due to no convexpstr found.
+    MCV: Unconvertible due to no convsnroffst found.
+    MCV: Unresolvable bitstream difference. (bsmod)
+    MCV: Unresolvable bitstream differences
+    MCV: Unresolvable bitstream differences (multiple convexpstre)
+    MCV: converter is still out of sync
+    MCV: convsync error; sync lost.
+    MCV: convsync found early; resyncing
+    MCV: convsync found; resyncing.
+    MCV: switched to DD not on a frame set boundry; extra frames dropped from DD output
+    MJBM)BO
+    MS12 DAP init ok
+    MS12 DAP parameter updated
+    MS12 DAP reset ok
+    MS12 DDP encoder memory fail
+    MS12 DDP-Enc reset ok
+    MS12 Mixer L1_residual_size=%d
+    MS12 Mixer hook memory error
+    MS12 PCM Render
+    MS12 pcm render enable fail, hash key not support
+    MS12 pcm render init fail
+    MS12 pcm render init ok
+    MS12V1 ddpe : DD mode : reset hdmi 48K !![1]
+    MS12V1 ddpe : DD mode : reset spdif 48K !![1]
+    MS12V1 ddpe : DDP mode : reset hdmi 192K !![1]
+    MS12V1 ddpe : Spdif dd encoder skip frame !!
+    MS12v1_DAP_CLI_Parsing Fail !
+    MS12v1_DAP_CLI_Parsing Sucess !
+    MdFEFUM
+    Mixer: %d MHz, DAP: %d MHz, PCMR:%d MHz, DDPE: %d MHz
+    MkBMJB
+    MnEnEk6:-r#
+    Mstar_MS12_DDPE_init, %d
+    N:NYN<N
+    N`J`JmC
+    NoNfN*N
+    N}K}KpHpH
+    O#PJPqP
+    ODOD)Q
+    OW O{ O8 
+    OZ)_@aKZ
+    O\9C9SM
+    O]9C9sMk
+    P`U'&_
+    QMQvQyQjQ_Q
+    QPQ,QKQkQiQ_Q
+    QpQ:QBQfQhQ_Q
+    RIUgU*S)R
+    RhSURQP
+    R|S;UPWEW
+    S 3S` 
+    S$P$PSFSF
+    S)SOSuS
+    S3TWT:T
+    S@"CZ5
+    SHSsPrL
+    SKRfR S=T-U
+    SPK_DMX_DLY
+    SPS*SrS
+    SQPQP%H%HG9
+    ShTsTAT
+    Stuffer Front-End Decode (FED) failed!
+    Stuffer:  Error processing frame
+    Stuffer:  Error processing frame (Illegal BSI)
+    Stuffer:  Error processing frame (MCV Unconvertible)
+    Stuffer:  Error processing frame (MCV Unresolvable)
+    Stuffer: Too many blocks in a frame set
+    Stuffer: Too many frames in a frame set
+    Stuffer: bse_frmsiz does not match number of buffer data words
+    TBTUS8S
+    TdU V}V
+    UAOp2O7
+    UNVtV,V
+    UUUUU5
+    Unpublished work.  Copyright 2003-2015 Dolby Laboratories, Inc. and
+    Unsupported bitstream id
+    UpW@WdU8T
+    V,V6V-V
+    Vs@"a`
+    Warning : MS12V1 ddpe : Spdif should not output DDP !!
+    [4[W[z[
+    [Error] pcmr_md_rd_idx out of the range:%d
+    [Fullenc:Auto] atmos:%d -> %d, omx_md_flag:%d
+    [Fullenc:Auto] atmos:%d -> %d, preAsndBufLvl:%d, ddpe_inbuf:%d, remianing_atmos:%d
+    [Fullenc:Auto] atmos:%d -> %d[%x]
+    [atmos_debug] b_ddpenc_atmos_lock_enabled. atmos_lock:[%d] -> 1 !!
+    [ddpe with atmos] ddpe_remianing_atmos_samples:%d
+    [decR2 meta] ddpe reset !!  atmos:%d -> %d[%x]
+    [ignore_il=%d,il_unpack_present=%d,leveler_enable=%d,nouse_ddenc_buf=%d]
+    [leveler_input:%d] [leveler_output:%d]
+    [sound_mode=%d,use_dec_dmx=%d,use_dec_mch=%d,syssnd_dap=%d,dmx_pcmr_active=%d,arib=%d]
+    [speaker_angle:%d] [speaker_start:%d] [surround_boost:%d]
+    [surround_decoder_enable:%d] [virtualizer_enable:%d] [headphone_reverb:%d]
+    \)\L\o\
+    ]@! [e
+    ^.^P^r^
+    _@[ Ea
+    `&`G`h`
+    `,2P`d
+    a.aNaoa
+    a_opt_band_center_freq=
+    a_opt_band_gain[%d]=
+    a_p_payloads
+    a_reg_band_center=
+    a_reg_high_thresholds=
+    a_reg_isolated_bands=
+    a_reg_low_thresholds=
+    a_size[i] > 0
+    ac3init(): Output data rate too low for Audio Coding mode
+    add_aligned
+    ap_evo_frame[i]
+    assertion "%s" failed: file "%s", line %d%s%s
+    b2bRbrb
+    build_dmx_matrix
+    c2cQcqc
+    cB3dBS|
+    capacity_head % evo_ll_align == 0
+    ch<FLTE_SURR_CHANS
+    chan_idx < ENC_DMX_CHAN_DMIX3
+    check_memory_region
+    context_p != NULL
+    context_p->bufWrIdx < BLOCK_SIZE_BYTES
+    context_p->bufWrIdx == 0
+    convsnroffst below min, so setting to 0.
+    convsnroffst exceeded max, so setting to 0.
+    convsync error: unconvertable frameset in stuffer
+    copyMsgToBuf
+    d.dMdld
+    dap mch: %08x,%08x,%08x,%08x,%08x,%08x
+    dap_cpdp_process.c
+    dap_cpdp_pvt_volume_and_ieq_process
+    dap_set_parameter 0
+    ddp=%d, pw=%d, atoms=%d, obj=%d
+    ddpe: evo_size=%d,%d, sys=%d,mi=%d,
+    ddpinit(): Error getting next ENCINFO bit
+    ddpinit(): Error setting ENCINFO data
+    de_ducking=%d
+    dec meta [drc=%d, dap_drc=%d, dmx=%d, dual_mono=%d],
+    disable MS12 DAP
+    dmx, system, tb11:  %08x,%08x
+    e != NULL
+    e&eEede
+    e->bs.p_data >= ll->memory
+    enable MS12 DAP
+    enable MS12 pcm render, %d
+    evo_enc.c
+    evo_pb.c
+    evo_priv.c
+    f9fWfuf
+    frame_samples > 0
+    g$GXeWZ
+    g)gGgdg
+    g-g-0O0O
+    h& `>R
+    h2hPhmh
+    h> xh>+
+    headphone_reverb=%d
+    hmac != NULL
+    i7iSipi
+    inputMsg != NULL
+    is_aligned(e)
+    is_aligned(e->bs.p_data)
+    is_aligned(e2)
+    is_aligned(new_data)
+    is_aligned(p)
+    is_aligned(s)
+    j6jRjnj
+    j=aNRp
+    jh. `B!`
+    k0kKkfk
+    kGkrG\bEksG
+    kGkzG\bEk{G
+    l$l?lZlul
+    l-EVl-:
+    leveler_input=%d
+    leveler_output=%d
+    ll != NULL
+    ll->tail < e
+    load_outbound_payloads
+    m.mHmbm|m
+    mS`-S@
+    max_unpacked_frame_size > 0
+    mch in: %08x,%08x,%08x,%08x,%08x,%08x
+    md_set < p_evoe->n_md_sets
+    mi_dap_process
+    mi_dap_process.c
+    modeler_calibration=%d
+    modeler_enable=%d
+    ms12_dap_get_parameter %x %x
+    ms12_dap_set_parameter %x %x
+    ms12_ddpe_abkd_utl.c
+    ms12_ddpe_abke.c
+    ms12_ddpe_afmd.c
+    ms12_ddpe_bcte.c
+    ms12_ddpe_bsid_dd.c
+    ms12_ddpe_bsid_ddp.c
+    ms12_ddpe_enc51_api.c
+    ms12_ddpe_enc51_utl.c
+    ms12_ddpe_enc_api_ce.c
+    ms12_ddpe_enc_dmx.c
+    ms12_ddpe_enc_utl.c
+    ms12_ddpe_evoe.c
+    ms12_ddpe_flte.c
+    ms12_ddpe_mcv.c
+    ms12_ddpe_mcv_convert.c
+    ms12_ddpe_mcv_resolve.c
+    ms12_ddpe_mmnger.c
+    ms12_ddpe_passthru.c
+    ms12_ddpe_pbuf.c
+    ms12_ddpe_pproc.c
+    ms12_ddpe_stf.c
+    ms12_ddpe_stf_utl.c
+    ms12_md_to_gains.c
+    ms12_pcmRender
+    ms12_pcmr_get_parameter %x %x
+    ms12_pcmr_get_parameter 0 %x
+    ms12_pcmr_get_parameter 1 %x
+    ms12_pcmr_set_parameter %x %x
+    ms12_pcmr_set_parameter 0
+    ms12v1 dap cli: 
+    ms12v1dap
+    n1nJndn}n
+    n_delay_samples > 0
+    n_delay_samples >= frame_samples
+    n_supp_pylds <= NUM_KNOWN_PAYLOADS
+    num_pthru_payloads[core] <= NUM_KNOWN_PAYLOADS
+    numdmxchannels > 0
+    o-oFo_oxo
+    oLnpl%j;grc
+    optimizer_enable=%d
+    optimizer_nb_bands=%d
+    p#p;pSpkp
+    p+p+A@
+    p_config
+    p_dap_cpdp->dv_params.volume_leveler_amount < CMP_NUM_LVL_AMOUNT
+    p_dlb_input->nstride == 1 && p_dlb_output->nstride == 1
+    p_dmx->inputconfig >= DDPI_ENC_CHCFG8
+    p_end >= p_start
+    p_evo_frame
+    p_evoe
+    p_frame_size
+    p_occupied_page->p_mem == p_mem
+    p_packed_frame_size
+    p_pbuf
+    p_pgm->curr_ncores <= 2
+    p_preproc->p_dmx!=NULL
+    p_pthru
+    p_pyld
+    p_pyld->p_data
+    p_pyld_sizes
+    p_stf_scratch_bufs
+    p_stfbufs
+    p_supp_pyld_ids
+    payload_sz > 0
+    pb != NULL
+    pp_mem
+    pp_mem != NULL
+    q*qAqXqpq
+    r(r?rUrlr
+    raw mch: %08x,%08x,%08x,%08x,%08x,%08x
+    reg_nb_bands=%d
+    regulator_distortion=%d
+    regulator_enable=%d
+    regulator_mode=%d
+    regulator_overdrive=%d
+    regulator_timbre=%d
+    ret == EVO_NO_ERROR
+    s4sJs_sus
+    sha256.c
+    size_in_bits != NULL
+    speaker_angle=%d
+    speaker_start=%d
+    t!t6tKt`tut
+    t#@`O:
+    t+tJsEr
+    t.s;r!q
+    total: %d MHz
+    total_data_rate != GBL_UNDEFINED
+    u-uBuVuju~u
+    u-uVu~u
+    uC9e_.
+    v#wHwlw
+    v.vBvUvhv{v
+    virtual_bass_enable=%d
+    virtual_bass_high_src_freq=%d
+    virtual_bass_low_src_freq=%d
+    virtual_bass_mix_high_freq=%d
+    virtual_bass_mix_low_freq=%d
+    virtual_bass_mode=%d
+    virtual_bass_overall_gain=%d
+    virtual_bass_slope_gain=%d
+    virtual_bass_subgain=%d, %d, %d
+    w#w6wHwZwlw~w
+    w;w;]L
+    write_bits
+    writer.bits_left == 0
+    x"D&d*T,4.t2L6l:\>|FbJRNrVj^znv
+    x/x@xQxcxtx
+    y& `OZ
+    y*y:yJy[yjyzy
+    y*yJyjy
+    z$z3zBzQz`znz}z
+    z$zBz`z}z
+    {'{4{B{P{]{j{x{
+    {'{B{]{x{
+    {AksCWr
+    |*|6|B|N|Z|f|r|~|
+    |*|B|Z|r|
+    }%}/}:}D}N}X}c}m}w}
+    }%}:}N}c}w}
+    ~&~/~7~?~H~P~X~`~h~p~x~
+    ~'|XO{
+    ~/~?~P~`~p~
+---- ONLY in mst_snd_r2_MS12V22 (437) ----
+     !!>X{
+     #@T#\
+     -H;!EG
+     Ez]Ek
+     HMR`f
+     aK@ouK
+     ew["#
+     o,S-o}
+    ! X%ZW
+    !SlI<`
+    !_ ;Kn
+    !k'K0:9
+    !sew#L
+    "P)56P
+    #!:"!.
+    #@T# H
+    #AD#!8#`
+    #\0CZm
+    $>xB.6
+    $Xwg$\^O$
+    $bYx+R
+    $qWAP62
+    %02x,%02x,%02x,%02x,%02x
+    %2OZ(O9 
+    &.z"D(&
+    &3C0&l?H&,:`&p3x&9+
+    &>xV,%
+    &p3x&,:`&l?H&3C0&
+    '(OWy{T
+    '=x%,#
+    'bme3om
+    'rQ23r 
+    (%(OWy{T
+    )/.HA/
+    )6|`8<|
+    )9'"#^
+    )F9t)@q\)
+    )K)G&s"
+    *A8_ Y#
+    *A># .
+    *A@# F
+    *BD#<\
+    *BF#<\
+    *BH#<\
+    *BJ#<\
+    *BL#<\
+    *BN#<\
+    *BR#<\
+    *]`3IJ
+    +&>i#<>
+    +7{KB7
+    +zo%$z
+    , o n 
+    ,Fs,Dc,N
+    ,Mk,MJ,S@+S 
+    ,Mk,O{,OZ,O9,L
+    ,N}PKS}MeX}tz]}
+    ,OZ,O9,O
+    ,p%_#X%
+    ,w-_#w
+    -(4x2+
+    -WnfnJn
+    -]7R>];
+    -c,0,i)
+    .!@VQ@@ 
+    .xIH&xe
+    /Ke4RAMj
+    /`|P=Z|
+    1*1veA1
+    1brz!b~U
+    1l`)$l!
+    21e1e=b=b
+    29CzI9
+    2: [surr_virt] [surround_decoder_enable] [virtualizer_enable] [surround_boost]
+    2I~9~%~
+    2c16951c38232060d8975aa6cbdc54813142dc269dcc5d437697206c93871de4
+    3608723181,0
+    3: [leveler] [leveler_enable] [leveler_amount]
+    3QlI<`
+    3Q{] Q@
+    3z9buEz
+    4: [de] [de_enable] [de_amount]
+    4CM4C,4
+    4Fs4FR4
+    4G{4GZ4
+    4hvyTJn
+    6i~9(i 
+    7ull-u
+    7x)3@x
+    86W&8686
+    86W&W&86
+    8: [geq] [enable] [nb_bands] [band_center] [band_target]
+    8S@ g7
+    8bP`+'&?
+    8fP`,'&
+    8jP`*'&c
+    9: [bass] [bass_enable] [bass_boost] [bass_cutoff] [bass_width]
+    9BEHOBS
+    9f0'#L
+    9fg"Hf
+    9hL-b|L
+    9o,S-o
+    : bTP`;
+    :-0n:-~
+    :|me3om
+    ;D~PPD9
+    ;`FGqW\
+    <Bh<B^<
+    <Wfg"Hf"
+    <_eHM_
+    ='L]P`{
+    =S@"CZ5
+    =d"'Md`
+    =g9WO9
+    =nfnJn
+    >A>EA\
+    >GZCOZ
+    >Lc*Dc
+    >OZ*GZ
+    >gXbiyX@
+    >rQ23r
+    ?.Z|(.b
+    ?Ma+a+?M
+    @#3xl/C
+    @%_#X%
+    @0>&9/3
+    @2?:W2
+    @<Ba*<01
+    @@jS@?
+    @Al]Mk
+    @N#0]y
+    @Ns@NR@N1@
+    @O7zG7
+    @O{@OZ@
+    @O{@OZ@O9@
+    @ot!@l
+    @t"$d_
+    A3B_@II
+    ACDTCd
+    ALUAk}
+    AW|K.h
+    AX,AYUEJ
+    AYU%A,
+    All other input strings     -> Ms12v2.4_dap parameter strings
+    Av#KKvy
+    B@J?me
+    BB|`8<|
+    BW.W0W
+    B|uB[mB:eB
+    C7$\^O$Xwg$
+    C7\CJ\
+    CO\C.\C
+    CPdC3dC
+    CQdC0dC
+    CW\C.U]
+    C`)$lP
+    Ci<@w<
+    Co$CN$C'$C
+    CqdCPdC4dC
+    D)@q\)F9t)
+    D;p9XGpqgSpUr_p
+    DDPENC node: Error opening the encoder (errcode)
+    DDPENC node: Error setting downmix mode to stereo (return code: %d)
+    DDPENC node: Error setting the acmod/lfe/datarate to %d/%d/%d (return code: %d)
+    DDPENC node: Error setting the cmix/smix/dsurmod to %d/%d/%d (return code: %d)
+    DDPENC node: Error setting the converter snr offset to %d (return code: %d)
+    DDPENC node: Error setting the dialnorm (return code: %d)
+    DDPENC node: Error setting the external DRC (return code: %d)
+    DDPENC node: Error setting the external downmix channel support %d (return code: %d)
+    DDPENC node: Error setting the phase90 filter enable flag to %d (return code: %d)
+    DDPENC node: process function returned error %d
+    DDPENC node: setdata (evo packed) returned error %d, evo_size=%d
+    DDPEnc Error: input ch(%d) is larger than setting ch(%d)
+    Dc4Fs<
+    DiB$Siejaix
+    Display Ms12v2.4_dap parameter setting           -> #1
+    Display Ms12v2.4_dap parameter setting usage     -> #2
+    Dolby MS12V2 PCMR module: %d MHz
+    ET|P=Z|
+    EemfTe
+    Ek4OJ O
+    Ek_EKTG
+    Ek{ypA
+    Enable DAP=%d, DDPE/MATE=%d, md_sel=%d, mid=%d
+    Enable/Disable pcm render wrapper(PCMR, DAP, DDPE) -> pcmr_enable
+    Error: MS12V2 DAP tuning parameter error
+    Error: MS12V2 DAP tuning parameter memory error
+    Eur_$2a
+    Example: leveler 1 10 -496 -496 1
+    Exit Ms12v2.4_dap's CLI                          -> exit
+    F#(\S @
+    F#(hS @
+    F(huFNk`F
+    FRlI<`
+    Failed to add PCM bytes to mat_enc! %#x
+    Fm4FL4F
+    F}d!Fxi6F
+    G;Z{r)Z
+    GOZ,O9,O
+    GZ3OZFsZ
+    GZ<G9<D
+    G{dG{}_{
+    G{lG{e
+    G|L_Q'V
+    Hdmi dd encoder skip frame !! Hdmi level:0x%x(%dms)
+    Hdmi ddp encoder skip frame !! Hdmi level:0x%x(%dms)
+    Hx)3@x+
+    Hx;cQxO
+    IP)56P
+    IQ6*<C
+    I\PI{X
+    IscvI3
+    JMx8l5
+    JtF$Ut
+    KSW<_x
+    L#ull-ul
+    LOOKHERE-
+    Lc @c+
+    LqtkXq
+    MAT encoder processing error: %#x
+    MATENC Error: frame size is too larger
+    MATEnc Error: input ch(%d) is larger than setting ch(%d)
+    MATEnc Metadata error: acmod=%d,lfeon=%d,evosize=%d
+    MJ,OZ,O9,O
+    MKI1M"TEM
+    MS12 V2.4 PCM Render
+    MS12V2 DAP parameter updated
+    MS12V2 DAP reset ok
+    MS12V2 DDP encoder memory fail %d,%d
+    MS12V2 DDP-Enc reset ok, encoding_mode=%d
+    MS12V2 MAT-Enc reset ok
+    MS12V2 Mixer L1_residual_size=%d
+    MS12V2 Mixer hook memory error
+    MS12V2 Mixer: %d MHz, DAP: %d MHz, PCMR:%d MHz, DDPE(MATE): %d MHz
+    MS12V2 ddpe : DD mode : reset hdmi 48K !![1]
+    MS12V2 ddpe : DD mode : reset spdif 48K !![1]
+    MS12V2 ddpe : DDP mode : reset hdmi 192K !![1]
+    MS12V2 ddpe : Spdif dd encoder skip frame !! Spdif level:0x%x(%dms)
+    MS12V2 pcm render enable fail, hash key not support
+    MS12V2 pcm render init fail
+    MS12V2 pcm render init ok
+    MS12v2.4_DAP_CLI_Parsing Fail !
+    MS12v2.4_DAP_CLI_Parsing Sucess !
+    MS@-S 
+    MZVMy^
+    N1VO{V
+    N^@3J5
+    Ns&NR&Mk&N
+    Ns6NR6O96OZ6
+    Ns@NR@N1@N
+    OS*CZ=
+    OTP fail : 0x%x, 0x%x, 0x%x
+    OY*CZ=
+    OY*CZm
+    O]7R>]
+    O{6MV{
+    O{@O:AG;
+    O{hOZh&
+    O{hOZhL
+    O~*C{m
+    P2yac:y
+    PCM render disable 
+    PCM render enable 
+    P`s#@D
+    R>i#<>
+    S@8O{,OZ,
+    S@@O9!
+    SE: MS12V2 pcmr error %d
+    Show log for debug(X=1~16),enter show_log to stop   -> show_logX
+    Show respective mips of dolby module               -> show_module_mips
+    Show total mips of pcm render wrapper              -> show_total_mips
+    TaYx+R
+    Taux>O
+    Tn2?:W2
+    Ts&f_sqFjsI"us
+    Tv#KKv=
+    Tv@u^vv
+    Unpublished work.  Copyright 2003-2018 Dolby Laboratories, Inc. and
+    V[mYh[
+    W a(Mc
+    W$Fs4FR4
+    X/.HA/
+    X1veA1
+    X7{KB7
+    XXxxpXXxxx00HH@0H@@
+    XkkSfk
+    Y(}Gyyn
+    YbDS@@
+    Yx;cQx
+    Z0C{UA
+    [%08d]hdmi level=0x%x(%dms)
+    [%d,%d,(%d,%d),%d,%d]
+    [SPK_DMX_DLY
+    [YM"TEMKI1Mz;
+    [atmos_debug] b_atmos_lock_enabled. ott_mode:[%d] -> 1 !!
+    [dap tuning=%d(%08x), spk=%d,max_out_ch=%d, out_ch=%d,vir_mode=%d,vb_en=%d,op=%d,tv_tuning=%d]
+    [sound_mode=%d,avr_no_atmos=%d, use_dec_dmx=%d, use_dec_mch=%d, dmx_pcmr_active=%d, syssnd_dap=%d, hp=%d]
+    [surround_decoder_enable:%d] [virtualizer_enable:%d] [surround_boost:%d]
+    [trust_level=%d,phase_sur=%d,max_ch=%d,acmod_lock=%d,mat_src_format=%d]
+    \# LK|
+    \$<xs.9
+    \G{u_{
+    \d"'Md
+    ]{6MV{
+    ^"(x40M
+    ^_eHM_k
+    _#C>^ 
+    _9CzI9
+    _@! H]
+    _GZlC{
+    _GZ|C{
+    _tF$Ut?
+    `(z#!$
+    `+BP`d
+    `FGq5v
+    a*@gy*
+    aB$[BE[
+    aIscvI
+    aR_`! G
+    abA@Ue
+    abA@Uf
+    bass_enable=%d
+    b}tz]}MeX}PKS}
+    cemfTe_
+    c{'bj{I
+    d4RAMj
+    d@ddBcdA
+    dAvdAFd
+    dBEHOB
+    dC8DCF
+    dC|dC[dC:dC
+    dap %dch out: %08x,%08x
+    dap 2ch out: %08x,%08x
+    dap mch in: %08x,%08x,%08x,%08x,%08x,%08x,%08x,%08x
+    dap_get_parameter 2 %x
+    dap_get_parameter 3 %x
+    ddpe: [%d,%d],[%d,%d,%d,%d],[%d,%d,%d,%d]
+    dec meta [drc=%d, dap_drc=%d, dmx=%d, dual_mono=%d, discard_drc=%d,compress=%d],
+    dmx in: %08x,%08x
+    dmx, sys, tb11:  %08x,%08x
+    dolby mat enc metadata
+    dqtkXq
+    e4RAMj
+    eD~PPD!
+    enable MS12V2 pcm render, %d
+    f0'#L;
+    f4RAM-
+    gryTujy
+    g{7gZ7G}
+    h$"{hK
+    hO{hMk
+    hd5]?{5
+    hv@u^vy
+    i;a3`q
+    jA@'h,
+    kKFNk`F(huFJb
+    kKFxi6F}d!F
+    lH6;._6
+    lI<`.[
+    l_ { M
+    l`)$lu
+    lh$"{h
+    load tuning file FAIL
+    load tuning file OK
+    mat encoder init fail !!!
+    mat encoder init memory error %d, %d
+    mat encoder init ok !
+    mat encoder skip frame !! Hdmi level:0x%x(%dms)
+    matenc: [%d,%d],[%d,%d,%d,%d],[%d,%d,%d]
+    mch spk: %08x,%08x,%08x,%08x,%08x,%08x
+    ms12v2 ddpenc reopen fail
+    ms12v2.4 dap cli: 
+    ms12v2.4dap
+    ms12v2_ddp_enc_init ok
+    ms12v2_ddpenc_node_prepare_atmos_evo_md error code %d
+    ms12v2_ddpenc_node_reopen_encoder error code %d
+    ms12v2_ddpenc_node_reopen_encoder: [%d,%d,%d,%d][%d,%d,%d,%d]
+    ms12v2_ddpenc_node_write_atmos_indication error code %d
+    ms12v2_ddpenc_node_write_evo_md error code %d
+    ms12v2_pcmRender
+    ms12v2_pcmr_ddpe_reinit
+    ms12v2_pcmr_ddpe_reinit: ott (%d->%d), ch_lock(%d->%d), raw_ch (%d->%d), acmod (%d,%d)->(%d,%d)
+    ms12v2_pcmr_get_parameter %x %x
+    ms12v2_pcmr_matenc_reinit
+    ms12v2_pcmr_pcmr_reinit ok... 
+    ms12v2_pcmr_pcmr_reinit, max_ch %d->%d, raw_ch %d->%d
+    ms12v2_pcmr_set_parameter %x %x
+    oI!e*1!
+    oiejaiB$Si
+    orF:;~
+    pcmr_enable
+    pcmr_set_parameter 4A00
+    pcmr_set_parameter 4A01
+    ppXXxppXXX@@00H@0HH((((((((((((
+    prF:;~
+    qDc{Lc
+    qeTlI<`
+    qeTlI<`I
+    qeTlI<`clWS
+    q{'bj{C
+    rByac:y
+    raw mch: %08x,%08x,%08x,%08x,%08x,%08x,%08x,%08x,%08x,%08x
+    sI"usqFjs&f_sh
+    show_log
+    show_module_mips
+    show_total_mips
+    skkSfk
+    tF1DG9DF
+    tuning mch(spk=%d): %08x,%08x,%08x,%08x,%08x,%08x
+    u6;._6
+    uC{mCZeC9
+    ulH;UoW
+    unexpected number of channels for MAT encoder: %d
+    vAj5AJ%_
+    vb!@&\
+    vrC mC
+    w-_#w:
+    wRxS` 
+    w{EL~{
+    xS@1go
+    xkpUr_pqgSp9XGp
+    xxppXxxpppHH@@0H@00
+    y#5x:/A
+    y[mYh[
+    ycux>O
+    yqrF:;
+    z%@x|-/
+    zD`)$l2
+    zOW O{ O8 
+    zo%$zZ
+    {:a3`qG
+    {@C:%O{
+    ||||||||||LLLLLLLLL,,,,,,,,,,,,
+    }z}S}%}
+    ~&aclWSlI<`
+    ~/}wG%
+    ~byTujy

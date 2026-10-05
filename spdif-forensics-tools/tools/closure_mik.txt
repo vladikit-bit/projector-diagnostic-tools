@@ -1,0 +1,60 @@
+=== symbols of interest ===
+  .L__FUNCTION__._MI_DEBUG_UTIL_SetHdmiInfor @ 0x2a8a1
+  .L__FUNCTION__._MI_DEBUG_UTIL_GetHdmiInfor @ 0x7dd03
+  _stHdmiInfo @ 0x9e8
+  .L__FUNCTION__._MI_AEXTIN_UpdateHdmiInfo @ 0x9fc8a
+  .L__FUNCTION__._MI_AOUT_SetDigitalChannelStatus @ 0x7e28a
+  _bHdmiInfoEnable @ 0x24aa0
+  .L__FUNCTION__.MI_AOUT_SetDigitalMode @ 0xa8607
+  _MApi_HDMITx_GetDataBlockLengthFromEDID @ 0x24b6c
+  _MApi_HDMITx_GetRxAudioFormatFromEDID @ 0x24b70
+  .L__FUNCTION__._MI_AOUT_ParseEdidAudioDataBlock @ 0xd332b
+  .L__FUNCTION__._MI_AOUT_ParseEdidExtendedBlock @ 0x13856
+  .L__FUNCTION__._MI_AOUT_HdmiInfoMonitor @ 0xa8b36
+  _MI_AOUT_HdmiInfoMonitor.u32CurAudioCodecType.0 @ 0x25e4c
+  .Lswitch.table._MI_AOUT_SetHdmiInfo @ 0x160
+  .L__FUNCTION__._MI_AOUT_SetHdmiInfo @ 0x13756
+  .L__FUNCTION__._MI_AOUT_SetHdmiAutoMode @ 0x7e99e
+  _MApi_HDMITx_EDID_HDMISupport @ 0x290b4
+  _MApi_HDMITx_GetEDIDPhyAdr @ 0x290b8
+  _MApi_HDMITx_GetRx3DStructureFromEDID @ 0x33a20
+  _MApi_HDMITx_GetEDIDData @ 0x38a50
+  _MApi_HDMITx_GetRxAudioFormatFromEDID @ 0x38a40
+  _MApi_HDMITx_GetRx3DStructureFromEDID @ 0x38a44
+  _MApi_HDMITx_EDID_HDMISupport @ 0x38a48
+  _astHdmiInfo @ 0x39cd0
+  .L__const.mi_extin_PrintfHdmiInfor.szColorFormat @ 0x10f6e4
+  .L__const.mi_extin_PrintfHdmiInfor.szHDCPStatus @ 0x10f6d0
+  .L__const.mi_extin_PrintfHdmiInfor.szEdidVersion @ 0x10f6f8
+  MI_AOUT_SetDigitalMode @ 0x7faf8
+  __crc_MI_AOUT_SetDigitalMode @ 0x1b2c27ec
+  _MI_AOUT_SetDigitalChannelStatus @ 0x6c268
+  MApi_AUDIO_SPDIF_SetMode @ 0x0
+  MI_DISP_IMPL_XC_UpdateHdmiInfo @ 0x0
+  MI_DISP_IMPL_XC_HDMIRx_SetEDID @ 0x0
+  mi_extin_PrintfHdmiInfor @ 0x183928
+  MI_DISP_IMPL_XC_PrintfHdmiInfor @ 0x0
+
+MApi_AUDIO_SPDIF_SetMode @ NOT FOUND
+
+=== direct bl callers of MApi_AUDIO_SPDIF_SetMode (0) ===
+
+=== mik.ko field writes/reads to mode offsets ['0x6c', '0x70', '0x7c', '0x80', '0x4d8'] (18) ===
+  0x000047c0: str r0, [sp, #0x80]
+  0x00004820: ldr sb, [sp, #0x70]
+  0x00004828: ldr r1, [sp, #0x7c]
+  0x00004860: ldr fp, [sp, #0x6c]
+  0x0000487c: ldr r1, [sp, #0x80]
+  0x000048b4: str r0, [sp, #0x80]
+  0x00004914: ldr sb, [sp, #0x70]
+  0x0000491c: ldr r1, [sp, #0x7c]
+  0x00004954: ldr fp, [sp, #0x6c]
+  0x00004970: ldr r1, [sp, #0x80]
+  0x000078f4: ldrb r3, [sp, #0x70]
+  0x00008804: ldrb r3, [sp, #0x70]
+  0x0000dc4c: str r0, [sp, #0x7c]
+  0x0000dc5c: str r0, [sp, #0x70]
+  0x0000dc68: str r1, [sp, #0x6c]
+  0x0000e064: str r0, [sp, #0x7c]
+  0x0000e078: str r1, [sp, #0x70]
+  0x0000e090: str r1, [sp, #0x6c]

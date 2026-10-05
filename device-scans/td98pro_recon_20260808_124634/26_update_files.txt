@@ -1,0 +1,10 @@
+﻿/system/lib/libbootanimation.so
+/system/lib/libext2_quota.so
+/system/bin/bootanimation
+/system/media/bootanimation.zip
+/system/etc/init/bootanim.rc
+/system/etc/security/otacerts.zip
+/system/priv-app/ConfigUpdater/ConfigUpdater.apk
+/vendor/firmware/aic8800/m2d_ota.bin
+/vendor/bin/update_linux_network
+/vendor/lib/libotaso.so

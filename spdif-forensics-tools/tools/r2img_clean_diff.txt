@@ -1,0 +1,368 @@
+
+==== mst_codec_r2 ONLY (133) vs mst_codec_r2_MS12V22 ONLY (6) ====
+   -A-  !ddp_udc_int_evo_ll_empty(&pb->ll)
+   -A-  !ddp_udc_int_evo_ll_empty(ll)
+   -A-  (hSbrDec[numChannels]->hSbrChannel[0]) != 0
+   -A-  (hSbrDec[numChannels]->hSbrChannel[1]) != 0
+   -A-  (int)accuracy < JOCDEC_NUM_ENTRIES_ACCURACY
+   -A-  @>9A4heaacdec_ChannelMapEvalStreamInfo
+   -A-  Aheaacdec_sbr_dec_concealment_dmx
+   -A-  CPU MS12 V1 HEAAC hook ok
+   -A-  CPU MS12 V1 ac4 hook ok
+   -A-  CPU MS12V1 ddp hook ok
+   -A-  CPU MS12V1 ddp init ok
+   -A-  CPU ms12v1 ac4 init ok
+   -A-  CPU ms12v1 heaac init ok
+   -A-  DDP L0_dirty_size=%d, L1_dirty_size=%d, L0_residual_size=%d, L1_residual_size=%d
+   -A-  DDP ddenc L0_dirty_size=%d, L1_dirty_size=%d, L0_residual_size=%d, L1_residual_size=%d
+   -A-  DDP mixer L1_residual_size=%d
+   -A-  DDP reenc L0_dirty_size=%d, L1_dirty_size=%d, L0_residual_size=%d, L1_residual_size=%d
+   -A-  HEAAC ad L0_dirty_size=%d, L1_dirty_size=%d, L0_residual_size=%d, L1_residual_size=%d
+   -A-  HEAAC md L0_dirty_size=%d, L1_dirty_size=%d, L0_residual_size=%d, L1_residual_size=%d
+   -A-  MS11 DDP dec %d MHz, mixer %d MHz, Reenc %d MHz (%d)
+   -A-  MS11 DDP:%d: NPCM type=%d, %d, ddenc_owner=%d, ddp_bp=%d, ES type=%d, i0_type=%d, diff_ad=%d
+   -A-  MS11 HEAAC md %d MHz(ad %d)(pcm %d) (ddenc %d)
+   -A-  MS11 HEAAC:%d: fifo length=%d, NPCM type=%d, %d, ddenc_owner=%d
+   -A-  MS12 AAC L1_residual_size=%d, L1_dirty_size=%d
+   -A-  MS12 AAC hook memory error
+   -A-  MS12 DDP L1_residual_size=%d
+   -A-  MS12 DDP dec %d MHz, mixer %d MHz
+   -A-  MS12 DDP hook memory error
+   -A-  MS12 DDP init fail
+   -A-  MS12 DDP:%d: SPDIF type=%d, ddenc_owner=%d, %d, drc=%d, bp=%d, fe=%d
+   -A-  MS12 HEAAC md %d MHz,ad %d MHz,mixer %d MHz, pcmr %d MHz
+   -A-  MS12 HEAAC:dec_done=%d,need_more_ES=%d, valid_bytes=%d,curPlayType=%d
+   -A-  MS12 Mixer L1_residual_size=%d
+   -A-  MS12 Mixer hook memory error
+   -A-  MS12 mixer0 error 
+   -A-  MS12 mixer0 init fail
+   -A-  MS12 pcm render error 
+   -A-  MS12 pcm render init fail
+   -A-  MS12V1 AD bReptFrame
+   -A-  MS12V1 DDP skip %d frame
+   -A-  MS12V1 mat hook ok
+   -A-  MS12V1 mat init ok
+   -A-  MS12_CProgramConfigSetChannelSelection
+   -A-  Mstar_MS12_heaacdec_decode_frame
+   -A-  _jocdec_dequantize
+   -A-  _jocdec_get_ddp_udc_int_par_band_conv_table
+   -A-  build_dmx_matrix
+   -A-  cpuDec_gaac_hook
+   -A-  cpuDec_gaac_init
+   -A-  ddp ddenc hook memory error
+   -A-  ddp md hook memory error
+   -A-  ddp mixer hook memory error
+   -A-  ddp reenc hook memory error
+   -A-  ddp_udc_int_converter_convert_input
+   -A-  ddp_udc_int_converter_convert_output_pcm
+   -A-  ddp_udc_int_converter_process_lfe
+   -A-  ddp_udc_int_converter_simple_convert_input
+   -A-  ddp_udc_int_evo_ll_empty
+   -A-  ddp_udc_int_evo_ll_get_capacity
+   -A-  ddp_udc_int_evo_ll_insert
+   -A-  ddp_udc_int_evo_ll_remove_tail
+   -A-  ddp_udc_int_evo_parse_bitstream
+   -A-  ddp_udc_int_evo_pb_get_newest
+   -A-  ddp_udc_int_evo_pb_init
+   -A-  ddp_udc_int_evo_pb_insert
+   -A-  ddp_udc_int_evo_pb_remove
+   -A-  ddp_udc_int_evo_write_bitstream
+   -A-  ddp_udc_int_jocdec_decode
+   -A-  ddp_udc_int_ph90_qmf_process
+   -A-  ddp_udc_int_processor_apply
+   -A-  ddp_udc_int_processor_mix_slot
+   -A-  ddp_udc_int_sha256_do_hash_stride
+   -A-  enable associated audio and reset ddp ad delay buffer(%d)
+   -A-  force transcode, ddenc_owner=%d, ddpenc_owner=%d
+   -A-  force transcode, ddenc_owner=%d, ddpenc_owner=%d, aacenc_owner=%d
+   -A-  h_pcm_buf->ppdata[hChannelMap->fillChannel]
+   -A-  h_sbr_data->frameInfo.nEnvelopes > 0
+   -A-  h_sbr_data->frameInfo.nNoiseEnvelopes * nNfb > 0
+   -A-  h_sbr_data->nScaleFactors > 0
+   -A-  heaacdec_ADTSParse
+   -A-  heaacdec_ChannelMapNormalizeSource
+   -A-  heaacdec_DrcDecCreate
+   -A-  heaacdec_LOASParse
+   -A-  heaacdec_NCCFromASConfig
+   -A-  heaacdec_ResetLimiterBands
+   -A-  heaacdec_calculateSbrEnvelope
+   -A-  heaacdec_deltaToLinearPcmEnvelopeDecoding
+   -A-  heaacdec_getSBRDecoderSize
+   -A-  heaacdec_leanSbrConcealment
+   -A-  heaacdec_lppTransposer
+   -A-  heaacdec_requantizeEnvelopeData
+   -A-  heaacdec_sbrStereoDmx
+   -A-  heaacdec_sbrdecUpdateLoRes
+   -A-  hook memory heaac ad error
+   -A-  hook memory heaac md error
+   -A-  i < JOCDEC_NUM_PAR_BAND_CFG
+   -A-  i!lZnvptrSt
+   -A-  joc_90deg_phase_shift.c
+   -A-  jocdeclib.c
+   -A-  maxNumChannels <= MAXNRSBRCHANNELS
+   -A-  ms11 ddp hook ok
+   -A-  ms11 ddp init fail
+   -A-  ms11 ddp init ok,dd_licensee=%d,ddp_licensee=%d,dd_reenc_licensee=%d
+   -A-  ms11 heaac ad init fail
+   -A-  ms11 heaac hook ok
+   -A-  ms11 heaac init ok, heaac_licensee=%d
+   -A-  ms11 heaac md init fail
+   -A-  ms12 ddp hook ok
+   -A-  ms12 ddp init ok,dd_licensee=%d,ddp_licensee=%d
+   -A-  ms12 heaac hook ok
+   -A-  ms12 heaac init ok, heaac_licensee=%d
+   -A-  ms12_adts.c
+   -A-  ms12_bitbuf_common.c
+   -A-  ms12_channelmap.c
+   -A-  ms12_drc_dec.c
+   -A-  ms12_env_calc.c
+   -A-  ms12_env_dec.c
+   -A-  ms12_freq_sca.c
+   -A-  ms12_heaacdec.c
+   -A-  ms12_latm.c
+   -A-  ms12_lpp_tran.c
+   -A-  ms12_md_to_gains.c
+   -A-  ms12_programcfg.c
+   -A-  ms12_sbr_math.c
+   -A-  ms12_sbrdecoder.c
+   -A-  ms12_transport.c
+   -A-  obj[ob].quant_select < JOCDEC_NUM_QUANT_STEPS_TAB_SIZE
+   -A-  ph90_delay + QMF_ALGORITHMIC_DELAY <= frame_len
+   -A-  sbrFrameDataSize <= FRAME_SIZE
+   -A-  sbr_envelope_unmapping
+   -A-  srate:ES %d, pcm %d, mul_frame_header=%d
+   -A-  turn off force encoding, ddpenc_owner ddenc_owner: DEC R2
+   -A-  wrap->aacenc_owner=%d
+   -B-  CPU MS12 V2 HEAAC hook ok
+   -B-  CPU MS12 V2 ac4 hook ok
+   -B-  CPU MS12V2 ddp hook ok
+   -B-  CPU MS12V2 ddp init ok
+   -B-  CPU ms12v2 ac4 init ok
+   -B-  CPU ms12v2 heaac init ok
+
+==== mst_snd_r2 ONLY (137) vs mst_snd_r2_MS12V22 ONLY (88) ====
+   -A-  !DDPENC_CE_RES__evo_ll_empty(&pb->ll)
+   -A-  !DDPENC_CE_RES__evo_ll_empty(ll)
+   -A-  2: [surr_virt] [surround_decoder_enable] [virtualizer_enable] [headphone_reverb] [speaker_angle] [speaker_start] [surrou
+   -A-  All other input strings     -> Ms12v1_dap parameter strings
+   -A-  Channel mismatch between convexpstr and DD+ bitstream.
+   -A-  DAP=%d,DDPE=%d,AVR_no_atmos=%d,md_sel=%d,mid=%d,sm=%d, Atmos=%d,%d
+   -A-  DDPENC node: Error opening the encoder (errcode %d)
+   -A-  DDPENC node: setdata (evo packed) returned error %d
+   -A-  DDPENC_CE_RES__DMX_blk_LmixnL
+   -A-  DDPENC_CE_RES__abke_pacdd: usedbits not equal to fixedbits
+   -A-  DDPENC_CE_RES__add_frame_config_to_buffer
+   -A-  DDPENC_CE_RES__bcte_cntbits_dd: Aux data exceeds 3/8 of frame
+   -A-  DDPENC_CE_RES__bcte_cntbits_dd: Data rate too low to pass all of fixed bit data
+   -A-  DDPENC_CE_RES__bcte_cntbits_dd: Fixed data in first two blocks exceeds 5/8 of frame
+   -A-  DDPENC_CE_RES__bcte_cntbits_ddlive: Data rate too low to pass all of fixed bit data
+   -A-  DDPENC_CE_RES__copyframe: Buffer not big enough
+   -A-  DDPENC_CE_RES__dmx_kernel
+   -A-  DDPENC_CE_RES__dmx_process
+   -A-  DDPENC_CE_RES__enc_process_lc
+   -A-  DDPENC_CE_RES__evo_ll_empty
+   -A-  DDPENC_CE_RES__evo_ll_get_capacity
+   -A-  DDPENC_CE_RES__evo_ll_insert
+   -A-  DDPENC_CE_RES__evo_ll_remove_tail
+   -A-  DDPENC_CE_RES__evo_parse_bitstream
+   -A-  DDPENC_CE_RES__evo_pb_get_newest
+   -A-  DDPENC_CE_RES__evo_pb_init
+   -A-  DDPENC_CE_RES__evo_pb_insert
+   -A-  DDPENC_CE_RES__evo_pb_remove
+   -A-  DDPENC_CE_RES__evo_write_bitstream
+   -A-  DDPENC_CE_RES__evoe_get_next_payload
+   -A-  DDPENC_CE_RES__evoe_load_frame
+   -A-  DDPENC_CE_RES__evoe_open
+   -A-  DDPENC_CE_RES__evoe_query_mem
+   -A-  DDPENC_CE_RES__evoe_unpack_frame
+   -A-  DDPENC_CE_RES__evoe_write_frame
+   -A-  DDPENC_CE_RES__flte_ph90_get_scratch_buf_ptr
+   -A-  DDPENC_CE_RES__flte_ph90_set_scratch_buf_ptr
+   -A-  DDPENC_CE_RES__get_payload_substream
+   -A-  DDPENC_CE_RES__mem_mnger_free
+   -A-  DDPENC_CE_RES__mem_mnger_init
+   -A-  DDPENC_CE_RES__passthru_dequeue_next_payload
+   -A-  DDPENC_CE_RES__passthru_open
+   -A-  DDPENC_CE_RES__passthru_query_mem
+   -A-  DDPENC_CE_RES__pbuf_dequeue
+   -A-  DDPENC_CE_RES__pbuf_open
+   -A-  DDPENC_CE_RES__pbuf_query_mem
+   -A-  DDPENC_CE_RES__pbuf_queue
+   -A-  DDPENC_CE_RES__preproc_process
+   -A-  DDPENC_CE_RES__set_dependent_params_ce
+   -A-  DDPENC_CE_RES__set_dependent_params_lc
+   -A-  DDPENC_CE_RES__set_dependent_params_ll
+   -A-  DDPENC_CE_RES__sha256_do_hash_stride
+   -A-  DDPENC_CE_RES__stufffrmset: Invalid convexpstr bitstream pointer.
+   -A-  DDPENC_CE_RES__stufffrmset: Invalid convsnroffst bitstream pointer.
+   -A-  DOLBY DAP 2.4.0.0
+   -A-  Display Ms12v1_dap parameter setting           -> #1
+   -A-  Display Ms12v1_dap parameter setting usage     -> #2
+   -A-  Dolby_DAP
+   -A-  Error: DDPenc %x
+   -A-  Exit Ms12v1_dap's CLI                          -> exit
+   -A-  Hdmi dd encoder skip frame !!
+   -A-  Hdmi ddp encoder skip frame !!
+   -A-  LOOKHEREOnly DD+ Frames are supported.
+   -A-  MS12 DAP init ok
+   -A-  MS12 DAP parameter updated
+   -A-  MS12 DAP reset ok
+   -A-  MS12 DDP encoder memory fail
+   -A-  MS12 DDP-Enc reset ok
+   -A-  MS12 Mixer L1_residual_size=%d
+   -A-  MS12 Mixer hook memory error
+   -A-  MS12 PCM Render
+   -A-  MS12 pcm render enable fail, hash key not support
+   -A-  MS12 pcm render init fail
+   -A-  MS12 pcm render init ok
+   -A-  MS12V1 ddpe : DD mode : reset hdmi 48K !![1]
+   -A-  MS12V1 ddpe : DD mode : reset spdif 48K !![1]
+   -A-  MS12V1 ddpe : DDP mode : reset hdmi 192K !![1]
+   -A-  MS12V1 ddpe : Spdif dd encoder skip frame !!
+   -A-  MS12v1_DAP_CLI_Parsing Fail !
+   -A-  MS12v1_DAP_CLI_Parsing Sucess !
+   -A-  Mixer: %d MHz, DAP: %d MHz, PCMR:%d MHz, DDPE: %d MHz
+   -A-  Mstar_MS12_DDPE_init, %d
+   -A-  Stuffer: bse_frmsiz does not match number of buffer data words
+   -A-  Unpublished work.  Copyright 2003-2015 Dolby Laboratories, Inc. and
+   -A-  Warning : MS12V1 ddpe : Spdif should not output DDP !!
+   -A-  [Error] pcmr_md_rd_idx out of the range:%d
+   -A-  [Fullenc:Auto] atmos:%d -> %d, omx_md_flag:%d
+   -A-  [Fullenc:Auto] atmos:%d -> %d, preAsndBufLvl:%d, ddpe_inbuf:%d, remianing_atmos:%d
+   -A-  [Fullenc:Auto] atmos:%d -> %d[%x]
+   -A-  [atmos_debug] b_ddpenc_atmos_lock_enabled. atmos_lock:[%d] -> 1 !!
+   -A-  [ddpe with atmos] ddpe_remianing_atmos_samples:%d
+   -A-  [decR2 meta] ddpe reset !!  atmos:%d -> %d[%x]
+   -A-  [sound_mode=%d,use_dec_dmx=%d,use_dec_mch=%d,syssnd_dap=%d,dmx_pcmr_active=%d,arib=%d]
+   -A-  [surround_decoder_enable:%d] [virtualizer_enable:%d] [headphone_reverb:%d]
+   -A-  build_dmx_matrix
+   -A-  ddp=%d, pw=%d, atoms=%d, obj=%d
+   -A-  ddpe: evo_size=%d,%d, sys=%d,mi=%d,
+   -A-  ddpinit(): Error getting next ENCINFO bit
+   -A-  ddpinit(): Error setting ENCINFO data
+   -A-  disable MS12 DAP
+   -A-  enable MS12 DAP
+   -A-  enable MS12 pcm render, %d
+   -A-  ms12_dap_get_parameter %x %x
+   -A-  ms12_dap_set_parameter %x %x
+   -A-  ms12_ddpe_abkd_utl.c
+   -A-  ms12_ddpe_abke.c
+   -A-  ms12_ddpe_afmd.c
+   -A-  ms12_ddpe_bcte.c
+   -A-  ms12_ddpe_bsid_dd.c
+   -A-  ms12_ddpe_bsid_ddp.c
+   -A-  ms12_ddpe_enc51_api.c
+   -A-  ms12_ddpe_enc51_utl.c
+   -A-  ms12_ddpe_enc_api_ce.c
+   -A-  ms12_ddpe_enc_dmx.c
+   -A-  ms12_ddpe_enc_utl.c
+   -A-  ms12_ddpe_evoe.c
+   -A-  ms12_ddpe_flte.c
+   -A-  ms12_ddpe_mcv.c
+   -A-  ms12_ddpe_mcv_convert.c
+   -A-  ms12_ddpe_mcv_resolve.c
+   -A-  ms12_ddpe_mmnger.c
+   -A-  ms12_ddpe_passthru.c
+   -A-  ms12_ddpe_pbuf.c
+   -A-  ms12_ddpe_pproc.c
+   -A-  ms12_ddpe_stf.c
+   -A-  ms12_ddpe_stf_utl.c
+   -A-  ms12_md_to_gains.c
+   -A-  ms12_pcmRender
+   -A-  ms12_pcmr_get_parameter %x %x
+   -A-  ms12_pcmr_get_parameter 0 %x
+   -A-  ms12_pcmr_get_parameter 1 %x
+   -A-  ms12_pcmr_set_parameter %x %x
+   -A-  ms12_pcmr_set_parameter 0
+   -A-  ms12v1 dap cli: 
+   -A-  ms12v1dap
+   -A-  numdmxchannels > 0
+   -A-  p_dmx->inputconfig >= DDPI_ENC_CHCFG8
+   -B-  2: [surr_virt] [surround_decoder_enable] [virtualizer_enable] [surround_boost]
+   -B-  All other input strings     -> Ms12v2.4_dap parameter strings
+   -B-  DDPENC node: Error opening the encoder (errcode)
+   -B-  DDPENC node: Error setting downmix mode to stereo (return code: %d)
+   -B-  DDPENC node: Error setting the acmod/lfe/datarate to %d/%d/%d (return code: %d)
+   -B-  DDPENC node: Error setting the cmix/smix/dsurmod to %d/%d/%d (return code: %d)
+   -B-  DDPENC node: Error setting the converter snr offset to %d (return code: %d)
+   -B-  DDPENC node: Error setting the dialnorm (return code: %d)
+   -B-  DDPENC node: Error setting the external DRC (return code: %d)
+   -B-  DDPENC node: Error setting the external downmix channel support %d (return code: %d)
+   -B-  DDPENC node: Error setting the phase90 filter enable flag to %d (return code: %d)
+   -B-  DDPENC node: process function returned error %d
+   -B-  DDPENC node: setdata (evo packed) returned error %d, evo_size=%d
+   -B-  DDPEnc Error: input ch(%d) is larger than setting ch(%d)
+   -B-  Display Ms12v2.4_dap parameter setting           -> #1
+   -B-  Display Ms12v2.4_dap parameter setting usage     -> #2
+   -B-  Dolby MS12V2 PCMR module: %d MHz
+   -B-  Enable DAP=%d, DDPE/MATE=%d, md_sel=%d, mid=%d
+   -B-  Enable/Disable pcm render wrapper(PCMR, DAP, DDPE) -> pcmr_enable
+   -B-  Error: MS12V2 DAP tuning parameter error
+   -B-  Error: MS12V2 DAP tuning parameter memory error
+   -B-  Exit Ms12v2.4_dap's CLI                          -> exit
+   -B-  Failed to add PCM bytes to mat_enc! %#x
+   -B-  Hdmi dd encoder skip frame !! Hdmi level:0x%x(%dms)
+   -B-  Hdmi ddp encoder skip frame !! Hdmi level:0x%x(%dms)
+   -B-  MAT encoder processing error: %#x
+   -B-  MATENC Error: frame size is too larger
+   -B-  MATEnc Error: input ch(%d) is larger than setting ch(%d)
+   -B-  MATEnc Metadata error: acmod=%d,lfeon=%d,evosize=%d
+   -B-  MS12 V2.4 PCM Render
+   -B-  MS12V2 DAP parameter updated
+   -B-  MS12V2 DAP reset ok
+   -B-  MS12V2 DDP encoder memory fail %d,%d
+   -B-  MS12V2 DDP-Enc reset ok, encoding_mode=%d
+   -B-  MS12V2 MAT-Enc reset ok
+   -B-  MS12V2 Mixer L1_residual_size=%d
+   -B-  MS12V2 Mixer hook memory error
+   -B-  MS12V2 Mixer: %d MHz, DAP: %d MHz, PCMR:%d MHz, DDPE(MATE): %d MHz
+   -B-  MS12V2 ddpe : DD mode : reset hdmi 48K !![1]
+   -B-  MS12V2 ddpe : DD mode : reset spdif 48K !![1]
+   -B-  MS12V2 ddpe : DDP mode : reset hdmi 192K !![1]
+   -B-  MS12V2 ddpe : Spdif dd encoder skip frame !! Spdif level:0x%x(%dms)
+   -B-  MS12V2 pcm render enable fail, hash key not support
+   -B-  MS12V2 pcm render init fail
+   -B-  MS12V2 pcm render init ok
+   -B-  MS12v2.4_DAP_CLI_Parsing Fail !
+   -B-  MS12v2.4_DAP_CLI_Parsing Sucess !
+   -B-  PCM render disable 
+   -B-  PCM render enable 
+   -B-  SE: MS12V2 pcmr error %d
+   -B-  Show respective mips of dolby module               -> show_module_mips
+   -B-  Show total mips of pcm render wrapper              -> show_total_mips
+   -B-  Unpublished work.  Copyright 2003-2018 Dolby Laboratories, Inc. and
+   -B-  [%08d]hdmi level=0x%x(%dms)
+   -B-  [atmos_debug] b_atmos_lock_enabled. ott_mode:[%d] -> 1 !!
+   -B-  [sound_mode=%d,avr_no_atmos=%d, use_dec_dmx=%d, use_dec_mch=%d, dmx_pcmr_active=%d, syssnd_dap=%d, hp=%d]
+   -B-  [surround_decoder_enable:%d] [virtualizer_enable:%d] [surround_boost:%d]
+   -B-  [trust_level=%d,phase_sur=%d,max_ch=%d,acmod_lock=%d,mat_src_format=%d]
+   -B-  ddpe: [%d,%d],[%d,%d,%d,%d],[%d,%d,%d,%d]
+   -B-  dec meta [drc=%d, dap_drc=%d, dmx=%d, dual_mono=%d, discard_drc=%d,compress=%d],
+   -B-  dolby mat enc metadata
+   -B-  enable MS12V2 pcm render, %d
+   -B-  mat encoder init fail !!!
+   -B-  mat encoder init memory error %d, %d
+   -B-  mat encoder init ok !
+   -B-  mat encoder skip frame !! Hdmi level:0x%x(%dms)
+   -B-  matenc: [%d,%d],[%d,%d,%d,%d],[%d,%d,%d]
+   -B-  ms12v2 ddpenc reopen fail
+   -B-  ms12v2.4 dap cli: 
+   -B-  ms12v2.4dap
+   -B-  ms12v2_ddp_enc_init ok
+   -B-  ms12v2_ddpenc_node_prepare_atmos_evo_md error code %d
+   -B-  ms12v2_ddpenc_node_reopen_encoder error code %d
+   -B-  ms12v2_ddpenc_node_reopen_encoder: [%d,%d,%d,%d][%d,%d,%d,%d]
+   -B-  ms12v2_ddpenc_node_write_atmos_indication error code %d
+   -B-  ms12v2_ddpenc_node_write_evo_md error code %d
+   -B-  ms12v2_pcmRender
+   -B-  ms12v2_pcmr_ddpe_reinit
+   -B-  ms12v2_pcmr_ddpe_reinit: ott (%d->%d), ch_lock(%d->%d), raw_ch (%d->%d), acmod (%d,%d)->(%d,%d)
+   -B-  ms12v2_pcmr_get_parameter %x %x
+   -B-  ms12v2_pcmr_matenc_reinit
+   -B-  ms12v2_pcmr_pcmr_reinit ok... 
+   -B-  ms12v2_pcmr_pcmr_reinit, max_ch %d->%d, raw_ch %d->%d
+   -B-  ms12v2_pcmr_set_parameter %x %x
+   -B-  pcmr_enable
+   -B-  pcmr_set_parameter 4A00
+   -B-  pcmr_set_parameter 4A01
+   -B-  unexpected number of channels for MAT encoder: %d

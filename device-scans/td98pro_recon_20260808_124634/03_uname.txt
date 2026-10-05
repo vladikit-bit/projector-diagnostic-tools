@@ -1,0 +1,1 @@
+﻿Linux localhost 4.19.116 #1 SMP PREEMPT Wed Sep 10 19:23:38 CST 2025 armv7l

@@ -1,0 +1,57 @@
+INFO  Using log config file: jar:file:/C:/ghidra_12.1.2_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: C:\Users\k0994\AppData\Roaming\ghidra\ghidra_12.1.2_PUBLIC\application.log (LoggingInitialization)  
+INFO  Loading user preferences: C:\Users\k0994\AppData\Roaming\ghidra\ghidra_12.1.2_PUBLIC\preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (1202 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: SHA1PRNG (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (4258 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 59 extension points (20 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Processors\DATA\ghidra_scripts
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Features\Decompiler\ghidra_scripts
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Features\PDB\ghidra_scripts
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Features\BytePatterns\ghidra_scripts
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Features\Base\ghidra_scripts
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Features\WildcardAssembler\ghidra_scripts
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Features\GnuDemangler\ghidra_scripts
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Processors\PIC\ghidra_scripts
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Processors\8051\ghidra_scripts
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Features\SystemEmulation\ghidra_scripts
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Processors\Atmel\ghidra_scripts
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Processors\JVM\ghidra_scripts
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Features\FileFormats\ghidra_scripts
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Features\FunctionID\ghidra_scripts
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    C:\tmp\mboot_java
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Features\PyGhidra\ghidra_scripts
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Features\SwiftDemangler\ghidra_scripts
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Features\VersionTracking\ghidra_scripts
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Features\BSim\ghidra_scripts
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Debug\Debugger\ghidra_scripts
+    C:\ghidra_12.1.2_PUBLIC\Ghidra\Features\DecompilerDependent\ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Opening existing project: C:\tmp\ghidra_project\MBOOT_Analysis (HeadlessAnalyzer)  
+INFO  Opening project: C:\tmp\ghidra_project\MBOOT_Analysis (HeadlessProject)  
+INFO  REPORT: Processing project file: /mboot_full.img (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: MbootAnalysis.java  (HeadlessAnalyzer)  
+ERROR REPORT SCRIPT ERROR: MbootAnalysis.java : The class could not be found. It must be the public class of the .java file: Failed to get OSGi bundle containing script: C:\tmp\mboot_java\MbootAnalysis.java (HeadlessAnalyzer) ghidra.app.script.GhidraScriptLoadException: The class could not be found. It must be the public class of the .java file: Failed to get OSGi bundle containing script: C:\tmp\mboot_java\MbootAnalysis.java
+	at ghidra.app.script.JavaScriptProvider.getScriptInstance(JavaScriptProvider.java:114)
+	at ghidra.app.util.headless.HeadlessAnalyzer.runScriptsList(HeadlessAnalyzer.java:927)
+	at ghidra.app.util.headless.HeadlessAnalyzer.analyzeProgram(HeadlessAnalyzer.java:1097)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processFileNoImport(HeadlessAnalyzer.java:1195)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processFolderNoImport(HeadlessAnalyzer.java:1367)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processNoImport(HeadlessAnalyzer.java:1396)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processLocal(HeadlessAnalyzer.java:461)
+	at ghidra.app.util.headless.AnalyzeHeadless.launch(AnalyzeHeadless.java:199)
+	at ghidra.GhidraLauncher.launch(GhidraLauncher.java:81)
+	at ghidra.Ghidra.main(Ghidra.java:54)
+Caused by: java.lang.ClassNotFoundException: Failed to get OSGi bundle containing script: C:\tmp\mboot_java\MbootAnalysis.java
+	at ghidra.app.script.JavaScriptProvider.loadClass(JavaScriptProvider.java:163)
+	at ghidra.app.script.JavaScriptProvider.getScriptInstance(JavaScriptProvider.java:97)
+	... 9 more
+ 
+INFO  REPORT: Save succeeded for processed file: /mboot_full.img (HeadlessAnalyzer)  

@@ -1,0 +1,20 @@
+=== MDrv_AUDIO_ApplyHashkey @0x424b90 size 0x48
+
+0x00424b90: push      {r4, lr}
+0x00424b94: movw      r4, #0
+0x00424b98: movt      r4, #0
+0x00424b9c: ldr       r0, [r4]
+0x00424ba0: cmp       r0, #0
+0x00424ba4: bne       #0x424bb8
+0x00424ba8: bl        #0x424ba8
+0x00424bac: ldr       r0, [r4]
+0x00424bb0: cmp       r0, #0
+0x00424bb4: popeq     {r4, pc}
+0x00424bb8: ldr       r1, [r0, #0x440]
+0x00424bbc: mov       r0, #0
+0x00424bc0: bl        #0x424bd8
+0x00424bc4: ldr       r0, [r4]
+0x00424bc8: ldr       r1, [r0, #0x444]
+0x00424bcc: mov       r0, #1
+0x00424bd0: pop       {r4, lr}
+0x00424bd4: b         #0x424bd8

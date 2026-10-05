@@ -1,0 +1,396 @@
+DexParser loaded successfully.
+================================================================================
+CLASS: Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;
+================================================================================
+
+  [METHOD] <clinit>()V (code_off=0x500d0):
+    0000: new-instance Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;
+    0002: const-string v1, "WIFI_UPGRADE"
+    0005: invoke-direct Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;-><init>(Ljava/lang/String;, I)V
+    0008: field-op Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;->WIFI_UPGRADE:Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;
+    000a: new-instance Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;
+    000c: const-string v1, "BATTERY_MIN"
+    000f: invoke-direct Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;-><init>(Ljava/lang/String;, I)V
+    0012: field-op Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;->BATTERY_MIN:Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;
+    0014: new-instance Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;
+    0016: const-string v1, "FORCE_UPGRADE"
+    0019: invoke-direct Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;-><init>(Ljava/lang/String;, I)V
+    001c: field-op Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;->FORCE_UPGRADE:Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;
+    001e: new-instance Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;
+    0020: const-string v1, "SCHEDULE_UPGRADE"
+    0023: invoke-direct Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;-><init>(Ljava/lang/String;, I)V
+    0026: field-op Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;->SCHEDULE_UPGRADE:Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;
+    0028: new-instance Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;
+    002a: const-string v1, "TIME_BEGIN"
+    002d: invoke-direct Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;-><init>(Ljava/lang/String;, I)V
+    0030: field-op Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;->TIME_BEGIN:Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;
+    0032: new-instance Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;
+    0034: const-string v1, "TIME_END"
+    0037: invoke-direct Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;-><init>(Ljava/lang/String;, I)V
+    003a: field-op Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;->TIME_END:Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;
+    003c: new-instance Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;
+    003e: const-string v1, "SILENCE_OPTION"
+    0041: invoke-direct Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;-><init>(Ljava/lang/String;, I)V
+    0044: field-op Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;->SILENCE_OPTION:Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;
+    0046: new-instance Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;
+    0048: const-string v1, "DOWNLOAD_FAIL"
+    004b: invoke-direct Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;-><init>(Ljava/lang/String;, I)V
+    004e: field-op Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;->DOWNLOAD_FAIL:Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;
+    0050: new-instance Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;
+    0052: const-string v1, "DOWNLOAD_LIMITSPEED"
+    0056: invoke-direct Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;-><init>(Ljava/lang/String;, I)V
+    0059: field-op Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;->DOWNLOAD_LIMITSPEED:Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;
+    005b: new-instance Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;
+    005d: const-string v1, "EXT_VENDOR"
+    0061: invoke-direct Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;-><init>(Ljava/lang/String;, I)V
+    0064: field-op Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;->EXT_VENDOR:Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;
+    0066: new-instance Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;
+    0068: const-string v1, "EXT_TOKEN"
+    006c: invoke-direct Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;-><init>(Ljava/lang/String;, I)V
+    006f: field-op Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;->EXT_TOKEN:Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;
+    0071: new-instance Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;
+    0073: const-string v1, "EXT_SESSION"
+    0077: invoke-direct Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;-><init>(Ljava/lang/String;, I)V
+    007a: field-op Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;->EXT_SESSION:Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;
+    007c: new-instance Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;
+    007e: const-string v1, "TMP_Offline"
+    0082: invoke-direct Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;-><init>(Ljava/lang/String;, I)V
+    0085: field-op Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;->TMP_Offline:Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;
+    008b: field-op Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;->WIFI_UPGRADE:Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;
+    008f: field-op Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;->BATTERY_MIN:Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;
+    0093: field-op Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;->FORCE_UPGRADE:Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;
+    0097: field-op Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;->SCHEDULE_UPGRADE:Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;
+    009b: field-op Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;->TIME_BEGIN:Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;
+    009f: field-op Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;->TIME_END:Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;
+    00a3: field-op Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;->SILENCE_OPTION:Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;
+    00a7: field-op Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;->DOWNLOAD_FAIL:Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;
+    00ab: field-op Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;->DOWNLOAD_LIMITSPEED:Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;
+    00af: field-op Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;->EXT_VENDOR:Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;
+    00b3: field-op Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;->EXT_TOKEN:Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;
+    00b7: field-op Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;->EXT_SESSION:Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;
+    00bd: field-op Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;->$VALUES:[Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;
+
+  [METHOD] <init>(Ljava/lang/String;, I)V (code_off=0x50260):
+    0000: invoke-direct Ljava/lang/Enum;-><init>(Ljava/lang/String;, I)V
+
+  [METHOD] valueOf(Ljava/lang/String;)Lcom/baidu/otaplugin/infos/OtaInfo$KeyType; (code_off=0x50088):
+    0002: invoke-static Ljava/lang/Enum;->valueOf(Ljava/lang/Class;, Ljava/lang/String;)Ljava/lang/Enum;
+    0006: check-cast Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;
+
+  [METHOD] values()[Lcom/baidu/otaplugin/infos/OtaInfo$KeyType; (code_off=0x500ac):
+    0000: field-op Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;->$VALUES:[Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;
+    0002: invoke-virtual [Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;->clone()Ljava/lang/Object;
+    0006: check-cast [Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;
+================================================================================
+CLASS: Lcom/baidu/otaplugin/infos/OtaInfo;
+================================================================================
+
+  [METHOD] <init>(Ljava/lang/String;, Ljava/lang/String;, [B, Ljava/lang/String;, Ljava/lang/String;, Ljava/lang/String;, Ljava/lang/String;)V (code_off=0x507e0):
+    0000: invoke-direct Ljava/lang/Object;-><init>()V
+    0003: new-instance Ljava/util/concurrent/ConcurrentHashMap;
+    0005: invoke-direct Ljava/util/concurrent/ConcurrentHashMap;-><init>()V
+    0008: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->h:Ljava/util/Map;
+    000a: new-instance Ljava/util/concurrent/ConcurrentHashMap;
+    000c: invoke-direct Ljava/util/concurrent/ConcurrentHashMap;-><init>()V
+    000f: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->i:Ljava/util/Map;
+    0011: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->c:Ljava/lang/String;
+    0013: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->b:Ljava/lang/String;
+    0015: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->a:[B
+    0017: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->d:Ljava/lang/String;
+    0019: invoke-static Lcom/baidu/otaplugin/f/n;->c(Ljava/lang/String;)Ljava/lang/String;
+    001d: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->f:Ljava/lang/String;
+    001f: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->e:Ljava/lang/String;
+    0021: invoke-static Lcom/baidu/otaplugin/d/h;->c()Lcom/baidu/otaplugin/d/h;
+    0027: const-string v2, "0"
+    0029: invoke-virtual Lcom/baidu/otaplugin/d/h;->d(I, Ljava/lang/String;)Ljava/lang/String;
+    002d: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    0033: invoke-static Lcom/baidu/otaplugin/f/n;->c(Ljava/lang/String;)Ljava/lang/String;
+    0037: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->e:Ljava/lang/String;
+    005c: invoke-static Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    0062: const-string v8, "did=%s,pid=%s,ver=%s,fac=%s,m=%s,cpu=%s,ps=%b"
+    0064: invoke-static Lcom/baidu/loglib/LogUtils;->i(Ljava/lang/String;, [Ljava/lang/Object;)V
+    0067: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->h:Ljava/util/Map;
+    0069: field-op Landroid/os/Build$VERSION;->RELEASE:Ljava/lang/String;
+    006b: const-string v10, "android"
+    006d: invoke-interface Ljava/util/Map;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    0070: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->h:Ljava/util/Map;
+    0072: field-op Landroid/os/Build$VERSION;->SDK_INT:I
+    0074: invoke-static Ljava/lang/String;->valueOf(I)Ljava/lang/String;
+    0078: const-string v10, "android_sdk"
+    007a: invoke-interface Ljava/util/Map;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    007d: new-instance Lcom/baidu/otaplugin/infos/f;
+    007f: invoke-static Lcom/baidu/otaplugin/impl/aidl/OtaSdkHelperProxy;->S()Landroid/content/Context;
+    0083: invoke-direct Lcom/baidu/otaplugin/infos/f;-><init>(Landroid/content/Context;, Ljava/lang/String;, Ljava/lang/String;, [B)V
+    0086: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->g:Lcom/baidu/otaplugin/infos/f;
+
+  [METHOD] B(Lcom/baidu/otaplugin/infos/b$a;)Z (code_off=0x50298):
+    0000: instance-field-op Lcom/baidu/otaplugin/infos/b$a;->b:Ljava/lang/String;
+    0002: invoke-static Lcom/baidu/otaplugin/infos/OtaInfo;->J(Ljava/lang/String;)Z
+    0008: instance-field-op Lcom/baidu/otaplugin/infos/b$a;->b:Ljava/lang/String;
+    000a: invoke-static Lcom/baidu/otaplugin/infos/OtaInfo;->D(Ljava/lang/String;)Z
+    0010: invoke-static Lcom/baidu/otaplugin/infos/OtaInfo;->C(Lcom/baidu/otaplugin/infos/b$a;)Z
+
+  [METHOD] C(Lcom/baidu/otaplugin/infos/b$a;)Z (code_off=0x502dc):
+    0000: instance-field-op Lcom/baidu/otaplugin/infos/b$a;->m:Ljava/lang/String;
+    0002: const-string v1, "file"
+    0004: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    000b: instance-field-op Lcom/baidu/otaplugin/infos/b$a;->m:Ljava/lang/String;
+    000d: const-string v3, "multi_file"
+    000f: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    0015: instance-field-op Lcom/baidu/otaplugin/infos/b$a;->n:Ljava/lang/String;
+    0017: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    001e: instance-field-op Lcom/baidu/otaplugin/infos/b$a;->b:Ljava/lang/String;
+    0020: invoke-static Lcom/baidu/otaplugin/infos/OtaInfo;->J(Ljava/lang/String;)Z
+    0026: instance-field-op Lcom/baidu/otaplugin/infos/b$a;->l:I
+
+  [METHOD] D(Ljava/lang/String;)Z (code_off=0x50348):
+    0000: const-string v0, "ota.factory.package"
+    0002: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+  [METHOD] I(Ljava/lang/String;)Z (code_off=0x503e8):
+    0000: invoke-static Lcom/baidu/otaplugin/infos/OtaInfo;->J(Ljava/lang/String;)Z
+    0006: invoke-static Lcom/baidu/otaplugin/infos/OtaInfo;->D(Ljava/lang/String;)Z
+
+  [METHOD] J(Ljava/lang/String;)Z (code_off=0x50418):
+    0000: const-string v0, "com.android.system"
+    0002: invoke-virtual Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+  [METHOD] f(Ljava/lang/String;)Lcom/baidu/otaplugin/infos/b; (code_off=0x50450):
+    0000: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->g:Lcom/baidu/otaplugin/infos/f;
+    0003: invoke-virtual Lcom/baidu/otaplugin/infos/f;->c(Ljava/lang/String;, Z)Lcom/baidu/otaplugin/infos/b;
+
+  [METHOD] A()Ljava/lang/String; (code_off=0x50654):
+    0000: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->e:Ljava/lang/String;
+
+  [METHOD] E(Ljava/lang/String;)Z (code_off=0x50368):
+    0000: invoke-direct Lcom/baidu/otaplugin/infos/OtaInfo;->f(Ljava/lang/String;)Lcom/baidu/otaplugin/infos/b;
+    0004: instance-field-op Lcom/baidu/otaplugin/infos/b;->l:Z
+
+  [METHOD] F(Ljava/lang/String;)Z (code_off=0x50388):
+    0000: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->g:Lcom/baidu/otaplugin/infos/f;
+    0002: invoke-virtual Lcom/baidu/otaplugin/infos/f;->q(Ljava/lang/String;)Z
+
+  [METHOD] G(Ljava/lang/String;)Z (code_off=0x503a8):
+    0000: invoke-direct Lcom/baidu/otaplugin/infos/OtaInfo;->f(Ljava/lang/String;)Lcom/baidu/otaplugin/infos/b;
+    0004: instance-field-op Lcom/baidu/otaplugin/infos/b;->m:Z
+
+  [METHOD] H(Ljava/lang/String;)Z (code_off=0x503c8):
+    0000: invoke-direct Lcom/baidu/otaplugin/infos/OtaInfo;->f(Ljava/lang/String;)Lcom/baidu/otaplugin/infos/b;
+    0004: instance-field-op Lcom/baidu/otaplugin/infos/b;->k:Z
+
+  [METHOD] K(Ljava/lang/String;, Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;, Z)V (code_off=0x50a40):
+    0000: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->g:Lcom/baidu/otaplugin/infos/f;
+    0002: invoke-virtual Lcom/baidu/otaplugin/infos/f;->u(Ljava/lang/String;, Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;, Z)V
+
+  [METHOD] L(Ljava/lang/String;, Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;, I)V (code_off=0x50a5c):
+    0000: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->g:Lcom/baidu/otaplugin/infos/f;
+    0002: invoke-virtual Lcom/baidu/otaplugin/infos/f;->v(Ljava/lang/String;, Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;, I)V
+
+  [METHOD] M(Ljava/lang/String;, Ljava/lang/String;, I)V (code_off=0x50a78):
+    0005: invoke-static Lcom/baidu/otaplugin/infos/c;->d(Ljava/lang/String;, Ljava/lang/String;, Z)[B
+    000e: new-instance Ljava/lang/String;
+    0010: invoke-direct Ljava/lang/String;-><init>([B)V
+    0013: new-instance Lorg/json/JSONArray;
+    0015: invoke-direct Lorg/json/JSONArray;-><init>(Ljava/lang/String;)V
+    0019: const-string v5, "session is null"
+    001b: invoke-static Lcom/baidu/loglib/LogUtils;->d(Ljava/lang/String;)V
+    0020: invoke-virtual Ljava/lang/Exception;->toString()Ljava/lang/String;
+    0024: invoke-static Lcom/baidu/loglib/LogUtils;->w(Ljava/lang/String;)V
+    002a: invoke-static Lcom/baidu/otaplugin/infos/c;->e(Ljava/lang/String;, Ljava/lang/String;)Lorg/json/JSONArray;
+    0035: invoke-static Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    0040: invoke-virtual Lorg/json/JSONArray;->length()I
+    0044: invoke-static Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    004a: const-string v6, "begin resume=%s-%d,size=%d"
+    004c: invoke-static Lcom/baidu/loglib/LogUtils;->i(Ljava/lang/String;, [Ljava/lang/Object;)V
+    0051: new-instance Ljava/util/ArrayList;
+    0053: invoke-direct Ljava/util/ArrayList;-><init>()V
+    0056: invoke-virtual Lcom/baidu/otaplugin/infos/OtaInfo;->Q(Lorg/json/JSONArray;, Lorg/json/JSONArray;, Ljava/util/List;)Lorg/json/JSONArray;
+    005b: invoke-virtual Lcom/baidu/otaplugin/infos/OtaInfo;->g()Ljava/util/Collection;
+    005f: invoke-interface Ljava/util/Collection;->iterator()Ljava/util/Iterator;
+    0063: invoke-interface Ljava/util/Iterator;->hasNext()Z
+    0069: invoke-interface Ljava/util/Iterator;->next()Ljava/lang/Object;
+    006d: check-cast Lcom/baidu/otaplugin/infos/b;
+    006f: instance-field-op Lcom/baidu/otaplugin/infos/b;->a:Ljava/lang/String;
+    0071: invoke-virtual Lcom/baidu/otaplugin/infos/OtaInfo;->c(Ljava/lang/String;)V
+
+  [METHOD] N(Ljava/lang/String;, Lorg/json/JSONObject;)V (code_off=0x50b84):
+    0000: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->g:Lcom/baidu/otaplugin/infos/f;
+    0002: invoke-virtual Lcom/baidu/otaplugin/infos/f;->x(Ljava/lang/String;, Lorg/json/JSONObject;)V
+
+  [METHOD] O(Ljava/lang/String;)V (code_off=0x50ba0):
+    0000: invoke-static Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    0006: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->f:Ljava/lang/String;
+
+  [METHOD] P(Ljava/lang/String;)V (code_off=0x50bc4):
+    0000: invoke-static Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    0006: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->e:Ljava/lang/String;
+
+  [METHOD] Q(Lorg/json/JSONArray;, Lorg/json/JSONArray;, Ljava/util/List;)Lorg/json/JSONArray; (code_off=0x507c0):
+    0000: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->g:Lcom/baidu/otaplugin/infos/f;
+    0002: invoke-virtual Lcom/baidu/otaplugin/infos/f;->y(Lorg/json/JSONArray;, Lorg/json/JSONArray;, Ljava/util/List;)Lorg/json/JSONArray;
+
+  [METHOD] R(Ljava/lang/String;, Ljava/lang/String;, Z)V (code_off=0x50be8):
+    0000: invoke-static Lcom/baidu/otaplugin/infos/OtaInfo;->D(Ljava/lang/String;)Z
+    0006: invoke-static Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    000c: invoke-virtual Lcom/baidu/otaplugin/infos/OtaInfo;->O(Ljava/lang/String;)V
+    0010: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->g:Lcom/baidu/otaplugin/infos/f;
+    0012: invoke-virtual Lcom/baidu/otaplugin/infos/f;->z(Ljava/lang/String;, Ljava/lang/String;, Z)V
+
+  [METHOD] S(Ljava/lang/String;, Ljava/lang/String;, I, Ljava/lang/String;, Z)V (code_off=0x50c24):
+    0000: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->g:Lcom/baidu/otaplugin/infos/f;
+    0007: invoke-virtual/range Lcom/baidu/otaplugin/infos/f;->A(Ljava/lang/String;, Ljava/lang/String;, I, Ljava/lang/String;, Z)V
+
+  [METHOD] a(Ljava/lang/String;, Ljava/lang/String;)V (code_off=0x50904):
+    0000: new-instance Lorg/json/JSONObject;
+    0002: invoke-direct Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
+    0005: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->i:Ljava/util/Map;
+    0007: invoke-interface Ljava/util/Map;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+    000c: invoke-virtual Lorg/json/JSONException;->toString()Ljava/lang/String;
+    0010: invoke-static Lcom/baidu/loglib/LogUtils;->w(Ljava/lang/String;)V
+
+  [METHOD] b(Ljava/lang/String;, Ljava/lang/String;)V (code_off=0x5094c):
+    0003: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->b:Ljava/lang/String;
+    000e: const-string v1, "[%s]addReqMetaField key=%s,val=%s"
+    0010: invoke-static Lcom/baidu/loglib/LogUtils;->d(Ljava/lang/String;, [Ljava/lang/Object;)V
+    0013: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->h:Ljava/util/Map;
+    0015: invoke-interface Ljava/util/Map;->put(Ljava/lang/Object;, Ljava/lang/Object;)Ljava/lang/Object;
+
+  [METHOD] c(Ljava/lang/String;)V (code_off=0x50990):
+    0000: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->g:Lcom/baidu/otaplugin/infos/f;
+    0003: invoke-virtual Lcom/baidu/otaplugin/infos/OtaInfo;->m(Ljava/lang/String;, Z)Ljava/util/List;
+    0007: invoke-virtual Lcom/baidu/otaplugin/infos/f;->a(Ljava/lang/String;, Ljava/util/List;)V
+
+  [METHOD] d(Ljava/lang/String;, Ljava/util/List;)V (code_off=0x509b8):
+    0000: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->g:Lcom/baidu/otaplugin/infos/f;
+    0002: invoke-virtual Lcom/baidu/otaplugin/infos/f;->a(Ljava/lang/String;, Ljava/util/List;)V
+
+  [METHOD] e(Lorg/json/JSONObject;)V (code_off=0x509d4):
+    0000: new-instance Lorg/json/JSONObject;
+    0002: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->h:Ljava/util/Map;
+    0004: invoke-direct Lorg/json/JSONObject;-><init>(Ljava/util/Map;)V
+    0007: const-string v1, "delivery"
+    0009: invoke-virtual Lorg/json/JSONObject;->put(Ljava/lang/String;, Ljava/lang/Object;)Lorg/json/JSONObject;
+    000c: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->i:Ljava/util/Map;
+    000e: invoke-interface Ljava/util/Map;->keySet()Ljava/util/Set;
+    0012: invoke-interface Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    0016: invoke-interface Ljava/util/Iterator;->hasNext()Z
+    001c: invoke-interface Ljava/util/Iterator;->next()Ljava/lang/Object;
+    0020: check-cast Ljava/lang/String;
+    0022: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->i:Ljava/util/Map;
+    0024: invoke-interface Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    0028: invoke-virtual Lorg/json/JSONObject;->put(Ljava/lang/String;, Ljava/lang/Object;)Lorg/json/JSONObject;
+
+  [METHOD] g()Ljava/util/Collection; (code_off=0x5066c):
+    0000: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->g:Lcom/baidu/otaplugin/infos/f;
+    0002: invoke-virtual Lcom/baidu/otaplugin/infos/f;->d()Ljava/util/Collection;
+
+  [METHOD] h(Ljava/lang/String;)Lorg/json/JSONArray; (code_off=0x50720):
+    0000: const-string v0, ";"
+    0002: invoke-virtual Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
+    0006: new-instance Ljava/util/ArrayList;
+    0008: invoke-static Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
+    000c: invoke-direct Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+    000f: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->g:Lcom/baidu/otaplugin/infos/f;
+    0011: invoke-virtual Lcom/baidu/otaplugin/infos/f;->e(Ljava/util/List;)Lorg/json/JSONArray;
+    0015: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->f:Ljava/lang/String;
+    0017: invoke-static Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    001d: const-string v1, "ota.factory.package"
+    001f: invoke-interface Ljava/util/List;->contains(Ljava/lang/Object;)Z
+    0024: const-string/jumbo v0, ""
+    0027: invoke-direct Lorg/json/JSONObject;-><init>()V
+    002a: const-string v2, "package"
+    002c: invoke-virtual Lorg/json/JSONObject;->put(Ljava/lang/String;, Ljava/lang/Object;)Lorg/json/JSONObject;
+    002f: const-string v1, "ver"
+    0031: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->f:Ljava/lang/String;
+    0033: invoke-virtual Lorg/json/JSONObject;->put(Ljava/lang/String;, Ljava/lang/Object;)Lorg/json/JSONObject;
+    0036: invoke-virtual Lorg/json/JSONArray;->put(Ljava/lang/Object;)Lorg/json/JSONArray;
+    003b: invoke-static Lcom/baidu/loglib/LogUtils;->e(Ljava/lang/Exception;)V
+
+  [METHOD] i(Z)Lorg/json/JSONArray; (code_off=0x506ac):
+    0000: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->g:Lcom/baidu/otaplugin/infos/f;
+    0002: invoke-virtual Lcom/baidu/otaplugin/infos/f;->f(Z)Lorg/json/JSONArray;
+    0006: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->f:Ljava/lang/String;
+    0008: invoke-static Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    000e: new-instance Lorg/json/JSONObject;
+    0010: invoke-direct Lorg/json/JSONObject;-><init>()V
+    0013: const-string v1, "package"
+    0015: const-string v2, "ota.factory.package"
+    0017: invoke-virtual Lorg/json/JSONObject;->put(Ljava/lang/String;, Ljava/lang/Object;)Lorg/json/JSONObject;
+    001a: const-string v1, "ver"
+    001c: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->f:Ljava/lang/String;
+    001e: invoke-virtual Lorg/json/JSONObject;->put(Ljava/lang/String;, Ljava/lang/Object;)Lorg/json/JSONObject;
+    0021: invoke-virtual Lorg/json/JSONArray;->put(Ljava/lang/Object;)Lorg/json/JSONArray;
+    0026: invoke-static Lcom/baidu/loglib/LogUtils;->e(Ljava/lang/Exception;)V
+
+  [METHOD] j(Ljava/lang/String;, Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;, Z)Z (code_off=0x50278):
+    0000: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->g:Lcom/baidu/otaplugin/infos/f;
+    0002: invoke-virtual Lcom/baidu/otaplugin/infos/f;->g(Ljava/lang/String;, Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;, Z)Z
+
+  [METHOD] k()Ljava/lang/String; (code_off=0x50490):
+    0000: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->h:Ljava/util/Map;
+    0002: const-string v1, "channel"
+    0004: invoke-interface Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    0008: check-cast Ljava/lang/String;
+    000c: const-string v0, ""
+
+  [METHOD] l()Ljava/lang/String; (code_off=0x504c0):
+    0000: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->c:Ljava/lang/String;
+
+  [METHOD] m(Ljava/lang/String;, Z)Ljava/util/List; (code_off=0x5068c):
+    0000: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->g:Lcom/baidu/otaplugin/infos/f;
+    0002: invoke-virtual Lcom/baidu/otaplugin/infos/f;->i(Ljava/lang/String;, Z)Ljava/util/List;
+
+  [METHOD] n(Ljava/lang/String;, Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;, I)I (code_off=0x50470):
+    0000: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->g:Lcom/baidu/otaplugin/infos/f;
+    0002: invoke-virtual Lcom/baidu/otaplugin/infos/f;->j(Ljava/lang/String;, Lcom/baidu/otaplugin/infos/OtaInfo$KeyType;, I)I
+
+  [METHOD] o(Ljava/lang/String;)Ljava/lang/String; (code_off=0x504d8):
+    0000: invoke-static Lcom/baidu/otaplugin/infos/OtaInfo;->J(Ljava/lang/String;)Z
+    0006: invoke-virtual Lcom/baidu/otaplugin/infos/OtaInfo;->A()Ljava/lang/String;
+    000b: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->g:Lcom/baidu/otaplugin/infos/f;
+    000d: invoke-virtual Lcom/baidu/otaplugin/infos/f;->k(Ljava/lang/String;)Ljava/lang/String;
+
+  [METHOD] p()Ljava/lang/String; (code_off=0x5050c):
+    0000: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->d:Ljava/lang/String;
+
+  [METHOD] q()Ljava/lang/String; (code_off=0x50524):
+    0000: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->b:Ljava/lang/String;
+
+  [METHOD] r()[B (code_off=0x50438):
+    0000: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->a:[B
+
+  [METHOD] s(Ljava/lang/String;)Ljava/lang/String; (code_off=0x5053c):
+    0000: invoke-direct Lcom/baidu/otaplugin/infos/OtaInfo;->f(Ljava/lang/String;)Lcom/baidu/otaplugin/infos/b;
+    0004: instance-field-op Lcom/baidu/otaplugin/infos/b;->d:Ljava/lang/String;
+
+  [METHOD] t()Ljava/lang/String; (code_off=0x5055c):
+    0000: new-instance Lorg/json/JSONObject;
+    0002: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->h:Ljava/util/Map;
+    0004: invoke-direct Lorg/json/JSONObject;-><init>(Ljava/util/Map;)V
+    0007: invoke-virtual Lorg/json/JSONObject;->toString()Ljava/lang/String;
+
+  [METHOD] u(Ljava/lang/String;)Ljava/lang/String; (code_off=0x50584):
+    0000: invoke-direct Lcom/baidu/otaplugin/infos/OtaInfo;->f(Ljava/lang/String;)Lcom/baidu/otaplugin/infos/b;
+    0004: instance-field-op Lcom/baidu/otaplugin/infos/b;->e:Ljava/lang/String;
+
+  [METHOD] v(Ljava/lang/String;, Ljava/lang/String;)Ljava/lang/String; (code_off=0x505a4):
+    0000: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->g:Lcom/baidu/otaplugin/infos/f;
+    0002: invoke-virtual Lcom/baidu/otaplugin/infos/f;->m(Ljava/lang/String;, Ljava/lang/String;)Ljava/lang/String;
+
+  [METHOD] w(Ljava/lang/String;)Ljava/lang/String; (code_off=0x505c4):
+    0000: invoke-direct Lcom/baidu/otaplugin/infos/OtaInfo;->f(Ljava/lang/String;)Lcom/baidu/otaplugin/infos/b;
+    0004: instance-field-op Lcom/baidu/otaplugin/infos/b;->c:Ljava/lang/String;
+
+  [METHOD] x()Ljava/lang/String; (code_off=0x505e4):
+    0000: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->g:Lcom/baidu/otaplugin/infos/f;
+    0002: invoke-virtual Lcom/baidu/otaplugin/infos/f;->o()Ljava/lang/String;
+
+  [METHOD] y(Ljava/util/List;)Ljava/lang/String; (code_off=0x50604):
+    0000: instance-field-op Lcom/baidu/otaplugin/infos/OtaInfo;->g:Lcom/baidu/otaplugin/infos/f;
+    0002: invoke-virtual Lcom/baidu/otaplugin/infos/f;->p(Ljava/util/List;)Ljava/lang/String;
+
+  [METHOD] z(Ljava/lang/String;)Ljava/lang/String; (code_off=0x50624):
+    0000: invoke-direct Lcom/baidu/otaplugin/infos/OtaInfo;->f(Ljava/lang/String;)Lcom/baidu/otaplugin/infos/b;
+    0004: instance-field-op Lcom/baidu/otaplugin/infos/b;->n:Lorg/json/JSONObject;
+    0008: invoke-virtual Lorg/json/JSONObject;->toString()Ljava/lang/String;
+    000d: const-string v1, ""

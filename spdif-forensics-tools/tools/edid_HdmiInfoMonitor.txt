@@ -1,0 +1,5 @@
+=== _MI_AOUT_HdmiInfoMonitor @0xa8b36 (disasm to 0xa8b4f)
+0x000a8b36: muleq     r1, sp, r5
+0x000a8b3a: andeq     lr, r4, r0, asr r0
+0x000a8b3e: andsle    r0, r0, r0, lsr #3
+0x000a8b42: blhi      #0xffca957e

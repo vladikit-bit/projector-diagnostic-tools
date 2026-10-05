@@ -1,0 +1,509 @@
+=== SECTIONS ===
+   0                    addr=0x00000000 off=0x00000000 size=0x000000 end=0x00000000
+   1 .note.android.ident addr=0x00000174 off=0x00000174 size=0x000018 end=0x0000018c
+   2 .note.gnu.build-id addr=0x0000018c off=0x0000018c size=0x000020 end=0x000001ac
+   3 .dynsym            addr=0x000001ac off=0x000001ac size=0x003db0 end=0x00003f5c
+   4 .gnu.version       addr=0x00003f5c off=0x00003f5c size=0x0007b6 end=0x00004712
+   5 .gnu.version_r     addr=0x00004714 off=0x00004714 size=0x000090 end=0x000047a4
+   6 .gnu.hash          addr=0x000047a4 off=0x000047a4 size=0x001710 end=0x00005eb4
+   7 .dynstr            addr=0x00005eb4 off=0x00005eb4 size=0x00c858 end=0x0001270c
+   8 .rel.dyn           addr=0x0001270c off=0x0001270c size=0x000301 end=0x00012a0d
+   9 .relr.dyn          addr=0x00012a10 off=0x00012a10 size=0x000048 end=0x00012a58
+  10 .ARM.exidx         addr=0x00012a58 off=0x00012a58 size=0x001440 end=0x00013e98
+  11 .rel.plt           addr=0x00013e98 off=0x00013e98 size=0x000c50 end=0x00014ae8
+  12 .ARM.extab         addr=0x00014ae8 off=0x00014ae8 size=0x0000d0 end=0x00014bb8
+  13 .rodata            addr=0x00014bb8 off=0x00014bb8 size=0x00a4e8 end=0x0001f0a0
+  14 .text              addr=0x000200a0 off=0x0001f0a0 size=0x01d024 end=0x0003d0c4
+  15 .plt               addr=0x0003d0d0 off=0x0003c0d0 size=0x0018c0 end=0x0003e990
+  16 .data.rel.ro       addr=0x0003f990 off=0x0003d990 size=0x0006a0 end=0x00040030
+  17 .fini_array        addr=0x00040030 off=0x0003e030 size=0x000008 end=0x00040038
+  18 .init_array        addr=0x00040038 off=0x0003e038 size=0x000008 end=0x00040040
+  19 .dynamic           addr=0x00040040 off=0x0003e040 size=0x000148 end=0x00040188
+  20 .got               addr=0x00040188 off=0x0003e188 size=0x000174 end=0x000402fc
+  21 .got.plt           addr=0x000402fc off=0x0003e2fc size=0x000634 end=0x00040930
+  22 .data              addr=0x00041930 off=0x0003e930 size=0x000230 end=0x00041b60
+  23 .bss               addr=0x00041b60 off=0x0003eb60 size=0x000ba0 end=0x00042700
+  24 .ARM.attributes    addr=0x00000000 off=0x0003eb60 size=0x00004e end=0x0000004e
+  25 .shstrtab          addr=0x00000000 off=0x0003ebae size=0x00010e end=0x0000010e
+  26 .gnu_debugdata     addr=0x00000000 off=0x0003ecbc size=0x001c90 end=0x00001c90
+
+987 dynsyms, 131 plt entries
+
+=== VA vs OFFSET policy ===
+  .text addr=0x200a0 off=0x1f0a0  .rodata addr=0x14bb8 off=0x14bb8
+
+=== STRING LOCATIONS (file offsets) ===
+  0x018940 (va=0x18940, .rodata)  'spdif_mode'
+  0x01bb87 (va=0x1bb87, .rodata)  'spdif_type'
+  0x014bde (va=0x14bde, .rodata)  'hdmi_tx_mode'
+  0x0163b0 (va=0x163b0, .rodata)  'hdmi_tx_type'
+  0x01757b (va=0x1757b, .rodata)  'HDMI_ARC'
+  0x018f69 (va=0x18f69, .rodata)  'SetSpdifOutputMode=PCM'
+  0x01c0dc (va=0x1c0dc, .rodata)  'SetSpdifOutputMode=AUTO'
+  0x01bc4d (va=0x1bc4d, .rodata)  'SetSpdifOutputMode=BYPASS'
+  0x01ca05 (va=0x1ca05, .rodata)  'SetSpdifOutputMode=TRANSCODE'
+  0x015ec2 (va=0x15ec2, .rodata)  'SetSpdifOutputType=NONE'
+  0x018a44 (va=0x18a44, .rodata)  'SetSpdifOutputType=AC3'
+  0x01bc67 (va=0x1bc67, .rodata)  'SetSpdifOutputType=DTS'
+  0x0185ac (va=0x185ac, .rodata)  'SetHdmiTxOutputMode=AUTO'
+  0x0159e8 (va=0x159e8, .rodata)  'SetHdmiTxOutputMode=TRANSCODE'
+  0x0185c5 (va=0x185c5, .rodata)  'SetHdmiTxOutputType=AC3P'
+  0x015d73 (va=0x15d73, .rodata)  'sound_type'
+  0x01720d (va=0x1720d, .rodata)  'spdif'
+  0x0179e9 (va=0x179e9, .rodata)  'SPDIF'
+
+=== XREF SCAN (any 4-byte LE occurrence of the string VA anywhere in the file) ===
+  spdif_mode                         va=0x00018940  -> NO REF
+  spdif_type                         va=0x0001bb87  -> NO REF
+  hdmi_tx_mode                       va=0x00014bde  -> NO REF
+  hdmi_tx_type                       va=0x000163b0  -> NO REF
+  HDMI_ARC                           va=0x0001757b  -> ref at off=0x03dcbc (va=0x3dcbc, .data.rel.ro)
+  HDMI_ARC                           va=0x0001757b  -> ref at off=0x03dcbc (va=0x3dcbc, .data.rel.ro)
+  SetSpdifOutputMode=PCM             va=0x00018f69  -> NO REF
+  SetSpdifOutputMode=AUTO            va=0x0001c0dc  -> NO REF
+  SetSpdifOutputMode=BYPASS          va=0x0001bc4d  -> NO REF
+  SetSpdifOutputMode=TRANSCODE       va=0x0001ca05  -> NO REF
+  SetSpdifOutputType=NONE            va=0x00015ec2  -> NO REF
+  SetSpdifOutputType=AC3             va=0x00018a44  -> NO REF
+  SetSpdifOutputType=DTS             va=0x0001bc67  -> NO REF
+  SetHdmiTxOutputMode=AUTO           va=0x000185ac  -> NO REF
+  SetHdmiTxOutputMode=TRANSCODE      va=0x000159e8  -> NO REF
+  SetHdmiTxOutputType=AC3P           va=0x000185c5  -> NO REF
+  sound_type                         va=0x00015d73  -> NO REF
+  spdif                              va=0x0001720d  -> NO REF
+  SPDIF                              va=0x000179e9  -> ref at off=0x03dca8 (va=0x3dca8, .data.rel.ro)
+  SPDIF                              va=0x000179e9  -> ref at off=0x03dca8 (va=0x3dca8, .data.rel.ro)
+
+=== .data.rel.ro POINTER TABLE ===
+  0x0003f990 [  0] off=0x03d990  0x0003f990  -> .data.rel.ro:'\x90ù\x03'
+  0x0003f994 [  1] off=0x03d994  0x0001bfc7  -> .rodata:'AUDIO_FORMAT_PCM_16_BIT'
+  0x0003f998 [  2] off=0x03d998  0x00000001  
+  0x0003f99c [  3] off=0x03d99c  0x0001bbac  -> .rodata:'AUDIO_FORMAT_PCM_8_BIT'
+  0x0003f9a0 [  4] off=0x03d9a0  0x00000002  
+  0x0003f9a4 [  5] off=0x03d9a4  0x000198dc  -> .rodata:'AUDIO_FORMAT_PCM_32_BIT'
+  0x0003f9a8 [  6] off=0x03d9a8  0x00000003  
+  0x0003f9ac [  7] off=0x03d9ac  0x0001b12b  -> .rodata:'AUDIO_FORMAT_PCM_8_24_BIT'
+  0x0003f9b0 [  8] off=0x03d9b0  0x00000004  
+  0x0003f9b4 [  9] off=0x03d9b4  0x0001c47c  -> .rodata:'AUDIO_FORMAT_PCM_FLOAT'
+  0x0003f9b8 [ 10] off=0x03d9b8  0x00000005  
+  0x0003f9bc [ 11] off=0x03d9bc  0x0001dd8a  -> .rodata:'AUDIO_FORMAT_PCM_24_BIT_PACKED'
+  0x0003f9c0 [ 12] off=0x03d9c0  0x00000006  
+  0x0003f9c4 [ 13] off=0x03d9c4  0x00017fbf  -> .rodata:'AUDIO_FORMAT_MP3'
+  0x0003f9c8 [ 14] off=0x03d9c8  0x01000000  
+  0x0003f9cc [ 15] off=0x03d9cc  0x0001a8b7  -> .rodata:'AUDIO_FORMAT_AAC'
+  0x0003f9d0 [ 16] off=0x03d9d0  0x04000000  
+  0x0003f9d4 [ 17] off=0x03d9d4  0x00018dfd  -> .rodata:'AUDIO_FORMAT_AAC_MAIN'
+  0x0003f9d8 [ 18] off=0x03d9d8  0x04000001  
+  0x0003f9dc [ 19] off=0x03d9dc  0x0001ad38  -> .rodata:'AUDIO_FORMAT_AAC_LC'
+  0x0003f9e0 [ 20] off=0x03d9e0  0x04000002  
+  0x0003f9e4 [ 21] off=0x03d9e4  0x0001a191  -> .rodata:'AUDIO_FORMAT_AAC_SSR'
+  0x0003f9e8 [ 22] off=0x03d9e8  0x04000004  
+  0x0003f9ec [ 23] off=0x03d9ec  0x00017b89  -> .rodata:'AUDIO_FORMAT_AAC_LTP'
+  0x0003f9f0 [ 24] off=0x03d9f0  0x04000008  
+  0x0003f9f4 [ 25] off=0x03d9f4  0x0001cec4  -> .rodata:'AUDIO_FORMAT_AAC_HE_V1'
+  0x0003f9f8 [ 26] off=0x03d9f8  0x04000010  
+  0x0003f9fc [ 27] off=0x03d9fc  0x0001a1a6  -> .rodata:'AUDIO_FORMAT_AAC_SCALABLE'
+  0x0003fa00 [ 28] off=0x03da00  0x04000020  
+  0x0003fa04 [ 29] off=0x03da04  0x00018e13  -> .rodata:'AUDIO_FORMAT_AAC_ERLC'
+  0x0003fa08 [ 30] off=0x03da08  0x04000040  
+  0x0003fa0c [ 31] off=0x03da0c  0x0001503d  -> .rodata:'AUDIO_FORMAT_AAC_LD'
+  0x0003fa10 [ 32] off=0x03da10  0x04000080  
+  0x0003fa14 [ 33] off=0x03da14  0x00016da3  -> .rodata:'AUDIO_FORMAT_AAC_HE_V2'
+  0x0003fa18 [ 34] off=0x03da18  0x04000100  
+  0x0003fa1c [ 35] off=0x03da1c  0x0001e3e9  -> .rodata:'AUDIO_FORMAT_AAC_ELD'
+  0x0003fa20 [ 36] off=0x03da20  0x04000200  
+  0x0003fa24 [ 37] off=0x03da24  0x000176dd  -> .rodata:'AUDIO_FORMAT_VORBIS'
+  0x0003fa28 [ 38] off=0x03da28  0x07000000  
+  0x0003fa2c [ 39] off=0x03da2c  0x000189b4  -> .rodata:'AUDIO_FORMAT_HE_AAC_V1'
+  0x0003fa30 [ 40] off=0x03da30  0x05000000  
+  0x0003fa34 [ 41] off=0x03da34  0x0001d862  -> .rodata:'AUDIO_FORMAT_HE_AAC_V2'
+  0x0003fa38 [ 42] off=0x03da38  0x06000000  
+  0x0003fa3c [ 43] off=0x03da3c  0x0001ad4c  -> .rodata:'AUDIO_FORMAT_OPUS'
+  0x0003fa40 [ 44] off=0x03da40  0x08000000  
+  0x0003fa44 [ 45] off=0x03da44  0x0001bbc3  -> .rodata:'AUDIO_FORMAT_AC3'
+  0x0003fa48 [ 46] off=0x03da48  0x09000000  
+  0x0003fa4c [ 47] off=0x03da4c  0x00018e29  -> .rodata:'AUDIO_FORMAT_E_AC3'
+  0x0003fa50 [ 48] off=0x03da50  0x0a000000  
+  0x0003fa54 [ 49] off=0x03da54  0x00015913  -> .rodata:'AUDIO_FORMAT_DTS'
+  0x0003fa58 [ 50] off=0x03da58  0x0b000000  
+  0x0003fa5c [ 51] off=0x03da5c  0x00016981  -> .rodata:'/odm/etc/default_volume_tables.xml'
+  0x0003fa60 [ 52] off=0x03da60  0x000169a4  -> .rodata:'/vendor/etc/default_volume_tables.xml'
+  0x0003fa64 [ 53] off=0x03da64  0x000169ca  -> .rodata:'/system/etc/default_volume_tables.xml'
+  0x0003fa68 [ 54] off=0x03da68  0x0001e5d4  -> .rodata:'MM'
+  0x0003fa6c [ 55] off=0x03da6c  0x000178d4  -> .rodata:'DTV'
+  0x0003fa70 [ 56] off=0x03da70  0x00016fac  -> .rodata:'ATV'
+  0x0003fa74 [ 57] off=0x03da74  0x00017d0f  -> .rodata:'HDMI'
+  0x0003fa78 [ 58] off=0x03da78  0x0001aea3  -> .rodata:'CVBS'
+  0x0003fa7c [ 59] off=0x03da7c  0x0001ae18  -> .rodata:'32000'
+  0x0003fa80 [ 60] off=0x03da80  0x0001b745  -> .rodata:'32000|44100'
+  0x0003fa84 [ 61] off=0x03da84  0x00016ec3  -> .rodata:'32000|44100|48000'
+  0x0003fa88 [ 62] off=0x03da88  0x00016ed5  -> .rodata:'32000|44100|48000|88000'
+  0x0003fa8c [ 63] off=0x03da8c  0x00017bde  -> .rodata:'32000|44100|48000|88000|96000'
+  0x0003fa90 [ 64] off=0x03da90  0x00017bfc  -> .rodata:'32000|44100|48000|88000|96000|176000'
+  0x0003fa94 [ 65] off=0x03da94  0x0001808f  -> .rodata:'32000|44100|48000|88000|96000|176000|192000'
+  0x0003fa98 [ 66] off=0x03da98  0x0001b0c3  -> .rodata:'pcm'
+  0x0003fa9c [ 67] off=0x03da9c  0x0001d909  -> .rodata:'ac3'
+  0x0003faa0 [ 68] off=0x03daa0  0x0001ce77  -> .rodata:''
+  0x0003faa4 [ 69] off=0x03daa4  0x0001cf81  -> .rodata:'mp3'
+  0x0003faa8 [ 70] off=0x03daa8  0x0001ce77  -> .rodata:''
+  0x0003faac [ 71] off=0x03daac  0x00016524  -> .rodata:'aac'
+  0x0003fab0 [ 72] off=0x03dab0  0x000199a6  -> .rodata:'dts'
+  0x0003fab4 [ 73] off=0x03dab4  0x0001ce77  -> .rodata:''
+  0x0003fab8 [ 74] off=0x03dab8  0x0001ce77  -> .rodata:''
+  0x0003fabc [ 75] off=0x03dabc  0x000159a0  -> .rodata:'eac3'
+  0x0003fac0 [ 76] off=0x03dac0  0x0001b0c3  -> .rodata:'pcm'
+  0x0003fac4 [ 77] off=0x03dac4  0x00016d3c  -> .rodata:'auto'
+  0x0003fac8 [ 78] off=0x03dac8  0x0001853e  -> .rodata:'bypass'
+  0x0003facc [ 79] off=0x03dacc  0x0001d3c8  -> .rodata:'transcode'
+  0x0003fad0 [ 80] off=0x03dad0  0x0001c78a  -> .rodata:'Device Set/Get Digital Capability'
+  0x0003fad4 [ 81] off=0x03dad4  0x00000000  
+  0x0003fad8 [ 82] off=0x03dad8  0x00016201  -> .rodata:'Device Set/Get Digital SCMS Info'
+  0x0003fadc [ 83] off=0x03dadc  0x00000001  
+  0x0003fae0 [ 84] off=0x03dae0  0x0001db61  -> .rodata:'Device Set/Get Digital Hdmi Rx Format'
+  0x0003fae4 [ 85] off=0x03dae4  0x00000002  
+  0x0003fae8 [ 86] off=0x03dae8  0x0001e1ea  -> .rodata:'Device Set Digital Output Setting'
+  0x0003faec [ 87] off=0x03daec  0x00000003  
+  0x0003faf0 [ 88] off=0x03daf0  0x0001671b  -> .rodata:'Device Set Digital Volume'
+  0x0003faf4 [ 89] off=0x03daf4  0x00000004  
+  0x0003faf8 [ 90] off=0x03daf8  0x000191b1  -> .rodata:'Device Set Digital Volume Curve Table'
+  0x0003fafc [ 91] off=0x03dafc  0x00000005  
+  0x0003fb00 [ 92] off=0x03db00  0x000179ef  -> .rodata:'Device Set Dap Control'
+  0x0003fb04 [ 93] off=0x03db04  0x00000006  
+  0x0003fb08 [ 94] off=0x03db08  0x0001bdcf  -> .rodata:'Device Set Low Latency'
+  0x0003fb0c [ 95] off=0x03db0c  0x00000007  
+  0x0003fb10 [ 96] off=0x03db10  0x0001afad  -> .rodata:'Device Set/Get Speaker Audio Delay'
+  0x0003fb14 [ 97] off=0x03db14  0x00000008  
+  0x0003fb18 [ 98] off=0x03db18  0x00017a06  -> .rodata:'Device Set SPDIF Audio Delay'
+  0x0003fb1c [ 99] off=0x03db1c  0x00000009  
+  0x0003fb20 [100] off=0x03db20  0x00016bd6  -> .rodata:'Device Set Sound Mode'
+  0x0003fb24 [101] off=0x03db24  0x0000000a  
+  0x0003fb28 [102] off=0x03db28  0x00017e08  -> .rodata:'Device Get DTV Format'
+  0x0003fb2c [103] off=0x03db2c  0x0000000b  
+  0x0003fb30 [104] off=0x03db30  0x0001e6b1  -> .rodata:'Device Get Hw Decoder Format'
+  0x0003fb34 [105] off=0x03db34  0x0000000c  
+  0x0003fb38 [106] off=0x03db38  0x0001b483  -> .rodata:'Device Get Always Encode Capability'
+  0x0003fb3c [107] off=0x03db3c  0x0000000d  
+  0x0003fb40 [108] off=0x03db40  0x00017e1e  -> .rodata:'Device Set/Get DTS Drc Scale'
+  0x0003fb44 [109] off=0x03db44  0x0000000e  
+  0x0003fb48 [110] off=0x03db48  0x00019c7e  -> .rodata:'Device Get Audio Indicator'
+  0x0003fb4c [111] off=0x03db4c  0x0000000f  
+  0x0003fb50 [112] off=0x03db50  0x0001db87  -> .rodata:'Device Set Diaglogue Enhancement'
+  0x0003fb54 [113] off=0x03db54  0x00000010  
+  0x0003fb58 [114] off=0x03db58  0x00016222  -> .rodata:'Device Set Foreground APP Type'
+  0x0003fb5c [115] off=0x03db5c  0x00000011  
+  0x0003fb60 [116] off=0x03db60  0x000183a4  -> .rodata:'Device Get Audio Latency to compare with video latency'
+  0x0003fb64 [117] off=0x03db64  0x00000012  
+  0x0003fb68 [118] off=0x03db68  0x0001c2e6  -> .rodata:'Device Set Stereo Output DRC'
+  0x0003fb6c [119] off=0x03db6c  0x00000013  
+  0x0003fb70 [120] off=0x03db70  0x0001e6ce  -> .rodata:'Device Set Multi Output DRC'
+  0x0003fb74 [121] off=0x03db74  0x00000014  
+  0x0003fb78 [122] off=0x03db78  0x0001ccf5  -> .rodata:'Device Set Dolby Downmix Mode'
+  0x0003fb7c [123] off=0x03db7c  0x00000015  
+  0x0003fb80 [124] off=0x03db80  0x00016241  -> .rodata:'Device Set Aac Program Reference Level'
+  0x0003fb84 [125] off=0x03db84  0x00000016  
+  0x0003fb88 [126] off=0x03db88  0x0001b4a7  -> .rodata:'Device Set Virtualizer Mode'
+  0x0003fb8c [127] off=0x03db8c  0x00000017  
+  0x0003fb90 [128] off=0x03db90  0x0001b99d  -> .rodata:'Device Set Virtualizer Surround Boost Strength'
+  0x0003fb94 [129] off=0x03db94  0x00000018  
+  0x0003fb98 [130] off=0x03db98  0x0001cd13  -> .rodata:'Device Set Volume Leveler Strength'
+  0x0003fb9c [131] off=0x03db9c  0x00000019  
+  0x0003fba0 [132] off=0x03dba0  0x0001dba8  -> .rodata:'Device Set Dialogue Enhancer Strength'
+  0x0003fba4 [133] off=0x03dba4  0x0000001a  
+  0x0003fba8 [134] off=0x03dba8  0x0001d2e0  -> .rodata:'Device Set Virtualizer Reverb Strength'
+  0x0003fbac [135] off=0x03dbac  0x0000001b  
+  0x0003fbb0 [136] off=0x03dbb0  0x0001bde6  -> .rodata:'Device Get Dolby Version'
+  0x0003fbb4 [137] off=0x03dbb4  0x0000001c  
+  0x0003fbb8 [138] off=0x03dbb8  0x0001afd0  -> .rodata:'Device Set Volume Leveler Mode'
+  0x0003fbbc [139] off=0x03dbbc  0x0000001d  
+  0x0003fbc0 [140] off=0x03dbc0  0x0001dbce  -> .rodata:'Device Set Bitstream Output Channel Mode'
+  0x0003fbc4 [141] off=0x03dbc4  0x0000001e  
+  0x0003fbc8 [142] off=0x03dbc8  0x0001d6bc  -> .rodata:'Device Set AC4 Presentation Preferences'
+  0x0003fbcc [143] off=0x03dbcc  0x0000001f  
+  0x0003fbd0 [144] off=0x03dbd0  0x000183db  -> .rodata:'Device Set Channel Lock'
+  0x0003fbd4 [145] off=0x03dbd4  0x00000020  
+  0x0003fbd8 [146] off=0x03dbd8  0x00019701  -> .rodata:'Decoder Set State'
+  0x0003fbdc [147] off=0x03dbdc  0x00000000  
+  0x0003fbe0 [148] off=0x03dbe0  0x0001b9cc  -> .rodata:'Decoder Get Pcm-Level'
+  0x0003fbe4 [149] off=0x03dbe4  0x00000001  
+  0x0003fbe8 [150] off=0x03dbe8  0x00017584  -> .rodata:'Decoder Get Timestamp'
+  0x0003fbec [151] off=0x03dbec  0x00000002  
+  0x0003fbf0 [152] off=0x03dbf0  0x000156cd  -> .rodata:'Decoder Get Es Level'
+  0x0003fbf4 [153] off=0x03dbf4  0x00000003  
+  0x0003fbf8 [154] off=0x03dbf8  0x000191ec  -> .rodata:'Decoder Get Es Remain Frame Count'
+  0x0003fbfc [155] off=0x03dbfc  0x00000004  
+  0x0003fc00 [156] off=0x03dc00  0x000187b6  -> .rodata:'Stream Pcm Buffer-Level'
+  0x0003fc04 [157] off=0x03dc04  0x00000000  
+  0x0003fc08 [158] off=0x03dc08  0x0001e6ea  -> .rodata:'Stream Channel-Num'
+  0x0003fc0c [159] off=0x03dc0c  0x00000001  
+  0x0003fc10 [160] off=0x03dc10  0x0001d307  -> .rodata:'Stream Bit-Width'
+  0x0003fc14 [161] off=0x03dc14  0x00000002  
+  0x0003fc18 [162] off=0x03dc18  0x00014f22  -> .rodata:'Stream Volume'
+  0x0003fc1c [163] off=0x03dc1c  0x00000003  
+  0x0003fc20 [164] off=0x03dc20  0x000187ce  -> .rodata:'Stream Easing'
+  0x0003fc24 [165] off=0x03dc24  0x00000004  
+  0x0003fc28 [166] off=0x03dc28  0x00016735  -> .rodata:'Stream Mute'
+  0x0003fc2c [167] off=0x03dc2c  0x00000005  
+  0x0003fc30 [168] off=0x03dc30  0x0001dc3b  -> .rodata:'Stream Decoder Channel'
+  0x0003fc34 [169] off=0x03dc34  0x00000006  
+  0x0003fc38 [170] off=0x03dc38  0x000183f3  -> .rodata:'Stream Decoder Sample Rate'
+  0x0003fc3c [171] off=0x03dc3c  0x00000007  
+  0x0003fc40 [172] off=0x03dc40  0x00019713  -> .rodata:'Stream Display Ready Check'
+  0x0003fc44 [173] off=0x03dc44  0x00000008  
+  0x0003fc48 [174] off=0x03dc48  0x0001627d  -> .rodata:'Stream Capability'
+  0x0003fc4c [175] off=0x03dc4c  0x00000009  
+  0x0003fc50 [176] off=0x03dc50  0x0001e6fd  -> .rodata:'Stream Low Latency'
+  0x0003fc54 [177] off=0x03dc54  0x0000000a  
+  0x0003fc58 [178] off=0x03dc58  0x0001840e  -> .rodata:'Stream Playback Rate'
+  0x0003fc5c [179] off=0x03dc5c  0x0000000b  
+  0x0003fc60 [180] off=0x03dc60  0x00000000  
+  0x0003fc64 [181] off=0x03dc64  0x00000000  
+  0x0003fc68 [182] off=0x03dc68  0x000328b9  -> .text:'J'
+  0x0003fc6c [183] off=0x03dc6c  0x000328cd  -> .text:'ðd»-éðA\xadõ¥m\x04FàH\rFOô\x80qxDÐø'
+  0x0003fc70 [184] off=0x03dc70  0x00000000  
+  0x0003fc74 [185] off=0x03dc74  0x00017b2c  -> .rodata:'dd'
+  0x0003fc78 [186] off=0x03dc78  0x0001532d  -> .rodata:'ddp'
+  0x0003fc7c [187] off=0x03dc7c  0x000199a6  -> .rodata:'dts'
+  0x0003fc80 [188] off=0x03dc80  0x00016524  -> .rodata:'aac'
+  0x0003fc84 [189] off=0x03dc84  0x00017e40  -> .rodata:'mat-truhd'
+  0x0003fc88 [190] off=0x03dc88  0x0001affd  -> .rodata:'dtshd'
+  0x0003fc8c [191] off=0x03dc8c  0x00000000  
+  0x0003fc90 [192] off=0x03dc90  0x00000000  
+  0x0003fc94 [193] off=0x03dc94  0x000328b9  -> .text:'J'
+  0x0003fc98 [194] off=0x03dc98  0x00032e79  -> .text:'ÞÔÔ°µ\x82°\x0eH'
+  0x0003fc9c [195] off=0x03dc9c  0x00000000  
+  0x0003fca0 [196] off=0x03dca0  0x0001670f  -> .rodata:'ALL'
+  0x0003fca4 [197] off=0x03dca4  0x00014f1f  -> .rodata:'LR'
+  0x0003fca8 [198] off=0x03dca8  0x000179e9  -> .rodata:'SPDIF'
+  0x0003fcac [199] off=0x03dcac  0x00017e00  -> .rodata:'HDMI_TX'
+  0x0003fcb0 [200] off=0x03dcb0  0x000187ae  -> .rodata:'SPEAKER'
+  0x0003fcb4 [201] off=0x03dcb4  0x0001db57  -> .rodata:'HEADPHONE'
+  0x0003fcb8 [202] off=0x03dcb8  0x00016713  -> .rodata:'LINEOUT'
+  0x0003fcbc [203] off=0x03dcbc  0x0001757b  -> .rodata:'HDMI_ARC'
+  0x0003fcc0 [204] off=0x03dcc0  0x00000058  
+  0x0003fcc4 [205] off=0x03dcc4  0x00000000  
+  0x0003fcc8 [206] off=0x03dcc8  0x00000000  
+  0x0003fccc [207] off=0x03dccc  0x00000000  
+  0x0003fcd0 [208] off=0x03dcd0  0x00000000  
+  0x0003fcd4 [209] off=0x03dcd4  0x00000000  
+  0x0003fcd8 [210] off=0x03dcd8  0xfffffff8  
+  0x0003fcdc [211] off=0x03dcdc  0x00000000  
+  0x0003fce0 [212] off=0x03dce0  0x00000000  
+  0x0003fce4 [213] off=0x03dce4  0x00000000  
+  0x0003fce8 [214] off=0x03dce8  0x00000000  
+  0x0003fcec [215] off=0x03dcec  0xffffffe0  
+  0x0003fcf0 [216] off=0x03dcf0  0x00000000  
+  0x0003fcf4 [217] off=0x03dcf4  0x00000000  
+  0x0003fcf8 [218] off=0x03dcf8  0x00000000  
+  0x0003fcfc [219] off=0x03dcfc  0x00000000  
+  0x0003fd00 [220] off=0x03dd00  0x00000000  
+  0x0003fd04 [221] off=0x03dd04  0x00000000  
+  0x0003fd08 [222] off=0x03dd08  0x00000000  
+  0x0003fd0c [223] off=0x03dd0c  0xffffffa8  
+  0x0003fd10 [224] off=0x03dd10  0xffffffa8  
+  0x0003fd14 [225] off=0x03dd14  0x00000000  
+  0x0003fd18 [226] off=0x03dd18  0x00000000  
+  0x0003fd1c [227] off=0x03dd1c  0x00000000  
+  0x0003fd20 [228] off=0x03dd20  0x00000000  
+  0x0003fd24 [229] off=0x03dd24  0x00000000  
+  0x0003fd28 [230] off=0x03dd28  0x00000000  
+  0x0003fd2c [231] off=0x03dd2c  0x00000000  
+  0x0003fd30 [232] off=0x03dd30  0x0000000c  
+  0x0003fd34 [233] off=0x03dd34  0x00000058  
+  0x0003fd38 [234] off=0x03dd38  0x00000000  
+  0x0003fd3c [235] off=0x03dd3c  0x00000000  
+  0x0003fd40 [236] off=0x03dd40  0x00000000  
+  0x0003fd44 [237] off=0x03dd44  0x00000000  
+  0x0003fd48 [238] off=0x03dd48  0x0003a92d  -> .text:'µ\x04F\x06H\x07IxD\x08X\x080 ` F\x03ð@î F½è\x10@\x02ðt»PX'
+  0x0003fd4c [239] off=0x03dd4c  0x0003a955  -> .text:'µ\x04F\x08H\tIxD\x08X\x080 ` F\x03ð,î F\x03ð0î F½è\x10@\x02ð\x0f»'
+  0x0003fd50 [240] off=0x03dd50  0x00000000  
+  0x0003fd54 [241] off=0x03dd54  0x00000000  
+  0x0003fd58 [242] off=0x03dd58  0x00000000  
+  0x0003fd5c [243] off=0x03dd5c  0x00000000  
+  0x0003fd60 [244] off=0x03dd60  0x00000000  
+  0x0003fd64 [245] off=0x03dd64  0x00000000  
+  0x0003fd68 [246] off=0x03dd68  0x00000000  
+  0x0003fd6c [247] off=0x03dd6c  0x00000000  
+  0x0003fd70 [248] off=0x03dd70  0x00000000  
+  0x0003fd74 [249] off=0x03dd74  0x00000000  
+  0x0003fd78 [250] off=0x03dd78  0x0003a9f1  -> .text:'G'
+  0x0003fd7c [251] off=0x03dd7c  0x0003a9f5  -> .text:'ðÐºpG'
+  0x0003fd80 [252] off=0x03dd80  0x0003a9f9  -> .text:'G'
+  0x0003fd84 [253] off=0x03dd84  0x00000000  
+  0x0003fd88 [254] off=0x03dd88  0x00000000  
+  0x0003fd8c [255] off=0x03dd8c  0x00000000  
+  0x0003fd90 [256] off=0x03dd90  0x00000000  
+  0x0003fd94 [257] off=0x03dd94  0x00000000  
+  0x0003fd98 [258] off=0x03dd98  0x00000000  
+  0x0003fd9c [259] off=0x03dd9c  0x00000000  
+  0x0003fda0 [260] off=0x03dda0  0x00000000  
+  0x0003fda4 [261] off=0x03dda4  0xffffffe8  
+  0x0003fda8 [262] off=0x03dda8  0x00000000  
+  0x0003fdac [263] off=0x03ddac  0x00000000  
+  0x0003fdb0 [264] off=0x03ddb0  0x00000000  
+  0x0003fdb4 [265] off=0x03ddb4  0x00000000  
+  0x0003fdb8 [266] off=0x03ddb8  0x00000000  
+  0x0003fdbc [267] off=0x03ddbc  0x00000000  
+  0x0003fdc0 [268] off=0x03ddc0  0x00000000  
+  0x0003fdc4 [269] off=0x03ddc4  0x00000000  
+  0x0003fdc8 [270] off=0x03ddc8  0x00000000  
+  0x0003fdcc [271] off=0x03ddcc  0x00000000  
+  0x0003fdd0 [272] off=0x03ddd0  0x00000000  
+  0x0003fdd4 [273] off=0x03ddd4  0x00000000  
+  0x0003fdd8 [274] off=0x03ddd8  0x0003aae9  -> .text:'µ\x04F\x06H\x07IxD\x08X\x080 ` F\x03ðbí F½è\x10@\x02ð¨º\x94V'
+  0x0003fddc [275] off=0x03dddc  0x0003ac95  -> .text:'µ\x04F\x08H\tIxD\x08X\x080 ` F\x03ð\x8cì F\x03ð\x10í F½è\x10@\x02ðo¹'
+  0x0003fde0 [276] off=0x03dde0  0x00000000  
+  0x0003fde4 [277] off=0x03dde4  0x00000000  
+  0x0003fde8 [278] off=0x03dde8  0x00000000  
+  0x0003fdec [279] off=0x03ddec  0x00000000  
+  0x0003fdf0 [280] off=0x03ddf0  0x00000000  
+  0x0003fdf4 [281] off=0x03ddf4  0x00000000  
+  0x0003fdf8 [282] off=0x03ddf8  0x00000000  
+  0x0003fdfc [283] off=0x03ddfc  0x00000000  
+  0x0003fe00 [284] off=0x03de00  0x00000000  
+  0x0003fe04 [285] off=0x03de04  0x00000000  
+  0x0003fe08 [286] off=0x03de08  0x00000000  
+  0x0003fe0c [287] off=0x03de0c  0x00000000  
+  0x0003fe10 [288] off=0x03de10  0x0003ae91  -> .text:'G'
+  0x0003fe14 [289] off=0x03de14  0x00000000  
+  0x0003fe18 [290] off=0x03de18  0x00000000  
+  0x0003fe1c [291] off=0x03de1c  0x00000000  
+  0x0003fe20 [292] off=0x03de20  0x00000000  
+  0x0003fe24 [293] off=0x03de24  0x00000000  
+  0x0003fe28 [294] off=0x03de28  0x00000000  
+  0x0003fe2c [295] off=0x03de2c  0x00000000  
+  0x0003fe30 [296] off=0x03de30  0x00000050  
+  0x0003fe34 [297] off=0x03de34  0x00000000  
+  0x0003fe38 [298] off=0x03de38  0x00000000  
+  0x0003fe3c [299] off=0x03de3c  0x00000000  
+  0x0003fe40 [300] off=0x03de40  0x00000000  
+  0x0003fe44 [301] off=0x03de44  0x00000000  
+  0x0003fe48 [302] off=0x03de48  0x00000000  
+  0x0003fe4c [303] off=0x03de4c  0x0000004c  
+  0x0003fe50 [304] off=0x03de50  0xfffffffc  
+  0x0003fe54 [305] off=0x03de54  0x00000000  
+  0x0003fe58 [306] off=0x03de58  0x00000000  
+  0x0003fe5c [307] off=0x03de5c  0x00000000  
+  0x0003fe60 [308] off=0x03de60  0x00000000  
+  0x0003fe64 [309] off=0x03de64  0x00000000  
+  0x0003fe68 [310] off=0x03de68  0x00000000  
+  0x0003fe6c [311] off=0x03de6c  0x00000000  
+  0x0003fe70 [312] off=0x03de70  0x00000000  
+  0x0003fe74 [313] off=0x03de74  0x00000000  
+  0x0003fe78 [314] off=0x03de78  0x00000000  
+  0x0003fe7c [315] off=0x03de7c  0x00000000  
+  0x0003fe80 [316] off=0x03de80  0xffffffb0  
+  0x0003fe84 [317] off=0x03de84  0xffffffb0  
+  0x0003fe88 [318] off=0x03de88  0x00000000  
+  0x0003fe8c [319] off=0x03de8c  0x00000000  
+  0x0003fe90 [320] off=0x03de90  0x00000000  
+  0x0003fe94 [321] off=0x03de94  0x00000000  
+  0x0003fe98 [322] off=0x03de98  0x00000000  
+  0x0003fe9c [323] off=0x03de9c  0x00000000  
+  0x0003fea0 [324] off=0x03dea0  0x00000000  
+  0x0003fea4 [325] off=0x03dea4  0x00000000  
+  0x0003fea8 [326] off=0x03dea8  0x00000000  
+  0x0003feac [327] off=0x03deac  0x00000000  
+  0x0003feb0 [328] off=0x03deb0  0x0000000c  
+  0x0003feb4 [329] off=0x03deb4  0x0000000c  
+  0x0003feb8 [330] off=0x03deb8  0x00000040  
+  0x0003febc [331] off=0x03debc  0x00000028  
+  0x0003fec0 [332] off=0x03dec0  0x0000005c  
+  0x0003fec4 [333] off=0x03dec4  0x00000000  
+  0x0003fec8 [334] off=0x03dec8  0x00000000  
+  0x0003fecc [335] off=0x03decc  0x00000000  
+  0x0003fed0 [336] off=0x03ded0  0x0000004c  
+  0x0003fed4 [337] off=0x03ded4  0x00000000  
+  0x0003fed8 [338] off=0x03ded8  0x00000000  
+  0x0003fedc [339] off=0x03dedc  0x00000000  
+  0x0003fee0 [340] off=0x03dee0  0x00000000  
+  0x0003fee4 [341] off=0x03dee4  0x00000000  
+  0x0003fee8 [342] off=0x03dee8  0x00000000  
+  0x0003feec [343] off=0x03deec  0x00000000  
+  0x0003fef0 [344] off=0x03def0  0x00000000  
+  0x0003fef4 [345] off=0x03def4  0x00000000  
+  0x0003fef8 [346] off=0x03def8  0x00000000  
+  0x0003fefc [347] off=0x03defc  0x00000000  
+  0x0003ff00 [348] off=0x03df00  0x00000000  
+  0x0003ff04 [349] off=0x03df04  0xffffffb4  
+  0x0003ff08 [350] off=0x03df08  0xffffffb4  
+  0x0003ff0c [351] off=0x03df0c  0x00000000  
+  0x0003ff10 [352] off=0x03df10  0x00000000  
+  0x0003ff14 [353] off=0x03df14  0x00000000  
+  0x0003ff18 [354] off=0x03df18  0x00000000  
+  0x0003ff1c [355] off=0x03df1c  0x00000000  
+  0x0003ff20 [356] off=0x03df20  0x00000000  
+  0x0003ff24 [357] off=0x03df24  0x00000000  
+  0x0003ff28 [358] off=0x03df28  0x00000000  
+  0x0003ff2c [359] off=0x03df2c  0x00000000  
+  0x0003ff30 [360] off=0x03df30  0x00000000  
+  0x0003ff34 [361] off=0x03df34  0x00000000  
+  0x0003ff38 [362] off=0x03df38  0x0003b595  -> .text:'G'
+  0x0003ff3c [363] off=0x03df3c  0x0003b599  -> .text:'ðþ¼pG'
+  0x0003ff40 [364] off=0x03df40  0x0003b59d  -> .text:'G'
+  0x0003ff44 [365] off=0x03df44  0x00000000  
+  0x0003ff48 [366] off=0x03df48  0x00000000  
+  0x0003ff4c [367] off=0x03df4c  0x00000000  
+  0x0003ff50 [368] off=0x03df50  0x00000040  
+  0x0003ff54 [369] off=0x03df54  0x00000000  
+  0x0003ff58 [370] off=0x03df58  0x00000000  
+  0x0003ff5c [371] off=0x03df5c  0x00000000  
+  0x0003ff60 [372] off=0x03df60  0x00000000  
+  0x0003ff64 [373] off=0x03df64  0x00000000  
+  0x0003ff68 [374] off=0x03df68  0x00000000  
+  0x0003ff6c [375] off=0x03df6c  0x00000000  
+  0x0003ff70 [376] off=0x03df70  0x00000000  
+  0x0003ff74 [377] off=0x03df74  0x00000000  
+  0x0003ff78 [378] off=0x03df78  0x00000000  
+  0x0003ff7c [379] off=0x03df7c  0x00000000  
+  0x0003ff80 [380] off=0x03df80  0x00000000  
+  0x0003ff84 [381] off=0x03df84  0xffffffc0  
+  0x0003ff88 [382] off=0x03df88  0xffffffc0  
+  0x0003ff8c [383] off=0x03df8c  0x00000000  
+  0x0003ff90 [384] off=0x03df90  0x00000000  
+  0x0003ff94 [385] off=0x03df94  0x00000000  
+  0x0003ff98 [386] off=0x03df98  0x00000000  
+  0x0003ff9c [387] off=0x03df9c  0x00000000  
+  0x0003ffa0 [388] off=0x03dfa0  0x00000000  
+  0x0003ffa4 [389] off=0x03dfa4  0x00000000  
+  0x0003ffa8 [390] off=0x03dfa8  0x00000000  
+  0x0003ffac [391] off=0x03dfac  0x00000000  
+  0x0003ffb0 [392] off=0x03dfb0  0x0000000c  
+  0x0003ffb4 [393] off=0x03dfb4  0x0000000c  
+  0x0003ffb8 [394] off=0x03dfb8  0x00000040  
+  0x0003ffbc [395] off=0x03dfbc  0x00000040  
+  0x0003ffc0 [396] off=0x03dfc0  0x00000040  
+  0x0003ffc4 [397] off=0x03dfc4  0x00000000  
+  0x0003ffc8 [398] off=0x03dfc8  0x00000000  
+  0x0003ffcc [399] off=0x03dfcc  0x00000000  
+  0x0003ffd0 [400] off=0x03dfd0  0x00000000  
+  0x0003ffd4 [401] off=0x03dfd4  0x00000000  
+  0x0003ffd8 [402] off=0x03dfd8  0x00000000  
+  0x0003ffdc [403] off=0x03dfdc  0x00000000  
+  0x0003ffe0 [404] off=0x03dfe0  0x00000000  
+  0x0003ffe4 [405] off=0x03dfe4  0x00000000  
+  0x0003ffe8 [406] off=0x03dfe8  0x00000000  
+  0x0003ffec [407] off=0x03dfec  0x00000000  
+  0x0003fff0 [408] off=0x03dff0  0x00000000  
+  0x0003fff4 [409] off=0x03dff4  0xffffffc0  
+  0x0003fff8 [410] off=0x03dff8  0xffffffc0  
+  0x0003fffc [411] off=0x03dffc  0x00000000  
+  0x00040000 [412] off=0x03e000  0x00000000  
+  0x00040004 [413] off=0x03e004  0x00000000  
+  0x00040008 [414] off=0x03e008  0x00000000  
+  0x0004000c [415] off=0x03e00c  0x00000000  
+  0x00040010 [416] off=0x03e010  0x00000000  
+  0x00040014 [417] off=0x03e014  0x00000000  
+  0x00040018 [418] off=0x03e018  0x00000000  
+  0x0004001c [419] off=0x03e01c  0x00000000  
+  0x00040020 [420] off=0x03e020  0x00000000  
+  0x00040024 [421] off=0x03e024  0x00000000  
+  0x00040028 [422] off=0x03e028  0x00000000  
+  0x0004002c [423] off=0x03e02c  0x00000000  
+
+=== PLT THUNK RESOLUTION for likely callees ===
+  dynsym strcmp                                   value=0x0
+  dynsym strstr                                   value=0x0
+  dynsym strncmp                                  value=0x0
+  dynsym atoi                                     value=0x0
+  dynsym strtoll                                  value=0x0
+  dynsym property_get                             value=0x0

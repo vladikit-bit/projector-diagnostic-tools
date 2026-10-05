@@ -1,0 +1,20 @@
+﻿total 96
+drwxr-xr-x 17 root root   4096 2008-12-31 19:00 .
+drwxr-xr-x 21 root root   4096 2008-12-31 19:00 ..
+drwxr-xr-x 23 root root   4096 2008-12-31 19:00 apex
+drwxr-xr-x 24 root root   4096 2008-12-31 19:00 app
+drwxr-x--x  4 root shell  8192 2008-12-31 19:00 bin
+-rw-------  1 root root   2352 2008-12-31 19:00 build.prop
+drwxr-xr-x  3 root root   4096 2008-12-31 19:00 dy
+drwxr-xr-x 18 root root   4096 2008-12-31 19:00 etc
+drwxr-xr-x  2 root root  12288 2008-12-31 19:00 fonts
+drwxr-xr-x  4 root root   4096 2008-12-31 19:00 framework
+drwxr-xr-x  4 root root  16384 2008-12-31 19:00 lib
+drwxr-xr-x  2 root root   4096 2008-12-31 19:00 media
+drwxr-xr-x  2 root root   4096 2008-12-31 19:00 plugins
+drwxr-xr-x 31 root root   4096 2008-12-31 19:00 priv-app
+drwxr-xr-x  7 root root   4096 2008-12-31 19:00 product
+drwxr-xr-x  8 root root   4096 2008-12-31 19:00 system_ext
+drwxr-xr-x  7 root root   4096 2008-12-31 19:00 usr
+lrw-r--r--  1 root root      7 2008-12-31 19:00 vendor -> /vendor
+drwxr-x--x  2 root shell  4096 2008-12-31 19:00 xbin

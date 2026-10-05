@@ -1,0 +1,13 @@
+﻿total 8
+drwxr-xr-x  2 root root 4096 2008-12-31 19:00 .
+drwxr-xr-x 21 root root 4096 2008-12-31 19:00 ..
+lrw-r--r--  1 root root   15 2008-12-31 19:00 app -> /vendor/odm/app
+lrw-r--r--  1 root root   15 2008-12-31 19:00 bin -> /vendor/odm/bin
+lrw-r--r--  1 root root   15 2008-12-31 19:00 etc -> /vendor/odm/etc
+lrw-r--r--  1 root root   20 2008-12-31 19:00 firmware -> /vendor/odm/firmware
+lrw-r--r--  1 root root   21 2008-12-31 19:00 framework -> /vendor/odm/framework
+lrw-r--r--  1 root root   15 2008-12-31 19:00 lib -> /vendor/odm/lib
+lrw-r--r--  1 root root   17 2008-12-31 19:00 lib64 -> /vendor/odm/lib64
+lrw-r--r--  1 root root   19 2008-12-31 19:00 overlay -> /vendor/odm/overlay
+lrw-r--r--  1 root root   20 2008-12-31 19:00 priv-app -> /vendor/odm/priv-app
+lrw-r--r--  1 root root   15 2008-12-31 19:00 usr -> /vendor/odm/usr

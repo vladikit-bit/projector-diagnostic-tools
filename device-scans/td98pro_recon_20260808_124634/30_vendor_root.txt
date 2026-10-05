@@ -1,0 +1,23 @@
+﻿total 6904
+drwxr-xr-x 17 root shell    4096 2008-12-31 19:00 .
+drwxr-xr-x 21 root root     4096 2008-12-31 19:00 ..
+drwxr-xr-x  3 root shell    4096 2008-12-31 19:00 apex
+drwxr-xr-x 10 root shell    4096 2008-12-31 19:00 app
+drwxr-x--x  3 root shell    8192 2008-12-31 19:00 bin
+-rw-------  1 root root     5679 2008-12-31 19:00 build.prop
+lrw-r--r--  1 root root       23 2008-12-31 19:00 config -> /vendor/tvconfig/config
+drwxr-xr-x  9 root root     4096 2025-09-10 07:23 cusdata
+-rw-------  1 root root      365 2008-12-31 19:00 default.prop
+drwxr-xr-x 14 root shell    4096 2026-01-04 19:25 etc
+drwxr-xr-x  1 root root     4096 2026-01-04 18:30 factory
+drwxr-xr-x  4 root shell    4096 2008-12-31 19:00 firmware
+drwxr-xr-x 10 root shell    8192 2008-12-31 19:00 lib
+drwx------  2 root root    16384 2008-12-31 19:00 lost+found
+drwxr-xr-x  3 root shell    4096 2008-12-31 19:00 odm
+drwxr-xr-x  2 root shell    4096 2008-12-31 19:00 overlay
+drwxr-xr-x  1 root root     4096 2026-01-04 18:30 project_id
+-rw-r--r--  1 root root  6951963 2008-12-31 19:00 recovery-from-boot.p
+drwxr-xr-x  4 root root     4096 2026-08-08 05:35 tvcertificate
+drwxr-xr-x  5 root root     4096 1969-12-31 19:00 tvconfig
+-rw-r--r--  1 root root     4058 2008-12-31 19:00 ueventd.rc
+drwxr-xr-x  4 root shell    4096 2008-12-31 19:00 usr

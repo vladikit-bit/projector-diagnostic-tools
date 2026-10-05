@@ -1,0 +1,22 @@
+﻿Filesystem            Size  Used Avail Use% Mounted on
+tmpfs                 671M  948K  670M   1% /dev
+tmpfs                 671M     0  671M   0% /mnt
+/dev/block/dm-0       1.9G  1.6G  234M  88% /
+/dev/block/dm-1       526M  326M  189M  64% /vendor
+tmpfs                 671M     0  671M   0% /apex
+tmpfs                 671M  248K  671M   1% /linkerconfig
+/dev/block/mmcblk0p26  24G  3.7G   20G  16% /data
+/dev/block/mmcblk0p23 468M  308K  453M   1% /cache
+/dev/block/mmcblk0p6  144M  8.5M  132M   7% /vendor/tvconfig
+/dev/block/mmcblk0p7  171M   11M  147M   7% /vendor/cusdata
+/dev/block/mmcblk0p3  3.8M  108K  3.5M   3% /vendor/tvcertificate
+/dev/block/mmcblk0p25  43M   40K   39M   1% /data/customer
+/dev/block/dm-2       262M  128K  256M   1% /mnt/scratch
+overlay               262M  128K  256M   1% /vendor/factory
+overlay               262M  128K  256M   1% /mnt/vendor/tvservice
+overlay               262M  128K  256M   1% /vendor/project_id
+overlay               262M  128K  256M   1% /mnt/vendor/linux_rootfs
+overlay               262M  128K  256M   1% /mnt/vendor/3rd
+tmpfs                 671M     0  671M   0% /data_mirror
+tmpfs                 671M  200K  671M   1% /mnt/vendor/tmp
+/dev/fuse              24G  3.7G   20G  16% /storage/emulated

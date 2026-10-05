@@ -1,0 +1,2243 @@
+Windows PowerShell
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Установите последнюю версию PowerShell для новых функций и улучшения! https://aka.ms/PSWindows
+
+PS C:\Android\platform-tools-latest-windows\platform-tools> .\adb shell
+mt5889:/ $ ls -lh /cache /cache/recovery /data/local/tmp /sdcard /mnt/sdcard /mnt/media_rw || true
+ls: /cache/recovery: Permission denied
+
+lrwxrwxrwx 1 root   root               21 2000-01-01 03:00 /mnt/sdcard -> /storage/self/primary
+lrw-r--r-- 1 root   root               21 2025-07-09 07:50 /sdcard -> /storage/self/primary
+ls: /cache: Permission denied
+
+/data/local/tmp:
+total 2.0K
+drwxrwxrwx 2 shell shell 4.0K 2025-10-21 01:44 tinyalsa
+ls: /mnt/media_rw: Permission denied
+rade*.pkg" -o -iname "*.pkg" -o -iname "*update*.zip" 2>/dev/null | tee ~/projector_logs/possible_update_paths.txt    <
+tee: //projector_logs/possible_update_paths.txt: No such file or directory
+.]1|mt5889:/ $ adb root
+/system/bin/sh: adb: inaccessible or not found
+127|mt5889:/ $
+PS C:\Android\platform-tools-latest-windows\platform-tools> .\adb shell
+mt5889:/ # ls -lh /cache /cache/recovery /data/local/tmp /sdcard /mnt/sdcard /mnt/media_rw || true
+
+lrwxrwxrwx 1 root   root               21 2000-01-01 03:00 /mnt/sdcard -> /storage/self/primary
+lrw-r--r-- 1 root   root               21 2025-07-09 07:50 /sdcard -> /storage/self/primary
+
+/cache:
+total 22K
+drwx------ 2 system system 4.0K 2025-10-20 20:32 backup
+drwx------ 2 system system 4.0K 2025-10-20 20:32 backup_stage
+drwxrwx--- 2 root   root    16K 2025-10-20 20:32 lost+found
+drwxrwx--- 2 system cache  4.0K 2025-10-20 20:34 recovery
+
+/cache/recovery:
+total 290K
+-rw------- 1 system system 724 2025-10-20 20:32 last_ft_activated_data
+-rw-r--r-- 1 system system   0 2025-10-20 20:32 last_install
+-rw------- 1 system system 74K 2025-10-20 20:32 last_kmsg
+-rw------- 1 system system 74K 2025-10-20 20:32 last_kmsg.1
+-rw------- 1 system system 75K 2025-10-20 20:32 last_kmsg.2
+-rw------- 1 system system 74K 2025-10-20 20:32 last_kmsg.3
+-rw------- 1 system system 75K 2025-10-20 20:32 last_kmsg.4
+-rw------- 1 root   root     5 2025-10-20 20:32 last_locale
+-rw-r----- 1 root   root   25K 2025-10-20 20:32 last_log
+-rw-r----- 1 root   root   25K 2025-10-20 20:32 last_log.1
+-rw-r----- 1 root   root   25K 2025-10-20 20:32 last_log.2
+-rw-r----- 1 root   root   25K 2025-10-20 20:32 last_log.3
+-rw-r----- 1 root   root   25K 2025-10-20 20:32 last_log.4
+
+/data/local/tmp:
+total 2.0K
+drwxrwxrwx 2 shell shell 4.0K 2025-10-21 01:44 tinyalsa
+
+/mnt/media_rw:
+total 0
+rade*.pkg" -o -iname "*.pkg" -o -iname "*update*.zip" 2>/dev/null | tee ~/projector_logs/possible_update_paths.txt    <
+tee: //projector_logs/possible_update_paths.txt: No such file or directory
+1|mt5889:/ # ls -l /cache/update || true
+ls: /cache/update: No such file or directory
+mt5889:/ # ls -l /data/local/tmp || true
+total 4
+drwxrwxrwx 2 shell shell 4096 2025-10-21 01:44 tinyalsa
+mt5889:/ # pull /cache/update/upgrade_image_test.pkg ~/projector_logs/ || true
+/system/bin/sh: pull: inaccessible or not found
+mt5889:/ # adb pull /cache/update/upgrade_image_test.pkg ~/projector_logs/ || true
+/system/bin/sh: adb: inaccessible or not found
+mt5889:/ # pull /cache/update/upgrade_image_test.pkg ~/projector_logs/ || true
+/system/bin/sh: pull: inaccessible or not found
+-iname "*updater*" -o -iname "*fwupdate*" 2>/dev/null | tee ~/projector_logs/update_binaries.txt                      <
+tee: //projector_logs/update_binaries.txt: No such file or directory
+/system/priv-app/ConfigUpdater
+/system/priv-app/ConfigUpdater/ConfigUpdater.apk
+/vendor/bin/update_linux_network
+/data/data/com.google.android.configupdater
+/system/priv-app/ConfigUpdater
+/vendor/bin/update_linux_network
+/sys/utpa2k_power/timeout_autoupdate
+/config/sdcardfs/com.google.android.configupdater
+1|mt5889:/ # "ls -l /system/bin /system/xbin /vendor/bin" | sed -n '1,200p'
+/system/bin/sh: ls -l /system/bin /system/xbin /vendor/bin: inaccessible or not found
+mt5889:/ # pull /system/bin/update-binary ~/projector_logs/ 2>/dev/null || true
+ "*.crt" -o -iname "*cert*" \) 2>/dev/null | tee ~/projector_logs/crypto_candidates.txt                               <
+tee: //projector_logs/crypto_candidates.txt: No such file or directory
+/apex/com.android.vndk.v30/lib/libcrypto.so
+/apex/com.android.vndk.v30/lib/libcrypto_utils.so
+/apex/com.android.vndk.v30/lib/libssl.so
+/data/user/0/com.amazon.avod.thirdpartyclient/files/playready/system/devcerttemplate.dat
+/data/user/0/com.amazon.avod.thirdpartyclient/files/playready/system/devcert.dat
+/data/user/0/com.amazon.avod.thirdpartyclient/files/playready/system/bgroupcert.dat
+/data/user/0/com.amazon.avod.thirdpartyclient/files/playready/system/ndrcerttemplate.dat
+/data/user/0/com.amazon.avod.thirdpartyclient/files/playready/system/bdevcert.dat
+/data/user/0/com.amazon.avod.thirdpartyclient/files/playready/system/bDomainCertSecL0.dat
+/data/user/0/com.android.toofifi/files/wz_license.key
+/data/user/0/ru.vk.store/shared_prefs/PublicCertificate.xml
+/data/user/0/ru.vk.store/app_kav_base/bk/mobile/cdbm/mcertdb.dat
+/data/user/0/ru.vk.store/app_kav_base/l/certificate.crt
+/data/user/0/ru.vk.store/app_kav_base/b/mcertdb.dat
+/data/user/0/org.xbmc.kodi/cache/apk/assets/system/certs/cacert.pem
+/data/user/0/org.xbmc.kodi/cache/apk/assets/addons/webinterface.default/images/fanart_default/concert.jpg
+/data/user/0/com.google.android.configupdater/shared_prefs/CertPinDownloads.xml
+/data/user/0/com.google.android.configupdater/shared_prefs/CertPinState.xml
+/data/user/0/com.google.android.gms/files/auth_folsom/signed_certificates
+/data/data/com.amazon.avod.thirdpartyclient/files/playready/system/devcerttemplate.dat
+/data/data/com.amazon.avod.thirdpartyclient/files/playready/system/devcert.dat
+/data/data/com.amazon.avod.thirdpartyclient/files/playready/system/bgroupcert.dat
+/data/data/com.amazon.avod.thirdpartyclient/files/playready/system/ndrcerttemplate.dat
+/data/data/com.amazon.avod.thirdpartyclient/files/playready/system/bdevcert.dat
+/data/data/com.amazon.avod.thirdpartyclient/files/playready/system/bDomainCertSecL0.dat
+/data/data/com.android.toofifi/files/wz_license.key
+/data/data/ru.vk.store/shared_prefs/PublicCertificate.xml
+/data/data/ru.vk.store/app_kav_base/bk/mobile/cdbm/mcertdb.dat
+/data/data/ru.vk.store/app_kav_base/l/certificate.crt
+/data/data/ru.vk.store/app_kav_base/b/mcertdb.dat
+/data/data/org.xbmc.kodi/cache/apk/assets/system/certs/cacert.pem
+/data/data/org.xbmc.kodi/cache/apk/assets/addons/webinterface.default/images/fanart_default/concert.jpg
+/data/data/com.google.android.configupdater/shared_prefs/CertPinDownloads.xml
+/data/data/com.google.android.configupdater/shared_prefs/CertPinState.xml
+/data/data/com.google.android.gms/files/auth_folsom/signed_certificates
+/data/app/~~OM6fxkBujt8Ov3v98Fma0Q==/com.google.android.gms-tpEsO-kwEAcdO1q5GOhWdQ==/split_GoogleCertificates_installtime.apk
+/data/app/~~OM6fxkBujt8Ov3v98Fma0Q==/com.google.android.gms-tpEsO-kwEAcdO1q5GOhWdQ==/oat/arm/split_GoogleCertificates_installtime.vdex
+/data/app/~~OM6fxkBujt8Ov3v98Fma0Q==/com.google.android.gms-tpEsO-kwEAcdO1q5GOhWdQ==/oat/arm/split_GoogleCertificates_installtime.odex
+/data/app/~~D2lU8kPqObfsxoGWbTb6Sw==/org.xbmc.kodi-O179KlDwLmT-FBIisXQ2pQ==/lib/arm/libCryptodome_Cipher__raw_cast.so
+/data/app/~~D2lU8kPqObfsxoGWbTb6Sw==/org.xbmc.kodi-O179KlDwLmT-FBIisXQ2pQ==/lib/arm/libCryptodome_Hash__ghash_portable.so
+/data/app/~~D2lU8kPqObfsxoGWbTb6Sw==/org.xbmc.kodi-O179KlDwLmT-FBIisXQ2pQ==/lib/arm/libCryptodome_Cipher__raw_ctr.so
+/data/app/~~D2lU8kPqObfsxoGWbTb6Sw==/org.xbmc.kodi-O179KlDwLmT-FBIisXQ2pQ==/lib/arm/libCryptodome_Hash__SHA224.so
+/data/app/~~D2lU8kPqObfsxoGWbTb6Sw==/org.xbmc.kodi-O179KlDwLmT-FBIisXQ2pQ==/lib/arm/libCryptodome_Hash__MD5.so
+/data/app/~~D2lU8kPqObfsxoGWbTb6Sw==/org.xbmc.kodi-O179KlDwLmT-FBIisXQ2pQ==/lib/arm/libCryptodome_Hash__SHA256.so
+/data/app/~~D2lU8kPqObfsxoGWbTb6Sw==/org.xbmc.kodi-O179KlDwLmT-FBIisXQ2pQ==/lib/arm/libCryptodome_Cipher__raw_cbc.so
+/data/app/~~D2lU8kPqObfsxoGWbTb6Sw==/org.xbmc.kodi-O179KlDwLmT-FBIisXQ2pQ==/lib/arm/libCryptodome_Hash__keccak.so
+/data/app/~~D2lU8kPqObfsxoGWbTb6Sw==/org.xbmc.kodi-O179KlDwLmT-FBIisXQ2pQ==/lib/arm/libCryptodome_Hash__BLAKE2s.so
+/data/app/~~D2lU8kPqObfsxoGWbTb6Sw==/org.xbmc.kodi-O179KlDwLmT-FBIisXQ2pQ==/lib/arm/libCryptodome_Cipher__ARC4.so
+/data/app/~~D2lU8kPqObfsxoGWbTb6Sw==/org.xbmc.kodi-O179KlDwLmT-FBIisXQ2pQ==/lib/arm/libCryptodome_PublicKey__ec_ws.so
+/data/app/~~D2lU8kPqObfsxoGWbTb6Sw==/org.xbmc.kodi-O179KlDwLmT-FBIisXQ2pQ==/lib/arm/libCryptodome_Hash__MD2.so
+/data/app/~~D2lU8kPqObfsxoGWbTb6Sw==/org.xbmc.kodi-O179KlDwLmT-FBIisXQ2pQ==/lib/arm/libCryptodome_Hash__SHA1.so
+/data/app/~~D2lU8kPqObfsxoGWbTb6Sw==/org.xbmc.kodi-O179KlDwLmT-FBIisXQ2pQ==/lib/arm/libCryptodome_Cipher__raw_blowfish.so
+/data/app/~~D2lU8kPqObfsxoGWbTb6Sw==/org.xbmc.kodi-O179KlDwLmT-FBIisXQ2pQ==/lib/arm/libCryptodome_Cipher__raw_ofb.so
+/data/app/~~D2lU8kPqObfsxoGWbTb6Sw==/org.xbmc.kodi-O179KlDwLmT-FBIisXQ2pQ==/lib/arm/libCryptodome_Hash__SHA512.so
+/data/app/~~D2lU8kPqObfsxoGWbTb6Sw==/org.xbmc.kodi-O179KlDwLmT-FBIisXQ2pQ==/lib/arm/libCryptodome_Math__modexp.so
+/data/app/~~D2lU8kPqObfsxoGWbTb6Sw==/org.xbmc.kodi-O179KlDwLmT-FBIisXQ2pQ==/lib/arm/libCryptodome_Cipher__raw_des3.so
+/data/app/~~D2lU8kPqObfsxoGWbTb6Sw==/org.xbmc.kodi-O179KlDwLmT-FBIisXQ2pQ==/lib/arm/libCryptodome_Util__cpuid_c.so
+/data/app/~~D2lU8kPqObfsxoGWbTb6Sw==/org.xbmc.kodi-O179KlDwLmT-FBIisXQ2pQ==/lib/arm/libCryptodome_Hash__MD4.so
+/data/app/~~D2lU8kPqObfsxoGWbTb6Sw==/org.xbmc.kodi-O179KlDwLmT-FBIisXQ2pQ==/lib/arm/libCryptodome_Hash__RIPEMD160.so
+/data/app/~~D2lU8kPqObfsxoGWbTb6Sw==/org.xbmc.kodi-O179KlDwLmT-FBIisXQ2pQ==/lib/arm/libCryptodome_Cipher__Salsa20.so
+/data/app/~~D2lU8kPqObfsxoGWbTb6Sw==/org.xbmc.kodi-O179KlDwLmT-FBIisXQ2pQ==/lib/arm/libCryptodome_Cipher__raw_ocb.so
+/data/app/~~D2lU8kPqObfsxoGWbTb6Sw==/org.xbmc.kodi-O179KlDwLmT-FBIisXQ2pQ==/lib/arm/libCryptodome_Protocol__scrypt.so
+/data/app/~~D2lU8kPqObfsxoGWbTb6Sw==/org.xbmc.kodi-O179KlDwLmT-FBIisXQ2pQ==/lib/arm/libCryptodome_Hash__poly1305.so
+/data/app/~~D2lU8kPqObfsxoGWbTb6Sw==/org.xbmc.kodi-O179KlDwLmT-FBIisXQ2pQ==/lib/arm/libCryptodome_Cipher__raw_ecb.so
+/data/app/~~D2lU8kPqObfsxoGWbTb6Sw==/org.xbmc.kodi-O179KlDwLmT-FBIisXQ2pQ==/lib/arm/libCryptodome_Cipher__raw_des.so
+/data/app/~~D2lU8kPqObfsxoGWbTb6Sw==/org.xbmc.kodi-O179KlDwLmT-FBIisXQ2pQ==/lib/arm/libCryptodome_Hash__SHA384.so
+/data/app/~~D2lU8kPqObfsxoGWbTb6Sw==/org.xbmc.kodi-O179KlDwLmT-FBIisXQ2pQ==/lib/arm/libCryptodome_Cipher__raw_cfb.so
+/data/app/~~D2lU8kPqObfsxoGWbTb6Sw==/org.xbmc.kodi-O179KlDwLmT-FBIisXQ2pQ==/lib/arm/libCryptodome_Util__strxor.so
+/data/app/~~D2lU8kPqObfsxoGWbTb6Sw==/org.xbmc.kodi-O179KlDwLmT-FBIisXQ2pQ==/lib/arm/libCryptodome_Cipher__raw_aes.so
+/data/app/~~D2lU8kPqObfsxoGWbTb6Sw==/org.xbmc.kodi-O179KlDwLmT-FBIisXQ2pQ==/lib/arm/libCryptodome_Cipher__pkcs1_decode.so
+/data/app/~~D2lU8kPqObfsxoGWbTb6Sw==/org.xbmc.kodi-O179KlDwLmT-FBIisXQ2pQ==/lib/arm/libCryptodome_Hash__BLAKE2b.so
+/data/app/~~D2lU8kPqObfsxoGWbTb6Sw==/org.xbmc.kodi-O179KlDwLmT-FBIisXQ2pQ==/lib/arm/libCryptodome_Cipher__raw_arc2.so
+/data/app/~~D2lU8kPqObfsxoGWbTb6Sw==/org.xbmc.kodi-O179KlDwLmT-FBIisXQ2pQ==/lib/arm/libCryptodome_Cipher__raw_eksblowfish.so
+/data/app/~~D2lU8kPqObfsxoGWbTb6Sw==/org.xbmc.kodi-O179KlDwLmT-FBIisXQ2pQ==/lib/arm/libCryptodome_Cipher__chacha20.so
+/data/vendor/mediadrm/IDM1013/L3/certEfZoTHiucUHfzKnvQ8JIKA==.bin
+/data/vendor/mediadrm/IDM1013/L3/cert75jSPCqlS-60qgxc7LrddA==.bin
+/data/vendor/mediadrm/IDM1013/L3/certzYxrPxZeNu3tjFsxUNjjmA==.bin
+/data/vendor/mediadrm/IDM1013/L3/certUy-h1AYL_98pyttLbzavVw==.bin
+/data/misc/keystore/user_0/10052_USRCERT_IDENTITY_MAP_KEYSTORE_ALIAS
+/data/misc/keystore/user_0/10033_USRCERT_ALIAS_MASTER_KEY
+/data/misc/keystore/user_0/10003_USRCERT_c5635988b7157a3a
+/data/misc/profiles/cur/0/com.google.android.gms/GoogleCertificates_installtime.split.prof
+/data/system/package_cache/a27574ef1264e591e8fe4f2e591b1595f01b5182/CertInstaller-16
+/system/apex/com.android.vndk.current/lib/libcrypto.so
+/system/apex/com.android.vndk.current/lib/libcrypto_utils.so
+/system/apex/com.android.vndk.current/lib/libssl.so
+/system/lib/libcrypto.so
+/system/lib/libcrypto_utils.so
+/system/lib/libsoft_attestation_cert.so
+/system/lib/libssl.so
+/system/etc/security/otacerts.zip
+/system/app/CertInstaller/CertInstaller.apk
+/system/app/CertInstaller/oat/arm/CertInstaller.vdex
+/system/app/CertInstaller/oat/arm/CertInstaller.odex
+/data_mirror/cur_profiles/0/com.google.android.gms/GoogleCertificates_installtime.split.prof
+/data_mirror/data_ce/null/0/com.amazon.avod.thirdpartyclient/files/playready/system/devcerttemplate.dat
+/data_mirror/data_ce/null/0/com.amazon.avod.thirdpartyclient/files/playready/system/devcert.dat
+/data_mirror/data_ce/null/0/com.amazon.avod.thirdpartyclient/files/playready/system/bgroupcert.dat
+/data_mirror/data_ce/null/0/com.amazon.avod.thirdpartyclient/files/playready/system/ndrcerttemplate.dat
+/data_mirror/data_ce/null/0/com.amazon.avod.thirdpartyclient/files/playready/system/bdevcert.dat
+/data_mirror/data_ce/null/0/com.amazon.avod.thirdpartyclient/files/playready/system/bDomainCertSecL0.dat
+/data_mirror/data_ce/null/0/com.android.toofifi/files/wz_license.key
+/data_mirror/data_ce/null/0/ru.vk.store/shared_prefs/PublicCertificate.xml
+/data_mirror/data_ce/null/0/ru.vk.store/app_kav_base/bk/mobile/cdbm/mcertdb.dat
+/data_mirror/data_ce/null/0/ru.vk.store/app_kav_base/l/certificate.crt
+/data_mirror/data_ce/null/0/ru.vk.store/app_kav_base/b/mcertdb.dat
+/data_mirror/data_ce/null/0/org.xbmc.kodi/cache/apk/assets/system/certs/cacert.pem
+/data_mirror/data_ce/null/0/org.xbmc.kodi/cache/apk/assets/addons/webinterface.default/images/fanart_default/concert.jpg
+/data_mirror/data_ce/null/0/com.google.android.configupdater/shared_prefs/CertPinDownloads.xml
+/data_mirror/data_ce/null/0/com.google.android.configupdater/shared_prefs/CertPinState.xml
+/data_mirror/data_ce/null/0/com.google.android.gms/files/auth_folsom/signed_certificates
+/mnt/vendor/linux_rootfs/basic/lib/libcrypto.so.1.1
+/mnt/vendor/linux_rootfs/basic/lib/libssl.so.1.1
+/mnt/vendor/tvservice/glibc/libcrypto.so.1.1
+/mnt/vendor/tvservice/glibc/libssl.so.1.1
+/vendor/apex/com.android.vndk.current.on_vendor/lib/libssl.so
+/vendor/apex/com.android.vndk.current.on_vendor/lib/libcrypto.so
+/vendor/lib/libcrypto.so
+/vendor/lib/libssl.so
+/vendor/tvconfig/config/cacert.pem
+1|mt5889:/ #
+
+Windows PowerShell
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Установите последнюю версию PowerShell для новых функций и улучшения! https://aka.ms/PSWindows
+
+PS C:\Android\platform-tools-latest-windows\platform-tools> .\adb logcat -v time | egrep -i "update|ota|pkg|payload|upgrade|download|fw|zboot|recovery|install"
+egrep : Имя "egrep" не распознано как имя командлета, функции, файла сценария или выполняемой программы. Проверьте
+правильность написания имени, а также наличие и правильность пути, после чего повторите попытку.
+строка:1 знак:24
++ .\adb logcat -v time | egrep -i "update|ota|pkg|payload|upgrade|downl ...
++                        ~~~~~
+    + CategoryInfo          : ObjectNotFound: (egrep:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Android\platform-tools-latest-windows\platform-tools> .\adb shell
+mt5889:/ $ logcat -v time | egrep -i "update|ota|pkg|payload|upgrade|download|fw|zboot|recovery|install"
+07-09 07:55:41.328 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+07-09 07:55:41.468 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+07-09 07:55:41.516 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+07-09 07:55:41.764 W/NotificationService(  973): Toast already killed. pkg=com.zeasn.whale.saas token=android.os.BinderProxy@95b0bd9
+07-09 07:55:41.806 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+07-09 07:55:42.026 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+07-09 07:55:42.509 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+07-09 07:55:42.982 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.amazon.avod.thirdpartyclient: {320dpi always-compat}
+07-09 07:55:43.202 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+07-09 07:55:43.406 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.amazon.avod.thirdpartyclient: {320dpi always-compat}
+10-30 19:44:44.854 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.teamsmart.videomanager.tv: {320dpi always-compat}
+10-30 19:44:44.864 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 19:44:44.883 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 19:44:44.890 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.youtube.tv: {320dpi always-compat}
+10-30 19:44:44.922 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG ru.vk.store: {320dpi always-compat}
+10-30 19:44:45.013 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG ru.vk.store: {320dpi always-compat}
+10-30 19:44:45.018 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.mobisystems.editor.office_registered: {320dpi always-compat}
+10-30 19:44:45.037 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG ru.vk.store: {320dpi always-compat}
+10-30 19:44:45.066 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.providers.settings: {320dpi always-compat}
+10-30 19:44:45.073 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.amazon.avod.thirdpartyclient: {320dpi always-compat}
+10-30 19:44:45.077 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.amazon.avod.thirdpartyclient: {320dpi always-compat}
+10-30 19:44:45.267 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.mobisystems.editor.office_registered: {320dpi always-compat}
+10-30 19:44:45.297 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.mobisystems.editor.office_registered: {320dpi always-compat}
+10-30 19:44:46.412 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 19:44:46.452 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.vending: {320dpi always-compat}
+10-30 19:44:47.002 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 19:44:47.107 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.amazon.avod.thirdpartyclient: {320dpi always-compat}
+10-30 19:44:47.330 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.webview: {320dpi always-compat}
+10-30 19:44:47.505 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.webview: {320dpi always-compat}
+10-30 19:44:47.732 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.amazon.avod.thirdpartyclient: {320dpi always-compat}
+10-30 19:44:47.794 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.permissioncontroller: {320dpi always-compat}
+10-30 19:44:47.824 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG org.videolan.vlc: {320dpi always-compat}
+10-30 19:44:47.829 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG org.videolan.vlc: {320dpi always-compat}
+10-30 19:44:48.462 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 19:44:48.571 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 19:44:49.482 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG org.videolan.vlc: {320dpi always-compat}
+10-30 19:44:49.933 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.providers.calendar: {320dpi always-compat}
+10-30 19:44:51.350 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.permissioncontroller: {320dpi always-compat}
+10-30 19:44:51.375 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.amazon.avod.thirdpartyclient: {320dpi always-compat}
+10-30 19:44:55.179 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.providers.tv: {320dpi always-compat}
+10-30 19:45:20.084 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 19:45:20.091 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 19:45:20.148 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 19:45:22.178 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 19:46:01.663 W/NotificationService(  973): Toast already killed. pkg=com.zeasn.whale.saas token=android.os.BinderProxy@55f030b
+10-30 19:47:15.639 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.bkdisplay.systemui: {320dpi always-compat}
+10-30 19:47:15.834 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.bkdisplay.systemui: {320dpi always-compat}
+10-30 19:47:33.598 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.mediatek.wwtv.tvcenter: {320dpi always-compat}
+10-30 19:47:33.600 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.mediatek.wwtv.tvcenter: {320dpi always-compat}
+10-30 19:47:34.279 W/ContextImpl( 1488): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1750 android.content.ContextWrapper.bindService:756 com.mediatek.support.fvp.utils.ServiceBinder.onServiceReady:102 com.mediatek.support.fvp.FreeviewPlayClient.disableTalkBack:164 com.mediatek.wwtv.tvcenter.nav.view.FVP.updateComponentStatus:192
+10-30 19:50:56.134 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.providers.tv: {320dpi always-compat}
+10-30 19:50:58.140 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.vending: {320dpi always-compat}
+10-30 19:54:47.660 I/ActivityManager(  973): Start proc 4876:com.google.android.configupdater/u0a8 for broadcast {com.google.android.configupdater/com.google.android.configupdater.PhenotypeBroadcastReceiver}
+10-30 19:54:47.684 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.configupdater: {320dpi always-compat}
+10-30 19:54:47.690 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.configupdater: {320dpi always-compat}
+10-30 19:54:47.932 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.configupdater: {320dpi always-compat}
+10-30 19:54:47.965 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.configupdater: {320dpi always-compat}
+10-30 19:54:47.968 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.configupdater: {320dpi always-compat}
+10-30 20:06:00.343 W/DnsManager(  973): updatePrivateDns(101, PrivateDnsConfig{true:/[]})
+10-30 20:06:00.620 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.vending: {320dpi always-compat}
+10-30 20:06:00.629 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.youtube.tv: {320dpi always-compat}
+10-30 20:06:00.745 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.mobisystems.editor.office_registered: {320dpi always-compat}
+10-30 20:06:02.358 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 20:06:02.831 W/NotificationService(  973): Toast already killed. pkg=com.zeasn.whale.saas token=android.os.BinderProxy@9f77817
+10-30 20:06:03.821 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.vending: {320dpi always-compat}
+10-30 20:06:04.088 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.vending: {320dpi always-compat}
+10-30 20:06:04.219 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.vending: {320dpi always-compat}
+10-30 20:06:05.130 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.vending: {320dpi always-compat}
+10-30 20:06:05.279 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.vending: {320dpi always-compat}
+10-30 20:06:05.513 I/ActivityManager(  973): Start proc 5130:com.android.vending:instant_app_installer/u0a18 for service {com.android.vending/com.google.android.finsky.instantapps.statussync.EnabledStatusSyncService}
+10-30 20:06:05.549 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 20:06:05.555 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.vending: {320dpi always-compat}
+10-30 20:06:05.558 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.vending: {320dpi always-compat}
+10-30 20:06:05.853 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 20:06:05.939 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.vending: {320dpi always-compat}
+10-30 20:06:06.044 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 20:06:07.775 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.vending: {320dpi always-compat}
+10-30 20:06:07.961 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.vending: {320dpi always-compat}
+10-30 20:06:08.054 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.vending: {320dpi always-compat}
+10-30 20:06:08.558 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 20:06:11.443 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 20:07:18.158 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.vending: {320dpi always-compat}
+10-30 20:12:01.276 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 20:12:03.289 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.vending: {320dpi always-compat}
+10-30 20:16:05.855 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.vending: {320dpi always-compat}
+10-30 20:26:40.262 I/ActivityManager(  973): Killing 4876:com.google.android.configupdater/u0a8 (adj 955): empty for 1912s
+10-30 20:26:40.264 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.vending: {320dpi always-compat}
+10-30 20:39:50.673 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 20:39:50.685 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 20:39:50.821 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 20:51:14.143 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 21:42:01.275 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 21:42:01.281 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 21:42:01.330 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 21:42:01.346 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 21:42:01.388 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 21:42:01.425 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 21:42:01.487 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 21:42:01.773 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 21:42:02.242 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 21:42:02.253 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 21:42:02.274 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gsf: {320dpi always-compat}
+10-30 21:44:41.280 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 21:44:41.287 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 21:44:41.358 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 22:39:52.177 I/ActivityManager(  973): Start proc 6260:com.google.android.partnersetup/u0a13 for service {com.google.android.partnersetup/com.google.android.partnersetup.InstalledAppJobService}
+10-30 22:39:52.206 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.partnersetup: {320dpi always-compat}
+10-30 22:39:52.211 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.partnersetup: {320dpi always-compat}
+10-30 22:42:28.143 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 22:42:28.147 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 22:42:28.211 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 22:42:28.296 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 23:15:56.990 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 23:15:56.998 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 23:15:57.019 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 23:39:48.061 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 23:43:04.046 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 23:43:04.050 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 23:43:04.111 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 23:43:04.221 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-30 23:43:06.053 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG android: {320dpi always-compat}
+10-31 00:00:00.010 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-31 00:06:07.196 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.vending: {320dpi always-compat}
+10-31 00:06:07.236 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-31 00:06:08.318 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.vending: {320dpi always-compat}
+10-31 00:06:08.326 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.vending: {320dpi always-compat}
+10-31 00:06:08.568 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.vending: {320dpi always-compat}
+10-31 00:06:08.594 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.vending: {320dpi always-compat}
+10-31 00:06:08.980 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.vending: {320dpi always-compat}
+10-31 00:06:09.012 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.vending: {320dpi always-compat}
+10-31 00:06:09.031 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-31 00:06:09.332 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.vending: {320dpi always-compat}
+10-31 00:06:09.355 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.vending: {320dpi always-compat}
+10-31 00:06:09.676 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-31 00:06:10.683 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-31 00:06:10.965 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-31 00:07:10.354 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.vending: {320dpi always-compat}
+10-31 00:12:03.280 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.vending: {320dpi always-compat}
+10-31 00:16:10.339 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.vending: {320dpi always-compat}
+10-31 00:20:10.445 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.youtube.tv: {320dpi always-compat}
+10-31 00:20:10.448 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.youtube.tv: {320dpi always-compat}
+10-31 00:26:43.371 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.vending: {320dpi always-compat}
+10-31 00:26:43.376 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.vending: {320dpi always-compat}
+10-31 00:43:04.121 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-31 00:43:04.125 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-31 00:43:04.191 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-31 00:43:04.292 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-31 00:43:53.018 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.bkdisplay.systemui: {320dpi always-compat}
+10-31 00:43:53.220 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.bkdisplay.systemui: {320dpi always-compat}
+10-31 00:44:19.879 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.bkdisplay.systemui: {320dpi always-compat}
+10-31 00:44:20.069 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.bkdisplay.systemui: {320dpi always-compat}
+10-31 01:39:52.348 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.providers.calendar: {320dpi always-compat}
+10-31 01:39:52.351 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.providers.calendar: {320dpi always-compat}
+10-31 01:39:56.326 I/ActivityManager(  973): Start proc 7597:com.google.android.partnersetup/u0a13 for service {com.google.android.partnersetup/com.google.android.partnersetup.InstalledAppJobService}
+10-31 01:39:56.354 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.partnersetup: {320dpi always-compat}
+10-31 01:39:56.358 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.partnersetup: {320dpi always-compat}
+10-31 01:42:36.942 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.bkdisplay.systemui: {320dpi always-compat}
+10-31 01:42:37.131 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.bkdisplay.systemui: {320dpi always-compat}
+10-31 01:42:49.802 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.tv.settings: {320dpi always-compat}
+10-31 01:42:49.805 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.tv.settings: {320dpi always-compat}
+10-31 01:42:49.806 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.tv.settings: {320dpi always-compat}
+10-31 01:42:49.808 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.tv.settings: {320dpi always-compat}
+10-31 01:42:50.554 W/NotificationService(  973): Toast already killed. pkg=com.teamsmart.videomanager.tv token=android.os.BinderProxy@b789c11
+10-31 01:42:52.450 I/ActivityTaskManager(  973): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.google.android.youtube.tv cmp=com.google.android.youtube.tv/com.google.android.apps.youtube.tv.activity.ShellActivity (has extras)} from uid 1000
+10-31 01:42:52.501 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.youtube.tv: {320dpi always-compat}
+10-31 01:42:52.502 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.youtube.tv: {320dpi always-compat}
+10-31 01:42:52.615 I/ActivityTaskManager(  973): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x5000000 pkg=com.google.android.youtube.tv cmp=com.google.android.youtube.tv/com.google.android.apps.youtube.tv.activity.MainActivity (has extras)} from uid 10019
+10-31 01:42:52.621 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.youtube.tv: {320dpi always-compat}
+10-31 01:42:52.622 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.youtube.tv: {320dpi always-compat}
+10-31 01:42:52.772 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-31 01:42:52.939 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-31 01:42:55.056 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-31 01:42:55.111 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-31 01:42:57.844 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-31 01:42:58.706 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-31 01:42:59.788 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-31 01:43:00.166 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.vending: {320dpi always-compat}
+10-31 01:43:04.221 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-31 01:43:04.357 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-31 01:43:04.485 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-31 01:44:20.971 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.bkdisplay.systemui: {320dpi always-compat}
+10-31 01:44:21.041 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.bkdisplay.settings: {320dpi always-compat}
+10-31 01:44:24.735 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.bk.factory: {320dpi always-compat}
+10-31 01:44:24.735 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.bk.factory: {320dpi always-compat}
+10-31 01:44:24.907 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.bk.factory: {320dpi always-compat}
+10-31 01:44:25.137 W/ActivityManager(  973): Slow operation: 196ms so far, now at startProcess: starting to update pids map
+10-31 01:44:25.400 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.bk.factory: {320dpi always-compat}
+10-31 01:44:38.715 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.zeasn.whale.saas: {320dpi always-compat}
+10-31 01:44:44.498 I/ActivityTaskManager(  973): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.google.android.youtube.tv cmp=com.google.android.youtube.tv/com.google.android.apps.youtube.tv.activity.ShellActivity (has extras)} from uid 1000
+10-31 01:44:44.535 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.youtube.tv: {320dpi always-compat}
+10-31 01:44:44.535 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.youtube.tv: {320dpi always-compat}
+10-31 01:44:44.597 I/ActivityTaskManager(  973): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x5000000 pkg=com.google.android.youtube.tv cmp=com.google.android.youtube.tv/com.google.android.apps.youtube.tv.activity.MainActivity (has extras)} from uid 10019
+10-31 01:44:44.602 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.youtube.tv: {320dpi always-compat}
+10-31 01:44:44.750 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-31 01:44:44.770 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-31 01:44:44.808 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-31 01:44:44.852 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-31 01:52:57.049 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.bkdisplay.systemui: {320dpi always-compat}
+10-31 01:52:57.090 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.bkdisplay.settings: {320dpi always-compat}
+10-31 01:53:00.099 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.bk.factory: {320dpi always-compat}
+10-31 01:53:05.071 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG mediatek.factorymenu.ui: {320dpi always-compat}
+10-31 01:53:05.072 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG mediatek.factorymenu.ui: {320dpi always-compat}
+10-31 01:53:05.393 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG mediatek.factorymenu.ui: {320dpi always-compat}
+10-31 01:53:12.330 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.inputmethod.latin: {320dpi always-compat}
+10-31 01:53:29.012 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.android.providers.userdictionary: {320dpi always-compat}
+10-31 01:53:29.977 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-31 01:54:00.536 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-31 01:54:10.185 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.bkdisplay.systemui: {320dpi always-compat}
+10-31 01:54:10.226 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.bkdisplay.settings: {320dpi always-compat}
+10-31 02:03:30.971 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.bkdisplay.systemui: {320dpi always-compat}
+10-31 02:03:31.362 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.bkdisplay.systemui: {320dpi always-compat}
+10-31 02:03:34.383 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.mediatek.wwtv.tvcenter: {320dpi always-compat}
+10-31 02:03:34.383 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.mediatek.wwtv.tvcenter: {320dpi always-compat}
+10-31 02:11:13.012 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-31 02:11:13.103 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-31 02:11:13.141 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-31 02:11:13.155 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-31 02:17:54.838 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.bkdisplay.systemui: {320dpi always-compat}
+10-31 02:17:54.843 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.bkdisplay.settings: {320dpi always-compat}
+10-31 02:22:43.315 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-31 02:34:19.556 E/ActivityManager(  973): Sending non-protected broadcast com.bkdisplay.intent.action.MENU from system 973:system/1000 pkg android
+10-31 02:34:19.567 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.bkdisplay.systemui: {320dpi always-compat}
+10-31 02:34:19.573 E/ActivityManager(  973): Sending non-protected broadcast com.bkdisplay.intent.action.MENU_SETTINGS from system 1371:com.bkdisplay.systemui/1000 pkg com.bkdisplay.systemui
+10-31 02:34:19.577 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.bkdisplay.settings: {320dpi always-compat}
+10-31 02:34:19.642 E/ActivityManager(  973): Sending non-protected broadcast com.ntech.intent.action.DISMISS_OTHER_DIALOG from system 1348:com.bkdisplay.settings/1000 pkg com.bkdisplay.settings
+10-31 02:34:19.681 I/system_server(  973): Background young concurrent copying GC freed 49965(3118KB) AllocSpace objects, 2(40KB) LOS objects, 17% free, 14MB/17MB, paused 307us total 123.169ms
+10-31 02:34:19.703 E/ActivityManager(  973): Sending non-protected broadcast com.ntech.intent.APP_LOCK from system 1348:com.bkdisplay.settings/1000 pkg com.bkdisplay.settings
+10-31 02:34:19.721 E/ActivityManager(  973): Sending non-protected broadcast com.ntech.intent.action.VIRTUAL_EVENT_PRIOR_IR_ADD from system 1348:com.bkdisplay.settings/1000 pkg com.bkdisplay.settings
+10-31 02:34:19.722 E/ActivityManager(  973): Sending non-protected broadcast com.ntech.intent.action.VIRTUAL_EVENT_PRIOR_IR_ADD from system 1348:com.bkdisplay.settings/1000 pkg com.bkdisplay.settings
+10-31 02:34:19.766 D/AAAA    ( 1348): onUpdateData: Перед-Рабочий Стол 0
+10-31 02:34:19.766 D/AAAA    ( 1348): onUpdateData: Зад-Рабочий Стол 0
+10-31 02:34:19.766 D/AAAA    ( 1348): onUpdateData: Перед-Потолок 0
+10-31 02:34:19.766 D/AAAA    ( 1348): onUpdateData: Зад-Потолок 0
+10-31 02:34:56.567 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-31 02:35:18.000 I/system_server(  973): Background concurrent copying GC freed 82372(4382KB) AllocSpace objects, 1(20KB) LOS objects, 24% free, 12MB/17MB, paused 137us total 193.486ms
+10-31 02:35:26.887 E/ActivityManager(  973): Sending non-protected broadcast com.ntech.intent.action.VIRTUAL_EVENT_PRIOR_IR_DEC from system 1348:com.bkdisplay.settings/1000 pkg com.bkdisplay.settings
+10-31 02:35:26.887 E/ActivityManager(  973): Sending non-protected broadcast com.ntech.intent.action.VIRTUAL_EVENT_PRIOR_IR_DEC from system 1348:com.bkdisplay.settings/1000 pkg com.bkdisplay.settings
+10-31 02:35:33.839 I/saturn_ota( 1664): [15703] CmdExecutor idle=true
+10-31 02:35:33.840 I/saturn_ota( 1664): [15703] post idle event
+10-31 02:35:33.841 I/saturn_ota( 1371): pluginIdleEvent:install=false,rollback=false
+10-31 02:35:34.839 I/saturn_ota( 1664): putCommand IdleCmd
+10-31 02:35:34.839 I/saturn_ota( 1664): runTask=15703,queueSize=0
+10-31 02:35:34.839 I/saturn_ota( 1664): [15703] begin [IdleCmd][1]
+10-31 02:35:34.840 I/saturn_ota( 1664): [15703] complete [IdleCmd][true][0]
+10-31 02:35:34.840 I/saturn_ota( 1664): executed:size:0
+10-31 02:38:34.840 I/saturn_ota( 1664): [15703] CmdExecutor idle=true
+10-31 02:38:34.840 I/saturn_ota( 1664): [15703] post idle event
+10-31 02:38:34.841 I/saturn_ota( 1371): pluginIdleEvent:install=false,rollback=false
+10-31 02:38:35.840 I/saturn_ota( 1664): putCommand IdleCmd
+10-31 02:38:35.840 I/saturn_ota( 1664): runTask=15703,queueSize=0
+10-31 02:38:35.840 I/saturn_ota( 1664): [15703] begin [IdleCmd][1]
+10-31 02:38:35.841 I/saturn_ota( 1664): [15703] complete [IdleCmd][true][0]
+10-31 02:38:35.841 I/saturn_ota( 1664): executed:size:0
+10-31 02:40:23.746 I/saturn_ota( 1664): getOpt:key=12,val=1
+10-31 02:40:23.746 I/saturn_ota( 1664): scheduleCheckUpdate on=false
+10-31 02:41:35.841 I/saturn_ota( 1664): [15703] CmdExecutor idle=true
+10-31 02:41:35.843 I/saturn_ota( 1664): [15703] post idle event
+10-31 02:41:35.844 I/saturn_ota( 1371): pluginIdleEvent:install=false,rollback=false
+10-31 02:41:36.842 I/saturn_ota( 1664): putCommand IdleCmd
+10-31 02:41:36.842 I/saturn_ota( 1664): runTask=15703,queueSize=0
+10-31 02:41:36.843 I/saturn_ota( 1664): [15703] begin [IdleCmd][1]
+10-31 02:41:36.843 I/saturn_ota( 1664): [15703] complete [IdleCmd][true][0]
+10-31 02:41:36.843 I/saturn_ota( 1664): executed:size:0
+10-31 02:43:04.428 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-31 02:43:04.457 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-31 02:43:04.614 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-31 02:43:04.817 I/.gms.persisten( 1183): Background young concurrent copying GC freed 56144(2760KB) AllocSpace objects, 1(16KB) LOS objects, 22% free, 8976KB/11MB, paused 2.852ms total 218.097ms
+10-31 02:43:04.879 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-31 02:44:36.843 I/saturn_ota( 1664): [15703] CmdExecutor idle=true
+10-31 02:44:36.844 I/saturn_ota( 1664): [15703] post idle event
+10-31 02:44:36.846 I/saturn_ota( 1371): pluginIdleEvent:install=false,rollback=false
+10-31 02:44:37.843 I/saturn_ota( 1664): putCommand IdleCmd
+10-31 02:44:37.844 I/saturn_ota( 1664): runTask=15703,queueSize=0
+10-31 02:44:37.845 I/saturn_ota( 1664): [15703] begin [IdleCmd][1]
+10-31 02:44:37.845 I/saturn_ota( 1664): [15703] complete [IdleCmd][true][0]
+10-31 02:44:37.845 I/saturn_ota( 1664): executed:size:0
+10-31 02:45:24.765 D/saas_api( 1422): requestUpgrade
+10-31 02:45:25.138 I/okhttp.OkHttpClient( 1422): User-Agent: ZeasnAOSP/11 (EUI64=742584fffeD4B82C;DeviceType=FHDNTECH;ProductID=beikemtk9269;DeviceSetID=11d516939cd7064312bb93b6ef4c94663a;BrandID=75;ClientPKG=com.zeasn.whale.saas;ClientVersion=1.0.5;ClientVersionNum=1000500;UserAgentVersion=1.0)
+10-31 02:45:25.212 I/okhttp.OkHttpClient( 1422): {"data":[{"appInfo":{"id":"536284731848331959","pkg":"com.android.media.module.services"},"matchRule":"{\n\"PluzedConditions\": [\n{\n\"name\": \"TIME\",\n\"timeValues\": [{\n\"countryCode\": \"US\",\n\"stm\": \"00: 00\",\n\"etm\": \"23: 59\"\n}]\n}\n],\n\"PluzedOperation\": \"OR\",\n\"isTracker\": \"true\",\n\"DeviceM\": \"dbc87cee97162cd929a4fa8c2287abe9679121e057df36c90411143770148e8b\",\n\"DeviceType\": \"FHDNTECH\"\n}","type":5}],"errorCode":0,"timestamp":1761867925426}
+10-31 02:45:25.244 I/okhttp.OkHttpClient( 1422): User-Agent: ZeasnAOSP/11 (EUI64=742584fffeD4B82C;DeviceType=FHDNTECH;ProductID=beikemtk9269;DeviceSetID=11d516939cd7064312bb93b6ef4c94663a;BrandID=75;ClientPKG=com.zeasn.whale.saas;ClientVersion=1.0.5;ClientVersionNum=1000500)
+10-31 02:45:43.354 I/ActivityTaskManager(  973): *********** COMPAT FOR PKG com.google.android.gms: {320dpi always-compat}
+10-31 02:47:37.846 I/saturn_ota( 1664): [15703] CmdExecutor idle=true
+10-31 02:47:37.846 I/saturn_ota( 1664): [15703] post idle event
+10-31 02:47:37.849 I/saturn_ota( 1371): pluginIdleEvent:install=false,rollback=false
+10-31 02:47:38.848 I/saturn_ota( 1664): putCommand IdleCmd
+10-31 02:47:38.849 I/saturn_ota( 1664): runTask=15703,queueSize=0
+10-31 02:47:38.849 I/saturn_ota( 1664): [15703] begin [IdleCmd][1]
+10-31 02:47:38.849 I/saturn_ota( 1664): [15703] complete [IdleCmd][true][0]
+10-31 02:47:38.849 I/saturn_ota( 1664): executed:size:0
+10-31 02:49:36.971 D/MSTAR_VDEC_API(  448): MsVdecCmaUpdateOmxHwcShm  pOmxHWCShm->bAlive[OverlayID]:0, pOmxHWCShm->u32StreamId[OverlayID]:14
+10-31 02:49:37.307 D/SurfaceUtils( 7014): set up nativeWindow 0x8177fc08 for 1920x1080, color 0x13, rotation 0, usage 0x40002900
+10-31 02:49:37.341 D/MSTAR_VDEC_API(  448): MsVdecCmaUpdateOmxHwcShm  pOmxHWCShm->bAlive[OverlayID]:1, pOmxHWCShm->u32StreamId[OverlayID]:15
+10-31 02:49:37.387 D/SurfaceUtils( 7014): set up nativeWindow 0x8177fc08 for 1920x1080, color 0x13, rotation 0, usage 0x40002900
+10-31 02:49:37.825 V/AvrcpMediaPlayerWrapper( 2085): onPlaybackStateChanged(): com.google.android.youtube.tv : PlaybackState {state=3, position=306, buffered position=0, speed=1.0, updated=25834978, actions=51, custom actions=[], active item id=-1, error=null}
+10-31 02:49:37.828 V/AvrcpMediaPlayerWrapper( 2085): trySendMediaUpdate(): Metadata has been updated for com.google.android.youtube.tv
+10-31 02:49:37.831 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate
+10-31 02:49:37.831 I/AvrcpMediaPlayerList( 2085): sendMediaUpdate: Creating a one item queue for a player with no queue
+10-31 02:49:37.831 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate state=PlaybackState {state=3, position=314, buffered position=0, speed=1.0, updated=25834986, actions=51, custom actions=[], active item id=-1, error=null}
+10-31 02:49:37.831 D/AvrcpTargetService( 2085): onMediaUpdated: track_changed=false state=true queue=false
+10-31 02:49:37.831 D/AvrcpNativeInterface( 2085): sendMediaUpdate: metadata=false playStatus=true queue=false
+10-31 02:49:37.831 D/AvrcpTargetJni( 2085): sendMediaUpdateNative
+10-31 02:49:37.831 I/bt_stack( 2085): [INFO:avrcp_service.cc(501)] virtual void bluetooth::avrcp::AvrcpService::SendMediaUpdate(bool, bool, bool) track_changed=0 :  play_state=1 :  queue=0
+10-31 02:49:37.834 V/AvrcpMediaPlayerWrapper( 2085): trySendMediaUpdate(): Metadata has been updated for com.google.android.youtube.tv
+10-31 02:49:37.835 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate
+10-31 02:49:37.835 I/AvrcpMediaPlayerList( 2085): sendMediaUpdate: Creating a one item queue for a player with no queue
+10-31 02:49:37.835 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate state=PlaybackState {state=3, position=322, buffered position=0, speed=1.0, updated=25834994, actions=51, custom actions=[], active item id=-1, error=null}
+10-31 02:49:37.835 D/AvrcpTargetService( 2085): onMediaUpdated: track_changed=false state=false queue=false
+10-31 02:49:37.835 D/AvrcpNativeInterface( 2085): sendMediaUpdate: metadata=false playStatus=false queue=false
+10-31 02:49:37.835 D/AvrcpTargetJni( 2085): sendMediaUpdateNative
+10-31 02:49:37.835 I/bt_stack( 2085): [INFO:avrcp_service.cc(501)] virtual void bluetooth::avrcp::AvrcpService::SendMediaUpdate(bool, bool, bool) track_changed=0 :  play_state=0 :  queue=0
+10-31 02:49:38.882 W/t_app_installe( 5130): Reducing the number of considered missed Gc histogram windows from 152 to 100
+10-31 02:49:47.664 D/MSTAR_VDEC_API(  448): MsVdecCmaUpdateOmxHwcShm  pOmxHWCShm->bAlive[OverlayID]:0, pOmxHWCShm->u32StreamId[OverlayID]:15
+10-31 02:49:47.855 D/SurfaceUtils( 7014): set up nativeWindow 0x8177fc08 for 1920x1080, color 0x13, rotation 0, usage 0x40002900
+10-31 02:49:47.910 D/MSTAR_VDEC_API(  448): MsVdecCmaUpdateOmxHwcShm  pOmxHWCShm->bAlive[OverlayID]:1, pOmxHWCShm->u32StreamId[OverlayID]:16
+10-31 02:49:47.966 D/SurfaceUtils( 7014): set up nativeWindow 0x8177fc08 for 1920x1088, color 0x13, rotation 0, usage 0x40002900
+10-31 02:50:03.330 D/MSTAR_VDEC_API(  448): MsVdecCmaUpdateOmxHwcShm  pOmxHWCShm->bAlive[OverlayID]:0, pOmxHWCShm->u32StreamId[OverlayID]:16
+10-31 02:50:03.765 V/AvrcpMediaPlayerWrapper( 2085): onPlaybackStateChanged(): com.google.android.youtube.tv : PlaybackState {state=0, position=0, buffered position=0, speed=0.0, updated=25860921, actions=52, custom actions=[], active item id=-1, error=null}
+10-31 02:50:03.765 V/AvrcpMediaPlayerWrapper( 2085): Waiting to send update as controller has no playback state
+10-31 02:50:03.769 V/AvrcpMediaPlayerWrapper( 2085): onPlaybackStateChanged(): com.google.android.youtube.tv : PlaybackState {state=0, position=0, buffered position=0, speed=0.0, updated=25860927, actions=52, custom actions=[], active item id=-1, error=null}
+10-31 02:50:03.771 V/AvrcpMediaPlayerWrapper( 2085): Waiting to send update as controller has no playback state
+10-31 02:50:03.780 D/AvrcpMediaPlayerList( 2085): sessionUpdatedCallback(): packageName: com.google.android.youtube.tv
+10-31 02:50:03.780 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate
+10-31 02:50:03.780 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate state=null
+10-31 02:50:03.780 D/AvrcpTargetService( 2085): onMediaUpdated: track_changed=true state=true queue=true
+10-31 02:50:03.781 D/AvrcpNativeInterface( 2085): sendMediaUpdate: metadata=true playStatus=true queue=true
+10-31 02:50:03.781 D/AvrcpTargetJni( 2085): sendMediaUpdateNative
+10-31 02:50:03.781 I/bt_stack( 2085): [INFO:avrcp_service.cc(501)] virtual void bluetooth::avrcp::AvrcpService::SendMediaUpdate(bool, bool, bool) track_changed=1 :  play_state=1 :  queue=1
+10-31 02:50:09.013 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate
+10-31 02:50:09.013 I/AvrcpMediaPlayerList( 2085): sendMediaUpdate: Creating a one item queue for a player with no queue
+10-31 02:50:09.013 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate state=PlaybackState {state=3, position=0, buffered position=0, speed=0.0, updated=25866172, actions=379, custom actions=[], active item id=-1, error=null}
+10-31 02:50:09.013 D/AvrcpTargetService( 2085): onMediaUpdated: track_changed=true state=true queue=true
+10-31 02:50:09.013 D/AvrcpNativeInterface( 2085): sendMediaUpdate: metadata=true playStatus=true queue=true
+10-31 02:50:09.013 D/AvrcpTargetJni( 2085): sendMediaUpdateNative
+10-31 02:50:09.015 I/bt_stack( 2085): [INFO:avrcp_service.cc(501)] virtual void bluetooth::avrcp::AvrcpService::SendMediaUpdate(bool, bool, bool) track_changed=1 :  play_state=1 :  queue=1
+10-31 02:50:09.308 V/AvrcpMediaPlayerWrapper( 2085): onPlaybackStateChanged(): com.google.android.youtube.tv : PlaybackState {state=3, position=0, buffered position=0, speed=0.0, updated=25866463, actions=379, custom actions=[], active item id=-1, error=null}
+10-31 02:50:09.311 W/AvrcpMediaPlayerWrapper( 2085): onPlaybackStateChanged(): com.google.android.youtube.tv tried to update with no new data
+10-31 02:50:09.314 V/AvrcpMediaPlayerWrapper( 2085): trySendMediaUpdate(): Metadata has been updated for com.google.android.youtube.tv
+10-31 02:50:09.314 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate
+10-31 02:50:09.314 I/AvrcpMediaPlayerList( 2085): sendMediaUpdate: Creating a one item queue for a player with no queue
+10-31 02:50:09.314 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate state=PlaybackState {state=3, position=0, buffered position=0, speed=0.0, updated=25866473, actions=379, custom actions=[], active item id=-1, error=null}
+10-31 02:50:09.314 D/AvrcpTargetService( 2085): onMediaUpdated: track_changed=false state=false queue=false
+10-31 02:50:09.314 D/AvrcpNativeInterface( 2085): sendMediaUpdate: metadata=false playStatus=false queue=false
+10-31 02:50:09.314 D/AvrcpTargetJni( 2085): sendMediaUpdateNative
+10-31 02:50:09.314 I/bt_stack( 2085): [INFO:avrcp_service.cc(501)] virtual void bluetooth::avrcp::AvrcpService::SendMediaUpdate(bool, bool, bool) track_changed=0 :  play_state=0 :  queue=0
+10-31 02:50:09.350 D/SurfaceUtils( 7014): set up nativeWindow 0x8177fc08 for 1920x1080, color 0x13, rotation 0, usage 0x40002900
+10-31 02:50:09.393 D/MSTAR_VDEC_API(  448): MsVdecCmaUpdateOmxHwcShm  pOmxHWCShm->bAlive[OverlayID]:1, pOmxHWCShm->u32StreamId[OverlayID]:17
+10-31 02:50:09.436 D/SurfaceUtils( 7014): set up nativeWindow 0x8177fc08 for 1920x1080, color 0x13, rotation 0, usage 0x40002900
+10-31 02:50:09.556 V/AvrcpMediaPlayerWrapper( 2085): onPlaybackStateChanged(): com.google.android.youtube.tv : PlaybackState {state=3, position=0, buffered position=0, speed=1.0, updated=25866714, actions=379, custom actions=[], active item id=-1, error=null}
+10-31 02:50:09.557 W/AvrcpMediaPlayerWrapper( 2085): onPlaybackStateChanged(): com.google.android.youtube.tv tried to update with no new data
+10-31 02:50:09.568 V/AvrcpMediaPlayerWrapper( 2085): trySendMediaUpdate(): Metadata has been updated for com.google.android.youtube.tv
+10-31 02:50:09.568 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate
+10-31 02:50:09.568 I/AvrcpMediaPlayerList( 2085): sendMediaUpdate: Creating a one item queue for a player with no queue
+10-31 02:50:09.568 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate state=PlaybackState {state=3, position=13, buffered position=0, speed=1.0, updated=25866727, actions=379, custom actions=[], active item id=-1, error=null}
+10-31 02:50:09.568 D/AvrcpTargetService( 2085): onMediaUpdated: track_changed=false state=false queue=false
+10-31 02:50:09.568 D/AvrcpNativeInterface( 2085): sendMediaUpdate: metadata=false playStatus=false queue=false
+10-31 02:50:09.568 D/AvrcpTargetJni( 2085): sendMediaUpdateNative
+10-31 02:50:09.568 I/bt_stack( 2085): [INFO:avrcp_service.cc(501)] virtual void bluetooth::avrcp::AvrcpService::SendMediaUpdate(bool, bool, bool) track_changed=0 :  play_state=0 :  queue=0
+10-31 02:50:09.857 V/AvrcpMediaPlayerWrapper( 2085): onPlaybackStateChanged(): com.google.android.youtube.tv : PlaybackState {state=3, position=307, buffered position=0, speed=1.0, updated=25867015, actions=379, custom actions=[], active item id=-1, error=null}
+10-31 02:50:09.859 W/AvrcpMediaPlayerWrapper( 2085): onPlaybackStateChanged(): com.google.android.youtube.tv tried to update with no new data
+10-31 02:50:09.869 V/AvrcpMediaPlayerWrapper( 2085): trySendMediaUpdate(): Metadata has been updated for com.google.android.youtube.tv
+10-31 02:50:09.869 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate
+10-31 02:50:09.869 I/AvrcpMediaPlayerList( 2085): sendMediaUpdate: Creating a one item queue for a player with no queue
+10-31 02:50:09.869 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate state=PlaybackState {state=3, position=321, buffered position=0, speed=1.0, updated=25867029, actions=379, custom actions=[], active item id=-1, error=null}
+10-31 02:50:09.869 D/AvrcpTargetService( 2085): onMediaUpdated: track_changed=false state=false queue=false
+10-31 02:50:09.869 D/AvrcpNativeInterface( 2085): sendMediaUpdate: metadata=false playStatus=false queue=false
+10-31 02:50:09.870 D/AvrcpTargetJni( 2085): sendMediaUpdateNative
+10-31 02:50:09.870 I/bt_stack( 2085): [INFO:avrcp_service.cc(501)] virtual void bluetooth::avrcp::AvrcpService::SendMediaUpdate(bool, bool, bool) track_changed=0 :  play_state=0 :  queue=0
+10-31 02:50:10.946 V/AvrcpMediaPlayerWrapper( 2085): onPlaybackStateChanged(): com.google.android.youtube.tv : PlaybackState {state=3, position=1392, buffered position=0, speed=1.0, updated=25868100, actions=379, custom actions=[], active item id=-1, error=null}
+10-31 02:50:10.954 V/AvrcpMediaPlayerWrapper( 2085): trySendMediaUpdate(): Metadata has been updated for com.google.android.youtube.tv
+10-31 02:50:10.955 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate
+10-31 02:50:10.955 I/AvrcpMediaPlayerList( 2085): sendMediaUpdate: Creating a one item queue for a player with no queue
+10-31 02:50:10.955 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate state=PlaybackState {state=3, position=1406, buffered position=0, speed=1.0, updated=25868114, actions=379, custom actions=[], active item id=-1, error=null}
+10-31 02:50:10.955 D/AvrcpTargetService( 2085): onMediaUpdated: track_changed=true state=true queue=true
+10-31 02:50:10.955 D/AvrcpNativeInterface( 2085): sendMediaUpdate: metadata=true playStatus=true queue=true
+10-31 02:50:10.955 D/AvrcpTargetJni( 2085): sendMediaUpdateNative
+10-31 02:50:10.955 I/bt_stack( 2085): [INFO:avrcp_service.cc(501)] virtual void bluetooth::avrcp::AvrcpService::SendMediaUpdate(bool, bool, bool) track_changed=1 :  play_state=1 :  queue=1
+10-31 02:50:10.957 V/AvrcpMediaPlayerWrapper( 2085): trySendMediaUpdate(): Metadata has been updated for com.google.android.youtube.tv
+10-31 02:50:10.957 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate
+10-31 02:50:10.957 I/AvrcpMediaPlayerList( 2085): sendMediaUpdate: Creating a one item queue for a player with no queue
+10-31 02:50:10.957 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate state=PlaybackState {state=3, position=1408, buffered position=0, speed=1.0, updated=25868116, actions=379, custom actions=[], active item id=-1, error=null}
+10-31 02:50:10.957 D/AvrcpTargetService( 2085): onMediaUpdated: track_changed=false state=false queue=false
+10-31 02:50:10.957 D/AvrcpNativeInterface( 2085): sendMediaUpdate: metadata=false playStatus=false queue=false
+10-31 02:50:10.957 D/AvrcpTargetJni( 2085): sendMediaUpdateNative
+10-31 02:50:10.957 I/bt_stack( 2085): [INFO:avrcp_service.cc(501)] virtual void bluetooth::avrcp::AvrcpService::SendMediaUpdate(bool, bool, bool) track_changed=0 :  play_state=0 :  queue=0
+10-31 02:50:11.651 V/AvrcpMediaPlayerWrapper( 2085): trySendMediaUpdate(): Metadata has been updated for com.google.android.youtube.tv
+10-31 02:50:11.651 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate
+10-31 02:50:11.651 I/AvrcpMediaPlayerList( 2085): sendMediaUpdate: Creating a one item queue for a player with no queue
+10-31 02:50:11.651 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate state=PlaybackState {state=3, position=2102, buffered position=0, speed=1.0, updated=25868810, actions=379, custom actions=[], active item id=-1, error=null}
+10-31 02:50:11.651 D/AvrcpTargetService( 2085): onMediaUpdated: track_changed=true state=true queue=true
+10-31 02:50:11.651 D/AvrcpNativeInterface( 2085): sendMediaUpdate: metadata=true playStatus=true queue=true
+10-31 02:50:11.651 D/AvrcpTargetJni( 2085): sendMediaUpdateNative
+10-31 02:50:11.652 I/bt_stack( 2085): [INFO:avrcp_service.cc(501)] virtual void bluetooth::avrcp::AvrcpService::SendMediaUpdate(bool, bool, bool) track_changed=1 :  play_state=1 :  queue=1
+10-31 02:50:11.687 V/AvrcpMediaPlayerWrapper( 2085): trySendMediaUpdate(): Metadata has been updated for com.google.android.youtube.tv
+10-31 02:50:11.687 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate
+10-31 02:50:11.687 I/AvrcpMediaPlayerList( 2085): sendMediaUpdate: Creating a one item queue for a player with no queue
+10-31 02:50:11.687 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate state=PlaybackState {state=3, position=2138, buffered position=0, speed=1.0, updated=25868846, actions=379, custom actions=[], active item id=-1, error=null}
+10-31 02:50:11.687 D/AvrcpTargetService( 2085): onMediaUpdated: track_changed=true state=false queue=true
+10-31 02:50:11.687 D/AvrcpNativeInterface( 2085): sendMediaUpdate: metadata=true playStatus=false queue=true
+10-31 02:50:11.687 D/AvrcpTargetJni( 2085): sendMediaUpdateNative
+10-31 02:50:11.687 I/bt_stack( 2085): [INFO:avrcp_service.cc(501)] virtual void bluetooth::avrcp::AvrcpService::SendMediaUpdate(bool, bool, bool) track_changed=1 :  play_state=0 :  queue=1
+10-31 02:50:29.080 I/system_server(  973): Background concurrent copying GC freed 76973(4096KB) AllocSpace objects, 2(40KB) LOS objects, 24% free, 12MB/17MB, paused 165us total 253.717ms
+10-31 02:50:29.853 D/MSTAR_VDEC_API(  448): MsVdecCmaUpdateOmxHwcShm  pOmxHWCShm->bAlive[OverlayID]:0, pOmxHWCShm->u32StreamId[OverlayID]:17
+10-31 02:50:29.998 V/AvrcpMediaPlayerWrapper( 2085): onPlaybackStateChanged(): com.google.android.youtube.tv : PlaybackState {state=0, position=0, buffered position=0, speed=0.0, updated=25887156, actions=0, custom actions=[], active item id=-1, error=null}
+10-31 02:50:29.999 V/AvrcpMediaPlayerWrapper( 2085): Waiting to send update as controller has no playback state
+10-31 02:50:30.002 V/AvrcpMediaPlayerWrapper( 2085): onPlaybackStateChanged(): com.google.android.youtube.tv : PlaybackState {state=0, position=0, buffered position=0, speed=0.0, updated=25887158, actions=0, custom actions=[], active item id=-1, error=null}
+10-31 02:50:30.003 V/AvrcpMediaPlayerWrapper( 2085): Waiting to send update as controller has no playback state
+10-31 02:50:30.004 D/AvrcpMediaPlayerList( 2085): sessionUpdatedCallback(): packageName: com.google.android.youtube.tv
+10-31 02:50:30.005 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate
+10-31 02:50:30.005 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate state=null
+10-31 02:50:30.005 D/AvrcpTargetService( 2085): onMediaUpdated: track_changed=true state=true queue=true
+10-31 02:50:30.005 D/AvrcpNativeInterface( 2085): sendMediaUpdate: metadata=true playStatus=true queue=true
+10-31 02:50:30.005 D/AvrcpTargetJni( 2085): sendMediaUpdateNative
+10-31 02:50:30.005 I/bt_stack( 2085): [INFO:avrcp_service.cc(501)] virtual void bluetooth::avrcp::AvrcpService::SendMediaUpdate(bool, bool, bool) track_changed=1 :  play_state=1 :  queue=1
+10-31 02:50:35.488 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate
+10-31 02:50:35.488 I/AvrcpMediaPlayerList( 2085): sendMediaUpdate: Creating a one item queue for a player with no queue
+10-31 02:50:35.488 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate state=PlaybackState {state=3, position=0, buffered position=0, speed=0.0, updated=25892648, actions=0, custom actions=[], active item id=-1, error=null}
+10-31 02:50:35.489 D/AvrcpTargetService( 2085): onMediaUpdated: track_changed=true state=true queue=true
+10-31 02:50:35.489 D/AvrcpNativeInterface( 2085): sendMediaUpdate: metadata=true playStatus=true queue=true
+10-31 02:50:35.489 D/AvrcpTargetJni( 2085): sendMediaUpdateNative
+10-31 02:50:35.489 I/bt_stack( 2085): [INFO:avrcp_service.cc(501)] virtual void bluetooth::avrcp::AvrcpService::SendMediaUpdate(bool, bool, bool) track_changed=1 :  play_state=1 :  queue=1
+10-31 02:50:35.491 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate
+10-31 02:50:35.491 I/AvrcpMediaPlayerList( 2085): sendMediaUpdate: Creating a one item queue for a player with no queue
+10-31 02:50:35.491 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate state=PlaybackState {state=3, position=0, buffered position=0, speed=0.0, updated=25892651, actions=0, custom actions=[], active item id=-1, error=null}
+10-31 02:50:35.492 D/AvrcpTargetService( 2085): onMediaUpdated: track_changed=false state=false queue=false
+10-31 02:50:35.492 D/AvrcpNativeInterface( 2085): sendMediaUpdate: metadata=false playStatus=false queue=false
+10-31 02:50:35.492 D/AvrcpTargetJni( 2085): sendMediaUpdateNative
+10-31 02:50:35.492 I/bt_stack( 2085): [INFO:avrcp_service.cc(501)] virtual void bluetooth::avrcp::AvrcpService::SendMediaUpdate(bool, bool, bool) track_changed=0 :  play_state=0 :  queue=0
+10-31 02:50:35.732 V/AvrcpMediaPlayerWrapper( 2085): onPlaybackStateChanged(): com.google.android.youtube.tv : PlaybackState {state=3, position=0, buffered position=0, speed=0.0, updated=25892891, actions=379, custom actions=[], active item id=-1, error=null}
+10-31 02:50:35.733 W/AvrcpMediaPlayerWrapper( 2085): onPlaybackStateChanged(): com.google.android.youtube.tv tried to update with no new data
+10-31 02:50:35.734 V/AvrcpMediaPlayerWrapper( 2085): trySendMediaUpdate(): Metadata has been updated for com.google.android.youtube.tv
+10-31 02:50:35.734 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate
+10-31 02:50:35.734 I/AvrcpMediaPlayerList( 2085): sendMediaUpdate: Creating a one item queue for a player with no queue
+10-31 02:50:35.734 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate state=PlaybackState {state=3, position=0, buffered position=0, speed=0.0, updated=25892894, actions=379, custom actions=[], active item id=-1, error=null}
+10-31 02:50:35.735 D/AvrcpTargetService( 2085): onMediaUpdated: track_changed=false state=false queue=false
+10-31 02:50:35.735 D/AvrcpNativeInterface( 2085): sendMediaUpdate: metadata=false playStatus=false queue=false
+10-31 02:50:35.735 D/AvrcpTargetJni( 2085): sendMediaUpdateNative
+10-31 02:50:35.735 I/bt_stack( 2085): [INFO:avrcp_service.cc(501)] virtual void bluetooth::avrcp::AvrcpService::SendMediaUpdate(bool, bool, bool) track_changed=0 :  play_state=0 :  queue=0
+10-31 02:50:36.003 V/AvrcpMediaPlayerWrapper( 2085): onPlaybackStateChanged(): com.google.android.youtube.tv : PlaybackState {state=3, position=0, buffered position=0, speed=0.0, updated=25893158, actions=379, custom actions=[], active item id=-1, error=null}
+10-31 02:50:36.004 W/AvrcpMediaPlayerWrapper( 2085): onPlaybackStateChanged(): com.google.android.youtube.tv tried to update with no new data
+10-31 02:50:36.008 V/AvrcpMediaPlayerWrapper( 2085): trySendMediaUpdate(): Metadata has been updated for com.google.android.youtube.tv
+10-31 02:50:36.008 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate
+10-31 02:50:36.008 I/AvrcpMediaPlayerList( 2085): sendMediaUpdate: Creating a one item queue for a player with no queue
+10-31 02:50:36.008 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate state=PlaybackState {state=3, position=0, buffered position=0, speed=0.0, updated=25893166, actions=379, custom actions=[], active item id=-1, error=null}
+10-31 02:50:36.008 D/AvrcpTargetService( 2085): onMediaUpdated: track_changed=false state=false queue=false
+10-31 02:50:36.008 D/AvrcpNativeInterface( 2085): sendMediaUpdate: metadata=false playStatus=false queue=false
+10-31 02:50:36.008 D/AvrcpTargetJni( 2085): sendMediaUpdateNative
+10-31 02:50:36.008 I/bt_stack( 2085): [INFO:avrcp_service.cc(501)] virtual void bluetooth::avrcp::AvrcpService::SendMediaUpdate(bool, bool, bool) track_changed=0 :  play_state=0 :  queue=0
+10-31 02:50:36.024 D/SurfaceUtils( 7014): set up nativeWindow 0x91cf7c08 for 1920x1080, color 0x13, rotation 0, usage 0x40002900
+10-31 02:50:36.083 D/MSTAR_VDEC_API(  448): MsVdecCmaUpdateOmxHwcShm  pOmxHWCShm->bAlive[OverlayID]:1, pOmxHWCShm->u32StreamId[OverlayID]:18
+10-31 02:50:36.153 D/SurfaceUtils( 7014): set up nativeWindow 0x91cf7c08 for 1920x1088, color 0x13, rotation 0, usage 0x40002900
+10-31 02:50:36.268 V/AvrcpMediaPlayerWrapper( 2085): onPlaybackStateChanged(): com.google.android.youtube.tv : PlaybackState {state=3, position=0, buffered position=0, speed=1.0, updated=25893423, actions=379, custom actions=[], active item id=-1, error=null}
+10-31 02:50:36.269 W/AvrcpMediaPlayerWrapper( 2085): onPlaybackStateChanged(): com.google.android.youtube.tv tried to update with no new data
+10-31 02:50:36.274 V/AvrcpMediaPlayerWrapper( 2085): trySendMediaUpdate(): Metadata has been updated for com.google.android.youtube.tv
+10-31 02:50:36.274 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate
+10-31 02:50:36.274 I/AvrcpMediaPlayerList( 2085): sendMediaUpdate: Creating a one item queue for a player with no queue
+10-31 02:50:36.274 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate state=PlaybackState {state=3, position=10, buffered position=0, speed=1.0, updated=25893433, actions=379, custom actions=[], active item id=-1, error=null}
+10-31 02:50:36.274 D/AvrcpTargetService( 2085): onMediaUpdated: track_changed=false state=false queue=false
+10-31 02:50:36.274 D/AvrcpNativeInterface( 2085): sendMediaUpdate: metadata=false playStatus=false queue=false
+10-31 02:50:36.274 D/AvrcpTargetJni( 2085): sendMediaUpdateNative
+10-31 02:50:36.274 I/bt_stack( 2085): [INFO:avrcp_service.cc(501)] virtual void bluetooth::avrcp::AvrcpService::SendMediaUpdate(bool, bool, bool) track_changed=0 :  play_state=0 :  queue=0
+10-31 02:50:36.557 V/AvrcpMediaPlayerWrapper( 2085): onPlaybackStateChanged(): com.google.android.youtube.tv : PlaybackState {state=3, position=336, buffered position=0, speed=1.0, updated=25893715, actions=379, custom actions=[], active item id=-1, error=null}
+10-31 02:50:36.558 W/AvrcpMediaPlayerWrapper( 2085): onPlaybackStateChanged(): com.google.android.youtube.tv tried to update with no new data
+10-31 02:50:36.562 V/AvrcpMediaPlayerWrapper( 2085): trySendMediaUpdate(): Metadata has been updated for com.google.android.youtube.tv
+10-31 02:50:36.562 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate
+10-31 02:50:36.562 I/AvrcpMediaPlayerList( 2085): sendMediaUpdate: Creating a one item queue for a player with no queue
+10-31 02:50:36.562 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate state=PlaybackState {state=3, position=340, buffered position=0, speed=1.0, updated=25893719, actions=379, custom actions=[], active item id=-1, error=null}
+10-31 02:50:36.567 D/AvrcpTargetService( 2085): onMediaUpdated: track_changed=false state=false queue=false
+10-31 02:50:36.568 D/AvrcpNativeInterface( 2085): sendMediaUpdate: metadata=false playStatus=false queue=false
+10-31 02:50:36.569 D/AvrcpTargetJni( 2085): sendMediaUpdateNative
+10-31 02:50:36.570 I/bt_stack( 2085): [INFO:avrcp_service.cc(501)] virtual void bluetooth::avrcp::AvrcpService::SendMediaUpdate(bool, bool, bool) track_changed=0 :  play_state=0 :  queue=0
+10-31 02:50:37.418 V/AvrcpMediaPlayerWrapper( 2085): onPlaybackStateChanged(): com.google.android.youtube.tv : PlaybackState {state=3, position=1195, buffered position=0, speed=1.0, updated=25894575, actions=379, custom actions=[], active item id=-1, error=null}
+10-31 02:50:37.424 V/AvrcpMediaPlayerWrapper( 2085): trySendMediaUpdate(): Metadata has been updated for com.google.android.youtube.tv
+10-31 02:50:37.424 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate
+10-31 02:50:37.424 I/AvrcpMediaPlayerList( 2085): sendMediaUpdate: Creating a one item queue for a player with no queue
+10-31 02:50:37.424 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate state=PlaybackState {state=3, position=1203, buffered position=0, speed=1.0, updated=25894583, actions=379, custom actions=[], active item id=-1, error=null}
+10-31 02:50:37.424 D/AvrcpTargetService( 2085): onMediaUpdated: track_changed=true state=true queue=true
+10-31 02:50:37.424 D/AvrcpNativeInterface( 2085): sendMediaUpdate: metadata=true playStatus=true queue=true
+10-31 02:50:37.424 D/AvrcpTargetJni( 2085): sendMediaUpdateNative
+10-31 02:50:37.424 I/bt_stack( 2085): [INFO:avrcp_service.cc(501)] virtual void bluetooth::avrcp::AvrcpService::SendMediaUpdate(bool, bool, bool) track_changed=1 :  play_state=1 :  queue=1
+10-31 02:50:37.427 V/AvrcpMediaPlayerWrapper( 2085): trySendMediaUpdate(): Metadata has been updated for com.google.android.youtube.tv
+10-31 02:50:37.427 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate
+10-31 02:50:37.427 I/AvrcpMediaPlayerList( 2085): sendMediaUpdate: Creating a one item queue for a player with no queue
+10-31 02:50:37.427 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate state=PlaybackState {state=3, position=1207, buffered position=0, speed=1.0, updated=25894587, actions=379, custom actions=[], active item id=-1, error=null}
+10-31 02:50:37.427 D/AvrcpTargetService( 2085): onMediaUpdated: track_changed=false state=false queue=false
+10-31 02:50:37.427 D/AvrcpNativeInterface( 2085): sendMediaUpdate: metadata=false playStatus=false queue=false
+10-31 02:50:37.428 D/AvrcpTargetJni( 2085): sendMediaUpdateNative
+10-31 02:50:37.428 I/bt_stack( 2085): [INFO:avrcp_service.cc(501)] virtual void bluetooth::avrcp::AvrcpService::SendMediaUpdate(bool, bool, bool) track_changed=0 :  play_state=0 :  queue=0
+10-31 02:50:37.508 V/AvrcpMediaPlayerWrapper( 2085): trySendMediaUpdate(): Metadata has been updated for com.google.android.youtube.tv
+10-31 02:50:37.508 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate
+10-31 02:50:37.509 I/AvrcpMediaPlayerList( 2085): sendMediaUpdate: Creating a one item queue for a player with no queue
+10-31 02:50:37.509 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate state=PlaybackState {state=3, position=1288, buffered position=0, speed=1.0, updated=25894668, actions=379, custom actions=[], active item id=-1, error=null}
+10-31 02:50:37.509 D/AvrcpTargetService( 2085): onMediaUpdated: track_changed=true state=false queue=true
+10-31 02:50:37.509 D/AvrcpNativeInterface( 2085): sendMediaUpdate: metadata=true playStatus=false queue=true
+10-31 02:50:37.509 D/AvrcpTargetJni( 2085): sendMediaUpdateNative
+10-31 02:50:37.509 I/bt_stack( 2085): [INFO:avrcp_service.cc(501)] virtual void bluetooth::avrcp::AvrcpService::SendMediaUpdate(bool, bool, bool) track_changed=1 :  play_state=0 :  queue=1
+10-31 02:50:37.544 V/AvrcpMediaPlayerWrapper( 2085): trySendMediaUpdate(): Metadata has been updated for com.google.android.youtube.tv
+10-31 02:50:37.544 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate
+10-31 02:50:37.544 I/AvrcpMediaPlayerList( 2085): sendMediaUpdate: Creating a one item queue for a player with no queue
+10-31 02:50:37.544 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate state=PlaybackState {state=3, position=1323, buffered position=0, speed=1.0, updated=25894703, actions=379, custom actions=[], active item id=-1, error=null}
+10-31 02:50:37.544 D/AvrcpTargetService( 2085): onMediaUpdated: track_changed=true state=false queue=true
+10-31 02:50:37.544 D/AvrcpNativeInterface( 2085): sendMediaUpdate: metadata=true playStatus=false queue=true
+10-31 02:50:37.544 D/AvrcpTargetJni( 2085): sendMediaUpdateNative
+10-31 02:50:37.545 I/bt_stack( 2085): [INFO:avrcp_service.cc(501)] virtual void bluetooth::avrcp::AvrcpService::SendMediaUpdate(bool, bool, bool) track_changed=1 :  play_state=0 :  queue=1
+10-31 02:50:38.292 V/AvrcpMediaPlayerWrapper( 2085): onPlaybackStateChanged(): com.google.android.youtube.tv : PlaybackState {state=2, position=1837, buffered position=0, speed=0.0, updated=25895451, actions=381, custom actions=[], active item id=-1, error=null}
+10-31 02:50:38.306 V/AvrcpMediaPlayerWrapper( 2085): trySendMediaUpdate(): Metadata has been updated for com.google.android.youtube.tv
+10-31 02:50:38.306 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate
+10-31 02:50:38.306 I/AvrcpMediaPlayerList( 2085): sendMediaUpdate: Creating a one item queue for a player with no queue
+10-31 02:50:38.306 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate state=PlaybackState {state=2, position=1837, buffered position=0, speed=0.0, updated=25895453, actions=381, custom actions=[], active item id=-1, error=null}
+10-31 02:50:38.306 D/AvrcpTargetService( 2085): onMediaUpdated: track_changed=false state=true queue=false
+10-31 02:50:38.306 D/AvrcpNativeInterface( 2085): sendMediaUpdate: metadata=false playStatus=true queue=false
+10-31 02:50:38.306 D/AvrcpTargetJni( 2085): sendMediaUpdateNative
+10-31 02:50:38.306 I/bt_stack( 2085): [INFO:avrcp_service.cc(501)] virtual void bluetooth::avrcp::AvrcpService::SendMediaUpdate(bool, bool, bool) track_changed=0 :  play_state=1 :  queue=0
+10-31 02:50:38.315 V/AvrcpMediaPlayerWrapper( 2085): onPlaybackStateChanged(): com.google.android.youtube.tv : PlaybackState {state=2, position=1837, buffered position=0, speed=0.0, updated=25895453, actions=381, custom actions=[], active item id=-1, error=null}
+10-31 02:50:38.329 W/AvrcpMediaPlayerWrapper( 2085): onPlaybackStateChanged(): com.google.android.youtube.tv tried to update with no new data
+10-31 02:50:38.358 V/AvrcpMediaPlayerWrapper( 2085): trySendMediaUpdate(): Metadata has been updated for com.google.android.youtube.tv
+10-31 02:50:38.359 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate
+10-31 02:50:38.359 I/AvrcpMediaPlayerList( 2085): sendMediaUpdate: Creating a one item queue for a player with no queue
+10-31 02:50:38.359 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate state=PlaybackState {state=2, position=1837, buffered position=0, speed=0.0, updated=25895453, actions=381, custom actions=[], active item id=-1, error=null}
+10-31 02:50:38.359 D/AvrcpTargetService( 2085): onMediaUpdated: track_changed=false state=false queue=false
+10-31 02:50:38.359 D/AvrcpNativeInterface( 2085): sendMediaUpdate: metadata=false playStatus=false queue=false
+10-31 02:50:38.359 D/AvrcpTargetJni( 2085): sendMediaUpdateNative
+10-31 02:50:38.359 I/bt_stack( 2085): [INFO:avrcp_service.cc(501)] virtual void bluetooth::avrcp::AvrcpService::SendMediaUpdate(bool, bool, bool) track_changed=0 :  play_state=0 :  queue=0
+10-31 02:50:38.855 I/saturn_ota( 1664): [15703] CmdExecutor idle=true
+10-31 02:50:38.855 I/saturn_ota( 1664): [15703] post idle event
+10-31 02:50:38.856 I/saturn_ota( 1371): pluginIdleEvent:install=false,rollback=false
+10-31 02:50:39.856 I/saturn_ota( 1664): putCommand IdleCmd
+10-31 02:50:39.856 I/saturn_ota( 1664): runTask=15703,queueSize=0
+10-31 02:50:39.856 I/saturn_ota( 1664): [15703] begin [IdleCmd][1]
+10-31 02:50:39.856 I/saturn_ota( 1664): [15703] complete [IdleCmd][true][0]
+10-31 02:50:39.856 I/saturn_ota( 1664): executed:size:0
+10-31 02:50:40.755 V/AvrcpMediaPlayerWrapper( 2085): onPlaybackStateChanged(): com.google.android.youtube.tv : PlaybackState {state=3, position=71837, buffered position=0, speed=1.0, updated=25897909, actions=379, custom actions=[], active item id=-1, error=null}
+10-31 02:50:40.817 V/AvrcpMediaPlayerWrapper( 2085): trySendMediaUpdate(): Metadata has been updated for com.google.android.youtube.tv
+10-31 02:50:40.817 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate
+10-31 02:50:40.817 I/AvrcpMediaPlayerList( 2085): sendMediaUpdate: Creating a one item queue for a player with no queue
+10-31 02:50:40.817 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate state=PlaybackState {state=3, position=71897, buffered position=0, speed=1.0, updated=25897976, actions=379, custom actions=[], active item id=-1, error=null}
+10-31 02:50:40.817 D/AvrcpTargetService( 2085): onMediaUpdated: track_changed=false state=true queue=false
+10-31 02:50:40.817 D/AvrcpNativeInterface( 2085): sendMediaUpdate: metadata=false playStatus=true queue=false
+10-31 02:50:40.817 D/AvrcpTargetJni( 2085): sendMediaUpdateNative
+10-31 02:50:40.817 I/bt_stack( 2085): [INFO:avrcp_service.cc(501)] virtual void bluetooth::avrcp::AvrcpService::SendMediaUpdate(bool, bool, bool) track_changed=0 :  play_state=1 :  queue=0
+10-31 02:50:40.823 V/AvrcpMediaPlayerWrapper( 2085): onPlaybackStateChanged(): com.google.android.youtube.tv : PlaybackState {state=3, position=71837, buffered position=0, speed=1.0, updated=25897916, actions=379, custom actions=[], active item id=-1, error=null}
+10-31 02:50:40.824 W/AvrcpMediaPlayerWrapper( 2085): onPlaybackStateChanged(): com.google.android.youtube.tv tried to update with no new data
+10-31 02:50:40.863 V/AvrcpMediaPlayerWrapper( 2085): trySendMediaUpdate(): Metadata has been updated for com.google.android.youtube.tv
+10-31 02:50:40.863 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate
+10-31 02:50:40.863 I/AvrcpMediaPlayerList( 2085): sendMediaUpdate: Creating a one item queue for a player with no queue
+10-31 02:50:40.863 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate state=PlaybackState {state=3, position=71943, buffered position=0, speed=1.0, updated=25898022, actions=379, custom actions=[], active item id=-1, error=null}
+10-31 02:50:40.863 D/AvrcpTargetService( 2085): onMediaUpdated: track_changed=false state=false queue=false
+10-31 02:50:40.863 D/AvrcpNativeInterface( 2085): sendMediaUpdate: metadata=false playStatus=false queue=false
+10-31 02:50:40.863 D/AvrcpTargetJni( 2085): sendMediaUpdateNative
+10-31 02:50:40.863 I/bt_stack( 2085): [INFO:avrcp_service.cc(501)] virtual void bluetooth::avrcp::AvrcpService::SendMediaUpdate(bool, bool, bool) track_changed=0 :  play_state=0 :  queue=0
+10-31 02:50:40.870 I/roid.youtube.t( 7014): NativeAlloc concurrent copying GC freed 2105(198KB) AllocSpace objects, 0(0B) LOS objects, 24% free, 3208KB/4278KB, paused 168us total 109.368ms
+10-31 02:50:40.988 D/MSTAR_VDEC_API(  448): MsVdecCmaUpdateOmxHwcShm  pOmxHWCShm->bAlive[OverlayID]:0, pOmxHWCShm->u32StreamId[OverlayID]:18
+10-31 02:50:41.040 D/SurfaceUtils( 7014): set up nativeWindow 0x91cf7c08 for 1920x1080, color 0x13, rotation 0, usage 0x40002900
+10-31 02:50:41.093 D/MSTAR_VDEC_API(  448): MsVdecCmaUpdateOmxHwcShm  pOmxHWCShm->bAlive[OverlayID]:1, pOmxHWCShm->u32StreamId[OverlayID]:19
+10-31 02:50:41.129 D/SurfaceUtils( 7014): set up nativeWindow 0x91cf7c08 for 1920x1088, color 0x13, rotation 0, usage 0x40002900
+10-31 02:50:41.419 E/hwcomposer(  330): HWComposerMMVideo::present: detect overlay stream changed(18->19), update the overlay info
+10-31 02:50:41.559 V/AvrcpMediaPlayerWrapper( 2085): onPlaybackStateChanged(): com.google.android.youtube.tv : PlaybackState {state=3, position=71974, buffered position=0, speed=1.0, updated=25898711, actions=379, custom actions=[], active item id=-1, error=null}
+10-31 02:50:41.564 W/AvrcpMediaPlayerWrapper( 2085): onPlaybackStateChanged(): com.google.android.youtube.tv tried to update with no new data
+10-31 02:50:41.631 V/AvrcpMediaPlayerWrapper( 2085): trySendMediaUpdate(): Metadata has been updated for com.google.android.youtube.tv
+10-31 02:50:41.631 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate
+10-31 02:50:41.631 I/AvrcpMediaPlayerList( 2085): sendMediaUpdate: Creating a one item queue for a player with no queue
+10-31 02:50:41.631 D/AvrcpMediaPlayerList( 2085): sendMediaUpdate state=PlaybackState {state=3, position=72053, buffered position=0, speed=1.0, updated=25898790, actions=379, custom actions=[], active item id=-1, error=null}
+10-31 02:50:41.631 D/AvrcpTargetService( 2085): onMediaUpdated: track_changed=false state=false queue=false
+10-31 02:50:41.631 D/AvrcpNativeInterface( 2085): sendMediaUpdate: metadata=false playStatus=false queue=false
+10-31 02:50:41.631 D/AvrcpTargetJni( 2085): sendMediaUpdateNative
+10-31 02:50:41.631 I/bt_stack( 2085): [INFO:avrcp_service.cc(501)] virtual void bluetooth::avrcp::AvrcpService::SendMediaUpdate(bool, bool, bool) track_changed=0 :  play_state=0 :  queue=0
+10-31 02:50:46.374 I/system_server(  973): Background young concurrent copying GC freed 48167(4064KB) AllocSpace objects, 8(160KB) LOS objects, 24% free, 13MB/17MB, paused 294us total 104.335ms
+10-31 02:53:39.857 I/saturn_ota( 1664): [15703] CmdExecutor idle=true
+10-31 02:53:39.858 I/saturn_ota( 1664): [15703] post idle event
+10-31 02:53:39.860 I/saturn_ota( 1371): pluginIdleEvent:install=false,rollback=false
+10-31 02:53:40.857 I/saturn_ota( 1664): putCommand IdleCmd
+10-31 02:53:40.857 I/saturn_ota( 1664): runTask=15703,queueSize=0
+10-31 02:53:40.858 I/saturn_ota( 1664): [15703] begin [IdleCmd][1]
+10-31 02:53:40.858 I/saturn_ota( 1664): [15703] complete [IdleCmd][true][0]
+10-31 02:53:40.858 I/saturn_ota( 1664): executed:size:0
+PS C:\Android\platform-tools-latest-windows\platform-tools>
+
+Windows PowerShell
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Установите последнюю версию PowerShell для новых функций и улучшения! https://aka.ms/PSWindows
+
+PS C:\Android\platform-tools-latest-windows\platform-tools> .\adb devices
+List of devices attached
+192.168.0.108:5555      device
+
+PS C:\Android\platform-tools-latest-windows\platform-tools> adb shell getprop ro.build.version.release
+adb : Имя "adb" не распознано как имя командлета, функции, файла сценария или выполняемой программы. Проверьте
+правильность написания имени, а также наличие и правильность пути, после чего повторите попытку.
+строка:1 знак:1
++ adb shell getprop ro.build.version.release
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (adb:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+
+Suggestion [3,General]: Команда adb не найдена, однако существует в текущем расположении. По умолчанию оболочка Windows PowerShell не загружает команды из текущего расположения. Если вы уверены в надежности команды, введите ".\adb". Для получения дополнительных сведений вызовите справку с помощью команды "get-help about_Command_Precedence".
+PS C:\Android\platform-tools-latest-windows\platform-tools> .\adb shell getprop ro.build.version.release
+11
+PS C:\Android\platform-tools-latest-windows\platform-tools> .\adb shell getprop ro.product.board
+mt5889_k32
+PS C:\Android\platform-tools-latest-windows\platform-tools> .\adb shell getprop ro.bootloader
+20170621
+PS C:\Android\platform-tools-latest-windows\platform-tools> .\adb shell uname -a
+Linux localhost 4.19.116 #1 SMP PREEMPT Wed Jul 9 12:00:57 CST 2025 armv7l
+PS C:\Android\platform-tools-latest-windows\platform-tools> .\adb root
+restarting adbd as root
+PS C:\Android\platform-tools-latest-windows\platform-tools> .\^C
+PS C:\Android\platform-tools-latest-windows\platform-tools> .\adb pull /cache/update/upgrade_image_test.pkg ~/projector_logs/ || true
+строка:1 знак:67
++ ... b pull /cache/update/upgrade_image_test.pkg ~/projector_logs/ || true
++                                                                   ~~
+Лексема "||" не является допустимым разделителем операторов в этой версии.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : InvalidEndOfLine
+
+PS C:\Android\platform-tools-latest-windows\platform-tools> .\adb shell "ls -l /system/bin /system/xbin /vendor/bin" | sed -n '1,200p'
+sed : Имя "sed" не распознано как имя командлета, функции, файла сценария или выполняемой программы. Проверьте
+правильность написания имени, а также наличие и правильность пути, после чего повторите попытку.
+строка:1 знак:60
++ ... \adb shell "ls -l /system/bin /system/xbin /vendor/bin" | sed -n '1,2 ...
++                                                               ~~~
+    + CategoryInfo          : ObjectNotFound: (sed:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Android\platform-tools-latest-windows\platform-tools> .\adb pull /system/bin/update-binary ~/projector_logs/ 2>/dev/null || true
+строка:1 знак:68
++ ...  pull /system/bin/update-binary ~/projector_logs/ 2>/dev/null || true
++                                                                   ~~
+Лексема "||" не является допустимым разделителем операторов в этой версии.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : InvalidEndOfLine
+
+PS C:\Android\platform-tools-latest-windows\platform-tools> .\adb shell getprop > getprop.txt
+PS C:\Android\platform-tools-latest-windows\platform-tools> .\adb shell cat /system/build.prop > build.prop
+PS C:\Android\platform-tools-latest-windows\platform-tools> .\adb adb shell cat /proc/cpuinfo > cpuinfo.txt
+adb.exe: unknown command adb
+PS C:\Android\platform-tools-latest-windows\platform-tools> .\adb shell cat /proc/cpuinfo > cpuinfo.txt
+PS C:\Android\platform-tools-latest-windows\platform-tools> .\adb shell cat /proc/cpuinfo > cpuinfo.txt
+PS C:\Android\platform-tools-latest-windows\platform-tools> .\adb shell cat /proc/mounts > mounts.txt
+PS C:\Android\platform-tools-latest-windows\platform-tools> .\^C
+PS C:\Android\platform-tools-latest-windows\platform-tools> .\adb shell uname -a > uname.txt
+PS C:\Android\platform-tools-latest-windows\platform-tools> .\adb shell df -h > df_h.txt
+PS C:\Android\platform-tools-latest-windows\platform-tools> .\adb shell ls -lR /system/bin > system_bin_list.txt
+PS C:\Android\platform-tools-latest-windows\platform-tools> .\adb shell ls -lR /system/bin > system_bin_list.txt
+PS C:\Android\platform-tools-latest-windows\platform-tools> .\adb shell ls -lR /system/etc > system_etc_list.txt
+PS C:\Android\platform-tools-latest-windows\platform-tools> .\adb shell ls -lR /vendor/lib > vendor_lib_list.txt
+PS C:\Android\platform-tools-latest-windows\platform-tools> .\adb pull /system/build.prop
+/system/build.prop: 1 file pulled, 0 skipped. 0.1 MB/s (2352 bytes in 0.020s)
+PS C:\Android\platform-tools-latest-windows\platform-tools> .\adb pull /system/bin/update-binary
+adb: error: failed to stat remote object '/system/bin/update-binary': No such file or directory
+PS C:\Android\platform-tools-latest-windows\platform-tools> .\adb pull /system/bin/update-binary
+adb: error: failed to stat remote object '/system/bin/update-binary': No such file or directory
+PS C:\Android\platform-tools-latest-windows\platform-tools> .\adb pull /system/bin/install-recovery.sh
+adb: error: failed to stat remote object '/system/bin/install-recovery.sh': No such file or directory
+PS C:\Android\platform-tools-latest-windows\platform-tools> .\adb pull /system/etc/recovery.fstab
+adb: error: failed to stat remote object '/system/etc/recovery.fstab': No such file or directory
+PS C:\Android\platform-tools-latest-windows\platform-tools> .\adb pull /system/bin/recovery
+adb: error: failed to stat remote object '/system/bin/recovery': No such file or directory
+PS C:\Android\platform-tools-latest-windows\platform-tools> .\adb pull /system/bin/recovery
+adb: error: failed to stat remote object '/system/bin/recovery': No such file or directory
+PS C:\Android\platform-tools-latest-windows\platform-tools> .\adb pull /system/lib/libcrypto.so
+/system/lib/libcrypto.so: 1 file pulled, 0 skipped. 0.3 MB/s (821928 bytes in 2.348s)
+PS C:\Android\platform-tools-latest-windows\platform-tools> .\adb pull /system/lib64/libcrypto.so
+adb: error: failed to stat remote object '/system/lib64/libcrypto.so': No such file or directory
+PS C:\Android\platform-tools-latest-windows\platform-tools> .\adb pull /system/lib64/libssl.so
+adb: error: failed to stat remote object '/system/lib64/libssl.so': No such file or directory
+PS C:\Android\platform-tools-latest-windows\platform-tools> .\adb shell dmesg > dmesg.txt
+PS C:\Android\platform-tools-latest-windows\platform-tools> .\adb logcat -d > logcat.txt
+PS C:\Android\platform-tools-latest-windows\platform-tools> .\adb shell getenforce > selinux_status.txt
+PS C:\Android\platform-tools-latest-windows\platform-tools> .\adb shell strings /dev/block/platform/*/by-name/boot | findstr -i "mtk rk amlogic allwinner"
+workqueue.disable_numa
+workqueue.power_efficient
+workqueue.debug_force_rr_cpu
+workqueue
+rcutree.qhimark
+rcutree.qlowmark
+uRkL
+  trace_marker          - Writes into this file writes into the kernel buffer
+  trace_marker_raw              - Writes into this file writes binary data into the kernel buffer
+f-n2rKt
+allwinner,sun4i-a10-pll3-2x-clk
+usbcore.quirks
+usb_storage.quirks
+mtk,hq-keypad
+mtk,customized0-keypad
+mtk-keypad
+mtkcus0-keypad
+uvcvideo.quirks
+usbhid.quirks
+fusion_mtk.cpu
+mtktv-regulator
+mtk_hang_debug.dump_mtx_owner
+mtk_hang_debug.mtx_owner_selftest
+mtk_hang_debug.stall_debug_selftest
+mtk_hang_debug.dump_pc
+mtk_hang_debug.enable_kmsg_dump
+mtk_mmdebug.oom_diag_bufsize
+mtk_mmdebug.oom_diag_sort_vmalloc_by_size
+mtk_mmdebug.oom_diag_dump_vmalloc_thd_size
+mtk_mmdebug.oom_diag_dump_vmalloc_thd_ratio
+mtk_mmdebug.oom_diag_dump_slub_thd_size
+mtk_mmdebug.oom_diag_dump_slub_thd_ratio
+mtk_mmdebug.oom_diag_dump_anon_ratio
+mtk_mmdebug.oom_diag
+mtk_mmdebug.die_helper_on
+mtk_mmdebug.do_objdump
+mtk_mmdebug.do_fault_search
+mtk_mmdebug.die_helper_selftest
+mtk_mmdebug.page_track_on
+mtk_mmdebug.page_track_dump
+mtk_mmdebug.max_alloc_count
+mtk_mmdebug.max_alloc_ratio
+mtk_mmdebug.alloc_count_selftest
+mtk_perf_trace
+snd_usb_audio.quirk_alias
+_work
+_work
+work
+work
+work
+work
+work
+work
+work
+work
+work
+work
+work
+work
+Tw~work
+Tw~work
+Tw~work
+work
+work
+<u_work
+`work
+`work
+_work
+`work
+`work
+work
+work
+`<u_work
+work
+work
+work
+_work
+work
+work
+_work
+Twork
+work
+work
+Twork
+work
+work
+Twork
+work
+work
+Tw~work
+Twork
+work
+Twork
+Twork
+work
+work
+work
+Twork
+t work
+t%work
+work
+t%work
+work
+t%work
+work
+work
+work
+workfn
+work    twork
+twork
+work
+ work
+work
+work
+work
+work
+work
+work
+work
+`work
+work
+work
+work
+work
+`work
+work
+work
+work
+work
+workfn
+workfn
+work
+work
+~work
+work
+workfn
+workfn
+workfn
+Twork
+Twork
+Twork
+Twork
+brk     T_
+brk     T
+work
+work
+workfn
+work
+workfn
+work
+work
+workfn
+workfn
+work
+work
+%work
+work
+work
+work
+work
+workfn  tk
+_rs=work
+work    tv
+work
+work
+work
+work
+work
+work
+work
+work
+work
+work
+work
+work
+workfn  t
+work
+work
+work
+_work
+work
+t>_SAK_work
+work
+work
+work
+`work
+work
+work    T
+work
+work
+t@work
+work
+work
+work
+work    T
+work
+^work
+work
+workfn
+workfn
+work
+work
+work
+=work
+work
+work
+`work
+work
+work
+work
+workf
+workf
+t>_work
+hut>wn_work
+work
+work
+work
+work
+work
+work
+work
+work
+work
+work
+work
+_dwork
+work
+work
+work
+work
+work
+work
+work
+work
+work
+>_work
+work
+work
+work
+$work
+work
+work
+w~work
+t>_work
+work    tkc
+work
+~work
+~work
+work
+work
+work
+work
+_work
+work
+work
+ work
+work
+work
+work
+work
+ work
+work
+_work
+_work
+work
+work
+work
+work
+rk      Tf
+tmtkt=
+tmtkt=
+tmtkt=
+tmtkt=
+tmtkt=
+tmtkt=
+tmtkt=
+tmtkt=
+Tmtkt=boos
+tmtkt=boos
+Tmtkt=vol
+tmtktv
+Tmtkt=vol
+Tmtkt=
+tmtktv
+tmtktv
+Tmtkt=
+Tmtkt=boos
+tmtktv
+tmtkt=
+tmtktv
+tmtktv
+tmtktv
+tmtktv
+tmtktv
+tmtktv
+tmtkt=vol
+tmtkt=vol
+tmtkt=vol
+tmtkt=vol
+tmtkt=vol
+tmtkt=vol
+tmtkt=
+tmtkt=
+tmtkt=
+tmtkt=
+tmtkt=
+tmtkt=
+tmtkt=
+tmtkt=
+tmtkt=
+tmtkt=boos
+tmtkt=boos
+tmtkt=boos
+tmtktv
+IrKeyCfg
+IrKeyCfg
+tmtk
+work
+work
+_work
+work
+_work   T
+_work
+_work
+work
+work
+work
+work
+work
+work
+work
+work
+work
+work
+work
+work
+work
+r@work
+work
+t@work
+work
+work
+work
+work
+work
+workfn
+workfn
+workfn
+work
+pbrk
+workfn
+m       rk
+rkyb
+rkyb
+rkovaplu
+rkovaplu
+rmtk732
+rmtkt=
+rmtktv
+rmtkt=vol
+rmtkt=vol
+rmtkt=
+rmtkt=
+rmtkt=
+rmtkt=boos
+workAcc'sP
+workAcc'sP
+workAcc'sP
+workAdd
+e       Rkobj
+rkobj
+work
+work
+work
+work
+work
+work
+work
+work
+work
+work
+work
+work
+work
+work
+work
+work
+work
+work
+work
+`<u_work
+`work
+work
+work
+work
+work
+work
+mtkr
+mtkt=boos
+<u_work
+pbrk
+work
+_work
+ work
+work
+work
+work
+work
+work
+_work
+`work
+work
+~work
+work
+work
+`work
+`work
+work
+work
+work
+work
+work
+`work
+work
+work
+work
+work
+work
+<u_work
+`work
+_work
+`work
+work
+work
+`<u_work
+work
+work
+work
+_work
+work
+work
+work
+work
+work
+ work
+work
+work
+work
+work
+work
+`work
+work
+work
+work
+`work
+work
+mtkr
+~work
+brk
+work
+work
+work
+work
+work
+work
+`work
+work
+work
+work
+mtkt=boos
+work
+pbrk
+work
+work
+work
+work
+work
+Twork
+ly      Twork
+twork
+ work
+work
+work
+tmtkt=
+tmtkt=
+tmtktv
+TRACE_SYSTEM_WB_REASON_FORKER_THREAD
+tmtktv
+work
+work
+work
+work
+work
+work
+work
+tTRACE_SYSTEM_WB_REASON_SYNC tTRACE_SYSTEM_WB_REASON_PERIODIC$tTRACE_SYSTEM_WB_REASON_LAPTOP_TIMER%tTRACE_SYSTEM_WB_REASON_FREE_MORE_MEM%tTRACE_SYSTEM_WB_REASON_FS_FREE_SPACE%tTRACE_SYSTEM_WB_REASON_FORKER_THREAD
+work
+mtkt=
+mtkt=
+mtktv
+work    dnm
+work
+_work
+work
+_work
+work
+work
+work
+work
+work
+work
+work
+work
+work
+work
+work
+work
+work
+work
+work
+work
+work
+work
+dwork
+dwork
+work
+work
+work
+work
+work
+work
+work
+_work
+work
+work
+work
+dwork
+f%work
+mnt%work        dmn
+work
+work    d
+work
+work
+work
+work
+work
+work
+work
+work
+work
+work
+$work
+work
+work
+work
+work
+work
+work    ds
+work
+work
+work
+Dmtktv
+work
+work
+work
+work._rs
+work._rs.284
+work._rs.286
+work
+work
+work
+dmtkpw
+dmtkt=
+dmtkt=
+dmtkt=
+dmtkt=
+dmtkt=
+dmtkt=
+dmtktv
+dmtktv
+IrKeyCfg        d
+work
+work
+dmtk
+^work
+_work
+work
+work
+work
+work
+work
+work
+work
+work
+work
+work
+work
+dw~work
+dw~work
+`work
+`work
+`work
+`work
+`work
+`work
+`work
+`work
+`work
+work
+work
+work
+work
+work
+work
+work
+work
+work
+`work
+`work
+`work
+workfn
+work
+dwork
+dwork
+dwork
+dwork
+dwork
+dwork
+dwork
+dwork
+work
+work
+work
+work
+`work
+work
+work
+work
+work
+work
+work
+work
+work
+work
+work
+work
+_work
+bwork
+work
+        Bmtkr
+workfn.
+workfn.
+work    Bv
+work
+work
+work
+work
+work
+work    bd
+work
+Bmtktv
+work
+pstWorkQ
+work
+bmtkt=
+bmtktv
+bmtktv
+bmtkt=vol
+bmtkt=vol
+bmtkt=
+bmtkt=
+bmtkt=
+bmtkt=boos
+work
+watermark_scale_factor
+4workqueue %s: drain_workqueue() isn't complete after %u tries
+mark_reg_known_zero(regs, %u)
+6workingset: timestamp_bits=%d max_order=%d bucket_order=%u
+workingset_refault %lu
+fsnotify_mark_connector
+3LEB %-7d free %-8d dirty %-8d used %-8d free + dirty %-8d dark %-4d dead %-4d nodes fit %-3d flags %#-4x (
+3overlayfs: workdir and upperdir must be separate subtrees
+3       upd_marker      %d
+quirks
+mtk,hq-keypad
+Active Markers
+mtk-miu-atop
+5mtk_miu_mon_area create attribute error
+Put %s(%d/%d) into workqueue
+dev=%s queue_mapping=%u skbaddr=%p vlan_tagged=%d vlan_proto=0x%04x vlan_tci=0x%04x protocol=0x%04x ip_summed=%d len=%u data_len=%u network_offset=%d transport_offset_valid=%d transport_offset=%d tx_flags=%d gso_size=%d gso_segs=%d gso_type=%#x
+connsecmark_tg_check
+6xt_CONNSECMARK: invalid mode: %hu
+4workqueue: round-robin CPU selection forced, expect performance impact
+network_throughput
+&cpu_buffer->irq_work.full_waiters
+wipeonfork
+Invalid end of sector marker.
+mtk_write_back
+ERROR: Scsi host '%s' attempted to flush scsi-work, when no workqueue created.
+mtk,keypad-chanel
+3Failed to create mmc completion workqueue
+4Could not parse HID quirk module param %s
+6[mtktv-regulator][%d] power ic read successful
+[37m[mtktv-regulator] can't get u32 value in parent node: %s
+3[mtktv-cpufreq] cpu%d: failed to scale down voltage!
+5mtk_miu_total create attribute error
+mtk_miu_mon_area
+tc_filter_workqueue
+3%s: section %u reloc %u sym '%s': unsupported interworking call (ARM -> Thumb)
+workqueue: failed to create early rescuer for %s
+work
+work struct %p
+inotify_inode_mark
+workdir
+3overlayfs: workdir and upperdir must reside under the same mount
+Total of %d commands on %d devices require eh work
+work failed with error code %d
+%s: failed to mark OPPs as shared: %d
+6[mtktv-regulator][%d] set default power(%d0mV)
+[mtktv-regulator] PWM DAC DONE
+6[mtktv-regulator] id = 0x%x, step  = %d, shift = %d, port = %d, address = 0x%x
+5mtk_miu_mon_chan create attribute error
+mtk_miu_mon_freq
+mtk_wifi_ctl_probe
+set resolution quirk: cval->res = 384
+Could not register network namespace subsystems
+tcp_autocorking
+mm/workingset.c
+Error %d writing Merkle tree block %llu
+Error %d initializing Merkle tree parameters
+Quota file not on filesystem root. Journaled quota will not work
+6GIC: enabling workaround for %s
+WRITE_FILEMARKS
+upd_marker
+Quirks match for vid %04x pid %04x: %lx
+mtk-keypad
+mtk_pwm_init_module
+6[mtktv-regulator][%s][%d] End
+3[mtktv-regulator] not support power type
+3[mtktv-regualtor] undefined regulator type!
+0[mtktv-thermal] Reach reset temperature point, trigger WDT reset to protect SOC!!!
+Put %s (%d/%d) into workqueue
+3l2tp_core: alloc_workqueue failed
+network_ttl_initialiser
+pool_workqueue
+event-fork
+workingset_refault
+couldn't mark inode dirty (err %d)
+7uvcvideo: Marking buffer as bad (error bit set).
+6uvcvideo: UVC non compliance - GET_RES failed on an XU control. Enabling workaround.
+drivers/mstar2/drv/fusion_mtk/reactor.c
+[37m[mtktv-regulator][%d] IIC Write Fail!
+[37m[mtktv-regulator] can't find dts node: %s
+6[mtktv-regulator] gpio num: %d, gpio mode: %d
+mtk-thermal
+0[mtktv-cpufreq][available_boost_list]
+3[mtktv-cpufreq] cpu%d: failed to scale up voltage!
+3Failed to register mtk_miu_dig driver
+tcp_workaround_signed_windows
+initializing fsnotify_mark_srcu
+always_check_network
+n_tty_kick_worker
+(&lo->worker)->lock
+cAddrMarkNotFound
+shutdown_work
+avoid_reset_quirk
+cquality=%d, APPn=%d, APP_len=%d, COM_len=%d, jpeg_markers=0x%x
+6uvcvideo: Forcing device quirks to 0x%x by module parameter for testing purpose.
+workitem triggered without status available
+4OF: fdt: failed to mark hotplug range 0x%llx - 0x%llx
+[IR config]PowerKey code format err for %s
+drivers/mstar2/drv/fusion_mtk/fusioncore_impl.c
+6[mtktv-regulator] channel = %d,scale = %d
+6[mtktv-thermal][%s][%d] End
+mtk_miu_module
+4workqueue: max_active %d requested for %s is out of range, clamping between %d and %d
+6rcu:   Boot-time adjustment of callback low-water mark to %ld.
+3EXT4-fs: failed to create workqueue
+unable to read boot sector to mark fs as dirty
+read from lprops: total_dead %lld, total_dark %lld
+&mtk_zram_wait
+applying PMP SRST workaround and retrying
+delayedwork_callback
+proc_work=%d transaction_stack=%d thread_todo=%d
+3Mark Blk 0x%04x failed with ErrCode: 0x%08x
+6[mtktv-regulator][%d] power initialization successful
+3[mtktv-cpufreq] boost id(%d) is invalid
+3Failed to register mtk_miu_dig_e driver
+6twoworld power: queue early_suspend_work start
+napi poll on napi struct %p for device %s work %d budget %d
+trace_marker_raw
+node=%d zone=%-8s order=%d reclaimable=%lu available=%lu min_wmark=%lu no_progress_loops=%d wmark_check=%d
+workingset_restore
+Marking all objects used
+3Failed to register mtk miu bw driver
+mstar_pm_store_IrKeyCfg
+work struct %p: function %pf
+&cpu_buffer->irq_work.waiters
+NETWORK_LATENCY
+Too many levels in Merkle tree
+Failed. Marking inode as bad.
+LS/FS devices and hubs may not work under this hub
+quirk_stall_not_supp
+i2c_quirk_error
+Cannot allocate workqueue
+4OF: fdt: End of tree marker overwritten: %08x
+drivers/mstar2/drv/fusion_mtk/call.c
+mtktv-cpufreq
+3[mtktv-cpufreq] failed to register
+mtk-cpufreq platform device
+6twoworld power: queue late_resume_work end
+drivers/mtk_misc/mtk_debug/mtk_mm_debug/objdump/linux/src/bfd.c
+6xt_TCPMSS: Only works on TCP SYN packets
+%s: load_irks: too big irk_count value %u
+6Showing busy workqueues and worker pools:
+wmark_check
+Error %d reading Merkle tree page %llu
+1##### Failed to allocate %d bytes for deflate workspace
+1[mtk_lmkd] start zram idle set
+mtk,keypad-upwbd
+%s: workitem triggered without notifications available
+%sunknown work: type %d
+binder_release_work
+[IR config]PowerKey code:0x%x
+mtktv_regulator_probe
+3[mtktv-regulator] not support power type!
+3[mtktv-cpufreq] Machine is not support dvfs
+3[mtktv-cpufreq] node not found
+3[mtktv-cpufreq] Thermal Zone(mtk-thermal) Get Fail
+usbmixer: volume control quirk for Tenx TP6911 Audio Headset
+mark
+Block bitmap for bg 0 marked uninitialized
+Failed to mark inode %lu dirty
+ext4_mark_iloc_dirty() failed ret=%d
+3serial8250: too much work usr:0x%x 0x%x
+drivers/gpu/drm/drm_flip_work.c
+quirk_ep_out_aligned_size
+mtk,keypad-releaseadc
+3NC_ReadPage(0x%X)=0x%X, Mark it bad block!!
+6[mtktv-regulator] power level: %d
+3Failed to register mtk_miu_blk_arb driver
+mstar_pm_show_IrKeyCfg
+MTK panic, Interrupt Overload @ IRQ%d, %s
+applying DragonFly dB scale quirk (0-50 variant)
+connmark_tg_check
+secmark_tg_check
+IRQ work interrupts
+workqueue:prepare
+network_latency
+mark_reg_unknown(regs, %u)
+workingset
+workingset_nodereclaim %lu
+inotify closing but id=%d for fsn_mark=%p in group=%p still in idr.  Probably leaking memory
+       Quirks:
+MTK TV KEYPAD
+mtk,keypad-num
+KEY_BOOKMARKS
+6[mtktv-regulaotr] regulator type: pwm
+drivers/mtk_misc/mtk_debug/mtk_mm_debug/page_track.c
+drivers/mtk_misc/mtk_debug/mtk_mm_debug/objdump/arm-dis.c
+ap:mtk_perf_event
+4%s: %s qdisc %X: is non-work-conserving?
+6xt_SECMARK: only valid in 'mangle' or 'security' table, not '%s'
+6workqueue %s: flags=0x%x
+kworker/dying
+NETWORK_THROUGHPUT
+1##### Allocated %d bytes for deflate workspace
+ext4_mb_mark_diskspace_used
+3SQUASHFS error: Failed to allocate lzo workspace
+!(c->lst.total_dead & 7) && !(c->lst.total_dark & 7)
+4SELinux: failure in %s(), invalid network interface (%d)
+Could read foldmark at block %d
+[USB] set EMI quirks 0x%x
+quirk_zlp_not_supp
+6[mtktv-regulator] regulator typ: gpio
+0[mtktv-cpufreq] min = %d, max = %d
+3[mtktv-cpufreq] fail to register cooling device
+3Failed to register mtk_miu_atop driver
+No working init found.  Try passing init= option to kernel. See Linux Documentation/admin-guide/init.rst for guidance.
+bpf_msg_cork_bytes
+min_wmark
+6Security Framework initialized
+3mtk_intc: init fail - CONFIG_MP_PLATFORM_NATIVE_IRQ is not enabled
+[mtktv-cpufreq] failed to initialize dvfs info
+3[mtktv-cpufreq] opp-table not found.
+3[mtktv-cpufreq] cpu%d: failed to find OPP for %ld
+TEE Core Framework initialization (ver %s)
+src_valid_mark
+enabling work-around
+fs/notify/mark.c
+Error %d building Merkle tree
+4overlayfs: %s is in-use as upperdir/workdir of another mount, accessing files from both mounts will result in undefined behavior.
+update marker and corrupted simultaneously
+## FS MTK WIFI retry fail !!!!
+quirk_altset_not_supp
+3[mtktv-cpufreq] no OPP table for cpu%d
+3Failed to register mtk_miu_ctrl_arb driver
+3%s: module is marked as livepatch module, but livepatch support is disabled
+dnotify_mark
+DP %s: OUI %*phD dev-ID %*pE HW-rev %d.%d SW-rev %d.%d quirks 0x%04x
+damaged volume, update marker is set
+PEB %d passed torture test, do not mark it as bad
+android_work
+Fireworks
+drivers/mstar2/drv/cpufreq/mtktv-cpufreq.c
+6xt_SECMARK: mode already set to %hu cannot mix with rules for mode %hu
+%s: ignoring IRK with invalid identity address
+kernel/fork.c
+kernel/workqueue.c
+work struct=%p function=%pf workqueue=%p req_cpu=%u cpu=%u
+&buffer->irq_work.waiters
+forker_thread
+mtk_aes_rng
+Incorrect free sector %d in block %d: marking it as ignored
+Mobile Broadband Network Device (NO ARP)
+6uvcvideo: UVC non compliance - GET_DEF(PROBE) not supported. Enabling workaround.
+drivers/mstar2/drv/fusion_mtk/fifo.c
+0[mtktv-cpufreq] [CPU%d]
+0[mtktv-cpufreq]
+set volume quirk for CM102-A+/102S+
+set volume quirk for QuickCam E3500
+Could not setup the initial network namespace
+workqueue: PF_MEMALLOC task %d(%s) is flushing !WQ_MEM_RECLAIM %s:%pf
+forkexec_idx
+couldn't mark inode #%lu dirty (err %d)
+Failed with error code %i while reading attribute inode (mft_no 0x%lx, type 0x%x, name_len %i).  Marking corrupt inode and base inode 0x%lx as bad.  Run chkdsk.
+calculated: total_dead %lld, total_dark %lld
+3overlayfs: failed to lock workdir+upperdir
+scheduling buffer work for halted ldisc
+do_work
+EventGroupWorkQueue
+6[mtktv-regulator] Register mtktv-regulator driver
+mtktv
+6TEE Core Framework unregistered
+drivers/mtk_misc/mtk_debug/mtk_mm_debug/objdump/linux/src/xmalloc.c
+Could not create netns workq
+6xt_SECMARK: invalid mode: %hu
+%s: i_mark=%p i_mark->wd=%d i_mark->group=%p
+Inode bitmap for bg 0 marked uninitialized
+3       total_dark     %llu
+set_update_marker
+7%s: %s: did not schedule the work item, was already queued
+drivers/mstar2/drv/fusion_mtk/fusionee.c
+drivers/mstar2/drv/regulator/mtktv-regulator.c
+3[mtktv-regulator][%d] the power ic is not support
+mtktv_thermal_probe
+3[mtktv-cpufreq] dvfs policy for cpu%d is not initialized.
+3[mtktv-cpufreq][%d] procfs initialization fail
+mtk-miu-dig
+mtk-miu-blk-arb
+set volume quirk for UDA1321/N101 chip
+6xt_CONNSECMARK: only valid in 'mangle' or 'security' table, not '%s'
+6xt_SECMARK: unable to map security context '%s'
+Out of memory while allocating workspace
+1##### coredump_alloc_workspaces() return fail...
+workdir=%s
+Could not allocate knbd recv work queue.
+ERROR: Scsi host '%s' attempted to queue scsi-work, when no workqueue created.
+BORKEN
+6uvcvideo: UVC non compliance - GET_MIN/MAX(PROBE) incorrectly supported. Enabling workaround.
+3device-mapper: bow: Failed to allocate write_work
+3binder: unexpected work type, %d, not freed
+[37m[mtktv-regulator][%d] IIC Read Fail!
+[37m[mtktv-regulator] can't get string in parent node: %s
+3[mtktv-cpufreq] failed to
+0[mtktv-cpufreq] [CPU%d]
+mtk_miu_mon_chan
+6twoworld power: queue late_resume_work start
+drivers/mtk_misc/mtk_debug/mtk_mm_debug/page_alloc_count.c
+3network todo '%s' but state %d
+VLAN features are set incorrectly.  Q-in-Q configurations may not work correctly.
+ordering guarantee broken for workqueue %s
+Merkle tree block size (%u) too small for hash algorithm "%s"
+3overlayfs: workdir/%s already exists
+1mtk lmkd start write back emmc
+failed to create tmf workq
+3mtdoops: block_markbad failed, aborting
+mtk,rst-timeout
+kdmwork-%s
+[IR config]no PowerKey for %s
+3Need BBM workaround!!!
+drivers/mstar2/drv/fusion_mtk/entries.c
+3[mtktv-regualtor] parsing fail
+3[mtktv-cpufreq] proc regulator
+0[mtktv-cpufreq] clock = %ld, voltage = %d
+tcp_fwmark_accept
+3SQUASHFS error: Failed to allocate zlib workspace
+3       total_used %lld, total_dark %lld, total_dead %lld
+&ubi->work_sem
+__schedule_ubi_work
+wear_leveling_worker
+## Hello FS MTK WIFI. Go HS retry : %d !
+mtk,keypad-lowbd
+mtk,rst-key
+www.masterkit.ru MA901
+drivers/mstar2/drv/fusion_mtk/list.h
+6[mtktv-regulator] regulator type: pardo
+MTK panic, %s
+device (%04x:%04x): applying quirk alias %04x:%04x
+usbmixer: master volume quirk for PCM2702 chip
+%sWorkqueue: %s %pf
+3BUG: workqueue leaked lock or atomic: %s/0x%08x/%d
+%s: i_mark=%p i_mark->wd=%d i_mark->group=%p found_i_mark=%p found_i_mark->wd=%d found_i_mark->group=%p
+3%s: i_mark=%p i_mark->wd=%d i_mark->group=%p
+Error %d reading Merkle tree page %lu
+P (parked)
+3       dark_wm %d, dead_wm %d, max_idx_node_sz %d
+3overlayfs: missing 'workdir'
+6overlayfs: option "workdir=%s" is useless in a non-upper mount, ignore
+ brk:%d
+clear_update_marker
+3Mark current block as bad block
+3[mtktv-cpufreq] failed to init cpufreq table
+5mtk_miu_mon_freq create attribute error
+6twoworld power: queue early_suspend_work end
+kernel/irq_work.c
+4SELinux: failure in %s(), unable to determine network port label
+&mtk_write_back_wait
+7%s: Found dynamic quirk 0x%lx for HID device 0x%hx:0x%hx
+6binder: %d:%d ERROR: Thread waiting for process work before calling BC_REGISTER_LOOPER or BC_ENTER_LOOPER (state %x)
+fwmark_reflect
+markers
+3overlayfs: %s is in-use as upperdir/workdir of another mount, mount with '-o index=off' to override exclusive upperdir protection.
+DRM_IOCTL_MARK_BUFS
+proc_work
+drvNAND_MarkBadBlk
+6[mtktv-regulator] regulator-default = %d, min = %d, max = %d
+IrKeyCfg
+mtk_wifi_power_on
+mtk_stall_det/%u
+invalid quirk type %d
+ASoC: resume work item may be lost
+ASoC: Failed to mark GPIO at index %d as wake source: %d
+src=%pISpc dest=%pISpc mark=%#x data_len=%d snd_nxt=%#x snd_una=%#x snd_cwnd=%u ssthresh=%u snd_wnd=%u srtt=%u rcv_wnd=%u sock_cookie=%llx
+net/netfilter/xt_CONNSECMARK.c
+6xt_SECMARK: unable to obtain relabeling permission
+TCPAutoCorking
+5IPv6: delayed DAD work was pending while freeing ifa=%p
+%s: load_irks: expected %u bytes, got %u bytes
+c hung=%us workers=%d
+3SMP: fork_idle() failed for CPU %u
+trace_marker
+kswapd_low_wmark_hit_quickly
+WB_REASON_FORKER_THREAD
+ubi_io_mark_bad
+0[mtktv-thermal] trip point: %d
+3[mtktv-cpufreq] failed to get cpu%d device
+mtk_xtest
+set quirks for FTU Effect Feedback/Volume
+network_offset
+%s: ignoring IRK with no identity address
+workingset_nodereclaim
+4fsn_mark->group=%p wd=%d
+mark inode dirty (error %d)
+c->dark_wm > 0
+network_peer_controls
+1mtk lmkd write back emmc done
+Asynchronous notification not supported, hotplug won't work on fan-out ports. Use warm-plug instead.
+4%s: unlock failed, writes may not work
+mtk,keypad-debounce
+7%s: Found squirk 0x%lx for HID device 0x%hx:0x%hx
+%snode work %d: u%016llx c%016llx
+  pages high watermark: %zu
+3[mtktv-cpufreq] failed to
+mtk-miu-ctrl-arb
+5mtk_miu_module create attribute error
+3BUG: arch topology borken
+Resident attribute list attribute in inode 0x%lx is marked encrypted/sparse which is not true.  However, Windows allows this and chkdsk does not detect or correct it so we will just ignore the invalid flags and pretend they are not set.
+Block %d: incorrectly marked as first block in chain
+4nand_bbt: error %d while marking block %d bad
+cannot mark PEB %d bad, error %d
+mark PEB %d as bad
+network connection: %sconnected
+drivers/hid/hid-quirks.c
+6mstar_mci: not enough memory to create workqueue
+drivers/mstar2/drv/fusion_mtk/ref.c
+3[mtktv-cpufreq] dvfs info for cpu%d is not initialized.
+[mtktv-cpufreq] failed to register
+mtk cpufreq driver
+set quirk for FTU Effect Duration
+connmark_mt_check
+net/netfilter/xt_SECMARK.c
+workqueue: per-cpu pwq for %s on cpu%d has 0 refcnt
+workingset_activate
+workingset_activate %lu
+&group->mark_mutex
+1##### coredump_alloc_workspaces() return success...
+Marking fs in need of filesystem check.
+bad dead/dark space accounting
+4SELinux: failure in %s(), unable to determine network interface label (%d)
+mtk_zram_writeback_monitor
+%s: work failed with error code %d
+Mobile Broadband Network Device
+adapter quirk: %s (addr 0x%04x, size %u, %s)
+[37m[mtktv-regulator] can't get u32 array in parent node: %s
+0[mtktv-cpufreq] register cooling device
+mtk_miu_total
+6CPU%u: Spectre v2: using %s workaround
+workqueue: WQ_MEM_RECLAIM %s:%pf is flushing !WQ_MEM_RECLAIM %s:%pf
+kworker/%s
+6rcu:   Boot-time adjustment of callback high-water mark to %ld.
+kswapd_high_wmark_hit_quickly
+Resident attribute list attribute in $MFT system file is marked encrypted/sparse which is not true.  However, Windows allows this and chkdsk does not detect or correct it so we will just ignore the invalid flags and pretend they are not set.
+fork
+4SELinux: failure in %s(), unable to determine network node label
+mark volume %d as corrupted
+(&md->kworker)->lock
+4device-mapper: snapshots: Snapshot is marked invalid.
+drivers/mstar2/drv/fusion_mtk/shmpool.c
+mtktv-regulator
+6[mtktv-regulator] PWM DAC INIT
+6[mtktv-regulator] power: %d, num of pins: %d
+6[mtktv-thermal] Register mtktv-thermal driver
+6xt_SECMARK: invalid security context '%s'
+PARK
+3mtdoops: failed to allocate buffer workspace
+(&ctlr->kworker)->lock
+3[mtktv-regulator][%d] power password verify fail
+mtk-miu-dig-e
+3MMA workqueue fail.
+mtk_wifi_reset
+mark=%u
+6xt_CONNSECMARK: cannot load conntrack support for proto=%u
+workqueue:online
+Failed to mark inode dirty
+Failed with error code %i.  Marking corrupt inode 0x%lx as bad.  Run chkdsk.
+FORCE: horkage modified (%s)
+applying link speed limit horkage to %s
+3%s: can't allocate workqueue for usb hub
+6uvcvideo: Please report required quirks to the linux-uvc-devel mailing list.
+drivers/mstar2/drv/fusion_mtk/property.c
+drivers/mstar2/drv/fusion_mtk/skirmish.c
+mtk,pwm
+3[mtktv-cpufreq] failed to get intermediate opp
+0[mtktv-cpufreq] CORNER TYPE:%d
+mtk-bw
+workqueue_queue_work
+workqueue_activate_work
+workqueue_execute_start
+workqueue_execute_end
+sched_process_fork
+mark_victim
+writeback_mark_inode_dirty
+sb_mark_inode_writeback
+ext4_mark_inode_dirty
+binder_wait_for_work
+mtk_perf_mem_val
+mtk_perf_reg_val
+n%VqrKyZ
+fork_usermode_blob
+queue_work_on
+delayed_work_timer_fn
+queue_delayed_work_on
+mod_delayed_work_on
+queue_rcu_work
+flush_workqueue
+drain_workqueue
+flush_work
+cancel_work_sync
+flush_delayed_work
+flush_rcu_work
+cancel_delayed_work
+cancel_delayed_work_sync
+apply_workqueue_attrs
+__alloc_workqueue_key
+destroy_workqueue
+workqueue_set_max_active
+current_work
+workqueue_congested
+work_busy
+set_worker_desc
+work_on_cpu
+work_on_cpu_safe
+kthread_should_park
+kthread_parkme
+kthread_unpark
+kthread_park
+__kthread_init_worker
+kthread_worker_fn
+kthread_create_worker
+kthread_create_worker_on_cpu
+kthread_queue_work
+kthread_delayed_work_timer_fn
+kthread_queue_delayed_work
+kthread_flush_work
+kthread_mod_delayed_work
+kthread_cancel_work_sync
+kthread_cancel_delayed_work_sync
+kthread_flush_worker
+kthread_destroy_worker
+__wake_up_locked_key_bookmark
+powerkey
+mtkrc_hotkey
+mstar_cust_pwrkey_handler
+dma_mark_declared_memory_occupied
+irq_work_queue
+irq_work_run
+irq_work_sync
+zone_watermark_ok_safe
+mark_page_accessed
+vm_brk_flags
+vm_brk
+mark_mounts_for_expiry
+__mark_inode_dirty
+mark_buffer_async_write
+mark_buffer_dirty_inode
+mark_buffer_dirty
+mark_buffer_write_io_error
+fscrypt_enqueue_decrypt_work
+fsverity_enqueue_verify_work
+dquot_mark_dquot_dirty
+mark_info_dirty
+nfs_mark_client_ready
+nfsiod_workqueue
+security_secmark_relabel_packet
+security_secmark_refcount_inc
+security_secmark_refcount_dec
+kblockd_schedule_work
+kblockd_schedule_work_on
+kblockd_mod_delayed_work_on
+blk_mq_sched_mark_restart_hctx
+lockref_mark_dead
+zlib_inflate_workspacesize
+zlib_deflate_workspacesize
+mtk_intc_get_irq
+drm_kms_helper_is_poll_worker
+drm_flip_work_allocate_task
+drm_flip_work_queue_task
+drm_flip_work_queue
+drm_flip_work_commit
+drm_flip_work_init
+drm_flip_work_cleanup
+drm_get_panel_orientation_quirk
+regcache_mark_dirty
+mtk_idle_set
+scsi_queue_work
+scsi_flush_work
+ata_sff_queue_work
+ata_sff_queue_delayed_work
+mtd_block_markbad
+usb_stor_adjust_quirks
+thermal_notify_framework
+dm_bufio_mark_partial_buffer_dirty
+dm_bufio_mark_buffer_dirty
+hid_quirks_init
+hid_quirks_exit
+hid_lookup_quirk
+mtktv_boost_register
+dapm_mark_endpoints_dirty
+skb_to_sgvec_nomark
+skb_gso_validate_network_len
+tcf_queue_work
+strpbrk
+allwinner,sun4i-a10
+allwinner,sun5i-a10s
+allwinner,sun5i-a13
+allwinner,sun5i-r8
+allwinner,sun6i-a31
+allwinner,sun6i-a31s
+allwinner,sun7i-a20
+allwinner,sun8i-a23
+allwinner,sun8i-a83t
+allwinner,sun8i-h3
+rockchip,rk2928
+rockchip,rk3036
+rockchip,rk3066a
+rockchip,rk3066b
+rockchip,rk3188
+rockchip,rk3228
+rockchip,rk3288
+rockchip,rk3328
+rockchip,rk3366
+rockchip,rk3368
+rockchip,rk3399
+arm,mstar-timer-workaround
+mtk-intc
+mark
+MARK
+connmark
+CONNMARK
+CONNMARK
+CONNSECMARK
+SECMARK
+"work struct=%p function=%pf workqueue=%p req_cpu=%u cpu=%u", REC->work, REC->function, REC->workqueue, REC->req_cpu, REC->cpu
+"work struct %p", REC->work
+"work struct %p: function %pf", REC->work, REC->function
+"pm_qos_class=%s value=%d", __print_symbolic(REC->pm_qos_class, { PM_QOS_CPU_DMA_LATENCY, "CPU_DMA_LATENCY" }, { PM_QOS_NETWORK_LATENCY, "NETWORK_LATENCY" }, { PM_QOS_NETWORK_THROUGHPUT, "NETWORK_THROUGHPUT" }), REC->value
+"pm_qos_class=%s value=%d, timeout_us=%ld", __print_symbolic(REC->pm_qos_class, { PM_QOS_CPU_DMA_LATENCY, "CPU_DMA_LATENCY" }, { PM_QOS_NETWORK_LATENCY, "NETWORK_LATENCY" }, { PM_QOS_NETWORK_THROUGHPUT, "NETWORK_THROUGHPUT" }), REC->value, REC->timeout_us
+"node=%d zone=%-8s order=%d reclaimable=%lu available=%lu min_wmark=%lu no_progress_loops=%d wmark_check=%d", REC->node, __print_symbolic(REC->zone_idx, {ZONE_DMA, "DMA"}, {ZONE_NORMAL, "Normal"}, {ZONE_HIGHMEM, "HighMem"}, {ZONE_MOVABLE, "Movable"}), REC->order, REC->reclaimable, REC->available, REC->min_wmark, REC->no_progress_loops, REC->wmark_check
+"bdi %s: sb_dev %d:%d nr_pages=%ld sync_mode=%d kupdate=%d range_cyclic=%d background=%d reason=%s cgroup_ino=%u", REC->name, ((unsigned int) ((REC->sb_dev) >> 20)), ((unsigned int) ((REC->sb_dev) & ((1U << 20) - 1))), REC->nr_pages, REC->sync_mode, REC->for_kupdate, REC->range_cyclic, REC->for_background, __print_symbolic(REC->reason, { WB_REASON_BACKGROUND, "background" }, { WB_REASON_VMSCAN, "vmscan" }, { WB_REASON_SYNC, "sync" }, { WB_REASON_PERIODIC, "periodic" }, { WB_REASON_LAPTOP_TIMER, "laptop_timer" }, { WB_REASON_FREE_MORE_MEM, "free_more_memory" }, { WB_REASON_FS_FREE_SPACE, "fs_free_space" }, { WB_REASON_FORKER_THREAD, "forker_thread" }), REC->cgroup_ino
+"bdi %s: older=%lu age=%ld enqueue=%d reason=%s cgroup_ino=%u", REC->name, REC->older, REC->age, REC->moved, __print_symbolic(REC->reason, { WB_REASON_BACKGROUND, "background" }, { WB_REASON_VMSCAN, "vmscan" }, { WB_REASON_SYNC, "sync" }, { WB_REASON_PERIODIC, "periodic" }, { WB_REASON_LAPTOP_TIMER, "laptop_timer" }, { WB_REASON_FREE_MORE_MEM, "free_more_memory" }, { WB_REASON_FS_FREE_SPACE, "fs_free_space" }, { WB_REASON_FORKER_THREAD, "forker_thread" }), REC->cgroup_ino
+"host_no=%u channel=%u id=%u lun=%u data_sgl=%u prot_sgl=%u prot_op=%s cmnd=(%s %s raw=%s)", REC->host_no, REC->channel, REC->id, REC->lun, REC->data_sglen, REC->prot_sglen, __print_symbolic(REC->prot_op, { SCSI_PROT_NORMAL, "SCSI_PROT_NORMAL" }, { SCSI_PROT_READ_INSERT, "SCSI_PROT_READ_INSERT" }, { SCSI_PROT_WRITE_STRIP, "SCSI_PROT_WRITE_STRIP" }, { SCSI_PROT_READ_STRIP, "SCSI_PROT_READ_STRIP" }, { SCSI_PROT_WRITE_INSERT, "SCSI_PROT_WRITE_INSERT" }, { SCSI_PROT_READ_PASS, "SCSI_PROT_READ_PASS" }, { SCSI_PROT_WRITE_PASS, "SCSI_PROT_WRITE_PASS" }), __print_symbolic(REC->opcode, { 0x00, "TEST_UNIT_READY" }, { 0x01, "REZERO_UNIT" }, { 0x03, "REQUEST_SENSE" }, { 0x04, "FORMAT_UNIT" }, { 0x05, "READ_BLOCK_LIMITS" }, { 0x07, "REASSIGN_BLOCKS" }, { 0x07, "INITIALIZE_ELEMENT_STATUS" }, { 0x08, "READ_6" }, { 0x0a, "WRITE_6" }, { 0x0b, "SEEK_6" }, { 0x0f, "READ_REVERSE" }, { 0x10, "WRITE_FILEMARKS" }, { 0x11, "SPACE" }, { 0x12, "INQUIRY" }, { 0x14, "RECOVER_BUFFERED_DATA" }, { 0x15, "MODE_SELECT" }, { 0x16, "RESERVE" }, { 0x17, "RELEASE" }, { 0x18, "COPY" }, { 0x19, "ERASE" }, { 0x1a, "MODE_SENSE" }, { 0x1b, "START_STOP" }, { 0x1c, "RECEIVE_DIAGNOSTIC" }, { 0x1d, "SEND_DIAGNOSTIC" }, { 0x1e, "ALLOW_MEDIUM_REMOVAL" }, { 0x24, "SET_WINDOW" }, { 0x25, "READ_CAPACITY" }, { 0x28, "READ_10" }, { 0x2a, "WRITE_10" }, { 0x2b, "SEEK_10" }, { 0x2b, "POSITION_TO_ELEMENT" }, { 0x2e, "WRITE_VERIFY" }, { 0x2f, "VERIFY" }, { 0x30, "SEARCH_HIGH" }, { 0x31, "SEARCH_EQUAL" }, { 0x32, "SEARCH_LOW" }, { 0x33, "SET_LIMITS" }, { 0x34, "PRE_FETCH" }, { 0x34, "READ_POSITION" }, { 0x35, "SYNCHRONIZE_CACHE" }, { 0x36, "LOCK_UNLOCK_CACHE" }, { 0x37, "READ_DEFECT_DATA" }, { 0x38, "MEDIUM_SCAN" }, { 0x39, "COMPARE" }, { 0x3a, "COPY_VERIFY" }, { 0x3b, "WRITE_BUFFER" }, { 0x3c, "READ_BUFFER" }, { 0x3d, "UPDATE_BLOCK" }, { 0x3e, "READ_LONG" }, { 0x3f, "WRITE_LONG" }, { 0x40, "CHANGE_DEFINITION" }, { 0x41, "WRITE_SAME" }, { 0x42, "UNMAP" }, { 0x43, "READ_TOC" }, { 0x4c, "LOG_SELECT" }, { 0x4d, "LOG_SENSE" }, { 0x53, "XDWRITEREAD_10" }, { 0x55, "MODE_SELECT_10" }, { 0x56, "RESERVE_10" }, { 0x57, "RELEASE_10" }, { 0x5a, "MODE_SENSE_10" }, { 0x5e, "PERSISTENT_RESERVE_IN" }, { 0x5f, "PERSISTENT_RESERVE_OUT" }, { 0x7f, "VARIABLE_LENGTH_CMD" }, { 0xa0, "REPORT_LUNS" }, { 0xa3, "MAINTENANCE_IN" }, { 0xa4, "MAINTENANCE_OUT" }, { 0xa5, "MOVE_MEDIUM" }, { 0xa6, "EXCHANGE_MEDIUM" }, { 0xa8, "READ_12" }, { 0xaa, "WRITE_12" }, { 0xae, "WRITE_VERIFY_12" }, { 0xb0, "SEARCH_HIGH_12" }, { 0xb1, "SEARCH_EQUAL_12" }, { 0xb2, "SEARCH_LOW_12" }, { 0xb8, "READ_ELEMENT_STATUS" }, { 0xb6, "SEND_VOLUME_TAG" }, { 0xea, "WRITE_LONG_2" }, { 0x88, "READ_16" }, { 0x8a, "WRITE_16" }, { 0x8f, "VERIFY_16" }, { 0x93, "WRITE_SAME_16" }, { 0x94, "ZBC_OUT" }, { 0x95, "ZBC_IN" }, { 0x9e, "SERVICE_ACTION_IN_16" }, { 0x09, "READ_32" }, { 0x0b, "WRITE_32" }, { 0x0d, "WRITE_SAME_32" }, { 0x85, "ATA_16" }, { 0xa1, "ATA_12" }), scsi_trace_parse_cdb(p, __get_dynamic_array(cmnd), REC->cmd_len), __print_hex(__get_dynamic_array(cmnd), REC->cmd_len)
+"host_no=%u channel=%u id=%u lun=%u data_sgl=%u prot_sgl=%u prot_op=%s cmnd=(%s %s raw=%s) rtn=%d", REC->host_no, REC->channel, REC->id, REC->lun, REC->data_sglen, REC->prot_sglen, __print_symbolic(REC->prot_op, { SCSI_PROT_NORMAL, "SCSI_PROT_NORMAL" }, { SCSI_PROT_READ_INSERT, "SCSI_PROT_READ_INSERT" }, { SCSI_PROT_WRITE_STRIP, "SCSI_PROT_WRITE_STRIP" }, { SCSI_PROT_READ_STRIP, "SCSI_PROT_READ_STRIP" }, { SCSI_PROT_WRITE_INSERT, "SCSI_PROT_WRITE_INSERT" }, { SCSI_PROT_READ_PASS, "SCSI_PROT_READ_PASS" }, { SCSI_PROT_WRITE_PASS, "SCSI_PROT_WRITE_PASS" }), __print_symbolic(REC->opcode, { 0x00, "TEST_UNIT_READY" }, { 0x01, "REZERO_UNIT" }, { 0x03, "REQUEST_SENSE" }, { 0x04, "FORMAT_UNIT" }, { 0x05, "READ_BLOCK_LIMITS" }, { 0x07, "REASSIGN_BLOCKS" }, { 0x07, "INITIALIZE_ELEMENT_STATUS" }, { 0x08, "READ_6" }, { 0x0a, "WRITE_6" }, { 0x0b, "SEEK_6" }, { 0x0f, "READ_REVERSE" }, { 0x10, "WRITE_FILEMARKS" }, { 0x11, "SPACE" }, { 0x12, "INQUIRY" }, { 0x14, "RECOVER_BUFFERED_DATA" }, { 0x15, "MODE_SELECT" }, { 0x16, "RESERVE" }, { 0x17, "RELEASE" }, { 0x18, "COPY" }, { 0x19, "ERASE" }, { 0x1a, "MODE_SENSE" }, { 0x1b, "START_STOP" }, { 0x1c, "RECEIVE_DIAGNOSTIC" }, { 0x1d, "SEND_DIAGNOSTIC" }, { 0x1e, "ALLOW_MEDIUM_REMOVAL" }, { 0x24, "SET_WINDOW" }, { 0x25, "READ_CAPACITY" }, { 0x28, "READ_10" }, { 0x2a, "WRITE_10" }, { 0x2b, "SEEK_10" }, { 0x2b, "POSITION_TO_ELEMENT" }, { 0x2e, "WRITE_VERIFY" }, { 0x2f, "VERIFY" }, { 0x30, "SEARCH_HIGH" }, { 0x31, "SEARCH_EQUAL" }, { 0x32, "SEARCH_LOW" }, { 0x33, "SET_LIMITS" }, { 0x34, "PRE_FETCH" }, { 0x34, "READ_POSITION" }, { 0x35, "SYNCHRONIZE_CACHE" }, { 0x36, "LOCK_UNLOCK_CACHE" }, { 0x37, "READ_DEFECT_DATA" }, { 0x38, "MEDIUM_SCAN" }, { 0x39, "COMPARE" }, { 0x3a, "COPY_VERIFY" }, { 0x3b, "WRITE_BUFFER" }, { 0x3c, "READ_BUFFER" }, { 0x3d, "UPDATE_BLOCK" }, { 0x3e, "READ_LONG" }, { 0x3f, "WRITE_LONG" }, { 0x40, "CHANGE_DEFINITION" }, { 0x41, "WRITE_SAME" }, { 0x42, "UNMAP" }, { 0x43, "READ_TOC" }, { 0x4c, "LOG_SELECT" }, { 0x4d, "LOG_SENSE" }, { 0x53, "XDWRITEREAD_10" }, { 0x55, "MODE_SELECT_10" }, { 0x56, "RESERVE_10" }, { 0x57, "RELEASE_10" }, { 0x5a, "MODE_SENSE_10" }, { 0x5e, "PERSISTENT_RESERVE_IN" }, { 0x5f, "PERSISTENT_RESERVE_OUT" }, { 0x7f, "VARIABLE_LENGTH_CMD" }, { 0xa0, "REPORT_LUNS" }, { 0xa3, "MAINTENANCE_IN" }, { 0xa4, "MAINTENANCE_OUT" }, { 0xa5, "MOVE_MEDIUM" }, { 0xa6, "EXCHANGE_MEDIUM" }, { 0xa8, "READ_12" }, { 0xaa, "WRITE_12" }, { 0xae, "WRITE_VERIFY_12" }, { 0xb0, "SEARCH_HIGH_12" }, { 0xb1, "SEARCH_EQUAL_12" }, { 0xb2, "SEARCH_LOW_12" }, { 0xb8, "READ_ELEMENT_STATUS" }, { 0xb6, "SEND_VOLUME_TAG" }, { 0xea, "WRITE_LONG_2" }, { 0x88, "READ_16" }, { 0x8a, "WRITE_16" }, { 0x8f, "VERIFY_16" }, { 0x93, "WRITE_SAME_16" }, { 0x94, "ZBC_OUT" }, { 0x95, "ZBC_IN" }, { 0x9e, "SERVICE_ACTION_IN_16" }, { 0x09, "READ_32" }, { 0x0b, "WRITE_32" }, { 0x0d, "WRITE_SAME_32" }, { 0x85, "ATA_16" }, { 0xa1, "ATA_12" }), scsi_trace_parse_cdb(p, __get_dynamic_array(cmnd), REC->cmd_len), __print_hex(__get_dynamic_array(cmnd), REC->cmd_len), REC->rtn
+"host_no=%u channel=%u id=%u lun=%u data_sgl=%u prot_sgl=%u prot_op=%s cmnd=(%s %s raw=%s) result=(driver=%s host=%s message=%s status=%s)", REC->host_no, REC->channel, REC->id, REC->lun, REC->data_sglen, REC->prot_sglen, __print_symbolic(REC->prot_op, { SCSI_PROT_NORMAL, "SCSI_PROT_NORMAL" }, { SCSI_PROT_READ_INSERT, "SCSI_PROT_READ_INSERT" }, { SCSI_PROT_WRITE_STRIP, "SCSI_PROT_WRITE_STRIP" }, { SCSI_PROT_READ_STRIP, "SCSI_PROT_READ_STRIP" }, { SCSI_PROT_WRITE_INSERT, "SCSI_PROT_WRITE_INSERT" }, { SCSI_PROT_READ_PASS, "SCSI_PROT_READ_PASS" }, { SCSI_PROT_WRITE_PASS, "SCSI_PROT_WRITE_PASS" }), __print_symbolic(REC->opcode, { 0x00, "TEST_UNIT_READY" }, { 0x01, "REZERO_UNIT" }, { 0x03, "REQUEST_SENSE" }, { 0x04, "FORMAT_UNIT" }, { 0x05, "READ_BLOCK_LIMITS" }, { 0x07, "REASSIGN_BLOCKS" }, { 0x07, "INITIALIZE_ELEMENT_STATUS" }, { 0x08, "READ_6" }, { 0x0a, "WRITE_6" }, { 0x0b, "SEEK_6" }, { 0x0f, "READ_REVERSE" }, { 0x10, "WRITE_FILEMARKS" }, { 0x11, "SPACE" }, { 0x12, "INQUIRY" }, { 0x14, "RECOVER_BUFFERED_DATA" }, { 0x15, "MODE_SELECT" }, { 0x16, "RESERVE" }, { 0x17, "RELEASE" }, { 0x18, "COPY" }, { 0x19, "ERASE" }, { 0x1a, "MODE_SENSE" }, { 0x1b, "START_STOP" }, { 0x1c, "RECEIVE_DIAGNOSTIC" }, { 0x1d, "SEND_DIAGNOSTIC" }, { 0x1e, "ALLOW_MEDIUM_REMOVAL" }, { 0x24, "SET_WINDOW" }, { 0x25, "READ_CAPACITY" }, { 0x28, "READ_10" }, { 0x2a, "WRITE_10" }, { 0x2b, "SEEK_10" }, { 0x2b, "POSITION_TO_ELEMENT" }, { 0x2e, "WRITE_VERIFY" }, { 0x2f, "VERIFY" }, { 0x30, "SEARCH_HIGH" }, { 0x31, "SEARCH_EQUAL" }, { 0x32, "SEARCH_LOW" }, { 0x33, "SET_LIMITS" }, { 0x34, "PRE_FETCH" }, { 0x34, "READ_POSITION" }, { 0x35, "SYNCHRONIZE_CACHE" }, { 0x36, "LOCK_UNLOCK_CACHE" }, { 0x37, "READ_DEFECT_DATA" }, { 0x38, "MEDIUM_SCAN" }, { 0x39, "COMPARE" }, { 0x3a, "COPY_VERIFY" }, { 0x3b, "WRITE_BUFFER" }, { 0x3c, "READ_BUFFER" }, { 0x3d, "UPDATE_BLOCK" }, { 0x3e, "READ_LONG" }, { 0x3f, "WRITE_LONG" }, { 0x40, "CHANGE_DEFINITION" }, { 0x41, "WRITE_SAME" }, { 0x42, "UNMAP" }, { 0x43, "READ_TOC" }, { 0x4c, "LOG_SELECT" }, { 0x4d, "LOG_SENSE" }, { 0x53, "XDWRITEREAD_10" }, { 0x55, "MODE_SELECT_10" }, { 0x56, "RESERVE_10" }, { 0x57, "RELEASE_10" }, { 0x5a, "MODE_SENSE_10" }, { 0x5e, "PERSISTENT_RESERVE_IN" }, { 0x5f, "PERSISTENT_RESERVE_OUT" }, { 0x7f, "VARIABLE_LENGTH_CMD" }, { 0xa0, "REPORT_LUNS" }, { 0xa3, "MAINTENANCE_IN" }, { 0xa4, "MAINTENANCE_OUT" }, { 0xa5, "MOVE_MEDIUM" }, { 0xa6, "EXCHANGE_MEDIUM" }, { 0xa8, "READ_12" }, { 0xaa, "WRITE_12" }, { 0xae, "WRITE_VERIFY_12" }, { 0xb0, "SEARCH_HIGH_12" }, { 0xb1, "SEARCH_EQUAL_12" }, { 0xb2, "SEARCH_LOW_12" }, { 0xb8, "READ_ELEMENT_STATUS" }, { 0xb6, "SEND_VOLUME_TAG" }, { 0xea, "WRITE_LONG_2" }, { 0x88, "READ_16" }, { 0x8a, "WRITE_16" }, { 0x8f, "VERIFY_16" }, { 0x93, "WRITE_SAME_16" }, { 0x94, "ZBC_OUT" }, { 0x95, "ZBC_IN" }, { 0x9e, "SERVICE_ACTION_IN_16" }, { 0x09, "READ_32" }, { 0x0b, "WRITE_32" }, { 0x0d, "WRITE_SAME_32" }, { 0x85, "ATA_16" }, { 0xa1, "ATA_12" }), scsi_trace_parse_cdb(p, __get_dynamic_array(cmnd), REC->cmd_len), __print_hex(__get_dynamic_array(cmnd), REC->cmd_len), __print_symbolic(((REC->result) >> 24) & 0xff, { 0x00, "DRIVER_OK" }, { 0x01, "DRIVER_BUSY" }, { 0x02, "DRIVER_SOFT" }, { 0x03, "DRIVER_MEDIA" }, { 0x04, "DRIVER_ERROR" }, { 0x05, "DRIVER_INVALID" }, { 0x06, "DRIVER_TIMEOUT" }, { 0x07, "DRIVER_HARD" }, { 0x08, "DRIVER_SENSE" }), __print_symbolic(((REC->result) >> 16) & 0xff, { 0x00, "DID_OK" }, { 0x01, "DID_NO_CONNECT" }, { 0x02, "DID_BUS_BUSY" }, { 0x03, "DID_TIME_OUT" }, { 0x04, "DID_BAD_TARGET" }, { 0x05, "DID_ABORT" }, { 0x06, "DID_PARITY" }, { 0x07, "DID_ERROR" }, { 0x08, "DID_RESET" }, { 0x09, "DID_BAD_INTR" }, { 0x0a, "DID_PASSTHROUGH" }, { 0x0b, "DID_SOFT_ERROR" }, { 0x0c, "DID_IMM_RETRY" }, { 0x0d, "DID_REQUEUE" }, { 0x0e, "DID_TRANSPORT_DISRUPTED" }, { 0x0f, "DID_TRANSPORT_FAILFAST" }), __print_symbolic(((REC->result) >> 8) & 0xff, { 0x00, "COMMAND_COMPLETE" }, { 0x01, "EXTENDED_MESSAGE" }, { 0x02, "SAVE_POINTERS" }, { 0x03, "RESTORE_POINTERS" }, { 0x04, "DISCONNECT" }, { 0x05, "INITIATOR_ERROR" }, { 0x06, "ABORT_TASK_SET" }, { 0x07, "MESSAGE_REJECT" }, { 0x08, "NOP" }, { 0x09, "MSG_PARITY_ERROR" }, { 0x0a, "LINKED_CMD_COMPLETE" }, { 0x0b, "LINKED_FLG_CMD_COMPLETE" }, { 0x0c, "TARGET_RESET" }, { 0x0d, "ABORT_TASK" }, { 0x0e, "CLEAR_TASK_SET" }, { 0x0f, "INITIATE_RECOVERY" }, { 0x10, "RELEASE_RECOVERY" }, { 0x16, "CLEAR_ACA" }, { 0x17, "LOGICAL_UNIT_RESET" }, { 0x20, "SIMPLE_QUEUE_TAG" }, { 0x21, "HEAD_OF_QUEUE_TAG" }, { 0x22, "ORDERED_QUEUE_TAG" }, { 0x23, "IGNORE_WIDE_RESIDUE" }, { 0x24, "ACA" }, { 0x55, "QAS_REQUEST" }, { 0x0c, "BUS_DEVICE_RESET" }, { 0x06, "ABORT" }), __print_symbolic(REC->result & 0xff, { 0x00, "SAM_STAT_GOOD" }, { 0x02, "SAM_STAT_CHECK_CONDITION" }, { 0x04, "SAM_STAT_CONDITION_MET" }, { 0x08, "SAM_STAT_BUSY" }, { 0x10, "SAM_STAT_INTERMEDIATE" }, { 0x14, "SAM_STAT_INTERMEDIATE_CONDITION_MET" }, { 0x18, "SAM_STAT_RESERVATION_CONFLICT" }, { 0x22, "SAM_STAT_COMMAND_TERMINATED" }, { 0x28, "SAM_STAT_TASK_SET_FULL" }, { 0x30, "SAM_STAT_ACA_ACTIVE" }, { 0x40, "SAM_STAT_TASK_ABORTED" })
+"speed %d/%d state %d %dmA [%s%s%s%s%s%s%s%s%s%s%s%s%s%s] --> %d", REC->speed, REC->max_speed, REC->state, REC->mA, REC->sg_supported ? "sg:" : "", REC->is_otg ? "OTG:" : "", REC->is_a_peripheral ? "a_peripheral:" : "", REC->b_hnp_enable ? "b_hnp:" : "", REC->a_hnp_support ? "a_hnp:" : "", REC->hnp_polling_support ? "hnp_poll:" : "", REC->host_request_flag ? "hostreq:" : "", REC->quirk_ep_out_aligned_size ? "out_aligned:" : "", REC->quirk_altset_not_supp ? "no_altset:" : "", REC->quirk_stall_not_supp ? "no_stall:" : "", REC->quirk_zlp_not_supp ? "no_zlp" : "", REC->is_selfpowered ? "self-powered:" : "bus-powered:", REC->deactivated ? "deactivated:" : "activated:", REC->connected ? "connected" : "disconnected", REC->ret
+"proc_work=%d transaction_stack=%d thread_todo=%d", REC->proc_work, REC->transaction_stack, REC->thread_todo
+mtk,pwm
+mtktv-cpufreq
+"dev=%s queue_mapping=%u skbaddr=%p vlan_tagged=%d vlan_proto=0x%04x vlan_tci=0x%04x protocol=0x%04x ip_summed=%d len=%u data_len=%u network_offset=%d transport_offset_valid=%d transport_offset=%d tx_flags=%d gso_size=%d gso_segs=%d gso_type=%#x", __get_str(name), REC->queue_mapping, REC->skbaddr, REC->vlan_tagged, REC->vlan_proto, REC->vlan_tci, REC->protocol, REC->ip_summed, REC->len, REC->data_len, REC->network_offset, REC->transport_offset_valid, REC->transport_offset, REC->tx_flags, REC->gso_size, REC->gso_segs, REC->gso_type
+"napi poll on napi struct %p for device %s work %d budget %d", REC->napi, __get_str(dev_name), REC->work, REC->budget
+"src=%pISpc dest=%pISpc mark=%#x data_len=%d snd_nxt=%#x snd_una=%#x snd_cwnd=%u ssthresh=%u snd_wnd=%u srtt=%u rcv_wnd=%u sock_cookie=%llx", REC->saddr, REC->daddr, REC->mark, REC->data_len, REC->snd_nxt, REC->snd_una, REC->snd_cwnd, REC->ssthresh, REC->snd_wnd, REC->srtt, REC->rcv_wnd, REC->sock_cookie
+$rkP
+3cRK
+TRK5k
+SRKn
+v2Rk&
+srka
+!rkQ?*E
+9(rK
+`HNrK
+RkbN
+s1rK
+SFc^RK
+F#Q|RK9
+{rkGzwTZ
+rkJTX>
+R.rk
+\#Rk!
+I-VRK
+rKh2
+GRk)
+rKx'
+FRkj
+Rk\7
+u]X#rK^
+RKN:
+UVRkq%
+arm,mstar-timer-workaround
+mtk,mdla
+mtk,edmc
+mtk,hq-keypad
+mtktv-regulator
+mtktv-regulator
+mtk-sensor@0
+mtk-thermal
+S/mtktv-regulator
+c/mtk-sensor@0
+o/thermal-zones/mtk-thermal
+{/thermal-zones/mtk-thermal/trips/trip-point@1
+/thermal-zones/mtk-thermal/trips/trip-point@2
+mtk,keypad-chanel
+mtk,keypad-lowbd
+mtk,keypad-upwbd
+mtk,keypad-num
+mtk_mdla
+mtk_edmc
+mtktv_regulator
+mtk_sensor0
+mtk_thermal
+PS C:\Android\platform-tools-latest-windows\platform-tools>

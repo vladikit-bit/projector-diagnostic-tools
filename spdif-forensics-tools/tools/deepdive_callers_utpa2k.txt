@@ -1,0 +1,27 @@
+=== utpa2k.ko: caller cross-references
+
+--- callers of MDrv_AUDIO_Get_DTS_License (1 sites) ---
+  0x0041fb20  (in MDrv_AUDIO_Get_Decoder_Support)
+
+--- callers of MDrv_AUDIO_CheckHashkey (1 sites) ---
+  0x00424d6c  (in MDrv_AUDIO_SetAudioParam2)
+
+--- callers of MDrv_AUDIO_SetDecodeSystem (2 sites) ---
+  0x003ee458  (in _MApi_AUDIO_Resume)
+  0x003ee548  (in _MApi_AUDIO_Resume)
+
+--- callers of MDrv_AUDIO_OpenDecodeSystem (0 sites) ---
+
+--- callers of MDrv_AUDIO_ApplyHashkey (1 sites) ---
+  0x00405b58  (in MDrv_AUDIO_DspReboot)
+
+--- callers of HAL_AUDIO_SetSystem2 (3 sites) ---
+  0x0044b51c  (in HAL_AUDIO_HDMI_SetNonpcm)
+  0x0044b620  (in HAL_AUDIO_HDMI_SetNonpcm)
+  0x0045e008  (in HAL_MAD_SetAudioParam2)
+
+--- callers of MDrv_AUDIO_Get_License (1 sites) ---
+  0x0041245c  (in MDrv_AUDIO_SYSTEM_Control)
+
+--- callers of MDrv_AUDIO_Get_Decoder_Support (1 sites) ---
+  0x004126c0  (in MDrv_AUDIO_SYSTEM_Control)

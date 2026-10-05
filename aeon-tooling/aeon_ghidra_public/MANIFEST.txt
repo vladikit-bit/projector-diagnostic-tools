@@ -1,0 +1,79 @@
+MANIFEST - AEON Ghidra processor module (patched for Ghidra 12.1.2)
+==============================================================================
+Package root : C:/firmware_temp/aeon_ghidra_public
+Generated    : see file mtime
+Hash         : SHA-256
+
+Only ONE upstream file is modified: aeon/data/languages/aeon.slaspec (2 lines).
+No generated .sla, no binaries, no firmware, no device data is included.
+==============================================================================
+
+FILE                                              BYTES  SHA-256
+------------------------------------------------------------------------------
+COMPATIBILITY.md                                   3887  498ea0933437867848c23c12799c5b26250c8092e2264f590d3be6226b56657e
+PATCH_NOTES.md                                     4002  892228c9e43e0b347597f8322f159f77434a7129e520ddd38adf902f33401160
+README.md                                          6263  6f8fd38e052dd389d5bd81e3be1e37a4dab689dd001f2242d38ee8288669a792
+UPSTREAM_PROVENANCE.md                             4412  be7d2994386e2e42845de9a6044a556474ab07abafe640e2a339ae83b728d3d2
+aeon/LICENSE                                      11357  c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4
+aeon/Module.manifest                                  0  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+aeon/data/build.xml                                1550  4ddda56b82e3f5d8afcbbfeb15bc2070487018669917dceb95a8289f192934bf
+aeon/data/languages/aeon.cspec                     3488  d8a31a2893a3a783e66071123d5737dda2bf133f8b11d743c75fa64b2447de7a
+aeon/data/languages/aeon.ldefs                      478  d1ba5abfc42b0cde43a5a3e0b797df8966d5c31dc85935871ff990d9204b5e03
+aeon/data/languages/aeon.pspec                     1197  8f555b496ce9959ab9968bc033ebc3c28155eab1a8f453c463c52d518b8e5240
+aeon/data/languages/aeon.slaspec                   3952  d8fcbd45d62c48ca55694f6cf293e6e493c48dbd4719a68b4733df7314f6c004
+aeon/data/languages/aeon_ORBIS32.sinc             29526  af76247f95a7baef08e7efc20b1cc6a7b9e3633661052c32b19169b838b02fc2
+aeon/data/languages/aeon_ORBIS32_old.sinc         10187  26395fd1fdee0a12074f330830a774a616f0a6fcd3f9fa8725596d95a2b9217e
+aeon/data/languages/aeon_SPRs.sinc               151059  1598f24d9d235ce7870a23c015288b06d76f88f6737d29e2f3bd71f9e413cb4d
+aeon/data/patterns/aeon_BE_patterns.xml             992  d4a6c226fc4f581b05222d1468821c2b49eeca3a0e7093a9f2605b621f17c118
+aeon/data/patterns/patternconstraints.xml           140  f022b628ddf8cac8df89d6e8fa3ad9f3e19719d30ec649561efedec24af00049
+aeon/data/sleighArgs.txt                              3  843e80b97fc85ad7ca47a2c0aa43e69eb1e4474658a708c94e4955ccdcc5601a
+aeon/sprs.py                                       1175  82dc88f4bcad17c6dfd4d301595055565c7005d8f97f9be1015547aaddff8e39
+------------------------------------------------------------------------------
+
+PURPOSE
+------------------------------------------------------------------------------
+  COMPATIBILITY.md
+      Version matrix, .sla policy, width/sweep guidance, known limits (added).
+  PATCH_NOTES.md
+      Exact two-line change, why it is safe, verification steps (added).
+  README.md
+      Overview, install and verification instructions (added).
+  UPSTREAM_PROVENANCE.md
+      Upstream source, license, provenance, complete diff (added).
+  aeon/LICENSE
+      Apache 2.0 license, verbatim from upstream.
+  aeon/Module.manifest
+      Ghidra module manifest (empty upstream, unchanged).
+  aeon/data/build.xml
+      Ant build for the SLEIGH compiler (unchanged).
+  aeon/data/languages/aeon.cspec
+      Compiler specification / calling convention (unchanged).
+  aeon/data/languages/aeon.ldefs
+      Language definitions (aeon:LE:32:default) (unchanged).
+  aeon/data/languages/aeon.pspec
+      Processor specification (unchanged).
+  aeon/data/languages/aeon.slaspec
+      SLEIGH specification - PATCHED: i16_uimm4_2 and i24_uimm4_2 ranges corrected.
+  aeon/data/languages/aeon_ORBIS32.sinc
+      Instruction constructors bg./bn./bt. (unchanged).
+  aeon/data/languages/aeon_ORBIS32_old.sinc
+      Legacy ORBIS32 constructors, not included (unchanged).
+  aeon/data/languages/aeon_SPRs.sinc
+      Special-purpose register definitions (unchanged).
+  aeon/data/patterns/aeon_BE_patterns.xml
+      Big-endian function-start patterns (unchanged).
+  aeon/data/patterns/patternconstraints.xml
+      Pattern constraints (unchanged).
+  aeon/data/sleighArgs.txt
+      Arguments for the SLEIGH compiler (unchanged).
+  aeon/sprs.py
+      Helper that generates SPR definitions (unchanged).
+
+VERIFY A FILE
+------------------------------------------------------------------------------
+  certutil -hashfile <path> SHA256
+  certutil -hashfile "aeon\data\languages\aeon.slaspec" SHA256
+
+EXPECTED KEY HASHES (recompute after any edit)
+------------------------------------------------------------------------------
+  aeon.slaspec  d8fcbd45d62c48ca55694f6cf293e6e493c48dbd4719a68b4733df7314f6c004
